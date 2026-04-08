@@ -4,7 +4,7 @@ A Minecraft mod for VTMon.
 
 ## Description
 
-This is a Fabric mod for Minecraft that adds VTMon features.
+This is a Fabric mod for Minecraft that adds VTubers converted into Pokémon for Minecraft Cobblemon.
 
 ## Installation
 
