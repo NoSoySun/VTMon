@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "phantom_forme"
+  ],
+  "default": "corpus",
+  "choices": [
+    "corpus",
+    "phantom"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-forme"
+}

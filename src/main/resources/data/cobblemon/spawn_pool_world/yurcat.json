@@ -1,0 +1,67 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+      {
+          "id": "yurcat-1",
+          "pokemon": "yurcat",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "uncommon",
+          "level": "1-20",
+          "weight": 1.5,
+          "condition": {
+              "canSeeSky": true,
+              "biomes": [
+                  "#cobblemon:is_freshwater",
+                  "#cobblemon:is_ocean",
+                  "#minecraft:is_river"
+              ]
+          }
+      },
+      {
+          "id": "yurcat-2",
+          "pokemon": "yurcat",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "context": "surface",
+          "bucket": "uncommon",
+          "level": "1-20",
+          "weight": 1.84,
+          "condition": {
+              "minSkyLight": 8,
+              "maxSkyLight": 15,
+              "biomes": [
+                  "#cobblemon:is_freshwater",
+                  "#cobblemon:is_ocean",
+                  "#minecraft:is_river"
+              ]
+          }
+      },
+      {
+          "id": "mizuga",
+          "pokemon": "mizuga",
+          "presets": [
+              "water"
+          ],
+          "type": "pokemon",
+          "context": "fishing",
+          "bucket": "uncommon",
+          "level": "1-20",
+          "weight": 3.68,
+          "condition": {
+              "biomes": [
+                  "#cobblemon:is_freshwater",
+                  "#cobblemon:is_ocean",
+                  "#minecraft:is_river"
+              ]
+          }
+      }
+  ]
+}

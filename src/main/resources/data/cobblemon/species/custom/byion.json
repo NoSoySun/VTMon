@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "Byion",
+  "nationalPokedexNumber": 4108,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": ["static", "lightningrod", "h:hugepower"],
+  "baseStats": {
+    "hp": 40,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 65
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.99,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": ["field"],
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "3:thundershock",
+    "6:quickattack",
+    "8:charge",
+    "12:nuzzle",
+    "15:dig",
+    "19:bite",
+    "23:spark",
+    "27:thunderwave",
+    "31:entrainment",
+    "35:slam",
+    "38:discharge",
+    "40:agility",
+    "44:wildcharge",
+    "egg:fakeout",
+    "egg:machpunch",
+    "egg:sweetkiss",
+    "egg:wish",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:crunch",
+    "tm:dig",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:helpinghand",
+    "tm:metalclaw",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:helpinghand",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:wildcharge"
+  ],
+  "labels": ["custom"],
+  "pokedex": [
+    "cobblemon.species.byion.desc1",
+    "cobblemon.species.byion.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "byion_byohm",
+      "variant": "level_up",
+      "result": "byohm",
+      "consumeHeldItem": false,
+      "learnableMoves": ["aurasphere", "plasmafists"],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        },
+        {
+          "variant": "weather",
+          "isRaining": true
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.733,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4.5,
+  "weight": 8
+}

@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "aelubi-0",
+        "pokemon": "aelubi",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "70-85",
+        "weight": 1.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "canSeeSky": true,
+          "biomes": [
+            "minecraft:meadow",
+            "minecraft:cherry_grove",
+            "#minecraft:is_forest",
+            "#cobblemon:is_magical",
+            "terralith:amethyst_canyon",
+            "terralith:amethyst_rainforest",
+            "terralith:mirage_isles",
+            "terralith:moonlight_grove",
+            "terralith:moonlight_valley",
+            "#minecraft:is_end",
+            "#cobblemon:is_floral"
+          ]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      },
+      
+      {
+        "id": "aelubi-1",
+        "pokemon": "aelubi",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "70-85",
+        "weight": 1.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "canSeeSky": true,
+          "structures": [
+            "minecraft:ancient_city",
+            "minecraft:end_city",
+            "#minecraft:village"
+          ]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      }
+    ]
+  }

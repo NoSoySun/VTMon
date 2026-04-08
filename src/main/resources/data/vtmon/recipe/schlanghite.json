@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "OWK",
+        " S "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star"
+        },
+        "O": {
+            "item": "minecraft:ghast_tear"
+        },
+        "W": {
+            "item": "mega_showdown:mega_stone"
+        },
+        "S": {
+            "item": "minecraft:netherite_block"
+        },
+        "K": {
+            "item": "minecraft:soul_sand"
+        }
+    },
+    "result": {
+        "id": "vtmon:schlanghite",
+        "count": 1
+    }
+}

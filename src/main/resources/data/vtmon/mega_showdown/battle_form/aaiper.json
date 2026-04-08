@@ -1,0 +1,13 @@
+{
+  "pokemons": ["Aaiper"],
+  "showdown_form_change_id": "overcharge",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["overcharge_forme=overcharge"]
+    },
+    "revert": {
+      "aspects": ["overcharge_forme=discharge"]
+    }
+  },
+  "effect": "mega_showdown:arceus_electric"
+}

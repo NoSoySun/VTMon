@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:byohm",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:byohm",
+        "model": "cobblemon:byohm.geo",
+        "texture": "cobblemon:textures/pokemon/byohm/byohm.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/byohm/byohm_shiny.png"
+      }
+    ]
+   }

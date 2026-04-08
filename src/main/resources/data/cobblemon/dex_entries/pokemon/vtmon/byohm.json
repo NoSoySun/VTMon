@@ -1,0 +1,28 @@
+{
+    "id": "cobblemon:byohm",
+    "speciesId": "cobblemon:byohm",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Mega",
+        "unlockForms": [
+          "Mega"
+        ]
+      },
+      {
+        "displayForm": "Mega-Z",
+        "unlockForms": [
+          "Mega-Z"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

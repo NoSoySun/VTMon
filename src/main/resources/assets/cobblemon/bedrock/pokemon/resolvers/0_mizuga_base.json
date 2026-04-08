@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:mizuga",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:mizuga",
+      "model": "cobblemon:mizuga.geo",
+      "texture": "cobblemon:textures/pokemon/mizuga/mizuga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/mizuga/mizuga_shiny.png",
+      "layers": []
+    }
+  ]
+}

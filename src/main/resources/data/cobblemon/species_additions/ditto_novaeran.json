@@ -1,0 +1,718 @@
+{
+    "target": "cobblemon:ditto",
+            "labels": [
+                "custom",
+                "kantosian_form"
+            ],
+    "forms": [
+        {
+            "name": "Novaera",
+            "features": [
+                "novaeran"
+            ],
+            "primaryType": "normal",
+            "pokedex": [
+                "cobblemon.species.ditto_novaeran.desc"
+            ],
+            "labels": [
+                "custom",
+                "novaeran_form"
+            ],
+            "aspects": [
+                "novaeran"
+            ],
+            "behaviour": {
+                "moving": {
+                    "canLook": true
+                }
+            },
+            "evolutions": [
+                {
+                    "id": "ditto_okamorph0",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "growlithe",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph1",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "zygarde percent_cells=10",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph2",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "arcanine",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph3",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "houndour",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph4",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "houndoom",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph5",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "snubbull",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph6",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "granbull",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph7",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "poochyena",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph8",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "mightyena",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph9",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "electrike",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph10",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "manectric",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph11",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "riolu",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph12",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "lucario",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph13",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "smeargle",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph14",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "lillipup",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph15",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "herdier",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph16",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "stoutland",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph17",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "furfrou",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph18",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "rockruff",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph19",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "lycanroc",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph20",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "typenull",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph21",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "silvally",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph22",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "yamper",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph23",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "boltund",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph24",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "zacian",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph25",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "zamazenta",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph26",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "maschiff",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph27",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "mabosstiff",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph28",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "fidough",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph29",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "dachsbun",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph30",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "greavard",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph31",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "houndstone",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph32",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "lilver",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph33",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "bellver",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph34",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "goldy",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph35",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "belldy",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph36",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "lylaze",
+                            "contains": true
+                        }
+                    ]
+                },
+                {
+                    "id": "ditto_okamorph37",
+                    "variant": "level_up",
+                    "result": "okamorph",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "party_member",
+                            "target": "bellaze",
+                            "contains": true
+                        }
+                    ]
+                }
+            ],
+            "dynamaxBlocked": false
+        }
+    ]
+}

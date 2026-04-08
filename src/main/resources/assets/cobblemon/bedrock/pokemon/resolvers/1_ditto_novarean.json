@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:ditto",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["novaeran"],
+            "poser": "cobblemon:ditto",
+            "model": "cobblemon:ditto_novaeran.geo",
+            "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_novaeran.png",
+            "layers": []
+        },
+        {
+            "aspects": [
+                "shiny",
+                "novaeran"
+            ],
+            "texture": "cobblemon:textures/pokemon/0132_ditto/ditto_novaeran_shiny.png"
+        }
+    ]
+}

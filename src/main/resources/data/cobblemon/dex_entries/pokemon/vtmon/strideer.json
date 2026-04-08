@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:strideer",
+    "speciesId": "cobblemon:strideer",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

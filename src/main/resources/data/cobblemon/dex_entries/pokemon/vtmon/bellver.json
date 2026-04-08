@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:bellver",
+    "speciesId": "cobblemon:bellver",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

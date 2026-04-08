@@ -1,0 +1,105 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nenebris.ground_idle": {
+			"loop": true
+		},
+		"animation.nenebris.air_idle": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"rotation": [-30, 0, -90]
+				},
+				"right_wing": {
+					"rotation": [-30, 0, 90]
+				}
+			}
+		},
+		"animation.nenebris.cry": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"right_eye": {
+					"scale": {
+						"0.1667": [1, 1, 1],
+						"0.25": [1, 0.4375, 1],
+						"1.0": [1, 1, 1]
+					}
+				},
+				"left_eye": {
+					"scale": {
+						"0.1667": [1, 1, 1],
+						"0.25": [1, 0.4375, 1],
+						"1.0": [1, 1, 1]
+					}
+				},
+				"peck_down": {
+					"rotation": {
+						"0.125": [0, 0, 0],
+						"0.25": [30, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [5, 0, 0],
+						"0.125": [-15, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.25": {
+					"effect": "pokemon.nenebris.cry"
+				}
+			}
+		},
+		"animation.nenebris.ground_walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"right_leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [30, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [30, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nenebris.air_fly": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"rotation": ["-30+2.5*(5+math.sin(q.anim_time*90*0.5-200)*8)", 0, "-90+2.5*(5+math.sin(q.anim_time*90*0.5-200)*8)"],
+					"position": [1, 0, 0]
+				},
+				"right_wing": {
+					"rotation": ["-30+2.5*(5+math.sin(q.anim_time*90*0.5-200)*8)", 0, "90-2.5*(5+math.sin(q.anim_time*90*0.5-200)*8)"],
+					"position": [-1, 0, 0]
+				}
+			}
+		},
+		"animation.nenebris.sleep": {
+			"loop": true,
+			"bones": {
+				"right_pupil": {
+					"position": [1, 0, 1]
+				},
+				"left_pupil": {
+					"position": [-1, 0, 1]
+				},
+				"head": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		}
+	}
+}

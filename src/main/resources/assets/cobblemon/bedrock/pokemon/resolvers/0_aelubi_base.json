@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:aelubi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:aelubi",
+      "model": "cobblemon:aelubi.geo",
+      "texture": "cobblemon:textures/pokemon/aelubi/aelubi.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/aelubi/aelubi_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aelubi/aelubi_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/aelubi/aelubi_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+ }

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.uynuk.ground_idle": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"head": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"1.5": ["math.pow((811/833),0.75)", "math.pow((811/833),0.75)", 0],
+						"3.0": [1, 1, 1]
+					}
+				}
+			}
+		}
+	}
+}

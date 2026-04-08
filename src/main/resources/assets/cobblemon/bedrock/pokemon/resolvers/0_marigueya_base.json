@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:marigueya",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:marigueya",
+      "model": "cobblemon:marigueya.geo",
+      "texture": "cobblemon:textures/pokemon/marigueya/marigueya.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/marigueya/marigueya_shiny.png"
+    }
+  ]
+ }

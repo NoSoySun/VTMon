@@ -1,0 +1,47 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "ghissel",
+        "pokemon": "ghissel",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "7-20",
+        "weight": 10.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "biomes": ["#minecraft:is_forest", "#cobblemon:is_sandy",
+          "#cobblemon:is_savanna", "#c:desert", "#minecraft:is_nether"]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      },
+      {
+        "id": "schlanghoul",
+        "pokemon": "schlanghoul",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "7-20",
+        "weight": 10.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "biomes": ["#minecraft:is_forest", "#cobblemon:is_sandy",
+            "#cobblemon:is_savanna", "#c:desert", "#minecraft:is_nether"]
+        },
+        "anticondition": {
+          "biomes": [
+            "#cobblemon:is_spooky"
+          ]
+        }
+      }
+    ]
+  }

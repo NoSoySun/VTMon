@@ -1,0 +1,21 @@
+{
+  "species": "kurperor",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+    {
+      "species": "yurcat",
+      "level": "7-16"
+    },
+    {
+      "species": "arrkuro",
+      "level": "16-36"
+    }
+  ],
+  "biome": [
+    "#cobblemon:is_beach",
+    "#minecraft:is_river",
+    "#cobblemon:is_forest",
+    "#c:plains"
+  ]
+}

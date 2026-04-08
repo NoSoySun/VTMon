@@ -1,0 +1,691 @@
+{
+  "implemented": true,
+  "name": "Schlanghoul",
+  "nationalPokedexNumber": 5121,
+  "primaryType": "poison",
+  "secondaryType": "ghost",
+  "abilities": [
+    "corruptedsoul",
+    "h:corruptedsoul"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 115,
+    "defence": 95,
+    "special_attack": 115,
+    "special_defence": 90,
+    "speed": 121
+  },
+  "aspects": [
+    "corpus-forme"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.leather",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "soundLocation": "cobblemon:ride.loop.wind"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "100-180",
+          "JUMP": "25-50",
+          "SKILL": "100-150",
+          "SPEED": "100-150",
+          "STAMINA": "325-425"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "80-160",
+          "JUMP": "25-50",
+          "SKILL": "82-120",
+          "SPEED": "60-100",
+          "STAMINA": "40-200"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.003806442,
+              "y": -1.7203209,
+              "z": 0.12983066
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.039005388,
+              "y": -2.4511793,
+              "z": 0.10381147
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.7674751,
+              "z": -0.27694723
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.003806442,
+              "y": -1.7203209,
+              "z": 0.12983066
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5625
+      }
+    },
+    "entityInteract": {
+      "avoidedByPhantom": true
+    },
+    "combat": {
+      "willDefendOwner": true
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.001,
+  "shoulderMountable": false,
+  "forms": [
+    {
+      "name": "Phantom",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "pokedex": [
+        "cobblemon.species.schlanghoul_phantom.desc"
+      ],
+      "labels": [
+        "custom",
+        "phantom-forme",
+        "legendary"
+      ],
+      "aspects": [
+        "phantom-forme"
+      ],
+      "features": [
+        "mega_evolution"
+      ],
+      "abilities": [
+        "corruptedsoul",
+        "h:corruptedsoul"
+      ],
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "stepHeight": 3.32226563,
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 1.2
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 255,
+        "attack": 105,
+        "defence": 65,
+        "special_attack": 125,
+        "special_defence": 95,
+        "speed": 135
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/hover",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.leather",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "soundLocation": "cobblemon:ride.loop.wind"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "114-205",
+              "JUMP": "25-50",
+              "SKILL": "114-171",
+              "SPEED": "114-171",
+              "STAMINA": "370-484"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "91-182",
+              "JUMP": "47-102",
+              "SKILL": "92-136",
+              "SPEED": "68-114",
+              "STAMINA": "91-228"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.003806442,
+                  "y": -1.7203209,
+                  "z": 0.12983066
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.039005388,
+                  "y": -2.4511793,
+                  "z": 0.10381147
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -0.7674751,
+                  "z": -0.27694723
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.003806442,
+                  "y": -1.7203209,
+                  "z": 0.12983066
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "evolutions": [],
+      "dynamaxBlocked": false,
+      "battleOnly": true,
+      "lightingData": {
+        "lightLevel": 15,
+        "liquidGlowMode": "LAND"
+      }
+    },
+    {
+      "name": "MegaP",
+      "primaryType": "poison",
+      "secondaryType": "ghost",
+      "pokedex": [
+        "cobblemon.species.schlanghoul_mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega",
+        "phantom-forme",
+        "legendary"
+      ],
+      "aspects": [
+        "mega",
+        "phantom-forme"
+      ],
+      "abilities": [
+        "corruptedsoul",
+        "h:corruptedsoul"
+      ],
+      "baseStats": {
+        "hp": 255,
+        "attack": 105,
+        "defence": 90,
+        "special_attack": 150,
+        "special_defence": 120,
+        "speed": 160
+      },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/hover",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.leather",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "soundLocation": "cobblemon:ride.loop.wind"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "130-234",
+              "JUMP": "29-57",
+              "SKILL": "130-195",
+              "SPEED": "130-195",
+              "STAMINA": "422-552"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "104-208",
+              "JUMP": "54-117",
+              "SKILL": "105-155",
+              "SPEED": "77-129",
+              "STAMINA": "104-260"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "STAND"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.003806442,
+                  "y": -1.7203209,
+                  "z": 0.12983066
+                },
+                "poseTypes": [
+                  "WALK"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.039005388,
+                  "y": -2.4511793,
+                  "z": 0.10381147
+                },
+                "poseTypes": [
+                  "HOVER"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "FLY"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -0.7674751,
+                  "z": -0.27694723
+                },
+                "poseTypes": [
+                  "FLOAT"
+                ]
+              },
+              {
+                "offset": {
+                  "x": -0.003806442,
+                  "y": -1.7203209,
+                  "z": 0.12983066
+                },
+                "poseTypes": [
+                  "SWIM"
+                ]
+              },
+              {
+                "offset": {
+                  "x": 0.0047415113,
+                  "y": -1.6152971,
+                  "z": 0.35461712
+                },
+                "poseTypes": [
+                  "GLIDE"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "evolutions": [],
+      "baseScale": 2.25,
+      "hitbox": {
+        "width": 2.75,
+        "height": 5.75,
+        "fixed": false
+      },
+      "dynamaxBlocked": true,
+      "battleOnly": true
+    }
+  ],
+  "baseExperienceYield": 184,
+  "experienceGroup": "slow",
+  "eggCycles": 35,
+  "eggGroups": [],
+  "moves": [
+    "1:astonish",
+    "1:confuseray",
+    "1:curse",
+    "1:defensecurl",
+    "1:ember",
+    "1:feintattack",
+    "1:firespin",
+    "1:flameburst",
+    "1:hex",
+    "1:hypnosis",
+    "1:imprison",
+    "1:inferno",
+    "1:lick",
+    "1:meanlook",
+    "1:memento",
+    "1:minimize",
+    "1:nightmare",
+    "1:nightshade",
+    "1:overheat",
+    "1:painsplit",
+    "1:perishsong",
+    "1:poisongas",
+    "1:poisonfang",
+    "1:poisontail",
+    "1:pursuit",
+    "70:shadowforce",
+    "70:phantomforce",
+    "1:reflecttype",
+    "1:rollout",
+    "1:shadowball",
+    "1:shadowpunch",
+    "1:smog",
+    "1:willowisp",
+    "16:destinybond",
+    "24:faketears",
+    "32:partingshot",
+    "36:suckerpunch",
+    "48:malignantchain",
+    "56:toxic",
+    "5:shadowsneak",
+    "64:nastyplot",
+    "72:recover",
+    "8:withdraw",
+    "egg:acid",
+    "egg:acidarmor",
+    "egg:captivate",
+    "egg:clearsmog",
+    "egg:disable",
+    "egg:grudge",
+    "egg:haze",
+    "egg:powersplit",
+    "egg:psywave",
+    "egg:smokescreen",
+    "tm:acidspray",
+    "tm:allyswitch",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:corrosivegas",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainpunch",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flash",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:gunkshot",
+    "tm:headbutt",
+    "tm:heatwave",
+    "tm:helpinghand",
+    "tm:hyperbeam",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:incinerate",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:megakick",
+    "tm:megapunch",
+    "tm:metronome",
+    "tm:mysticalfire",
+    "tm:ominouswind",
+    "tm:payback",
+    "tm:phantomforce",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:powershift",
+    "tm:poweruppunch",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:psychicnoise",
+    "tm:psychup",
+    "tm:psyshock",
+    "tm:quash",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:scaryface",
+    "tm:selfdestruct",
+    "tm:shadowclaw",
+    "tm:shockwave",
+    "tm:silverwind",
+    "tm:skillswap",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:snatch",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:storedpower",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:toxicspikes",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:venoshock",
+    "tutor:spikes"
+  ],
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.schlanghoul.desc1",
+    "cobblemon.species.schlanghoul.desc2"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:dragon_breath",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:yache_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1.1,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 55,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 35,
+  "preEvolution": "ghissel"
+}

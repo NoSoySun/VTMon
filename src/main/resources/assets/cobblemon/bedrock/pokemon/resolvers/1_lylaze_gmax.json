@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:lylaze",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["gmax"],
+        "poser": "cobblemon:lylaze_gmax",
+        "model": "cobblemon:lylaze_gmax.geo",
+        "texture": "cobblemon:textures/pokemon/lylaze/lylaze.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/lylaze/lylaze_emissive.png",
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny",
+          "gmax"
+        ],
+        "texture": "cobblemon:textures/pokemon/lylaze/lylaze_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/lylaze/lylaze_shiny_emissive.png",
+            "translucent": true
+          }
+        ]
+      }
+    ]
+   }

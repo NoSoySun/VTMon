@@ -1,0 +1,223 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.schlanghoul.ground_idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"neck": {
+					"rotation": [-17.5, 0, 0],
+					"position": [0, -1.5, 0.75]
+				},
+				"head": {
+					"rotation": [25, 0, 0],
+					"position": [0, -1, 0.25]
+				},
+				"segment1": {
+					"rotation": [5, 0, 0]
+				},
+				"segment6": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0.75, 0]
+				},
+				"segment7": {
+					"rotation": {
+						"0.0": [0, 0, -40],
+						"0.125": [0, 0, 20],
+						"0.25": [0, 0, -40],
+						"0.375": [0, 0, 20],
+						"0.5": [0, 0, -40],
+						"0.625": [0, 0, 20],
+						"0.75": [0, 0, -40],
+						"0.875": [0, 0, 20],
+						"1.0": [0, 0, -40]
+					}
+				},
+				"schlanghoul": {
+					"rotation": [-5, 0, 0]
+				},
+				"locator_seat_1": {
+					"position": [0, 2, 0]
+				}
+			}
+		},
+		"animation.schlanghoul.battle_idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"schlanghoul": {
+					"rotation": [-10, 0, 0]
+				},
+				"segment1": {
+					"rotation": [5, 0, 0]
+				},
+				"segment6": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0.75, 0]
+				},
+				"segment7": {
+					"rotation": {
+						"0.0": [0, 0, -40],
+						"0.125": [0, 0, 20],
+						"0.25": [0, 0, -40],
+						"0.375": [0, 0, 20],
+						"0.5": [0, 0, -40],
+						"0.625": [0, 0, 20],
+						"0.75": [0, 0, -40],
+						"0.875": [0, 0, 20],
+						"1.0": [0, 0, -40]
+					}
+				},
+				"segment8": {
+					"scale": 1.5
+				},
+				"hair2": {
+					"rotation": [-25.89163, 33.52096, -22.20728],
+					"position": [5, 0, -2]
+				},
+				"hair3": {
+					"rotation": [0, 12.5, 0],
+					"position": [3, 0, 0]
+				},
+				"hair5": {
+					"rotation": [32.5, 0, 0],
+					"position": [0, 3, 2]
+				},
+				"hair7": {
+					"rotation": [25, 0, 0],
+					"position": [0, 4, 2]
+				},
+				"hair9": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, 4, 1]
+				},
+				"hair10": {
+					"rotation": [44.27336, -58.56755, -46.95813],
+					"position": [-4.5, 4.5, 4]
+				},
+				"head": {
+					"rotation": [10, 0, 0],
+					"position": [0, -1, 0]
+				}
+			}
+		},
+		"animation.schlanghoul.blink": {
+			"animation_length": 1,
+			"bones": {
+				"eyelids": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -1],
+						"0.8333": [0, 0, -1],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.schlanghoul.ground_walk": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"segment1": {
+					"rotation": [60, 0, 0]
+				},
+				"segment3": {
+					"rotation": {
+						"0.0": [-25, 0, 0],
+						"0.25": [-25, 0, -25],
+						"0.5": [-25, 0, 25],
+						"0.75": [-25, 0, 0]
+					}
+				},
+				"segment5": {
+					"rotation": [-30, 0, 0]
+				},
+				"locator_seat_1": {
+					"position": [0, 15, 0]
+				}
+			}
+		},
+		"animation.schlanghoul.cry": {
+			"animation_length": 3,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [20, 0, 0],
+						"0.5": [-10, 0, 0],
+						"2.9583": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.5": [0, -0.5, 0],
+						"2.9583": [0, 0, 0]
+					}
+				},
+				"muzzle3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [15, 0, 0],
+						"0.75": [30, 0, 0],
+						"3.0": [0, 0, 0]
+					}
+				},
+				"muzzle2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [-2.5, 0, 0],
+						"1.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, -0.5, -1.25],
+						"1.5": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.5": {
+					"effect": "pokemon.schlanghoul.cry"
+				}
+			}
+		},
+		"animation.schlanghoul.faint": {
+			"animation_length": 3,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [32.5, 0, 0],
+						"0.75": [45, 0, 0]
+					}
+				},
+				"segment1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [50, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"segment3": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [-17.5, 0, 0]
+					}
+				},
+				"segment4": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [-30, 0, 0]
+					}
+				},
+				"segment5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-27.5, 0, 0]
+					},
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

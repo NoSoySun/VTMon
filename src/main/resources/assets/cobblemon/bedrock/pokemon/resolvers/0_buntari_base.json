@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:buntari",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:buntari",
+      "model": "cobblemon:buntari.geo",
+      "texture": "cobblemon:textures/pokemon/buntari/buntari.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/buntari/buntari_shiny.png"
+    }
+  ]
+ }

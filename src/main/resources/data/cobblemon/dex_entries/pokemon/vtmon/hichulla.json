@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:hichulla",
+    "speciesId": "cobblemon:hichulla",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

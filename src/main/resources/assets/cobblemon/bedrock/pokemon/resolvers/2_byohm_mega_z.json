@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:byohm",
+    "order": 2,
+    "variations": [
+      {
+        "aspects": [
+          "mega_z"
+        ],
+        "poser": "cobblemon:byohm_mega_z",
+        "model": "cobblemon:byohm_mega_z.geo",
+        "texture": "cobblemon:textures/pokemon/byohm/byohm_mega_z.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/byohm/byohm_mega_z_emissive.png",
+            "translucent": true
+          }]
+      },
+      {
+        "aspects": [
+          "shiny",
+          "mega_z"
+        ],
+        "texture": "cobblemon:textures/pokemon/byohm/byohm_mega_z_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": true,
+            "texture": "cobblemon:textures/pokemon/byohm/byohm_mega_z_shiny_emissive.png",
+            "translucent": true
+          }]
+      }
+    ]
+   }

@@ -1,0 +1,22 @@
+{
+    "id": "cobblemon:aaiper",
+    "speciesId": "cobblemon:aaiper",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Overcharge",
+        "unlockForms": [
+          "Overcharge"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

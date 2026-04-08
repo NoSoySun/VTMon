@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4112,
+  "name": "Buntari",
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "maleRatio": 0.05,
+  "height": 20,
+  "weight": 65,
+  "pokedex": [
+    "cobblemon.species.buntari.desc1",
+    "cobblemon.species.buntari.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+ "riding": {},
+  "abilities": [
+    "illusiotype"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 75,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "forms": [],
+  "baseScale": 0.625,
+  "hitbox": {
+    "width": 1.625,
+    "height": 1.96875,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "canLook": true,
+      "wanderChance": 75,
+      "wanderSpeed": 1.875,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5625
+      },
+      "walk": {
+        "walkSpeed": 0.525
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:fairy_gem",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:rabbit_hide",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:rabbit_foot",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "3:tailwhip",
+    "6:quickattack",
+    "9:charm",
+    "12:babydolleyes",
+    "15:fairywind",
+    "19:drainingkiss",
+    "23:doubleslap",
+    "27:playrough",
+    "31:bounce",
+    "35:slam",
+    "38:agility",
+    "42:hypervoice",
+    "46:moonblast",
+    "50:wish",
+    "55:healingwish",
+    "60:doubleedge",
+    "egg:sweetkiss",
+    "egg:wish",
+    "egg:fakeout",
+    "egg:encore",
+    "egg:helpinghand",
+    "egg:copycat",
+    "egg:attract",
+    "tm:protect",
+    "tm:rest",
+    "tm:facade",
+    "tm:swift",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:charm",
+    "tm:playrough",
+    "tm:dazzlinggleam",
+    "tm:substitute",
+    "tm:endure",
+    "tm:terablast",
+    "tm:hypervoice",
+    "tm:encore",
+    "tm:helpinghand",
+    "tm:calmmind",
+    "tm:moonblast",
+    "tm:drainingkiss",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:thief",
+    "tutor:playrough",
+    "tutor:hypervoice",
+    "tutor:moonblast",
+    "tutor:swift",
+    "tutor:healingwish",
+    "tutor:drainingkiss",
+    "tutor:encore",
+    "tutor:helpinghand",
+    "tutor:rest",
+    "1:tailwhip",
+    "15:dig",
+    "23:slam",
+    "35:bounce",
+    "40:agility",
+    "44:playrough",
+    "48:hypervoice",
+    "52:moonblast",
+    "56:wish",
+    "60:doubleedge"
+  ]
+}

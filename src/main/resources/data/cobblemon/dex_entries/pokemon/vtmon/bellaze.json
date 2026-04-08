@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:bellaze",
+    "speciesId": "cobblemon:bellaze",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

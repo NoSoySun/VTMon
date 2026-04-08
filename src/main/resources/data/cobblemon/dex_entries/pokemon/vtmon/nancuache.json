@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:nancuache",
+    "speciesId": "cobblemon:nancuache",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,171 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4114,
+  "name": "Gotheneth",
+  "primaryType": "flying",
+  "maleRatio": 0.25,
+  "height": 8,
+  "weight": 36,
+  "pokedex": [
+    "cobblemon.species.gotheneth.desc1",
+    "cobblemon.species.gotheneth.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "cursedbody",
+    "frisk",
+    "h:shadowtag"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 80,
+    "special_defence": 55,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "catchRate": 200,
+  "eggCycles": 15,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 0.875,
+  "hitbox": {
+    "width": 1.625,
+    "height": 1.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-6",
+      "willSleepOnBed": true,
+      "drowsyChance": 0.03,
+      "rouseChance": 0.005
+    },
+    "combat": {
+      "willDefendOwner": true
+    },
+    "herd": {
+      "maxSize": "6"
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:phantom_membrane",
+        "percentage": 5
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "1:astonish",
+    "5:gust",
+    "7:sandattack",
+    "9:quickattack",
+    "11:wingattack",
+    "13:confuseray",
+    "15:pluck",
+    "17:ominouswind",
+    "19:feintattack",
+    "21:aircutter",
+    "23:roost",
+    "25:nightshade",
+    "27:tailwind",
+    "29:shadowball",
+    "31:dualwingbeat",
+    "33:hex",
+    "35:drillpeck",
+    "37:airslash",
+    "39:darkpulse",
+    "41:bravebird",
+    "egg:haze",
+    "egg:feintattack",
+    "egg:nightshade",
+    "egg:skyattack",
+    "egg:defog",
+    "tm:aerialace",
+    "tm:aircutter",
+    "tm:airslash",
+    "tm:bravebird",
+    "tm:calmmind",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:endure",
+    "tm:facade",
+    "tm:fly",
+    "tm:hex",
+    "tm:protect",
+    "tm:rest",
+    "tm:roost",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:tailwind",
+    "tm:terablast",
+    "tm:thief",
+    "tm:uturn",
+    "tm:willowisp",
+    "tutor:aerialace",
+    "tutor:aircutter",
+    "tutor:dualwingbeat",
+    "tutor:defog",
+    "tutor:drillpeck",
+    "tutor:heatwave",
+    "tutor:ominouswind",
+    "tutor:snore",
+    "tutor:sleeptalk",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "tutor:skyattack"
+  ],
+  "evolutions": [
+    {
+      "id": "gotheneth_nenebris",
+      "variant": "level_up",
+      "result": "nenebris",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ominouswind"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]
+    }
+  ],
+  "preEvolution": "nefthlet"
+}

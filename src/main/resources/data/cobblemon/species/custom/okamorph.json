@@ -1,0 +1,264 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4113,
+  "name": "Okamorph",
+  "primaryType": "normal",
+  "secondaryType": "dark",
+  "maleRatio": -1,
+  "height": 20,
+  "weight": 65,
+  "pokedex": [
+    "cobblemon.species.okamorph.desc1",
+    "cobblemon.species.okamorph.desc2"
+  ],
+  "labels": [
+    "custom",
+    "starter",
+    "novaeran_form"
+  ],
+  "features": [
+        "novaeran"
+    ],
+  "aspects": [],
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "50-100",
+          "JUMP": "40-70",
+          "SKILL": "70-80",
+          "SPEED": "40-90",
+          "STAMINA": "60-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2448049,
+              "z": 0.4476499
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.030879233,
+              "y": -1.2217013,
+              "z": 0.41698992
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2448049,
+              "z": 0.4476499
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2448049,
+              "z": 0.4476499
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2448049,
+              "z": 0.4476499
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.030879233,
+              "y": -1.2217013,
+              "z": 0.41698992
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.2448049,
+              "z": 0.4476499
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    "strongjaw",
+    "limber",
+    "h:protean"
+  ],
+  "eggGroups": [
+    "ditto"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 96,
+    "defence": 90,
+    "special_attack": 84,
+    "special_defence": 90,
+    "speed": 100
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "forms": [],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 1.625,
+    "height": 1.96875,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "canLook": true,
+      "wanderChance": 75,
+      "wanderSpeed": 1.875,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5625
+      },
+      "walk": {
+        "walkSpeed": 0.525
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:bone",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:leer",
+    "1:bite",
+    "1:quickattack",
+    "1:curse",
+    "1:astonish",
+    "1:nightshade",
+    "6:smokescreen",
+    "10:acid",
+    "13:quickattack",
+    "16:mudslap",
+    "19:bodyslam",
+    "22:defensecurl",
+    "28:agility",
+    "31:swift",
+    "37:crunch",
+    "40:darkpulse",
+    "46:memento",
+    "49:rollout",
+    "55:playrough",
+    "58:hyperbeam",
+    "64:lastresort",
+    "egg:captivate",
+    "egg:clearsmog",
+    "egg:haze",
+    "egg:reversal",
+    "egg:thrash",
+    "egg:extrasensory",
+    "egg:howl",
+    "egg:acidarmor",
+    "tm:allyswitch",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:facade",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:payback",
+    "tm:protect",
+    "tm:psychic",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:spite",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:playrough",
+    "tm:workup",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:stickyweb",
+    "tutor:allyswitch",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:spite",
+    "tutor:trick",
+    "tutor:playrough",
+    "tutor:rollout",
+    "tutor:swift",
+    "tutor:zenheadbutt",
+    "1:nightslash"
+  ],
+  "preEvolution": "ditto novaeran"
+}

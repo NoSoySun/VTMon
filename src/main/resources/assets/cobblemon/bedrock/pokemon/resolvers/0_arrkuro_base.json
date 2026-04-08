@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:arrkuro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:arrkuro",
+      "model": "cobblemon:arrkuro.geo",
+      "texture": "cobblemon:textures/pokemon/arrkuro/arrkuro.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/arrkuro/arrkuro_shiny.png",
+      "layers": []
+    }
+  ]
+ }

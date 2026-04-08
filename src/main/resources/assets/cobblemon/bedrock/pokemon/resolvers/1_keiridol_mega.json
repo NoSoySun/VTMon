@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:keiridol",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": ["mega"],
+        "poser": "cobblemon:keiridol_mega",
+        "model": "cobblemon:keiridol_mega.geo",
+        "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny",
+          "mega"
+        ],
+        "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega_shiny.png"
+      }
+    ]
+   }

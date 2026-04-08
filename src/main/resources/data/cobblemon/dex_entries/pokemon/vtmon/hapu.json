@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:hapu",
+    "speciesId": "cobblemon:hapu",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

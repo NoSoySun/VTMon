@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:mizuga",
+    "speciesId": "cobblemon:mizuga",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

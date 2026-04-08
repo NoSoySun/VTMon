@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:ghissel",
+    "speciesId": "cobblemon:ghissel",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

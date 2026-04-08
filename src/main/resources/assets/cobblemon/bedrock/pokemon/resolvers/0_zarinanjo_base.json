@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:zarinanjo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:zarinanjo",
+      "model": "cobblemon:zarinanjo.geo",
+      "texture": "cobblemon:textures/pokemon/zarinanjo/zarinanjo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/zarinanjo/zarinanjo_shiny.png"
+    }
+  ]
+ }

@@ -1,0 +1,22 @@
+{
+    "species": "lylaze",
+    "level": "50-60",
+    "spawnUnderground": false,
+    "herdMembers": [
+        {
+            "species": "lilver",
+            "level": "7-16"
+        },
+        {
+            "species": "goldy",
+            "level": "16-36"
+        }
+    ],
+    "biome": [
+        "#minecraft:is_forest",
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_savanna",
+        "#c:desert",
+        "#minecraft:is_nether"
+    ]
+}

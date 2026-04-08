@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nancuache",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nancuache",
+      "model": "cobblemon:nancuache.geo",
+      "texture": "cobblemon:textures/pokemon/nancuache/nancuache.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nancuache/nancuache_shiny.png"
+    }
+  ]
+ }

@@ -1,0 +1,21 @@
+{
+  "species": "aaiper",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+    {
+      "species": "hapu",
+      "level": "15-25"
+    },
+    {
+      "species": "strideer",
+      "level": "25-45"
+    }
+  ],
+  "biome": [
+    "#cobblemon:is_beach",
+    "#minecraft:is_river",
+    "#cobblemon:is_forest",
+    "#c:plains"
+  ]
+}

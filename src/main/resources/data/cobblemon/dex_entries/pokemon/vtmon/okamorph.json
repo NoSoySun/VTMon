@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:okamorph",
+    "speciesId": "cobblemon:okamorph",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

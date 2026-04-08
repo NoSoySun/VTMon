@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4110,
+  "name": "Mizuga",
+  "primaryType": "water",
+  "maleRatio": 0,
+  "height": 5,
+  "weight": 79,
+  "pokedex": [
+    "cobblemon.species.mizuga.desc1",
+    "cobblemon.species.mizuga.desc2",
+    "cobblemon.species.mizuga.desc3"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "waterveil",
+    "h:swiftswim"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 70,
+    "special_attack": 65,
+    "special_defence": 85,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "features": [],
+  "baseScale": 1.5,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.45
+      },
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "swimSpeed": 0.791015625
+      }
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:mystic_water",
+        "percentage": 1.0
+      },
+      {
+        "item": "minecraft:water_bottle",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:fishing_rod",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+  "1:splash",
+  "1:growl",
+  "1:playnice",
+  "1:tackle",
+  "1:bubble",
+  "5:watergun",
+  "8:round",
+  "10:lick",
+  "12:waterpulse",
+  "14:charm",
+  "16:brine",
+  "18:helpinghand",
+  "20:raindance",
+  "22:flipturn",
+  "24:aquaring",
+  "26:assurance",
+  "28:aquatail",
+  "30:lifedew",
+  "32:soak",
+  "34:bounce",
+  "36:playrough",
+  "38:substitute",
+  "40:muddywater",
+  "42:calmmind",
+  "44:hydropump",
+  "48:hydrocannon",
+  "egg:aquajet",
+  "egg:tickle",
+  "egg:healpulse",
+  "egg:whirlpool",
+  "egg:mist",
+  "egg:wish",
+  "tm:protect",
+  "tm:rest",
+  "tm:sleeptalk",
+  "tm:substitute",
+  "tm:surf",
+  "tm:waterpulse",
+  "tm:raindance",
+  "tm:scald",
+  "tm:chillingwater",
+  "tm:liquidation",
+  "tm:icebeam",
+  "tm:blizzard",
+  "tm:icywind",
+  "tm:helpinghand",
+  "tm:calmmind",
+  "tm:round",
+  "tm:playrough",
+  "tm:swift",
+  "tm:waterfall",
+  "tm:whirlpool",
+  "tutor:icywind",
+  "tutor:liquidation",
+  "tutor:muddywater",
+  "tutor:waterpulse",
+  "tutor:helpinghand",
+  "tutor:flipturn"
+],
+  "evolutions": [
+    {
+      "id": "mizuga_wenjing",
+      "variant": "level_up",
+      "result": "wenjing",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]
+    }
+  ]
+}

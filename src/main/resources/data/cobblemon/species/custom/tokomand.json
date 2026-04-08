@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4114,
+  "name": "Tokomand",
+  "primaryType": "dark",
+  "maleRatio": 0,
+  "height": 20,
+  "weight": 65,
+  "pokedex": [
+    "cobblemon.species.tokomand.desc1",
+    "cobblemon.species.tokomand.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "features": [],
+  "aspects": [],
+  "riding": {},
+  "abilities": [
+    "prankster",
+    "h:pressure"
+  ],
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 78,
+    "defence": 76,
+    "special_attack": 78,
+    "special_defence": 76,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "forms": [],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 1.625,
+    "height": 1.96875,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "canLook": true,
+      "wanderChance": 75,
+      "wanderSpeed": 1.875,
+      "walk": {
+        "walkSpeed": 0.525
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:slime_ball",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:string",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:pound",
+    "1:growl",
+    "1:leer",
+    "1:astonish",
+    "1:nightshade",
+    "1:taunt",
+    "4:smokescreen",
+    "8:spite",
+    "12:feintattack",
+    "16:mudslap",
+    "20:icywind",
+    "24:curse",
+    "28:payback",
+    "32:agility",
+    "36:crunch",
+    "40:darkpulse",
+    "44:phantomforce",
+    "48:suckerpunch",
+    "52:poltergeist",
+    "56:memento",
+    "60:hyperbeam",
+    "64:lastresort",
+    "egg:destinybond",
+    "egg:grudge",
+    "egg:hex",
+    "egg:willowisp",
+    "egg:haze",
+    "egg:trick",
+    "egg:embargo",
+    "egg:thief",
+    "tm:protect",
+    "tm:rest",
+    "tm:facade",
+    "tm:taunt",
+    "tm:darkpulse",
+    "tm:payback",
+    "tm:shadowball",
+    "tm:thief",
+    "tm:snarl",
+    "tm:spite",
+    "tm:curse",
+    "tm:instruct",
+    "tm:trickroom",
+    "tm:substitute",
+    "tm:hyperbeam",
+    "tm:icywind",
+    "tm:blizzard",
+    "tm:hail",
+    "tm:toxic",
+    "tm:embargo",
+    "tm:quash",
+    "tm:knockoff",
+    "tm:poltergeist",
+    "tm:phantomforce",
+    "tutor:darkpulse",
+    "tutor:shadowball",
+    "tutor:poltergeist",
+    "tutor:icywind",
+    "tutor:trick",
+    "tutor:spite",
+    "tutor:hyperbeam",
+    "1:nightslash",
+    "35:suckerpunch",
+    "42:hex"
+  ],
+  "evolutions": [
+    {
+      "id": "tokomand_tokarmy",
+      "variant": "level_up",
+      "result": "tokarmy",
+      "consumeHeldItem": false,
+      "learnableMoves": ["comando"],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "instruct"
+        }
+      ]
+    }
+  ]
+}

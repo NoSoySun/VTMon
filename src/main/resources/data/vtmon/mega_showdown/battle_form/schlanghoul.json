@@ -1,0 +1,13 @@
+{
+  "pokemons": ["Schlanghoul"],
+  "showdown_form_change_id": "phantom",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["phantom_forme=phantom"]
+    },
+    "revert": {
+      "aspects": ["phantom_forme=corpus"]
+    }
+  },
+  "effect": "mega_showdown:arceus_ghost"
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:uynuk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:substitute",
+      "model": "cobblemon:uynuk.geo",
+      "texture": "cobblemon:textures/pokemon/uynuk/uynuk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/uynuk/uynuk_shiny.png"
+    }
+  ]
+ }

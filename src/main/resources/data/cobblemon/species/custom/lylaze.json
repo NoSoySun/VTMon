@@ -1,0 +1,391 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4092,
+  "name": "Lylaze",
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "maleRatio": 0.05,
+  "height": 20,
+  "weight": 65,
+  "pokedex": [
+    "cobblemon.species.lylaze.desc1",
+    "cobblemon.species.lylaze.desc2"
+  ],
+  "labels": [
+    "custom",
+    "starter"
+  ],
+  "aspects": [],
+  "lightingData": {
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
+  },
+ "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/hover",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.leather",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "soundLocation": "cobblemon:ride.loop.wind"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "100-180",
+          "JUMP": "25-50",
+          "SKILL": "100-150",
+          "SPEED": "100-150",
+          "STAMINA": "325-425"
+        }
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "80-160",
+          "JUMP": "25-50",
+          "SKILL": "82-120",
+          "SPEED": "60-100",
+          "STAMINA": "40-200"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.003806442,
+              "y": -1.7203209,
+              "z": 0.12983066
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.039005388,
+              "y": -2.4511793,
+              "z": 0.10381147
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.7674751,
+              "z": -0.27694723
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.003806442,
+              "y": -1.7203209,
+              "z": 0.12983066
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0047415113,
+              "y": -1.6152971,
+              "z": 0.35461712
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },      
+  "abilities": [
+    "blaze",
+    "h:flashfire"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 85,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "forms": [
+    {
+      "name": "Gmax",
+      "height": 210,
+      "weight": 999,
+      "pokedex": ["cobblemon.species.lylaze-gmax.desc"],
+      "labels": ["custom", "gmax"],
+      "aspects": ["gmax"],
+      "dynamaxBlocked": true,
+      "evolutions": [],
+      "battleOnly": true
+    }
+  ],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 1.625,
+    "height": 1.96875,
+    "fixed": false
+  },
+  "behaviour": {
+    "herd": {
+      "maxSize": "3"
+    },
+    "moving": {
+      "canLook": true,
+      "wanderChance": 75,
+      "wanderSpeed": 1.875,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.5625
+      },
+      "walk": {
+        "walkSpeed": 0.525
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": true,
+        "canBreatheUnderlava": true,
+        "hurtByLava": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    }
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:bone",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:smog",
+    "1:mudshot",
+    "1:confuseray",
+    "1:flameburst",
+    "1:hex",
+    "1:painsplit",
+    "1:shadowball",
+    "1:willowisp",
+    "1:overheat",
+    "1:firespin",
+    "1:nightshade",
+    "1:curse",
+    "1:inferno",
+    "1:imprison",
+    "1:memento",
+    "1:astonish",
+    "1:ember",
+    "1:minimize",
+    "1:tackle",
+    "1:leer",
+    "1:growl",
+    "6:smokescreen",
+    "10:ember",
+    "13:quickattack",
+    "16:mudbomb",
+    "19:flamewheel",
+    "22:defensecurl",
+    "28:flamecharge",
+    "31:swift",
+    "37:lavaplume",
+    "40:flamethrower",
+    "40:earthquake",
+    "46:inferno",
+    "49:rollout",
+    "55:hellfireslash",
+    "58:overheat",
+    "64:eruption",
+    "egg:acid",
+    "egg:acidarmor",
+    "egg:captivate",
+    "egg:clearsmog",
+    "egg:haze",
+    "egg:earthpower",
+    "egg:powersplit",
+    "egg:covet",
+    "egg:crushclaw",
+    "egg:curse",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:foresight",
+    "egg:furyswipes",
+    "egg:howl",
+    "egg:reversal",
+    "egg:thrash",
+    "tm:allyswitch",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dreameater",
+    "tm:embargo",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:flash",
+    "tm:gigaimpact",
+    "tm:haze",
+    "tm:heatwave",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:incinerate",
+    "tm:laserfocus",
+    "tm:lashout",
+    "tm:mysticalfire",
+    "tm:nightshade",
+    "tm:painsplit",
+    "tm:payback",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psychup",
+    "tm:rest",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:skittersmack",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:telekinesis",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:ironhead",
+    "tm:naturepower",
+    "tm:playrough",
+    "tm:reversal",
+    "tm:roar",
+    "tm:rollout",
+    "tm:swift",
+    "tm:takedown",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tutor:allyswitch",
+    "tutor:burningjealousy",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:energyball",
+    "tutor:flamethrower",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:lashout",
+    "tutor:mysticalfire",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:psychic",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:shockwave",
+    "tutor:skittersmack",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:telekinesis",
+    "tutor:trick",
+    "tutor:aerialace",
+    "tutor:covet",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:ironhead",
+    "tutor:playrough",
+    "tutor:rollout",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "legacy:firespin",
+    "legacy:nightslash"
+  ],
+  "preEvolution": "goldy"
+}

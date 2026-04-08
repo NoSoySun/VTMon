@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:kurperor",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "gmax"
+      ],
+      "poser": "cobblemon:kurperor_gmax",
+      "model": "cobblemon:kurperor_gmax.geo",
+      "texture": "cobblemon:textures/pokemon/kurperor/kurperor_gmax.png",
+      "translucent": true,
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": false,
+          "texture": "cobblemon:textures/pokemon/kurperor/kurperor_gmax_water.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "gmax"
+      ],
+      "texture": "cobblemon:textures/pokemon/kurperor/kurperor_gmax_shiny.png",
+      "translucent": true,
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": false,
+          "texture": "cobblemon:textures/pokemon/kurperor/kurperor_gmax_water.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

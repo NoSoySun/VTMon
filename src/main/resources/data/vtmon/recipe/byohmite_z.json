@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "OWO",
+        " S "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:punching_glove"
+        },
+        "O": {
+            "item": "minecraft:bone"
+        },
+        "W": {
+            "item": "mega_showdown:mega_stone"
+        },
+        "S": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "id": "vtmon:byohmite_z",
+        "count": 1
+    }
+}

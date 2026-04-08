@@ -1,0 +1,22 @@
+{
+    "species": "byohm",
+    "level": "20-60",
+    "spawnUnderground": false,
+    "herdMembers": [
+        {
+            "species": "lilver",
+            "level": "7-16"
+        },
+        {
+            "species": "byion",
+            "level": "7-25"
+        }
+    ],
+    "biome": [
+        "#minecraft:is_forest",
+        "#cobblemon:is_sandy",
+        "#cobblemon:is_savanna",
+        "#c:desert",
+        "#c:is_plains"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:tokomand",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tokomand",
+        "model": "cobblemon:tokomand.geo",
+        "texture": "cobblemon:textures/pokemon/tokomand/tokomand.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/tokomand/tokomand_shiny.png"
+      }
+    ]
+   }

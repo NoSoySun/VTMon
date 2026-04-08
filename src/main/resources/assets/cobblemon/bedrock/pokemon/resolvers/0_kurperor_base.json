@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:kurperor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kurperor",
+      "model": "cobblemon:kurperor.geo",
+      "texture": "cobblemon:textures/pokemon/kurperor/kurperor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kurperor/kurperor_shiny.png",
+      "layers": []
+    }
+  ]
+ }

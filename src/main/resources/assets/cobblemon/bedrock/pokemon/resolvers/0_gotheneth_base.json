@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gotheneth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:gotheneth",
+      "model": "cobblemon:gotheneth.geo",
+      "texture": "cobblemon:textures/pokemon/gotheneth/gotheneth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/gotheneth/gotheneth_shiny.png"
+    }
+  ]
+ }

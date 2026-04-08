@@ -1,0 +1,757 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.schlanghoul_mega.ground_idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"neck": {
+					"rotation": [-17.5, 0, 0],
+					"position": [0, -1.5, 0.75]
+				},
+				"head": {
+					"rotation": [25, 0, 0],
+					"position": [0, -1, 0.25]
+				},
+				"segment1": {
+					"rotation": [5, 0, 0]
+				},
+				"segment6": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0.75, 0]
+				},
+				"segment7": {
+					"rotation": {
+						"0.0": [0, 0, -40],
+						"0.125": [0, 0, 20],
+						"0.25": [0, 0, -40],
+						"0.375": [0, 0, 20],
+						"0.5": [0, 0, -40],
+						"0.625": [0, 0, 20],
+						"0.75": [0, 0, -40],
+						"0.875": [0, 0, 20],
+						"1.0": [0, 0, -40]
+					}
+				},
+				"schlanghoul": {
+					"rotation": [-5, 0, 0]
+				},
+				"locator_seat_1": {
+					"position": [0, 2, 0]
+				},
+				"shards": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					}
+				},
+				"shards2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 360, 0]
+					}
+				},
+				"shards3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.125": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.25": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.375": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.5": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.625": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.75": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.875": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"1.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				]
+			}
+		},
+		"animation.schlanghoul_mega.battle_idle": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"schlanghoul": {
+					"rotation": [-10, 0, 0]
+				},
+				"segment1": {
+					"rotation": [5, 0, 0]
+				},
+				"segment6": {
+					"rotation": [15, 0, 0],
+					"position": [0, 0.75, 0]
+				},
+				"segment7": {
+					"rotation": {
+						"0.0": [0, 0, -40],
+						"0.125": [0, 0, 20],
+						"0.25": [0, 0, -40],
+						"0.375": [0, 0, 20],
+						"0.5": [0, 0, -40],
+						"0.625": [0, 0, 20],
+						"0.75": [0, 0, -40],
+						"0.875": [0, 0, 20],
+						"1.0": [0, 0, -40]
+					}
+				},
+				"segment8": {
+					"scale": 1.5
+				},
+				"hair10": {
+					"rotation": [-127.53849, 4.19107, 123.46849],
+					"position": {
+						"0.0": [-4.5, -4.5, -4.5],
+						"0.5": [-4.5, -15.5, -4.5],
+						"1.0": [-4.5, -4.5, -4.5]
+					},
+					"scale": "1+0.75*math.pow(math.sin(q.anim_time*180),2)"
+				},
+				"head": {
+					"rotation": [10, 0, 0],
+					"position": [0, -1, 0]
+				},
+				"shards": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 360, 0]
+					}
+				},
+				"shards2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					}
+				},
+				"hair11": {
+					"rotation": [57.5, 0, 0]
+				},
+				"shards3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.125": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.25": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.375": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.5": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.625": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.75": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.875": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"1.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				]
+			}
+		},
+		"animation.schlanghoul_mega.blink": {
+			"animation_length": 1,
+			"bones": {
+				"eyelids": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [0, 0, -1],
+						"0.8333": [0, 0, -1],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.schlanghoul_mega.ground_walk": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"segment1": {
+					"rotation": [60, 0, 0]
+				},
+				"segment3": {
+					"rotation": {
+						"0.0": [-25, 0, 0],
+						"0.3333": [-25, 0, -25],
+						"0.6667": [-25, 0, 25],
+						"1.0": [-25, 0, 0]
+					}
+				},
+				"segment5": {
+					"rotation": [-30, 0, 0]
+				},
+				"locator_seat_1": {
+					"position": [0, 15, 0]
+				},
+				"shards3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 360, 0]
+					}
+				},
+				"shards": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 360, 0]
+					}
+				},
+				"shards2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -360, 0]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.125": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.25": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.375": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.5": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas5"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				],
+				"0.625": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas4"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"0.75": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas3"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas8"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas8"
+					}
+				],
+				"0.875": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas2"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas7"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas7"
+					}
+				],
+				"1.0": [
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas"
+					},
+					{
+						"effect": "ghostly_smoke",
+						"locator": "gas6"
+					},
+					{
+						"effect": "ghostly_smoke_center",
+						"locator": "gas6"
+					}
+				]
+			}
+		},
+		"animation.schlanghoul_mega.cry": {
+			"animation_length": 3,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [20, 0, 0],
+						"0.5": [-10, 0, 0],
+						"2.9583": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 0],
+						"0.5": [0, -0.5, 0],
+						"2.9583": [0, 0, 0]
+					}
+				},
+				"muzzle3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [15, 0, 0],
+						"0.75": [30, 0, 0],
+						"3.0": [0, 0, 0]
+					}
+				},
+				"muzzle2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [-2.5, 0, 0],
+						"1.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, -0.5, -1.25],
+						"1.5": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.5": {
+					"effect": "pokemon.schlanghoul.cry"
+				}
+			}
+		},
+		"animation.schlanghoul_mega.faint": {
+			"animation_length": 3,
+			"bones": {
+				"neck": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [32.5, 0, 0],
+						"0.75": [45, 0, 0]
+					}
+				},
+				"segment1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [50, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"segment3": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [-17.5, 0, 0]
+					}
+				},
+				"segment4": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.0": [-30, 0, 0]
+					}
+				},
+				"segment5": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-27.5, 0, 0]
+					},
+					"position": [0, 0, 0]
+				}
+			}
+		}
+	}
+}

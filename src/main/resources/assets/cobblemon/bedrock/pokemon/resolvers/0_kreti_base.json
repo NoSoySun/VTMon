@@ -1,0 +1,52 @@
+{
+    "species": "cobblemon:kreti",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:kreti",
+        "model": "cobblemon:kreti.geo",
+        "texture": "cobblemon:textures/pokemon/kreti/kreti.png",
+        "layers": [
+          {
+            "name": "flame",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/kreti/flame/frame1.png",
+                "cobblemon:textures/pokemon/kreti/flame/frame2.png",
+                "cobblemon:textures/pokemon/kreti/flame/frame3.png",
+                "cobblemon:textures/pokemon/kreti/flame/frame4.png"
+              ],
+              "fps": 16,
+              "loop": true
+            },
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/kreti/kreti_shiny.png",
+        "layers": [
+          {
+            "name": "flame",
+            "texture": {
+              "frames": [
+                "cobblemon:textures/pokemon/kreti/flame_shiny/frame1.png",
+                "cobblemon:textures/pokemon/kreti/flame_shiny/frame2.png",
+                "cobblemon:textures/pokemon/kreti/flame_shiny/frame3.png",
+                "cobblemon:textures/pokemon/kreti/flame_shiny/frame4.png"
+              ],
+              "fps": 16,
+              "loop": true
+            },
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+   }

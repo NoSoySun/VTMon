@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hichulla",
+      "pokemon": "hichulla",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 7,
+        "maxSkyLight": 15,
+        "biomes": [ "minecraft:meadow", "minecraft:cherry_grove", "#minecraft:is_forest", "#c:floral", "#byg:is_magical", "#c:plains", "#cobblemon:is_plains"]
+      },
+      "anticondition": {
+         "biomes": [
+            "#cobblemon:is_spooky"
+         ]
+      }
+    },
+    {
+      "id": "kreti",
+      "pokemon": "kreti",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-20",
+      "weight": 5.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 15,
+        "biomes": ["#minecraft:is_nether", "minecraft:meadow", "minecraft:cherry_grove", "#minecraft:is_forest", "#minecraft:is_nether", "#c:floral", "#byg:is_magical", "#c:plains", "#cobblemon:is_plains", "#cobblemon:is_spooky"]
+      },
+      "anticondition": {
+         "biomes": []
+      }
+    }
+  ]
+}

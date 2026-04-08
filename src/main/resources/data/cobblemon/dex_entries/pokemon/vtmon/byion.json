@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:byion",
+    "speciesId": "cobblemon:byion",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "overcharge_forme"
+  ],
+  "default": "discharge",
+  "choices": [
+    "discharge",
+    "overcharge"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-forme"
+}

@@ -1,0 +1,95 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.gotheneth.ground_idle": {
+			"loop": true
+		},
+		"animation.gotheneth.air_idle": {
+			"loop": true
+		},
+		"animation.gotheneth.cry": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"right_eye": {
+					"scale": {
+						"0.1667": [1, 1, 1],
+						"0.25": [1, 0.5, 1],
+						"1.0": [1, 1, 1]
+					}
+				},
+				"left_eye": {
+					"scale": {
+						"0.1667": [1, 1, 1],
+						"0.25": [1, 0.5, 1],
+						"1.0": [1, 1, 1]
+					}
+				},
+				"peck_down": {
+					"rotation": {
+						"0.125": [0, 0, 0],
+						"0.25": [30, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [5, 0, 0],
+						"0.125": [-15, 0, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.25": {
+					"effect": "pokemon.nefthlet.cry"
+				}
+			}
+		},
+		"animation.gotheneth.ground_walk": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"right_leg": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [30, 0, 0],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.25": [0, 0, 0],
+						"0.5": [30, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.gotheneth.air_fly": {
+			"loop": true,
+			"bones": {
+				"left_wing": {
+					"rotation": [-30, 0, -90]
+				},
+				"right_wing": {
+					"rotation": [-30, 0, 90]
+				}
+			}
+		},
+		"animation.gotheneth.sleep": {
+			"loop": true,
+			"bones": {
+				"right_pupil": {
+					"position": [0, 0, 1]
+				},
+				"left_pupil": {
+					"position": [0, 0, 1]
+				},
+				"head": {
+					"rotation": [22.5, 0, 0]
+				}
+			}
+		}
+	}
+}

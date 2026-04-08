@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:marigueya",
+    "speciesId": "cobblemon:marigueya",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:bellver",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lilver",
+        "model": "cobblemon:bellver.geo",
+        "texture": "cobblemon:textures/pokemon/bellver/bellver.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/bellver/bellver_shiny.png",
+        "layers": []
+      }
+    ]
+   }

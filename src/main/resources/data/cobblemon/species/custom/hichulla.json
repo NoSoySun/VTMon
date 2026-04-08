@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "hichulla",
+  "nationalPokedexNumber": 4096,
+  "primaryType": "normal",
+  "abilities": ["curiousinstinct", "grandencore", "h:pickup"],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.001,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": ["field"],
+  "moves": [
+    "1:quickattack",
+    "1:growl",
+    "1:echoedvoice",
+    "1:sweetkiss",
+    "4:disarmingvoice",
+    "8:snore",
+    "12:round",
+    "16:psychicnoise",
+    "16:moonblast",
+    "20:torchsong",
+    "20:fairywind",
+    "24:alluringvoice",
+    "28:snarl",
+    "32:hypervoice",
+    "36:boomburst",
+    "40:perishsong",
+    "40:playrough",
+    "44:helpinghand",
+    "48:uproar",
+    "52:finalgambit",
+    "56:reversal",
+    "egg:bite",
+    "egg:sing",
+    "egg:supersonic",
+    "egg:howl",
+    "egg:mindreader",
+    "egg:skyuppercut",
+    "tm:triattack",
+    "tm:petaldance",
+    "tm:aquastep",
+    "tm:fierydance",
+    "tm:revelationdance",
+    "tm:raindance",
+    "tm:teeterdance",
+    "tm:lunardance",
+    "tm:quiverdance",
+    "tm:entrainment",
+    "tm:drainpunch",
+    "tm:victorydance",
+    "tm:hyperfang",
+    "tm:endure",
+    "tm:facade",
+    "tm:zenheadbutt",
+    "tutor:triattack",
+    "tutor:petaldance",
+    "tutor:aquastep",
+    "tutor:fierydance",
+    "tutor:revelationdance",
+    "tutor:raindance",
+    "tutor:teeterdance",
+    "tutor:lunardance",
+    "tutor:quiverdance",
+    "tutor:entrainment",
+    "tutor:drainpunch",
+    "tutor:victorydance",
+    "tutor:hyperfang",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:zenheadbutt"
+  ],
+  "labels": ["custom"],
+  "pokedex": [
+    "cobblemon.species.hichulla.desc1",
+    "cobblemon.species.hichulla.desc2"
+  ],
+  "evolutions": [
+    {
+      "id": "hichulla_keiridol",
+      "variant": "level_up",
+      "result": "keiridol",
+      "consumeHeldItem": false,
+      "learnableMoves": ["aurasphere"],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.4,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.733,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4.5,
+  "weight": 8
+}

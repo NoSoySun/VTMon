@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:arrkuro",
+    "speciesId": "cobblemon:arrkuro",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "id": "cobblemon:schlanghoul",
+    "speciesId": "cobblemon:schlanghoul",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      },
+      {
+        "displayForm": "Phantom",
+        "unlockForms": [
+          "Phantom"
+        ]
+      },
+      {
+        "displayForm": "Mega",
+        "unlockForms": [
+          "Mega"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

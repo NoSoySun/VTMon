@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "keiridol",
+        "pokemon": "keiridol",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "7-20",
+        "weight": 10.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "biomes": [ "minecraft:meadow", "minecraft:cherry_grove", "#minecraft:is_forest", "#c:floral", "#byg:is_magical", "#c:plains", "#cobblemon:is_plains"]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      },
+      {
+        "id": "kretsune",
+        "pokemon": "kretsune",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "ultra-rare",
+        "level": "7-20",
+        "weight": 10.0,
+        "condition": {
+          "minSkyLight": 7,
+          "maxSkyLight": 15,
+          "biomes": [ "minecraft:meadow", "minecraft:cherry_grove", "#minecraft:is_forest", "#c:floral", "#byg:is_magical", "#c:plains", "#cobblemon:is_plains"]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      }
+    ]
+  }

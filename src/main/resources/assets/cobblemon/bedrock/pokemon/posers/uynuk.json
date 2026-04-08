@@ -1,0 +1,44 @@
+{
+  "portraitScale": 0.29296875,
+  "portraitTranslation": [
+    -17.5,
+    0,
+    2.5
+  ],
+  "profileScale": 0.146484375,
+  "profileTranslation": [
+    -17.5,
+    0,
+    2.5
+  ],
+  "animations": {
+    "faint": "q.bedrock_primary('uynuk', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('uynuk', 'cry')"
+  },
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('uynuk', 'ground_idle')"
+      ],
+      "quirks": []
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('uynuk', 'ground_walk')"
+      ],
+      "quirks": []
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.aaiper_overcharge.air_idle": {
+			"loop": true,
+			"animation_length": 8,
+			"bones": {
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0],
+						"3.0": [-15, 0, 0],
+						"4.0": [0, 0, 0],
+						"5.0": [-15, 0, 0],
+						"6.0": [0, 0, 0],
+						"7.0": [-15, 0, 0],
+						"8.0": [0, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [3.75, 0, 0],
+						"2.0": [0, 0, 0],
+						"3.0": [3.75, 0, 0],
+						"4.0": [0, 0, 0],
+						"5.0": [3.75, 0, 0],
+						"6.0": [0, 0, 0],
+						"7.0": [3.75, 0, 0],
+						"8.0": [0, 0, 0]
+					}
+				},
+				"bone18": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"bone19": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"thunder": {
+					"rotation": [0, "-4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder3": {
+					"rotation": [0, "-4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder4": {
+					"rotation": [0, "4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [-8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder5": {
+					"rotation": [0, "4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [-8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"bone21": {
+					"rotation": [0, "-2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone22": {
+					"rotation": [0, "-2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone20": {
+					"rotation": [0, "2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone23": {
+					"rotation": [0, "2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				}
+			}
+		},
+		"animation.aaiper_overcharge.ground_idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"bone3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [3.75, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"bone18": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"bone19": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"2.0": [0, 0, 0]
+					}
+				},
+				"thunder": {
+					"rotation": [0, "-4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder3": {
+					"rotation": [0, "-4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder4": {
+					"rotation": [0, "4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [-8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"thunder5": {
+					"rotation": [0, "4*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0],
+					"position": {
+						"0.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"2.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"4.0": [-8, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"6.0": [-4, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"],
+						"8.0": [0, 0, "0.25*(5+math.pow((math.sin(q.anim_time*90*0.5-40)*8),2))"]
+					}
+				},
+				"bone21": {
+					"rotation": [0, "-2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone22": {
+					"rotation": [0, "-2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone20": {
+					"rotation": [0, "2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"bone23": {
+					"rotation": [0, "2*(5+math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				}
+			}
+		},
+		"animation.aaiper_overcharge.faint": {
+			"animation_length": 1.25,
+			"bones": {
+				"aaiper_overcharge": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": [16, 16, 0],
+						"0.1667": [0, -16, 0],
+						"0.25": [-16, 16, 0],
+						"0.3333": [16, -16, 0],
+						"0.4167": [-16, 0, 0],
+						"0.5": [16, 16, 0],
+						"0.5833": [-16, -16, 0],
+						"0.6667": [0, 0, 0]
+					},
+					"scale": {
+						"0.6667": [1, 1, 1],
+						"1.0": [2, 2, 2],
+						"1.25": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.aaiper_overcharge.air_fly": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"bone": {
+					"rotation": [57.5, 0, 0],
+					"position": [0, 3, 15]
+				},
+				"bone4": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [35, 0, 0],
+						"0.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -3, 4],
+						"0.5": [0, 0, 0]
+					}
+				},
+				"bone17": {
+					"rotation": [-30, 0, 0]
+				},
+				"bone16": {
+					"rotation": [-30, 0, 0]
+				}
+			}
+		}
+	}
+}

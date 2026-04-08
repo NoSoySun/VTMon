@@ -1,0 +1,22 @@
+{
+    "species": "cobblemon:byohm",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [
+          "mega"
+        ],
+        "poser": "cobblemon:byohm_mega",
+        "model": "cobblemon:byohm_mega.geo",
+        "texture": "cobblemon:textures/pokemon/byohm/byohm_mega.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny",
+          "mega"
+        ],
+        "texture": "cobblemon:textures/pokemon/byohm/byohm_mega_shiny.png"
+      }
+    ]
+   }

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:gotheneth",
+    "speciesId": "cobblemon:gotheneth",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

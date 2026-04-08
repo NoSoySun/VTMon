@@ -1,0 +1,97 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lylaze_gmax.blink": {
+			"animation_length": 1,
+			"bones": {
+				"right_eyelid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [-1, 0, -1],
+						"0.75": [-1, 0, -1],
+						"1.0": [0, 0, 0]
+					}
+				},
+				"left_eyelid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.5": [1, 0, -1],
+						"0.75": [1, 0, -1],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.lylaze_gmax.air_idle": {
+			"loop": true,
+			"animation_length": 2
+		},
+		"animation.lylaze_gmax.ground_idle": {
+			"loop": true,
+			"animation_length": 2
+		},
+		"animation.lylaze_gmax.air_fly": {
+			"loop": true,
+			"animation_length": 2
+		},
+		"animation.lylaze_gmax.cry": {
+			"animation_length": 3,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [20, 0, 0],
+						"0.75": [-15, 0, 0],
+						"3.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -1, 1],
+						"0.75": [0, 2, -1],
+						"3.0": [0, 0, 0]
+					}
+				},
+				"longue": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 0, -1],
+						"2.75": [0, 0, -1],
+						"3.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.75": {
+					"effect": "pokemon.lylaze.cry"
+				}
+			}
+		},
+		"animation.lylaze_gmax.faint": {
+			"animation_length": 3,
+			"bones": {
+				"lylaze_gmax": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 0, 90]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, -11, 0]
+					}
+				},
+				"right_eyelid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [-1, 0, -1]
+					}
+				},
+				"left_eyelid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [1, 0, -1]
+					}
+				}
+			}
+		}
+	}
+}

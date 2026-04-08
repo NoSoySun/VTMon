@@ -1,0 +1,186 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4099,
+  "name": "Kretsune",
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "maleRatio": 1,
+  "height": 25,
+  "weight": 79,
+  "pokedex": [
+    "cobblemon.species.kretsune.desc1",
+    "cobblemon.species.kretsune.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "lightingData": {
+  "lightLevel": 14,
+  "liquidGlowMode": "LAND"
+ },
+  "abilities": [
+    "sagacity",
+    "illusoryember",
+    "h:prankster"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+        "hp": 80,
+        "attack": 65,
+        "defence": 55,
+        "special_attack": 125,
+        "special_defence": 105,
+        "speed": 120
+    },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "features": [
+    "region_bias"
+  ],
+  "baseScale": 1.1375,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.15,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      }
+    }
+  },
+    "ai": [
+        {
+            "type": "apply_behaviours",
+            "behaviours": [
+                "cobblemon:pokemon_fox",
+                "cobblemon:attack_hostile_mobs"
+            ]
+        }
+    ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:charcoal_stick",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:charcoal",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:bone",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:fairywinds",
+    "6:smokescreen",
+    "10:ember",
+    "13:quickattack",
+    "19:flamewheel",
+    "22:charm",
+    "28:bite",
+    "31:drainingkiss",
+    "37:lavaplume",
+    "40:flamethrower",
+    "46:moonblast",
+    "49:calmmind",
+    "55:hellfireslash",
+    "55:dazzlinggleam",
+    "58:overheat",
+    "64:eruption",
+    "egg:covet",
+    "egg:curse",
+    "egg:doublekick",
+    "egg:extrasensory",
+    "egg:flameburst",
+    "egg:howl",
+    "egg:reversal",
+    "egg:thrash",
+    "egg:mistyterrain",
+    "egg:fakeout",
+    "egg:crunch",
+    "egg:playrough",
+    "egg:nightslash",
+    "tm:aerialace",
+    "tm:bodyslam",
+    "tm:burningjealousy",
+    "tm:burnup",
+    "tm:calmmind",
+    "tm:covet",
+    "tm:curse",
+    "tm:dig",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:firepledge",
+    "tm:firespin",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flareblitz",
+    "tm:heatwave",
+    "tm:incinerate",
+    "tm:mistyterrain",
+    "tm:overheat",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:roar",
+    "tm:safeguard",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:temperflare",
+    "tm:terablast",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:crunch",
+    "tm:shadowclaw",
+    "tm:slash",
+    "tm:honeclaws",
+    "tm:nightslash",
+    "tutor:burningjealousy",
+    "tutor:firefang",
+    "tutor:firepledge",
+    "tutor:flamethrower",
+    "tutor:heatwave",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:swift",
+    "tutor:wildcharge",
+    "tutor:zenheadbutt",
+    "tutor:encore",
+    "tutor:taunt",
+    "tutor:trick",
+    "tutor:crunch",
+    "tutor:psychicfangs",
+    "tutor:shadowclaw",
+    "tutor:nightslash"
+  ],
+  "preEvolution": "kreti"
+}

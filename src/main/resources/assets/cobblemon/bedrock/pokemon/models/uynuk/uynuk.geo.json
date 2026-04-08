@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.uynuk",
+				"texture_width": 30,
+				"texture_height": 40,
+				"visible_bounds_width": 103,
+				"visible_bounds_height": 61,
+				"visible_bounds_offset": [0, 22.5, 0]
+			},
+			"bones": [
+				{
+					"name": "uynuk",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "uynuk",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-15, -2, 0], "size": [30, 40, 0], "uv": [0, 0]},
+						{"origin": [-15, -2, 0], "size": [30, 40, 0], "pivot": [0, 0, 0], "rotation": [0, 180, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

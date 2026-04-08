@@ -1,0 +1,37 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+        "id": "tokomand",
+        "pokemon": "tokomand",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "uncommon",
+        "level": "7-20",
+        "weight": 5.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "biomes": ["#c:climate_cold", "#c:icy", "#cobblemon:is_cold"]
+        },
+        "anticondition": {}
+      },
+      {
+        "id": "tokomand-1",
+        "pokemon": "tokomand",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "common",
+        "level": "7-20",
+        "weight": 5.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "structures": ["minecraft:pillager_outpost", "minecraft:swamp_hut", "minecraft:woodland_mansion"]
+        },
+        "anticondition": {}
+      }
+    ]
+  }

@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:yurcat",
+    "speciesId": "cobblemon:yurcat",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

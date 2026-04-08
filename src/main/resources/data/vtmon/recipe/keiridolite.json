@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "OWO",
+        " S "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:note_block"
+        },
+        "O": {
+            "item": "minecraft:bread"
+        },
+        "W": {
+            "item": "mega_showdown:mega_stone"
+        },
+        "S": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "id": "vtmon:keiridolite",
+        "count": 1
+    }
+}

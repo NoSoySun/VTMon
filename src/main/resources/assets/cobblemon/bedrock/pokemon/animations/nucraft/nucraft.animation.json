@@ -1,0 +1,57 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nucraft.cry": {
+			"animation_length": 1.5,
+			"bones": {
+				"mouth": {
+					"position": {
+						"0.4583": [0, 0, 0],
+						"0.5": [0, 0, -1],
+						"1.4583": [0, 0, -1],
+						"1.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nucraft.blink": {
+			"animation_length": 0.5,
+			"bones": {
+				"eyebrows": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, -1],
+						"0.4583": [0, 0, -1],
+						"0.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.nucraft.ground_idle": {
+			"animation_length": 8,
+			"bones": {
+				"right_cheeks": {
+					"rotation": [0, "-2.5*(math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"left_cheeks": {
+					"rotation": [0, "2.5*(math.sin(q.anim_time*90*0.5-80)*8)", 0]
+				},
+				"leaf": {
+					"rotation": ["2.5*(math.sin(q.anim_time*90*0.5-80)*8)", 0, 0]
+				}
+			}
+		},
+		"animation.nucraft.ground_walk": {
+			"animation_length": 4,
+			"bones": {
+				"body": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, "math.pow(0.625*(math.sin(q.anim_time*90*0.5-80)*8),2)", 0],
+						"4.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

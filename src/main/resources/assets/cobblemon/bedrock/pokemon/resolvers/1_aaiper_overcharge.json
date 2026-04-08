@@ -1,0 +1,37 @@
+{
+  "species": "cobblemon:aaiper",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "overcharge-forme"
+      ],
+      "poser": "cobblemon:aaiper_overcharge",
+      "model": "cobblemon:aaiper_overcharge.geo",
+      "texture": "cobblemon:textures/pokemon/aaiper/aaiper_overcharge.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/aaiper/aaiper_overcharge_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "overcharge-forme"
+      ],
+      "texture": "cobblemon:textures/pokemon/aaiper/aaiper_overcharge_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/aaiper/aaiper_overcharge_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "portraitScale": 0.85,
+  "portraitTranslation": [
+    0,
+    0.75,
+    0
+  ],
+  "profileScale": 0.85,
+  "profileTranslation": [
+    0,
+    0.5,
+    0
+  ],
+  "animations": {
+    "faint": "q.bedrock_primary('lylaze', 'faint', q.curve('one'))",
+    "cry": "q.bedrock_stateful('lylaze', 'cry')"
+  },
+  "poses": {
+    "portrait": {
+      "poseTypes": [
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lylaze', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lylaze', 'blink')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lylaze', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lylaze', 'blink')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('lylaze', 'cry', q.curve('symmetrical_wide'))",
+        "faint": "q.bedrock_primary('lylaze', 'faint', q.curve('symmetrical_wide'))"
+      }
+    },
+    "hover": {
+      "poseTypes": [
+        "HOVER"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lylaze', 'air_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lylaze', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": [
+        "FLY"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lylaze', 'air_fly')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lylaze', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "isBattle": false,
+      "condition": "!q.in_air",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('lylaze', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('lylaze', 'blink')"
+      ]
+    }
+  }
+}

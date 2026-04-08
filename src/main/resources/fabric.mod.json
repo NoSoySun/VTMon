@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "vtmon",
+  "version": "${version}",
+  "name": "VTMon",
+  "description": "This mods adds almost every CarnekVT's Fakemons and some self-inserts.",
+  "authors": [
+    "NoSoySun",
+    "CarnekVT"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/datapack/vtmon",
+    "sources": "https://x.com/CarnekVT"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/vtmon/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nosoysun.vtmon.VTMon"
+    ],
+    "fabric-datagen": [
+      "com.nosoysun.vtmon.VTMonDataGenerator"
+    ],
+    "client": [
+      "com.nosoysun.vtmon.VTMonClient"
+    ]
+  },
+  "mixins": [
+    "vtmon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "custom": {
+    "modrinth": {
+      "project_id": "ipfEbJAi"
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/endec-0.1.3.jar"
+    }
+  ]
+}

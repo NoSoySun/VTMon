@@ -1,0 +1,16 @@
+{
+    "id": "cobblemon:aelubi",
+    "speciesId": "cobblemon:aelubi",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }
+  

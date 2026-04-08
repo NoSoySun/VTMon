@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:belldy",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:goldy",
+        "model": "cobblemon:belldy.geo",
+        "texture": "cobblemon:textures/pokemon/belldy/belldy.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/belldy/belldy_shiny.png",
+        "layers": []
+      }
+    ]
+   }

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nucraft",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nucraft",
+      "model": "cobblemon:nucraft.geo",
+      "texture": "cobblemon:textures/pokemon/nucraft/nucraft.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nucraft/nucraft_shiny.png"
+    }
+  ]
+ }

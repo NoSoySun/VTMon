@@ -1,0 +1,235 @@
+{
+  "implemented": true,
+  "name": "Byohm",
+  "nationalPokedexNumber": 4109,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": [
+    "static",
+    "h:hugepower"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 110,
+    "defence": 75,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 125
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.999,
+  "shoulderMountable": false,
+  "forms": [
+    {
+      "name": "Mega",
+      "pokedex": [
+        "cobblemon.species.byohm_mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "chaosenergy",
+        "h:chaosenergy"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 130,
+        "defence": 65,
+        "special_attack": 130,
+        "special_defence": 65,
+        "speed": 160
+      },
+      "evolutions": [],
+      "dynamaxBlocked": true,
+      "battleOnly": true
+    },
+    {
+      "name": "Mega-Z",
+      "pokedex": [
+        "cobblemon.species.byohm_mega_z.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "secondaryType": "dark",
+      "aspects": [
+        "mega_z"
+      ],
+      "abilities": [
+        "chaosenergy",
+        "h:chaosenergy"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 255,
+        "defence": 80,
+        "special_attack": 50,
+        "special_defence": 65,
+        "speed": 100
+      },
+      "evolutions": [],
+      "dynamaxBlocked": true,
+      "battleOnly": true
+    }
+  ],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "3:thundershock",
+    "6:quickattack",
+    "8:charge",
+    "12:nuzzle",
+    "15:dig",
+    "19:bite",
+    "23:spark",
+    "27:thunderwave",
+    "31:entrainment",
+    "35:slam",
+    "38:discharge",
+    "40:agility",
+    "44:wildcharge",
+    "48:chargebeam",
+    "52:crunch",
+    "56:dig",
+    "60:electricterrain",
+    "35:electroball",
+    "35:electroweb",
+    "35:closecombat",
+    "35:poweruppunch",
+    "40:thunder",
+    "44:thunderbolt",
+    "27:thunderfang",
+    "48:voltswitch",
+    "egg:fakeout",
+    "egg:machpunch",
+    "egg:sweetkiss",
+    "egg:wish",
+    "tm:agility",
+    "tm:batonpass",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:crunch",
+    "tm:dig",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fling",
+    "tm:helpinghand",
+    "tm:metalclaw",
+    "tm:playrough",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:superfang",
+    "tm:swift",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:helpinghand",
+    "tutor:playrough",
+    "tutor:rest",
+    "tutor:sleeptalk",
+    "tutor:superfang",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:thunderfang",
+    "tutor:wildcharge",
+    "1:thief",
+    "1:beatup",
+    "15:assurance",
+    "20:knockoff",
+    "25:lashout",
+    "30:nightslash",
+    "35:suckerpunch",
+    "40:crunch",
+    "45:darkpulse",
+    "50:foulplay",
+    "55:jawlock",
+    "60:darkestlariat",
+    "tm:thief",
+    "tm:knockoff",
+    "tm:darkpulse",
+    "tm:crunch",
+    "tm:foulplay",
+    "tm:lashout",
+    "tm:snarl",
+    "tm:taunt",
+    "tm:torment",
+    "tm:payback",
+    "egg:suckerpunch",
+    "egg:nightslash",
+    "egg:feintattack",
+    "tutor:knockoff",
+    "tutor:snarl",
+    "tutor:darkpulse",
+    "tutor:foulplay",
+    "tm:drainpunch",
+    "tm:bulkup",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "egg:counter",
+    "tutor:lowkick"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.byohm.desc1",
+    "cobblemon.species.byohm.desc2"
+  ],
+  "preEvolution": "byion",
+  "baseScale": 0.67,
+  "hitbox": {
+    "width": 1,
+    "height": 3,
+    "fixed": false
+  },
+  "baseFriendship": 55,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 15,
+  "weight": 310
+}

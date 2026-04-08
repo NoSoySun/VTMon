@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:yurcat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:yurcat",
+      "model": "cobblemon:yurcat.geo",
+      "texture": "cobblemon:textures/pokemon/yurcat/yurcat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/yurcat/yurcat_shiny.png",
+      "layers": []
+    }
+  ]
+}

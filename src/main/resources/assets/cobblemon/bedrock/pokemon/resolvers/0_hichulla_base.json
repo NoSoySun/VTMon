@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:hichulla",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hichulla",
+      "model": "cobblemon:hichulla.geo",
+      "texture": "cobblemon:textures/pokemon/hichulla/hichulla.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hichulla/hichulla_shiny.png"
+    }
+  ]
+ }

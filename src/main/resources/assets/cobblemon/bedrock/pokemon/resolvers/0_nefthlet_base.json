@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:nefthlet",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nefthlet",
+      "model": "cobblemon:nefthlet.geo",
+      "texture": "cobblemon:textures/pokemon/nefthlet/nefthlet.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nefthlet/nefthlet_shiny.png"
+    }
+  ]
+ }

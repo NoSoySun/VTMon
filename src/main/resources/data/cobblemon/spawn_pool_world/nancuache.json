@@ -1,0 +1,40 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nancuache",
+      "pokemon": "nancuache",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "minecraft:meadow",
+          "minecraft:cherry_grove",
+          "#minecraft:is_forest",
+          "#minecraft:is_jungle",
+          "#forge:is_lush",
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "#cobblemon:is_highlands",
+          "#byg:is_plain",
+          "#c:plains",
+          "#forge:is_plains",
+          "#minecraft:is_taiga",
+          "#cobblemon:is_floral"
+        ]
+      },
+      "anticondition": {
+         "biomes": [
+            "#cobblemon:is_spooky"
+         ]
+      }
+    }
+  ]
+}

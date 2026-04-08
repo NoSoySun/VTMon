@@ -1,0 +1,18 @@
+{
+  "showdown_id": "schlanghite",
+  "pokemons": ["Schlanghoul"],
+  "aspect_conditions": {
+    "apply": {
+        "form": {
+          "required_forms": ["Phantom"]
+        },
+      "aspect": {
+        "required_aspects": [["phantom_forme=phantom"]]
+      },
+      "aspects": ["mega_evolution=mega"]
+    },
+    "revert": {
+      "aspects": ["mega_evolution=none"]
+    }
+  }
+}

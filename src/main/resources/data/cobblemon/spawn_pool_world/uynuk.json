@@ -1,0 +1,106 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "uynuk",
+      "pokemon": "uynuk",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-35",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "minecraft:meadow",
+          "minecraft:cherry_grove",
+          "#minecraft:is_forest",
+          "#minecraft:is_jungle",
+          "#forge:is_lush",
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "#cobblemon:is_highlands",
+          "#byg:is_plain",
+          "#c:plains",
+          "#forge:is_plains",
+          "#minecraft:is_taiga",
+          "#cobblemon:is_floral"
+        ]
+      },
+      "anticondition": {
+         "biomes": [
+            "#cobblemon:is_spooky"
+         ]
+      }
+    },
+    {
+      "id": "nucraft",
+      "pokemon": "nucraft",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-50",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "minecraft:meadow",
+          "minecraft:cherry_grove",
+          "#minecraft:is_forest",
+          "#minecraft:is_jungle",
+          "#forge:is_lush",
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "#cobblemon:is_highlands",
+          "#byg:is_plain",
+          "#c:plains",
+          "#forge:is_plains",
+          "#minecraft:is_taiga",
+          "#cobblemon:is_floral"
+        ]
+      },
+      "anticondition": {
+         "biomes": [
+            "#cobblemon:is_spooky"
+         ]
+      }
+    },
+    {
+      "id": "buntari",
+      "pokemon": "buntari",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "15-50",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 15,
+        "biomes": [
+          "minecraft:meadow",
+          "minecraft:cherry_grove",
+          "#minecraft:is_forest",
+          "#minecraft:is_jungle",
+          "#forge:is_lush",
+          "minecraft:plains",
+          "minecraft:sunflower_plains",
+          "#cobblemon:is_highlands",
+          "#byg:is_plain",
+          "#c:plains",
+          "#forge:is_plains",
+          "#minecraft:is_taiga",
+          "#cobblemon:is_floral"
+        ]
+      },
+      "anticondition": {
+         "biomes": [
+            "#cobblemon:is_spooky"
+         ]
+      }
+    }
+  ]
+}

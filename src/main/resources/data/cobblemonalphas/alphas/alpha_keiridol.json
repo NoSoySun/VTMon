@@ -1,0 +1,25 @@
+{
+  "species": "keiridol",
+  "level": "50-60",
+  "spawnUnderground": false,
+  "herdMembers": [
+    {
+      "species": "kreti",
+      "level": "15-25"
+    },
+    {
+      "species": "hichulla",
+      "level": "15-25"
+    },
+    {
+      "species": "kretsune",
+      "level": "25-50"
+    }
+  ],
+  "biome": [
+    "#cobblemon:is_beach",
+    "#minecraft:is_river",
+    "#cobblemon:is_forest",
+    "#c:plains"
+  ]
+}

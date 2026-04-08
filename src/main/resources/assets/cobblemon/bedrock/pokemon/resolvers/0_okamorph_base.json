@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:okamorph",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:okamorph",
+      "model": "cobblemon:okamorph.geo",
+      "texture": "cobblemon:textures/pokemon/okamorph/okamorph.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/okamorph/okamorph_shiny.png",
+      "layers": []
+    }
+  ]
+}

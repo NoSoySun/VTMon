@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:bellaze",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:lylaze",
+        "model": "cobblemon:bellaze.geo",
+        "texture": "cobblemon:textures/pokemon/bellaze/bellaze.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/bellaze/bellaze_shiny.png",
+        "layers": []
+      }
+    ]
+   }

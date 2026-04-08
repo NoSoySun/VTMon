@@ -1,0 +1,35 @@
+{
+  "itemgroup.vtmon.vtmon_items": "VTMon Items",
+
+  "item.vtmon.byohmite": "Byohmite",
+  "tooltip.vtmon.byohmite.tooltip": "Allows Byohm to Mega Evolve into Mega Byohm",
+
+  "item.vtmon.byohmite_z": "Byohmite Z",
+  "tooltip.vtmon.byohmite_z.tooltip": "Allows Byohm to Mega Evolve into Mega Byohm Z",
+
+  "item.vtmon.keiridolite": "Keiridolite",
+  "tooltip.vtmon.keiridolite.tooltip": "Allows Keiridol to Mega Evolve",
+
+  "item.vtmon.schlanghite": "Schlanghite",
+  "tooltip.vtmon.schlanghite.tooltip": "Allows Schlanghoul to Mega Evolve if it's in its Phantom form",
+
+  "item.vtmon.emerald_helmet": "Emerald Helmet",
+  "item.vtmon.emerald_chestplate": "Emerald Chestplate",
+  "item.vtmon.emerald_leggings": "Emerald Leggings",
+  "item.vtmon.emerald_boots": "Emerald Boots",
+
+  "item.vtmon.emerald_sword": "§lEmerald Sword",
+  "tooltip.vtmon.emerald_sword.tooltip": "It used to belong to a legendary hero from eons ago. Despite the passage of time, it has been preserved in perfect condition.",
+
+  "item.vtmon.emerald_pickaxe": "Emerald Pickaxe",
+
+  "item.vtmon.emerald_shovel": "Emerald Shovel",
+
+  "item.vtmon.emerald_axe": "Emerald Axe",
+
+  "item.vtmon.emerald_hoe": "Emerald Hoe",
+  "tooltip.vtmon.emerald_hoe.tooltip": "Tip: Don't waste your emeralds on a hoe.",
+
+  "item.vtmon.crown": "Crown",
+  "tooltip.vtmon.crown.tooltip": "Boosts all combat stats of Tokomand and Tokarmy by 50%"
+}
