@@ -1,0 +1,35 @@
+{
+"itemgroup.vtmon.vtmon_items": "Objetos de VTMon",
+
+"item.vtmon.byohmite": "Byohmita",
+"tooltip.vtmon.byohmite.tooltip": "Permite a Byohm megaevolucionar a Mega Byohm",
+
+"item.vtmon.byohmite_z": "Byohmita Z",
+"tooltip.vtmon.byohmite_z.tooltip": "Permite a Byohm megaevolucionar a Mega Byohm Z",
+
+"item.vtmon.keiridolite": "Keiridolita",
+"tooltip.vtmon.keiridolite.tooltip": "Permite a Keiridol megaevolucionar a Mega Keiridol",
+
+"item.vtmon.schlanghite": "Schlanghita",
+"tooltip.vtmon.schlanghite.tooltip": "Permite a Schlanghoul megaevolucionar a Mega Schlanghoul",
+
+"item.vtmon.crown": "Corona",
+"tooltip.vtmon.crown.tooltip": "Aumenta todas las estadísticas de combate de Tokomand y Tokarmy en un 50%",
+
+  "item.vtmon.emerald_helmet": "Casco de esmeralda",
+  "item.vtmon.emerald_chestplate": "Pechera de esmeralda",
+  "item.vtmon.emerald_leggings": "Pantalones de esmeralda",
+  "item.vtmon.emerald_boots": "Botas de esmeralda",
+
+  "item.vtmon.emerald_sword": "§lEspada de esmeralda",
+  "tooltip.vtmon.emerald_sword.tooltip": "Solía pertenecer a un héroe legendario de tiempos inmemoriales. A pesar del paso del tiempo, se ha conservado en perfecto estado.",
+
+  "item.vtmon.emerald_pickaxe": "Pico de esmeralda",
+
+  "item.vtmon.emerald_shovel": "Pala de esmeralda",
+
+  "item.vtmon.emerald_axe": "Hacha de esmeralda",
+
+  "item.vtmon.emerald_hoe": "Azada de esmeralda",
+  "tooltip.vtmon.emerald_hoe.tooltip": "Consejo: No gastes tus esmeraldas en una azada."
+}

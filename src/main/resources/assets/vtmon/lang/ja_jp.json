@@ -1,0 +1,33 @@
+{
+  "itemgroup.vtmon.vtmon_items": "VTMonアイテム",
+
+  "item.vtmon.byohmite": "ビョーム石",
+  "tooltip.vtmon.byohmite.tooltip": "ビョームをメガビョームにメガシンカさせることができる",
+
+  "item.vtmon.byohmite_z": "ビョームZ",
+  "tooltip.vtmon.byohmite_z.tooltip": "ビョームをメガビョームZにメガシンカさせることができる",
+
+  "item.vtmon.keiridolite": "ケイリドライト",
+  "tooltip.vtmon.keiridolite.tooltip": "ケイリドルをメガシンカさせることができる",
+
+  "item.vtmon.schlanghite": "シュラング石",
+  "tooltip.vtmon.schlanghite.tooltip": "シュラングホウルがファントム形態のときにメガシンカできる",
+
+  "item.vtmon.crown": "王冠",
+  "tooltip.vtmon.crown.tooltip": "トコマンドとトコアーミーの全ての戦闘ステータスを50%上昇させる",
+
+  "item.vtmon.emerald_helmet": "エメラルドのヘルメット",
+  "item.vtmon.emerald_chestplate": "エメラルドのチェストプレート",
+  "item.vtmon.emerald_leggings": "エメラルドのレギンス",
+  "item.vtmon.emerald_boots": "エメラルドのブーツ",
+
+  "item.vtmon.emerald_sword": "§lエメラルドの剣",
+  "tooltip.vtmon.emerald_sword.tooltip": "遥か昔の伝説の英雄が所有していた剣。長い年月を経ても、完璧な状態で保存されている。",
+
+  "item.vtmon.emerald_pickaxe": "エメラルドのツルハシ",
+  "item.vtmon.emerald_shovel": "エメラルドのシャベル",
+  "item.vtmon.emerald_axe": "エメラルドの斧",
+
+  "item.vtmon.emerald_hoe": "エメラルドのクワ",
+  "tooltip.vtmon.emerald_hoe.tooltip": "ヒント：エメラルドをクワに使うのはやめよう。"
+}

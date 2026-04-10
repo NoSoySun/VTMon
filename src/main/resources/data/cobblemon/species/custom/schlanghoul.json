@@ -195,9 +195,9 @@
         "hp": 255,
         "attack": 105,
         "defence": 65,
-        "special_attack": 125,
-        "special_defence": 95,
-        "speed": 135
+        "special_attack": 105,
+        "special_defence": 90,
+        "speed": 100
       },
       "riding": {
         "behaviours": {
@@ -350,9 +350,9 @@
         "hp": 255,
         "attack": 105,
         "defence": 90,
-        "special_attack": 150,
+        "special_attack": 125,
         "special_defence": 120,
-        "speed": 160
+        "speed": 125
       },
       "riding": {
         "behaviours": {
