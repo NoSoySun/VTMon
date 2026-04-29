@@ -160,10 +160,6 @@
       "canLook": true,
       "wanderChance": 75,
       "wanderSpeed": 1.875,
-      "fly": {
-        "canFly": true,
-        "flySpeedHorizontal": 0.5625
-      },
       "walk": {
         "walkSpeed": 0.525
       }

@@ -21,7 +21,7 @@
   "item.vtmon.emerald_leggings": "Calças de Esmeralda",
   "item.vtmon.emerald_boots": "Botas de Esmeralda",
 
-  "item.vtmon.emerald_sword": "§lEspada de Esmeralda",
+  "item.vtmon.emerald_sword": "Espada de Esmeralda",
   "tooltip.vtmon.emerald_sword.tooltip": "Pertenceu a um herói lendário de tempos antigos. Apesar da passagem do tempo, foi preservada em perfeitas condições.",
 
   "item.vtmon.emerald_pickaxe": "Picareta de Esmeralda",
@@ -29,5 +29,8 @@
   "item.vtmon.emerald_axe": "Machado de Esmeralda",
 
   "item.vtmon.emerald_hoe": "Enxada de Esmeralda",
-  "tooltip.vtmon.emerald_hoe.tooltip": "Dica: Não gastes as tuas esmeraldas numa enxada."
+  "tooltip.vtmon.emerald_hoe.tooltip": "Dica: Não gastes as tuas esmeraldas numa enxada.",
+
+  "item.vtmon.emerald_mace": "Maça de Esmeraldas",
+  "tooltip.vtmon.emerald_mace.tooltip": "Quando o núcleo pesado e a esmeralda se juntam, as coisas podem descontrolar-se."
 }

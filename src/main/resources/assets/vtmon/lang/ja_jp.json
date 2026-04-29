@@ -21,7 +21,7 @@
   "item.vtmon.emerald_leggings": "エメラルドのレギンス",
   "item.vtmon.emerald_boots": "エメラルドのブーツ",
 
-  "item.vtmon.emerald_sword": "§lエメラルドの剣",
+  "item.vtmon.emerald_sword": "エメラルドの剣",
   "tooltip.vtmon.emerald_sword.tooltip": "遥か昔の伝説の英雄が所有していた剣。長い年月を経ても、完璧な状態で保存されている。",
 
   "item.vtmon.emerald_pickaxe": "エメラルドのツルハシ",
@@ -29,5 +29,8 @@
   "item.vtmon.emerald_axe": "エメラルドの斧",
 
   "item.vtmon.emerald_hoe": "エメラルドのクワ",
-  "tooltip.vtmon.emerald_hoe.tooltip": "ヒント：エメラルドをクワに使うのはやめよう。"
+  "tooltip.vtmon.emerald_hoe.tooltip": "ヒント：エメラルドをクワに使うのはやめよう。",
+
+  "item.vtmon.emerald_mace": "エメラルドメイス",
+  "tooltip.vtmon.emerald_mace.tooltip": "重厚なコアとエメラルドが融合すると、事態は制御不能になることがあります。"
 }

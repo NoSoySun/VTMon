@@ -25,6 +25,7 @@
         "#c:plains",
         "#forge:is_plains",
         "#minecraft:is_taiga",
-        "#cobblemon:is_floral"
+        "#cobblemon:is_floral",
+        "#minecraft:is_overworld"
     ]
 }

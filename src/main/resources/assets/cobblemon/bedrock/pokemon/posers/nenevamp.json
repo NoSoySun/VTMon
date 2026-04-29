@@ -1,0 +1,86 @@
+{
+    "portraitScale": 0.85,
+    "portraitTranslation": [0, 1.375, 0],
+    "profileScale": 0.5,
+    "profileTranslation": [0, 1, 0],
+    "animations": {
+      "faint": "q.bedrock_primary('nenevamp', 'faint', q.curve('one'))",
+      "cry": "q.bedrock_stateful('nenevamp', 'cry')"
+    },
+    "poses": {
+        "standing": {
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "FLOAT",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "condition": "q.has_entity ? !q.in_air : 1.0",
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('nenevamp', 'ground_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('nenevamp', 'blink')"
+            ]
+        },
+        "walking": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "condition": "q.has_entity ? !q.in_air && !q.is_sprinting : 1.0",
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('nenevamp', 'ground_walk')",
+                {
+                    "condition": "q.is_ridden",
+                    "animation": "q.bedrock('nenevamp', 'ride_ground')"
+                }
+            ],
+            "quirks": [
+                "q.bedrock_quirk('nenevamp', 'blink')"
+            ]
+        },
+        "running": {
+            "poseTypes": [
+                "WALK",
+                "SWIM"
+            ],
+            "condition": "q.has_entity ? !q.in_air && q.is_sprinting : 0.0",
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('nenevamp', 'ground_run2')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('nenevamp', 'blink')"
+            ]
+        },
+        "hover": {
+            "poseTypes": [
+                "HOVER"
+            ],
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('nenevamp', 'air_idle')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('nenevamp', 'blink')"
+            ]
+        },
+        "fly": {
+            "poseTypes": [
+                "FLY"
+            ],
+            "condition": "!q.is_gliding",
+            "animations": [
+                "q.look('head_ai')",
+                "q.bedrock('nenevamp', 'air_fly')"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('nenevamp', 'blink')"
+            ]
+        }
+    }
+}

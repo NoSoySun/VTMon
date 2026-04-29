@@ -1,0 +1,34 @@
+{
+    "species": "cobblemon:nenevamp",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [],
+            "poser": "cobblemon:nenevamp",
+            "model": "cobblemon:nenevamp.geo",
+            "texture": "cobblemon:textures/pokemon/nenevamp/nenevamp.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/nenevamp/nenevamp_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/nenevamp/nenevamp_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/nenevamp/nenevamp_shiny_emissive.png",
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

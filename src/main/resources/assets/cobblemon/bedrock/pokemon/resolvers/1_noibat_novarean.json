@@ -1,0 +1,35 @@
+{
+    "species": "cobblemon:noibat",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": ["novaeran"],
+            "poser": "cobblemon:noibat",
+            "model": "cobblemon:noibat_novaeran.geo",
+            "texture": "cobblemon:textures/pokemon/0714_noibat/noibat_novaeran.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0714_noibat/noibat_novaeran_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny",
+                "novaeran"
+            ],
+            "texture": "cobblemon:textures/pokemon/0714_noibat/noibat_novaeran_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "emissive": true,
+                    "texture": "cobblemon:textures/pokemon/0714_noibat/noibat_novaeran_shiny_emissive.png",
+                    "translucent": true
+                }
+            ]
+        }
+    ]
+}

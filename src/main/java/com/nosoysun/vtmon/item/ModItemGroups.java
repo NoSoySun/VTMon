@@ -4,6 +4,7 @@ import com.nosoysun.vtmon.VTMon;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -29,7 +30,9 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_AXE);
                         entries.add(ModItems.EMERALD_PICKAXE);
                         entries.add(ModItems.EMERALD_HOE);
+                        entries.add(ModItems.EMERALD_MACE);
                         entries.add(ModItems.CROWN);
+                        entries.add(Items.CLOCK);
                     }).build());
     public static void registerItemGroups() {
         VTMon.LOGGER.info("Registering Item Groups for " + VTMon.MOD_ID);

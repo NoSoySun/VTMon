@@ -3,13 +3,20 @@ package com.nosoysun.vtmon.item;
 import com.github.yajatkaul.mega_showdown.components.MegaShowdownDataComponents;
 import com.nosoysun.vtmon.VTMon;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.AttributeModifierSlot;
+import net.minecraft.component.type.AttributeModifiersComponent;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
+import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.*;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
+      // Solo si necesitas buscar por ID
 
 import java.util.List;
 
@@ -104,28 +111,7 @@ public class ModItems {
             }
     );
 
-    // =========================
-    // ⏱️ CLOCK (VANILLA INTEGRATION)
-    // =========================
 
-    /**
-     * Convierte minecraft:clock en un Showdown Item (vtmon:clock)
-     * SOLO en contexto de batalla.
-     */
-    public static void applyClockShowdownComponent(ItemStack stack) {
-        if (stack != null && stack.isOf(Items.CLOCK)) {
-
-            stack.set(
-                    MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(),
-                    "showdown_item"
-            );
-
-            stack.set(
-                    MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(),
-                    Identifier.of("vtmon", "clock")
-            );
-        }
-    }
 
     // =========================
     // ⚔️ ARMOR & TOOLS
@@ -207,6 +193,51 @@ public class ModItems {
             }
     );
 
+    public static final Item EMERALD_MACE = registerItem("emerald_mace", new MaceItem(new Item.Settings()
+            .rarity(Rarity.EPIC)
+            .maxDamage(1000)
+            .fireproof()
+            .component(DataComponentTypes.TOOL, MaceItem.createToolComponent())
+
+            // ←←← ESTO HACE QUE SE REFLEJE EL DAÑO EN EL TOOLTIP
+            .attributeModifiers(createEmeraldMaceAttributes())
+
+    ) {
+        @Override
+        public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+            tooltip.add(Text.translatable("tooltip.vtmon.emerald_mace.tooltip").formatted(Formatting.ITALIC));
+            super.appendTooltip(stack, context, tooltip, type);
+        }
+    });
+
+    private static AttributeModifiersComponent createEmeraldMaceAttributes() {
+        return new AttributeModifiersComponent(
+                List.of(
+                        // Daño de ataque
+                        new AttributeModifiersComponent.Entry(
+                                EntityAttributes.GENERIC_ATTACK_DAMAGE,
+                                new EntityAttributeModifier(
+                                        Item.BASE_ATTACK_DAMAGE_MODIFIER_ID,
+                                        11.0,                                   // ←←← CAMBIA AQUÍ
+                                        EntityAttributeModifier.Operation.ADD_VALUE
+                                ),
+                                AttributeModifierSlot.MAINHAND
+                        ),
+                        // Velocidad de ataque (mantenemos 0.6 como la mace vanilla)
+                        new AttributeModifiersComponent.Entry(
+                                EntityAttributes.GENERIC_ATTACK_SPEED,
+                                new EntityAttributeModifier(
+                                        Item.BASE_ATTACK_SPEED_MODIFIER_ID,
+                                        -1.7F,
+                                        EntityAttributeModifier.Operation.ADD_VALUE
+                                ),
+                                AttributeModifierSlot.MAINHAND
+                        )
+                ),
+                true  // mostrar en el tooltip
+        );
+    }
+
     // =========================
     // 🧩 REGISTRO
     // =========================
@@ -227,6 +258,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(EMERALD_SWORD);
             entries.add(EMERALD_AXE);
+            entries.add(EMERALD_MACE);
             entries.add(EMERALD_HELMET);
             entries.add(EMERALD_CHESTPLATE);
             entries.add(EMERALD_LEGGINGS);

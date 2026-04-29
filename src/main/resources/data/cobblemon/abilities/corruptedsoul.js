@@ -38,36 +38,24 @@
   },
 
   onResidualOrder: 29,
-    onResidual(pokemon) {
-
-    if (
-      pokemon.baseSpecies.baseSpecies !== 'Schlanghoul' ||
-      pokemon.transformed ||
-      !pokemon.hp
-    ) return;
-
-    if (pokemon.species.id === 'schlanghoulphantom') return;
-
-    if (pokemon.hp > pokemon.maxhp * 3 / 4) return;
+  onResidual(pokemon) {
+    if (pokemon.baseSpecies.baseSpecies !== 'Schlanghoul' || pokemon.transformed || !pokemon.hp) return;
+    if (pokemon.species.id === 'schlanghoulphantom' || pokemon.species.id === 'schlanghoulmegap' || pokemon.species.isMega || pokemon.hp > (pokemon.maxhp * 0.75)) return;
 
     this.add('-activate', pokemon, 'ability: Corrupted Soul');
-
     pokemon.formeChange('Schlanghoul-Phantom', this.effect, true);
-
     pokemon.baseMaxhp = Math.floor(Math.floor(
-      2 * pokemon.species.baseStats['hp'] +
-      pokemon.set.ivs['hp'] +
-      Math.floor(pokemon.set.evs['hp'] / 4) + 100
+      2 * pokemon.species.baseStats['hp'] + pokemon.set.ivs['hp'] + Math.floor(pokemon.set.evs['hp'] / 4) + 100
     ) * pokemon.level / 100 + 10);
-
-    const newMaxHP = pokemon.volatiles['dynamax']
-      ? (2 * pokemon.baseMaxhp)
-      : pokemon.baseMaxhp;
-
+    const newMaxHP = pokemon.volatiles['dynamax'] ? (2 * pokemon.baseMaxhp) : pokemon.baseMaxhp;
     pokemon.hp = newMaxHP - (pokemon.maxhp - pokemon.hp);
     pokemon.maxhp = newMaxHP;
-
     this.add('-heal', pokemon, pokemon.getHealth, '[silent]');
+
+    if (pokemon.getItem().id === 'schlanghite') {
+      if (pokemon.side.hasMegaEvolved) return;
+      pokemon.canMegaEvo = 'Schlanghoul-MegaP';
+    }
 
     const foe = pokemon.side.foe.active[0];
     if (!foe || foe.fainted) return;

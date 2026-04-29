@@ -302,7 +302,7 @@
 			}
 		},
 		"animation.keiridol.faint": {
-			"animation_length": 1.25,
+			"animation_length": 3.0833,
 			"bones": {
 				"torso_top": {
 					"rotation": {

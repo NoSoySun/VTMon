@@ -18,7 +18,7 @@
   "item.vtmon.emerald_leggings": "Emerald Leggings",
   "item.vtmon.emerald_boots": "Emerald Boots",
 
-  "item.vtmon.emerald_sword": "§lEmerald Sword",
+  "item.vtmon.emerald_sword": "Emerald Sword",
   "tooltip.vtmon.emerald_sword.tooltip": "It used to belong to a legendary hero from eons ago. Despite the passage of time, it has been preserved in perfect condition.",
 
   "item.vtmon.emerald_pickaxe": "Emerald Pickaxe",
@@ -31,5 +31,8 @@
   "tooltip.vtmon.emerald_hoe.tooltip": "Tip: Don't waste your emeralds on a hoe.",
 
   "item.vtmon.crown": "Crown",
-  "tooltip.vtmon.crown.tooltip": "Boosts all combat stats of Tokomand and Tokarmy by 50%"
+  "tooltip.vtmon.crown.tooltip": "Boosts all combat stats of Tokomand and Tokarmy by 50%",
+
+  "item.vtmon.emerald_mace": "Emerald Mace",
+  "tooltip.vtmon.emerald_mace.tooltip": "When heavy core and emerald come together, things can get out of control."
 }

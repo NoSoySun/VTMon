@@ -18,7 +18,7 @@
 	contestType: "Beautiful",
 	self: {
 		boosts: {
-			atk: 2,
+		atk: 2,
 			evasion: 2,
 			spe: 2
 		}
@@ -62,7 +62,7 @@
 			let healAmount = 0.5;
 			if (this.field.isTerrain('grassyterrain')) {
 				if (this.field.isWeather('raindance')) {
-					healAmount = 4/9;
+					healAmount = 7/9;
 				} else {
 					healAmount = (2/3);
 				}

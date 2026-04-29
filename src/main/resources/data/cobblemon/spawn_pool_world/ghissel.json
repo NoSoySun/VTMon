@@ -12,16 +12,11 @@
         "level": "7-20",
         "weight": 10.0,
         "condition": {
-          "minSkyLight": 10,
-          "maxSkyLight": 15,
-          "biomes": ["#minecraft:is_forest", "#cobblemon:is_sandy",
-          "#cobblemon:is_savanna", "#c:desert", "#minecraft:is_nether"]
+          "minSkyLight": 0,
+          "maxSkyLight": 7,
+          "biomes": ["#cobblemon:is_spooky", "#minecraft:is_nether"]
         },
-        "anticondition": {
-           "biomes": [
-              "#cobblemon:is_spooky"
-           ]
-        }
+        "anticondition": {}
       },
       {
         "id": "schlanghoul",
@@ -32,16 +27,11 @@
         "level": "7-20",
         "weight": 10.0,
         "condition": {
-          "minSkyLight": 10,
-          "maxSkyLight": 15,
-          "biomes": ["#minecraft:is_forest", "#cobblemon:is_sandy",
-            "#cobblemon:is_savanna", "#c:desert", "#minecraft:is_nether"]
+          "minSkyLight": 0,
+          "maxSkyLight": 4,
+          "biomes": ["#cobblemon:is_spooky", "#minecraft:is_nether"]
         },
-        "anticondition": {
-          "biomes": [
-            "#cobblemon:is_spooky"
-          ]
-        }
+        "anticondition": {}
       }
     ]
   }

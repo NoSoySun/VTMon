@@ -1,0 +1,144 @@
+{
+    "target": "cobblemon:noibat",
+    "labels": [
+        "custom",
+        "kalosian_form"
+    ],
+    "features": [
+        "novaeran"
+    ],
+    "forms": [
+        {
+            "name": "Novaera",
+            "features": [
+                "novaeran"
+            ],
+            "primaryType": "dragon",
+            "secondaryType": "ghost",
+            "baseStats": {
+                "hp": 40,
+                "attack": 45,
+                "defence": 30,
+                "special_attack": 45,
+                "special_defence": 35,
+                "speed": 50
+            },
+            "pokedex": [
+                "cobblemon.species.noibat_novaeran.desc"
+            ],
+            "labels": [
+                "custom",
+                "novaeran_form"
+            ],
+            "shoulderMountable": true,
+            "shoulderEffects": [
+                {
+                    "type": "potion_effect",
+                    "effect": "minecraft:slow_falling",
+                    "amplifier": 2,
+                    "ambient": true,
+                    "showParticles": false,
+                    "showIcon": true
+                },
+                {
+                    "type": "potion_effect",
+                    "effect": "minecraft:night_vision",
+                    "amplifier": 2,
+                    "ambient": true,
+                    "showParticles": false,
+                    "showIcon": true
+                }
+            ],
+            "aspects": [
+                "novaeran"
+            ],
+            "behaviour": {
+                "moving": {
+                    "canLook": true
+                }
+            },
+            "moves": [
+                "1:astonish",
+                "1:growl",
+                "1:charm",
+                "1:sweetkiss",
+                "1:bite",
+                "4:smokescreen",
+                "8:spite",
+                "12:leechlife",
+                "16:dragonrage",
+                "20:hypnosis",
+                "24:poisonfang",
+                "28:playrough",
+                "32:agility",
+                "36:crunch",
+                "40:moonblast",
+                "44:psychicfangs",
+                "48:shadowball",
+                "52:shadowclaw",
+                "56:hex",
+                "60:dracometeor",
+                "64:boomburst",
+                "68:dreameater",
+                "72:phantomforce",
+                "76:ominouswind",
+                "80:dazzlinggleam",
+                "84:moonlight",
+                "egg:destinybond",
+                "egg:grudge",
+                "egg:trick",
+                "egg:embargo",
+                "egg:thief",
+                "egg:draconiccurse",
+                "egg:fairywind",
+                "egg:disarmingvoice",
+                "tm:protect",
+                "tm:rest",
+                "tm:facade",
+                "tm:taunt",
+                "tm:drainingkiss",
+                "tm:playrough",
+                "tm:moonblast",
+                "tm:dragonpulse",
+                "tm:dracometeor",
+                "tm:roost",
+                "tm:substitute",
+                "tm:hyperbeam",
+                "tm:trickroom",
+                "tm:thunderwave",
+                "tm:quash",
+                "tm:knockoff",
+                "tm:poltergeist",
+                "tm:phantomforce",
+                "tm:shadowball",
+                "tm:hex",
+                "tm:dazzlinggleam",
+                "tutor:dracometeor",
+                "tutor:moonblast",
+                "tutor:dragonpulse",
+                "tutor:trick",
+                "tutor:spite",
+                "tutor:hyperbeam",
+                "1:nightslash",
+                "35:suckerpunch",
+                "42:hex"
+            ],
+            "evolutions": [
+                {
+                    "id": "noibat_nenevern",
+                    "variant": "level_up",
+                    "result": "nenevern",
+                    "consumeHeldItem": false,
+                    "learnableMoves": [],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 34
+                        }
+                    ]
+                }
+            ],
+            "dynamaxBlocked": false
+        }
+    ]
+}

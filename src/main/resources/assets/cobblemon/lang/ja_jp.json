@@ -106,6 +106,9 @@
   "cobblemon.ability.curiousinstinct": "好奇心の本能",
   "cobblemon.ability.curiousinstinct.desc": "相手全員の能力を1つランダムにコピーする好奇心から。",
 
+  "cobblemon.ability.bloodsucker": "吸血",
+  "cobblemon.ability.bloodsucker.desc": "相手の血を吸って、与えたダメージの一部だけHPを回復する。相手がひんしになると、自分のHPをすべて回復する。",
+
   "item.cobblemon.bread": "パン",
 
   "cobblemon.battle.heal.illusoryember": "%1$sは幻の残り火を吸収してHPを回復した。",
@@ -195,6 +198,14 @@
   "cobblemon.species.tokomand.name": "トコマンド",
   "cobblemon.species.tokomand.desc1": "ミミッキュの衣装の一部を死なずに盗む方法は謎だが、段ボールとテープで作った王冠を被っている。",
   "cobblemon.species.tokomand.desc2": "その態度で周囲のポケモンを全員怖がらせる。初心者トレーナーは捕まえない方がいい。",
+
+  "cobblemon.species.nenevern.name": "ネネバーン",
+  "cobblemon.species.nenevern.desc1": "ネネバーンは大きなピンクの翼をマントのように体に巻きつけ、ほとんどの時間をうとうと過ごしますが、邪魔されると怒りに満ちた超音波の叫び声を上げ、相手を混乱させ方向感覚を失わせます。",
+  "cobblemon.species.nenevern.desc2": "その叫び声は周囲のすべてのポケモンと人間をめまいさせます。眠っている間は邪魔しないのが賢明です。",
+
+  "cobblemon.species.nenevamp.name": "ネネヴァンプ",
+  "cobblemon.species.nenevamp.desc1": "ネネヴァンプが進化して得た人型の姿は、ポケモンへと変えた毒に屈する前の面影を映しています。",
+  "cobblemon.species.nenevamp.desc2": "その吸血鬼のような性質は数多くの耐性と無効をもたらし、今では主に相手の血を糧にしています。",
 
   "cobblemon.move.comando": "コマンド",
   "cobblemon.move.comando.desc": "1ターン目に味方の攻撃・特攻を強化し、味方の数に応じて自身の回避率も上昇させる。以降のターンでは相手が前ターンに使った技を使えなくする。シングルバトルでは、倒れていない味方の数に応じて回避率が上昇する。"

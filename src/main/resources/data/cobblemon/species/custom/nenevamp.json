@@ -1,0 +1,312 @@
+{
+    "implemented": true,
+    "nationalPokedexNumber": 4117,
+    "name": "Nenevamp",
+    "primaryType": "dragon",
+    "secondaryType": "ghost",
+    "maleRatio": 0.005,
+    "height": 15,
+    "weight": 850,
+    "pokedex": [
+        "cobblemon.species.nenevamp.desc1",
+        "cobblemon.species.nenevamp.desc2"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "aspects": [],
+    "abilities": [
+        "bloodsucker",
+        "h:bloodsucker"
+    ],
+    "eggGroups": [
+        "flying",
+        "dragon",
+        "human_like",
+        "amorphous",
+        "monster",
+        "fairy"
+    ],
+    "baseStats": {
+        "hp": 100,
+        "attack": 105,
+        "defence": 87,
+        "special_attack": 105,
+        "special_defence": 90,
+        "speed": 113
+    },
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "baseExperienceYield": 187,
+    "experienceGroup": "medium_fast",
+    "catchRate": 45,
+    "eggCycles": 20,
+    "baseFriendship": 50,
+    "baseScale": 0.9,
+    "hitbox": {
+        "height": 2.25,
+        "fixed": false,
+        "width": 1.5
+    },
+    "riding": {
+        "behaviours": {
+            "AIR": {
+                "key": "cobblemon:air/bird",
+                "rideSounds": [
+                    {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": false,
+                        "playForPassengers": true,
+                        "soundLocation": "cobblemon:ride.loop.wind.stereo",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    },
+                    {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": true,
+                        "playForPassengers": false,
+                        "soundLocation": "cobblemon:ride.loop.wind.mono",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    },
+                    {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": false,
+                        "playForPassengers": true,
+                        "soundLocation": "cobblemon:ride.loop.leather.stereo",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    },
+                    {
+                        "muffleEnabled": true,
+                        "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                        "playForNonPassengers": true,
+                        "playForPassengers": false,
+                        "soundLocation": "cobblemon:ride.loop.leather.mono",
+                        "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+                    }
+                ],
+                "stats": {
+                    "ACCELERATION": "60-97",
+                    "JUMP": "82-127",
+                    "SKILL": "75-127",
+                    "SPEED": "82-135",
+                    "STAMINA": "45-67"
+                },
+                "canSprint": true
+            },
+            "LAND": {
+                "key": "cobblemon:land/horse",
+                "rideSounds": [],
+                "stats": {
+                    "ACCELERATION": "65-127",
+                    "JUMP": "45-67",
+                    "SKILL": "45-75",
+                    "SPEED": "35-75",
+                    "STAMINA": "15-30"
+                }
+            }
+        },
+        "seats": [
+            {
+                "offset": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "poseOffsets": [
+                    {
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.3334379,
+                            "z": 0.22584726
+                        },
+                        "poseTypes": [
+                            "STAND"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.048653785,
+                            "y": -1.257053,
+                            "z": 0.47211075
+                        },
+                        "poseTypes": [
+                            "WALK"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.7405432,
+                            "z": 0.27634206
+                        },
+                        "poseTypes": [
+                            "HOVER"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.2315297,
+                            "z": 0.30676118
+                        },
+                        "poseTypes": [
+                            "FLY"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.3334379,
+                            "z": 0.22584726
+                        },
+                        "poseTypes": [
+                            "FLOAT"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.048653785,
+                            "y": -1.257053,
+                            "z": 0.47211075
+                        },
+                        "poseTypes": [
+                            "SWIM"
+                        ]
+                    },
+                    {
+                        "offset": {
+                            "x": 0.0,
+                            "y": -1.3334379,
+                            "z": 0.22584726
+                        },
+                        "poseTypes": [
+                            "GLIDE"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "behaviour": {
+        "combat": {
+            "willDefendOwner": true,
+            "willDefendSelf": true,
+            "willFlee": false
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [
+                {
+                    "pokemon": "noivern",
+                    "tier": 2
+                },
+                {
+                    "pokemon": "nenevern",
+                    "tier": 2
+                },
+                {
+                    "pokemon": "noibat",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "noibat novaeran",
+                    "tier": 1
+                }
+            ]
+        },
+        "moving": {
+            "fly": {
+                "canFly": true
+            },
+            "swim": {
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042,
+            "times": [
+                "any"
+            ]
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [
+            {
+                "item": "minecraft:phantom_membrane",
+                "percentage": 5.0
+            },
+            {
+                "item": "cobblemon:yache_berry",
+                "percentage": 5.0
+            }
+        ]
+    },
+    "moves": [
+        "1:astonish",
+        "1:growl",
+        "1:charm",
+        "1:sweetkiss",
+        "1:bite",
+        "4:smokescreen",
+        "8:spite",
+        "12:leechlife",
+        "16:dragonrage",
+        "20:hypnosis",
+        "24:poisonfang",
+        "28:playrough",
+        "32:agility",
+        "36:crunch",
+        "40:moonblast",
+        "44:psychicfangs",
+        "48:suckerpunch",
+        "52:dracometeor",
+        "56:memento",
+        "60:boomburst",
+        "64:moonlight",
+        "egg:destinybond",
+        "egg:grudge",
+        "egg:trick",
+        "egg:embargo",
+        "egg:thief",
+        "egg:draconiccurse",
+        "egg:fairywind",
+        "tm:protect",
+        "tm:rest",
+        "tm:facade",
+        "tm:taunt",
+        "tm:drainingkiss",
+        "tm:playrough",
+        "tm:moonblast",
+        "tm:dragonpulse",
+        "tm:dracometeor",
+        "tm:roost",
+        "tm:substitute",
+        "tm:hyperbeam",
+        "tm:trickroom",
+        "tm:thunderwave",
+        "tm:quash",
+        "tm:knockoff",
+        "tm:poltergeist",
+        "tm:phantomforce",
+        "tutor:dracometeor",
+        "tutor:moonblast",
+        "tutor:dragonpulse",
+        "tutor:trick",
+        "tutor:spite",
+        "tutor:hyperbeam",
+        "1:nightslash",
+        "35:suckerpunch",
+        "42:hex"
+    ],
+    "preEvolution": "nenevern"
+}

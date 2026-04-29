@@ -21,7 +21,7 @@
   "item.vtmon.emerald_leggings": "Pantalones de esmeralda",
   "item.vtmon.emerald_boots": "Botas de esmeralda",
 
-  "item.vtmon.emerald_sword": "§lEspada de esmeralda",
+  "item.vtmon.emerald_sword": "Espada de esmeralda",
   "tooltip.vtmon.emerald_sword.tooltip": "Solía pertenecer a un héroe legendario de tiempos inmemoriales. A pesar del paso del tiempo, se ha conservado en perfecto estado.",
 
   "item.vtmon.emerald_pickaxe": "Pico de esmeralda",
@@ -31,5 +31,8 @@
   "item.vtmon.emerald_axe": "Hacha de esmeralda",
 
   "item.vtmon.emerald_hoe": "Azada de esmeralda",
-  "tooltip.vtmon.emerald_hoe.tooltip": "Consejo: No gastes tus esmeraldas en una azada."
+  "tooltip.vtmon.emerald_hoe.tooltip": "Consejo: No gastes tus esmeraldas en una azada.",
+
+  "item.vtmon.emerald_mace": "Mazo de esmeralda",
+  "tooltip.vtmon.emerald_mace.tooltip": "Cuando el nucleo pesado y la esmeralda se juntan, las cosas se pueden descontrolar."
 }

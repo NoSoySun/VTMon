@@ -1,9 +1,12 @@
 {
     "target": "cobblemon:ditto",
-            "labels": [
-                "custom",
-                "kantosian_form"
-            ],
+    "labels": [
+        "custom",
+        "kantosian_form"
+    ],
+    "features": [
+        "novaeran"
+    ],
     "forms": [
         {
             "name": "Novaera",

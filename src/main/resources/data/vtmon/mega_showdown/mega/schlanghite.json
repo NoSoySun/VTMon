@@ -3,11 +3,8 @@
   "pokemons": ["Schlanghoul"],
   "aspect_conditions": {
     "apply": {
-        "form": {
-          "required_forms": ["Phantom"]
-        },
       "aspect": {
-        "required_aspects": [["phantom_forme=phantom"]]
+        "required_aspects": [["phantom-forme"]]
       },
       "aspects": ["mega_evolution=mega"]
     },

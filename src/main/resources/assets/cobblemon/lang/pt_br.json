@@ -106,6 +106,9 @@
   "cobblemon.ability.curiousinstinct": "Instinto Curioso",
   "cobblemon.ability.curiousinstinct.desc": "Copia uma habilidade aleatória de todos os seus oponentes pela curiosidade que lhe dá saber como funciona.",
 
+  "cobblemon.ability.bloodsucker": "Chupa-Sangue",
+  "cobblemon.ability.bloodsucker.desc": "O usuário se alimenta do sangue do oponente, recuperando parte do dano causado ao alvo. Se o alvo cair derrotado, o usuário recupera toda a sua saúde.",
+
   "item.cobblemon.bread": "Pão",
 
   "cobblemon.battle.heal.illusoryember": "%1$s absorveu as brasas de sua ilusão recuperando seus PS.",
@@ -195,6 +198,14 @@
   "cobblemon.species.tokomand.name": "Tokomand",
   "cobblemon.species.tokomand.desc1": "Não sabemos como roubou parte do traje de Mimikyu sem morrer na tentativa; no entanto, carrega uma coroa feita de papelão colada ao tecido com fita adesiva.",
   "cobblemon.species.tokomand.desc2": "Sua atitude assusta todos os Pokémon ao seu redor. Não é recomendado que treinadores iniciantes tentem capturá-lo.",
+
+  "cobblemon.species.nenevern.name": "Nenevern",
+  "cobblemon.species.nenevern.desc1": "Nenevern se envolve em suas grandes asas rosadas como se fossem uma capa e passa a maior parte do tempo dormindo, mas se for incomodado, acorda com um grito ultrassônico cheio de raiva que confunde e desorienta o rival.",
+  "cobblemon.species.nenevern.desc2": "Seu grito deixa todos os Pokémon e humanos ao seu redor tontos, é melhor não incomodá-lo durante o seu letargo.",
+
+  "cobblemon.species.nenevamp.name": "Nenevamp",
+  "cobblemon.species.nenevamp.desc1": "A forma humanoide que Nenevamp adota ao evoluir é um reflexo de como ele era antes de sucumbir ao veneno que o transformou em um Pokémon.",
+  "cobblemon.species.nenevamp.desc2": "Sua natureza vampírica deu origem a um grande número de imunidades, e agora ele se alimenta principalmente do sangue de seus oponentes.",
 
   "cobblemon.move.comando": "Comando",
   "cobblemon.move.comando.desc": "No primeiro turno, potencializa o ataque e Ataque Especial de seus aliados, aumentando também sua própria Evasão conforme a quantidade de aliados no campo. Nos turnos seguintes, impede que o rival use o movimento utilizado no turno anterior. Em combates individuais, a Evasão aumenta conforme a quantidade de Pokémon não debilitados na equipe."

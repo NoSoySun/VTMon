@@ -57,6 +57,9 @@
   "cobblemon.ability.curiousinstinct": "Curious Instinct",
   "cobblemon.ability.curiousinstinct.desc": "It copies a random ability from all its opponents out of curiosity to know how it works.",
 
+  "cobblemon.ability.bloodsucker": "Bloodsucker",
+  "cobblemon.ability.bloodsucker.desc": "The user feeds on the opponent's blood, recovering part of the damage dealt to the target. If the target faints, the user restores all its health.",
+
 "item.cobblemon.bread": "Bread",
 
 "cobblemon.species.kreti.name": "Kreti",
@@ -195,6 +198,14 @@
   "cobblemon.species.tokomand.name": "Tokomand",
   "cobblemon.species.tokomand.desc1": "We don't know how it stole part of Mimikyu's costume without dying in the attempt; however, it wears a crown made of cardboard attached to the fabric with adhesive tape.",
   "cobblemon.species.tokomand.desc2": "It frightens all the Pokémon around it with its attitude. It is not recommended for beginner trainers to catch it",
+
+  "cobblemon.species.nenevern.name": "Nenevern",
+  "cobblemon.species.nenevern.desc1": "Nenevern wraps its large pink wings around itself like a cape and spends most of its time dozing, but if disturbed, it wakes up with an ultrasonic screech full of rage that confuses and disorients its rival.",
+  "cobblemon.species.nenevern.desc2": "Its screech makes every Pokémon and human around it dizzy; it's best not to disturb it while it's slumbering.",
+
+  "cobblemon.species.nenevamp.name": "Nenevamp",
+  "cobblemon.species.nenevamp.desc1": "The humanoid form Nenevamp adopts upon evolving reflects how it looked before succumbing to the poison that turned it into a Pokémon.",
+  "cobblemon.species.nenevamp.desc2": "Its vampiric nature gave rise to a great number of immunities, and it now feeds mainly on the blood of its opponents.",
 
   "cobblemon.move.comando": "Comando",
   "cobblemon.move.comando.desc": "On first turn, it boosts the Attack and Special Attack of its allies, also increasing its own Evasion based on the number of allies on the field. On next turns, it prevents the opponent from using the move used on the previous turn. In single battles, Evasion increases based on the number of Pokémon in the team that have not fainted."
