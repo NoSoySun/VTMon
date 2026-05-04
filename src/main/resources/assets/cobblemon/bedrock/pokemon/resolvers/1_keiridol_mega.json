@@ -1,20 +1,37 @@
 {
-    "species": "cobblemon:keiridol",
-    "order": 1,
-    "variations": [
-      {
-        "aspects": ["mega"],
-        "poser": "cobblemon:keiridol_mega",
-        "model": "cobblemon:keiridol_mega.geo",
-        "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega.png",
-        "layers": []
-      },
-      {
-        "aspects": [
-          "shiny",
-          "mega"
-        ],
-        "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega_shiny.png"
-      }
-    ]
-   }
+  "species": "cobblemon:keiridol",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "poser": "cobblemon:keiridol_mega",
+      "model": "cobblemon:keiridol_mega.geo",
+      "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega"
+      ],
+      "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/keiridol/keiridol_mega_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

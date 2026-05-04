@@ -1,0 +1,99 @@
+{
+  "portraitScale": 1.92,
+  "portraitTranslation": [
+    -0.11,
+    0.59,
+    0
+  ],
+  "profileScale": 0.65,
+  "profileTranslation": [
+    0,
+    0.73,
+    0
+  ],
+  "rootBone": "tokarmy_battalion",
+  "animations": {
+    "cry": "q.bedrock_stateful('tokarmy_battalion', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tokarmy_battalion', 'battle_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tokarmy_battalion', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tokarmy_battalion', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tokarmy_battalion', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tokarmy_battalion', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tokarmy_battalion', 'blink')"
+      ]
+    },
+    "floating": {
+      "poseName": "floating",
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tokarmy_battalion', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tokarmy_battalion', 'blink')"
+      ]
+    },
+    "swimming": {
+      "poseName": "swimming",
+      "poseTypes": [
+        "SWIM"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('tokarmy_battalion', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('tokarmy_battalion', 'blink')"
+      ]
+    },
+    "sleeping": {
+      "poseName": "sleeping",
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "animations": [
+        "q.bedrock('tokarmy_battalion', 'sleep')"
+      ]
+    }
+  }
+}

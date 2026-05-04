@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:tokarmy",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tokomand",
+        "model": "cobblemon:tokarmy.geo",
+        "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_shiny.png"
+      }
+    ]
+}

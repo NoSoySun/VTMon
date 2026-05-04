@@ -1,0 +1,13 @@
+{
+  "type": "choice",
+  "keys": [
+    "battalion_forme"
+  ],
+  "default": "commander",
+  "choices": [
+    "commander",
+    "battalion"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}"
+}

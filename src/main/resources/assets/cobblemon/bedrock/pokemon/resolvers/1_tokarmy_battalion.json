@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:tokarmy",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:tokarmy_battalion",
+        "model": "cobblemon:tokarmy_battalion.geo",
+        "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_battalion.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_battalion_shiny.png"
+      }
+    ]
+   }
