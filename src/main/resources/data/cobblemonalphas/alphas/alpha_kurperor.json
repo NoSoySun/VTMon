@@ -13,9 +13,8 @@
     }
   ],
   "biome": [
-    "#cobblemon:is_beach",
-    "#minecraft:is_river",
-    "#cobblemon:is_forest",
-    "#c:plains"
+    "#cobblemon:is_freshwater",
+    "#cobblemon:is_ocean",
+    "#minecraft:is_river"
   ]
 }

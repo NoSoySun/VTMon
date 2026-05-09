@@ -127,6 +127,10 @@
 				},
 				"ear_left3": {
 					"rotation": ["0+math.sin(q.anim_time*90*8-150)*-5", 0, 0]
+				},
+				"piplup": {
+					"position": [0, 20, -1],
+					"scale": 0.25
 				}
 			}
 		},
@@ -248,6 +252,10 @@
 				},
 				"ear_left3": {
 					"rotation": ["0+math.sin(q.anim_time*90*2-150)*-5", 0, 0]
+				},
+				"piplup": {
+					"position": [0, 20, -1],
+					"scale": 0.25
 				}
 			}
 		},
@@ -680,6 +688,10 @@
 				},
 				"front_cape": {
 					"rotation": ["0-math.cos(q.anim_time*90*1-30)*2", 0, 0]
+				},
+				"piplup": {
+					"position": [0, 20, -1],
+					"scale": 0.25
 				}
 			}
 		},

@@ -1,189 +1,263 @@
 {
-  "implemented": true,
-  "nationalPokedexNumber": 4115,
-  "name": "Tokarmy",
-  "primaryType": "dark",
-  "maleRatio": 0,
-  "height": 20,
-  "weight": 65,
-  "pokedex": [
-    "cobblemon.species.tokarmy.desc1",
-    "cobblemon.species.tokarmy.desc2"
-  ],
-  "labels": [
-    "custom"
-  ],
-  "features": [],
-  "aspects": [],
-  "riding": {},
-  "abilities": [
-    "battalion",
-    "h:battalion"
-  ],
-  "eggGroups": [
-    "monster",
-    "field"
-  ],
-  "baseStats": {
-    "hp": 86,
-    "attack": 90,
-    "defence": 84,
-    "special_attack": 90,
-    "special_defence": 84,
-    "speed": 91
-  },
-  "evYield": {
-    "hp": 0,
-    "attack": 2,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "baseExperienceYield": 62,
-  "experienceGroup": "fast",
-  "catchRate": 45,
-  "eggCycles": 20,
-  "baseFriendship": 50,
-  "forms": [
-    {
-      "name": "Battalion",
-      "features": [
-        "battalion"
-      ],
-      "baseStats": {
-        "hp": 86,
-        "attack": 145,
-        "defence": 130,
-        "special_attack": 145,
-        "special_defence": 130,
-        "speed": 44
-      },
-      "pokedex": [
-        "cobblemon.species.tokarmy_battalion.desc"
-      ],
-      "labels": [
+    "implemented": true,
+    "nationalPokedexNumber": 4115,
+    "name": "Tokarmy",
+    "primaryType": "dark",
+    "maleRatio": 0.25,
+    "height": 20,
+    "weight": 30,
+    "pokedex": [
+        "cobblemon.species.tokarmy.desc1",
+        "cobblemon.species.tokarmy.desc2"
+    ],
+    "labels": [
         "custom"
-      ],
-      "aspects": [
-        "battalion"
-      ],
-      "baseScale": 7.5,
-      "hitbox": {
+    ],
+    "aspects": [
+        "commander"
+    ],
+    "abilities": [
+        "battalion",
+        "h:battalion"
+    ],
+    "eggGroups": [
+        "monster",
+        "field"
+    ],
+    "baseStats": {
+        "hp": 86,
+        "attack": 90,
+        "defence": 84,
+        "special_attack": 90,
+        "special_defence": 84,
+        "speed": 91
+    },
+    "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+    },
+    "baseExperienceYield": 61,
+    "experienceGroup": "fast",
+    "catchRate": 60,
+    "eggCycles": 15,
+    "baseFriendship": 50,
+    "features": [
+        "battalion_forme"
+    ],
+    "baseScale": 1.95,
+    "hitbox": {
         "width": 1.625,
         "height": 1.96875,
         "fixed": false
-      },
-      "behaviour": {
+    },
+    "behaviour": {
         "moving": {
-          "canLook": true
+            "walk": {
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 0.1,
+                "canBreatheUnderwater": true
+            }
+        },
+        "herd": {
+            "maxSize": "9",
+            "toleratedLeaders": [
+                {
+                    "pokemon": "goldeen",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "magikarp",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "remoraid",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "barboach",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "feebas",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "relicanth",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "luvdisc",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "finneon",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "tatsugiri",
+                    "tier": 1
+                },
+                {
+                    "pokemon": "alomomola",
+                    "tier": 2
+                },
+                {
+                    "pokemon": "wishiwashi school=false",
+                    "tier": 3
+                },
+                {
+                    "pokemon": "wishiwashi school",
+                    "tier": 4
+                },
+                {
+                    "pokemon": "manaphy",
+                    "tier": 5
+                }
+            ]
+        },
+        "resting": {
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
         }
-      },
-      "dynamaxBlocked": false
-    }
-  ],
-  "baseScale": 1.95,
-  "hitbox": {
-    "width": 1.625,
-    "height": 1.96875,
-    "fixed": false
-  },
-  "behaviour": {
-    "herd": {
-      "maxSize": "3"
     },
-    "moving": {
-      "canLook": true,
-      "wanderChance": 75,
-      "wanderSpeed": 1.875,
-      "walk": {
-        "walkSpeed": 0.525
-      }
+    "drops": {
+        "amount": 2,
+        "entries": [
+            {
+                "item": "minecraft:cod"
+            },
+            {
+                "item": "minecraft:bone_meal",
+                "percentage": 5.0
+            }
+        ]
     },
-    "combat": {
-      "willDefendSelf": true,
-      "willDefendOwner": true,
-      "willFlee": false
-    }
-  },
-  "drops": {
-    "amount": 2,
-    "entries": [
-      {
-        "item": "minecraft:slime_ball",
-        "percentage": 5.0
-      },
-      {
-        "item": "minecraft:string",
-        "percentage": 2.5
-      }
+    "moves": [
+        "1:pound",
+        "1:growl",
+        "1:leer",
+        "1:astonish",
+        "1:nightshade",
+        "1:taunt",
+        "4:smokescreen",
+        "8:spite",
+        "12:feintattack",
+        "16:mudslap",
+        "20:icywind",
+        "24:curse",
+        "28:payback",
+        "32:agility",
+        "36:crunch",
+        "40:darkpulse",
+        "44:phantomforce",
+        "48:suckerpunch",
+        "52:poltergeist",
+        "56:memento",
+        "60:hyperbeam",
+        "64:lastresort",
+        "egg:destinybond",
+        "egg:grudge",
+        "egg:hex",
+        "egg:willowisp",
+        "egg:haze",
+        "egg:trick",
+        "egg:embargo",
+        "egg:thief",
+        "tm:protect",
+        "tm:rest",
+        "tm:facade",
+        "tm:taunt",
+        "tm:darkpulse",
+        "tm:payback",
+        "tm:shadowball",
+        "tm:thief",
+        "tm:snarl",
+        "tm:spite",
+        "tm:curse",
+        "25:instruct",
+        "tm:trickroom",
+        "tm:substitute",
+        "tm:hyperbeam",
+        "tm:icywind",
+        "tm:blizzard",
+        "tm:hail",
+        "tm:toxic",
+        "tm:embargo",
+        "tm:quash",
+        "tm:knockoff",
+        "tm:poltergeist",
+        "tm:phantomforce",
+        "tutor:darkpulse",
+        "tutor:shadowball",
+        "tutor:poltergeist",
+        "tutor:icywind",
+        "tutor:trick",
+        "tutor:spite",
+        "tutor:hyperbeam",
+        "1:nightslash",
+        "35:suckerpunch",
+        "42:hex"
+    ],
+    "preEvolution": "tokomand",
+    "evolutions": [],
+    "forms": [
+        {
+            "name": "Battalion",
+            "maleRatio": 0.5,
+            "height": 82,
+            "weight": 786,
+            "pokedex": [
+                "cobblemon.species.tokarmy_battalion.desc"
+            ],
+            "labels": [
+                "gen7"
+            ],
+            "aspects": [
+                "battalion"
+            ],
+            "baseStats": {
+                "hp": 86,
+                "attack": 145,
+                "defence": 130,
+                "special_attack": 145,
+                "special_defence": 130,
+                "speed": 44
+            },
+            "baseExperienceYield": 217,
+            "baseScale": 2,
+            "hitbox": {
+                "width": 3,
+                "height": 3,
+                "fixed": false
+            },
+            "behaviour": {
+                "moving": {
+                    "walk": {
+                        "avoidsLand": true
+                    },
+                    "swim": {
+                        "swimSpeed": "0.2",
+                        "canBreatheUnderwater": true
+                    }
+                },
+                "combat": {
+                    "willDefendSelf": true,
+                    "willDefendOwner": true,
+                    "willFlee": false
+                },
+                "resting": {
+                    "drowsyChance": 0.0333,
+                    "rouseChance": 0.0042
+                }
+            },
+            "evolutions": [],
+            "battleOnly": true
+        }
     ]
-  },
-  "moves": [
-    "1:pound",
-    "1:growl",
-    "1:leer",
-    "1:astonish",
-    "1:nightshade",
-    "1:taunt",
-    "4:smokescreen",
-    "8:spite",
-    "12:feintattack",
-    "16:mudslap",
-    "20:icywind",
-    "24:curse",
-    "28:payback",
-    "32:agility",
-    "36:crunch",
-    "40:darkpulse",
-    "44:phantomforce",
-    "48:suckerpunch",
-    "52:poltergeist",
-    "56:memento",
-    "60:hyperbeam",
-    "64:lastresort",
-    "egg:destinybond",
-    "egg:grudge",
-    "egg:hex",
-    "egg:willowisp",
-    "egg:haze",
-    "egg:trick",
-    "egg:embargo",
-    "egg:thief",
-    "tm:protect",
-    "tm:rest",
-    "tm:facade",
-    "tm:taunt",
-    "tm:darkpulse",
-    "tm:payback",
-    "tm:shadowball",
-    "tm:thief",
-    "tm:snarl",
-    "tm:spite",
-    "tm:curse",
-    "25:instruct",
-    "tm:trickroom",
-    "tm:substitute",
-    "tm:hyperbeam",
-    "tm:icywind",
-    "tm:blizzard",
-    "tm:hail",
-    "tm:toxic",
-    "tm:embargo",
-    "tm:quash",
-    "tm:knockoff",
-    "tm:poltergeist",
-    "tm:phantomforce",
-    "tutor:darkpulse",
-    "tutor:shadowball",
-    "tutor:poltergeist",
-    "tutor:icywind",
-    "tutor:trick",
-    "tutor:spite",
-    "tutor:hyperbeam",
-    "1:nightslash",
-    "35:suckerpunch",
-    "42:hex"
-  ],
-  "preEvolution": "tokomand"
 }

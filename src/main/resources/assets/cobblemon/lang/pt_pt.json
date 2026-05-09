@@ -1,212 +1,158 @@
 {
-  "cobblemon.move.hellfireslash": "Corte Infernal",
-  "cobblemon.move.hellfireslash.desc": "O usuário ataca de 2 a 3 vezes com cortes letais que podem queimar o alvo, além de drenar 50% do dano causado em cada golpe e aumentar muito o Ataque e o Ataque Especial.",
-
+  "cobblemon.move.hellfireslash": "Talho Infernal",
+  "cobblemon.move.hellfireslash.desc": "O utilizador ataca de 2 a 3 vezes com cortes letais que podem queimar o alvo. Além disso, drena 50% do dano causado em cada golpe e aumenta bastante o Ataque e o Ataque Especial.",
   "cobblemon.move.electroears": "Eletroorelhas",
-  "cobblemon.move.electroears.desc": "O usuário esfrega suas orelhas elétricas e lança um golpe carregado. Seu poder é dobrado se estiver paralisado, e a velocidade nunca diminui enquanto ataca.",
-
+  "cobblemon.move.electroears.desc": "O utilizador esfrega as suas orelhas elétricas e lança um golpe carregado. O seu poder duplica se estiver paralisado, e a velocidade nunca diminui enquanto ataca.",
   "cobblemon.move.voltivore": "Voltívoro",
-  "cobblemon.move.voltivore.desc": "O usuário se alimenta da energia cinética do oponente, recuperando metade do dano causado ao alvo. Se o alvo estiver paralisado, o dano será maior.",
-
+  "cobblemon.move.voltivore.desc": "O utilizador alimenta-se da energia cinética do oponente, recuperando metade do dano causado ao alvo. Se o alvo estiver paralisado, o dano será maior.",
   "cobblemon.move.gmaxvolcaniceruption": "Gigaerupção",
-  "cobblemon.move.gmaxvolcaniceruption.desc": "Causa uma erupção vulcânica em cadeia que encerra os oponentes entre chamas e rochas, colocando o clima Ensolarado.",
-
+  "cobblemon.move.gmaxvolcaniceruption.desc": "Causa uma erupção vulcânica em cadeia que prende os oponentes entre chamas e pedras, colocando o clima Ensolarado.",
   "cobblemon.move.gmaxwildforest": "Gigaproliferação",
-  "cobblemon.move.gmaxwildforest.desc": "Acelera o crescimento das plantas ao seu redor, gerando um Campo de Grama e Drenadoras ao redor do usuário, além de conceder o tipo Planta como tipo adicional.",
-
+  "cobblemon.move.gmaxwildforest.desc": "Acelera o crescimento das plantas ao seu redor, gerando um Campo de Erva e Sementes de Dreno ao redor do utilizador, além de conceder o tipo Planta como tipo adicional.",
   "cobblemon.move.abyssalrush": "Investida Abissal",
-  "cobblemon.move.abyssalrush.desc": "O usuário carrega envolto em águas abissais esmagadoras, quebrando todas as barreiras e fazendo o alvo recuar.",
-
+  "cobblemon.move.abyssalrush.desc": "O utilizador avança envolto em águas abissais esmagadoras, quebrando todas as barreiras e fazendo o alvo recuar.",
   "cobblemon.move.gmaxflood": "Gigainundação",
-  "cobblemon.move.gmaxflood.desc": "Cria uma tempestade capaz de inundar o campo de batalha, danificando consecutivamente o rival enquanto recupera sua saúde de forma recorrente graças ao seu Aro d'Água.",
-
-  "cobblemon.move.berrytoss": "Arremesso de Bagas",
-  "cobblemon.move.berrytoss.desc": "Lança seus projéteis com força em direção ao oponente para arremeter com um forte embate. O dano depende dos PS do alvo: quanto menor em relação aos PS máximos, maior será o dano.",
-
+  "cobblemon.move.gmaxflood.desc": "Cria uma tempestade capaz de inundar o campo de batalha, danificando consecutivamente o rival enquanto recupera a sua saúde de forma recorrente graças ao seu Anel Aquático.",
+  "cobblemon.move.berrytoss": "Lançamento de Bagas",
+  "cobblemon.move.berrytoss.desc": "Lança os seus projéteis com força em direção ao oponente para atacar com um forte embate. O dano depende dos PS do alvo; quanto menor em relação aos PS máximos, maior será o dano.",
   "cobblemon.species.hichulla.name": "Hichulla",
-  "cobblemon.species.hichulla.desc1": "Hichulla adora explorar cada canto de seus arredores, por isso é comum encontrá-lo em estado selvagem.",
-  "cobblemon.species.hichulla.desc2": "Hichulla tem um talento inato para o canto a tal ponto que se ouve tarareando pequenas melodias por onde quer que vá.",
-
+  "cobblemon.species.hichulla.desc1": "Hichulla adora explorar cada canto dos seus arredores, por isso é comum encontrá-lo na natureza.",
+  "cobblemon.species.hichulla.desc2": "Hichulla tem um talento inato para o canto a tal ponto que é possível ouvi-lo cantarolar pequenas melodias por onde quer que vá.",
   "cobblemon.ui.pokedex.region.vtmon": "Novaera",
   "cobblemon.starterselection.category.novaera": "Novaera",
-
   "cobblemon.species.keiridol.name": "Keiridol",
-  "cobblemon.species.keiridol.desc1": "O canto de Keiridol é comparável à voz de uma deusa; as notas de sua cauda estão sincronizadas com as melodias que canta.",
-  "cobblemon.species.keiridol.desc2": "A voz de Keiridol tem a capacidade de hipnotizar quem escutar seu canto em um raio de 50 km.",
-
+  "cobblemon.species.keiridol.desc1": "O canto de Keiridol é comparável à voz de uma deusa; as notas da cauda de Keiridol estão sincronizadas com as melodias que canta.",
+  "cobblemon.species.keiridol.desc2": "A voz de Keiridol tem a capacidade de hipnotizar quem ouvir o seu canto num raio de 50 km.",
   "cobblemon.species.uynuk.name": "Uynuk",
-  "cobblemon.species.uynuk.desc1": "Nasceu dos desejos de uma artista por dar vida às suas obras.",
-  "cobblemon.species.uynuk.desc2": "Suas bordas são finas como uma folha de grama, por isso suas capacidades de corte são espetaculares.",
-
+  "cobblemon.species.uynuk.desc1": "Nascido dos desejos de uma artista por dar vida às suas obras.",
+  "cobblemon.species.uynuk.desc2": "As suas bordas são tão finas quanto uma lâmina de erva, por isso as suas capacidades de corte são espetaculares.",
   "cobblemon.species.nucraft.name": "Nucraft",
-  "cobblemon.species.nucraft.desc1": "Nucraft evoluiu para um corpo tridimensional para compartilhar com o mundo mais expressões artísticas.",
-  "cobblemon.species.nucraft.desc2": "Embora sua forma sugira mobilidade total, na verdade só pode mover a cabeça, cauda e braços. Para se deslocar, dá pequenos saltos.",
-
+  "cobblemon.species.nucraft.desc1": "Nucraft evoluiu para um corpo tridimensional para partilhar com o mundo mais expressões artísticas.",
+  "cobblemon.species.nucraft.desc2": "Embora a sua forma sugira mobilidade total, na verdade só consegue mover a cabeça, a cauda e os braços. Para se deslocar, dá pequenos saltos.",
   "cobblemon.species.lilver.name": "Lilver",
-  "cobblemon.species.lilver.desc1": "Lilver adora brincar com seu treinador, embora isso possa provocar queimaduras devido ao pouco controle que tem sobre o calor de suas chamas.",
-  "cobblemon.species.lilver.desc2": "Diz-se que Lilver é o Pokémon ideal para detectar incêndios próximos, o que fez muitos bombeiros o usarem como guia em suas missões.",
-
+  "cobblemon.species.lilver.desc1": "Lilver adora brincar com o seu treinador, embora isso possa provocar queimaduras devido ao pouco controlo que Lilver tem sobre o calor das suas chamas.",
+  "cobblemon.species.lilver.desc2": "Diz-se que Lilver é o Pokémon ideal para detectar incêndios próximos, o que levou muitos bombeiros a usá-lo como guia nas suas missões.",
   "cobblemon.species.goldy.name": "Goldy",
-  "cobblemon.species.goldy.desc1": "Goldy tem um melhor controle sobre suas chamas, criando assim manobras para impressionar seu treinador.",
-  "cobblemon.species.goldy.desc2": "Acredita-se que a lealdade que Goldy tem com seu treinador se deve a um vínculo espiritual que se condensa nas chamas deste Pokémon.",
-
+  "cobblemon.species.goldy.desc1": "Goldy tem um melhor controlo sobre as suas chamas, criando assim manobras para impressionar o seu treinador.",
+  "cobblemon.species.goldy.desc2": "Acredita-se que a lealdade que Goldy tem com o seu treinador se deve a um vínculo espiritual que se condensa nas chamas deste Pokémon.",
   "cobblemon.species.lylaze.name": "Lylaze",
-  "cobblemon.species.lylaze.desc1": "Sabe-se que o primeiro espécime de Lylaze conhecido deu a vida para salvar seu treinador de um trágico acidente.",
-  "cobblemon.species.lylaze.desc2": "São seres pacíficos e serenos, por isso se forem encontrados em estado selvagem não há nada a temer.",
-
+  "cobblemon.species.lylaze.desc1": "Sabe-se que o primeiro espécime conhecido de Lylaze deu a vida para salvar o seu treinador de um trágico acidente.",
+  "cobblemon.species.lylaze.desc2": "São seres pacíficos e serenos, por isso se forem encontrados na natureza não há nada a temer.",
   "cobblemon.species.ghissel.name": "Ghissel",
-  "cobblemon.species.ghissel.desc1": "Nascido em criptas esquecidas, Ghissel vaga entre túmulos absorvendo o tormento de almas errantes, purificando-as e guardando a energia escura que emitem.",
-  "cobblemon.species.ghissel.desc2": "Com o tempo, Ghissel converte as impurezas que absorve em um veneno espectral com o qual sela o sofrimento das almas que purifica.",
-
+  "cobblemon.species.ghissel.desc1": "Nascido em criptas esquecidas, Ghissel vaga entre túmulos absorvendo o tormento de almas errantes, purificando-as e guardando a energia sombria que elas libertam.",
+  "cobblemon.species.ghissel.desc2": "Com o tempo, Ghissel converte as impurezas que absorve num veneno espectral com o qual sela o sofrimento das almas que purifica.",
   "cobblemon.species.schlanghoul.name": "Schlanghoul",
-  "cobblemon.species.schlanghoul.desc1": "Sua cabeça começa a mostrar protuberâncias ósseas, principalmente notáveis no focinho, isso se deve às almas em pena que absorve na tentativa de purificá-las.",
-  "cobblemon.species.schlanghoul.desc2": "O cristal em seu pescoço armazena as almas que absorve, as quais fortalecem seu corpo e tornam seu veneno muito mais letal.",
-
+  "cobblemon.species.schlanghoul.desc1": "A sua cabeça começa a mostrar protuberâncias ósseas, principalmente notáveis no seu focinho; isso deve-se às almas em pena que absorve na tentativa de as purificar.",
+  "cobblemon.species.schlanghoul.desc2": "O cristal no seu pescoço armazena as almas que absorve, as quais fortalecem o seu corpo e tornam o seu veneno muito mais letal.",
   "cobblemon.species.ghiftdorah.name": "Ghiftdorah",
-  "cobblemon.species.ghiftdorah.desc1": "As almas que absorveu mutaram completamente seu corpo, fazendo com que sua alma se torne sinistra devido ao tormento acumulado todo esse tempo.",
-  "cobblemon.species.ghiftdorah.desc2": "O comportamento errático de suas cabeças laterais se deve ao fato de as almas em seu corpo lutarem pelo controle; porém, quando se coordenam, são uma arma letal.",
-
+  "cobblemon.species.ghiftdorah.desc1": "As almas que absorveu mutaram completamente o seu corpo, tornando a sua alma sinistra devido ao tormento acumulado todo este tempo.",
+  "cobblemon.species.ghiftdorah.desc2": "O comportamento errático das suas cabeças laterais deve-se às almas no seu corpo a lutarem pelo controlo; no entanto, quando se coordenam, são uma arma letal.",
   "cobblemon.species.hapu.name": "Hapu",
-  "cobblemon.species.hapu.desc1": "Costuma se infiltrar em centrais elétricas quando precisa de energia. É um Pokémon muito ativo, por isso precisa recarregar com frequência.",
-  "cobblemon.species.hapu.desc2": "Os Hapu selvagens aproveitam as tempestades elétricas para recarregar suas energias usando suas caudas como para-raios.",
-
+  "cobblemon.species.hapu.desc1": "Costuma infiltrar-se em centrais elétricas quando precisa de energia. É um Pokémon muito ativo, por isso precisa recarregar com frequência.",
+  "cobblemon.species.hapu.desc2": "Hapus selvagens aproveitam as tempestades elétricas para recarregar as suas energias usando as suas caudas como pára-raios.",
   "cobblemon.species.strideer.name": "Strideer",
-  "cobblemon.species.strideer.desc1": "Strideer é capaz de manipular diferentes tipos de energia através de suas hastes para atacar brutalmente seus oponentes.",
-  "cobblemon.species.strideer.desc2": "Às vezes armazena mais energia do que seu corpo consegue suportar, causando curtos-circuitos ao seu redor.",
-
+  "cobblemon.species.strideer.desc1": "Strideer é capaz de manipular diferentes tipos de energia através das suas hastes para atacar brutalmente os seus oponentes.",
+  "cobblemon.species.strideer.desc2": "Às vezes armazena mais energia do que o seu corpo consegue suportar, causando curtos-circuitos ao seu redor.",
   "cobblemon.species.aaiper.name": "Aaiper",
-  "cobblemon.species.aaiper.desc1": "O corpo de Aaiper se tornou energia pura após uma sobrecarga que provocou a ionização de seu corpo físico.",
-  "cobblemon.species.aaiper.desc2": "Por ser energia pura, Aaiper costuma se infiltrar em eletrodomésticos, provocando que entrem em estado de curto-circuito.",
-
+  "cobblemon.species.aaiper.desc1": "O corpo de Aaiper tornou-se energia pura após uma sobrecarga que provocou ionização do seu corpo físico.",
+  "cobblemon.species.aaiper.desc2": "Por ser energia pura, Aaiper costuma infiltrar-se em electrodomésticos, provocando que entrem em estado de curto-circuito.",
   "cobblemon.ability.divinevoice": "Voz Angelical",
-  "cobblemon.ability.divinevoice.desc": "Sua voz emite uma frequência que potencializa ataques de som e do tipo Fada, e o protege de movimentos com pós.",
-  "cobblemon.battle.ability.divinevoice": "A voz angelical de %1$s o protege de pós e potencializa seu canto.",
-
+  "cobblemon.ability.divinevoice.desc": "A sua voz emite uma frequência que potencializa ataques de som e do tipo Fada, e protege-o de movimentos com pós.",
+  "cobblemon.battle.ability.divinevoice": "A voz angelical de %1$s protege-o de pós e potencializa o seu canto.",
   "cobblemon.ability.corruptedsoul": "Alma Corrompida",
-  "cobblemon.ability.corruptedsoul.desc": "Converte seus movimentos do tipo Normal e Fantasma em tipo Sombrio, é imune a Intimidação e recuo, e potencializa seus movimentos do tipo Veneno.",
-
+  "cobblemon.ability.corruptedsoul.desc": "Converte os seus movimentos do tipo Normal e Fantasma em tipo Sombrio, é imune a Intimidação e recuo, e potencializa os seus movimentos do tipo Veneno.",
   "cobblemon.ability.precise": "Preciso",
-  "cobblemon.ability.precise.desc": "Garante a quantidade máxima de golpes dos ataques de múltiplos golpes, consequentemente gerando maior dano.",
-
+  "cobblemon.ability.precise.desc": "Garante a quantidade máxima de acertos dos ataques de múltiplos golpes, consequentemente gerando mais dano.",
   "cobblemon.ability.illusiotype": "Ilusiotipo",
-  "cobblemon.ability.illusiotype.desc": "O Pokémon imita tanto a forma quanto o tipo de algum Pokémon da equipe.",
-
+  "cobblemon.ability.illusiotype.desc": "O Pokémon imita tanto a forma como o tipo de algum Pokémon da equipa.",
   "cobblemon.ability.illusoryember": "Brasa Ilusória",
-  "cobblemon.ability.illusoryember.desc": "Adota o aspecto do último Pokémon da equipe ao entrar em combate. Pode queimar o alvo e recupera todos os seus PS ao desfazer a ilusão.",
-
+  "cobblemon.ability.illusoryember.desc": "Adota a aparência do último Pokémon da equipa ao entrar em combate. Pode queimar o alvo e recupera todos os seus PS ao desfazer a ilusão.",
   "cobblemon.ability.sagacity": "Sagacidade",
-  "cobblemon.ability.sagacity.desc": "Ao entrar em combate, a astúcia do usuário intimida o rival de tal maneira que seu Ataque Especial diminui um nível.",
-
-  "cobblemon.ability.chaosenergy": "Energia do Caos",
-  "cobblemon.ability.chaosenergy.desc": "A energia do usuário transborda a tal ponto de aumentar seu Ataque Físico, Ataque Especial e sua Velocidade ao entrar em combate e depois de cada turno, além de aumentar o dano dos ataques do Pokémon em 50%.",
-
-  "cobblemon.ability.grandencore": "Grande Bis",
-  "cobblemon.ability.grandencore.desc": "A pedido de seu público, tem 40% de probabilidade de acertar uma segunda vez.",
-
+  "cobblemon.ability.sagacity.desc": "Ao entrar em combate, a astúcia do utilizador intimida o rival de tal forma que o seu Ataque Especial diminui um nível.",
+  "cobblemon.ability.chaosenergy": "Energia Caos",
+  "cobblemon.ability.chaosenergy.desc": "A energia do utilizador transborda a tal ponto de aumentar o seu Ataque, Ataque Especial e Velocidade ao entrar em combate e após cada turno, além de aumentar o dano dos seus ataques em 50%.",
+  "cobblemon.ability.grandencore": "Grande Encore",
+  "cobblemon.ability.grandencore.desc": "A pedido do público, tem 40% de probabilidade de acertar uma segunda vez.",
   "cobblemon.ability.curiousinstinct": "Instinto Curioso",
-  "cobblemon.ability.curiousinstinct.desc": "Copia uma habilidade aleatória de todos os seus oponentes pela curiosidade que lhe dá saber como funciona.",
-
-  "cobblemon.ability.bloodsucker": "Chupa-Sangue",
-  "cobblemon.ability.bloodsucker.desc": "O utilizador alimenta-se do sangue do oponente, recuperando parte do dano causado ao alvo. Se o alvo cair derrotado, o utilizador recupera toda a sua saúde.",
-
+  "cobblemon.ability.curiousinstinct.desc": "Copia uma habilidade aleatória de todos os oponentes por curiosidade de saber como funciona.",
+  "cobblemon.ability.bloodsucker": "Chupasangue",
+  "cobblemon.ability.bloodsucker.desc": "O utilizador alimenta-se do sangue do oponente, recuperando parte do dano causado ao alvo. Se o alvo for nocauteado, o utilizador recupera toda a sua saúde.",
   "item.cobblemon.bread": "Pão",
-
-  "cobblemon.battle.heal.illusoryember": "%1$s absorveu as brasas de sua ilusão recuperando seus PS.",
-
+  "cobblemon.battle.heal.illusoryember": "%1$s absorveu as brasas da sua ilusão, recuperando os seus PS.",
   "cobblemon.species.kreti.name": "Kreti",
-  "cobblemon.species.kreti.desc1": "Dedica-se a fazer brincadeiras tanto com pessoas quanto com Pokémon, mas não leve a mal, é sua forma de demonstrar que gosta de você.",
-  "cobblemon.species.kreti.desc2": "Suas chamas são capazes de criar ilusões com tanto detalhe que conseguem confundir qualquer um que as veja.",
-
+  "cobblemon.species.kreti.desc1": "Dedica-se a fazer brincadeiras tanto a pessoas como a Pokémon, mas não leve a mal, é a forma dele mostrar que gosta de si.",
+  "cobblemon.species.kreti.desc2": "As suas chamas são capazes de criar ilusões com tanto detalhe que conseguem confundir qualquer um que as veja.",
   "cobblemon.species.kretsune.name": "Kretsune",
-  "cobblemon.species.kretsune.desc1": "Apesar de sua natureza travessa, é conhecido como \"O Profeta\", pois costuma ser a voz dos seres divinos com os quais mantém uma estreita relação.",
-  "cobblemon.species.kretsune.desc2": "Sempre protege os bandos de Hichulla de qualquer perigo e permanece perto de Keiridol.",
-
+  "cobblemon.species.kretsune.desc1": "Apesar da sua natureza travessa, é conhecido como \"O Profeta\", pois costuma ser a voz dos seres divinos com os quais mantém uma relação próxima.",
+  "cobblemon.species.kretsune.desc2": "Sempre protege os bandos de Hichulla de qualquer perigo e fica perto de Keiridol.",
   "cobblemon.species.yurcat.name": "Yurcat",
   "cobblemon.species.yurcat.desc1": "É uma espécie comumente associada à realeza e ao prestígio, pois é a cria do proclamado \"Rei das Profundezas\".",
-  "cobblemon.species.yurcat.desc2": "Mesmo que consiga capturá-lo, Yurcat não o aceitará facilmente como treinador; você precisará conquistar sua confiança e aprovação.",
-
+  "cobblemon.species.yurcat.desc2": "Mesmo que consiga capturá-lo, Yurcat não o aceitará facilmente como treinador; terá de conquistar a sua confiança e aprovação.",
   "cobblemon.species.marigueya.name": "Marigüeya",
-  "cobblemon.species.marigueya.desc1": "Costuma subir nas árvores para se camuflar de seus predadores, fingindo ser bagas locais.",
-  "cobblemon.species.marigueya.desc2": "Tende a causar problemas tanto na natureza quanto com seu treinador. Não se surpreenda ao encontrar seus objetos espalhados por todo lado.",
-
+  "cobblemon.species.marigueya.desc1": "Costuma subir às árvores para se camuflar dos predadores, fingindo ser bagas locais.",
+  "cobblemon.species.marigueya.desc2": "Tende a causar problemas tanto na natureza como com o seu treinador. Não se surpreenda ao encontrar os seus objectos espalhados por todo o lado.",
   "cobblemon.species.nancuache.name": "Nancuache",
-  "cobblemon.species.nancuache.desc1": "Sempre carrega uma Marigüeya nas costas e adora desafiar Pokémon do tipo Inseto apesar de sua fraqueza contra eles.",
-  "cobblemon.species.nancuache.desc2": "Seu instinto paternal é o mais admirável do mundo Pokémon, só comparável ao de Kangaskhan e Dragapult.",
-
+  "cobblemon.species.nancuache.desc1": "Sempre carrega uma Marigüeya nas costas e adora desafiar Pokémon do tipo Insecto apesar da fraqueza contra eles.",
+  "cobblemon.species.nancuache.desc2": "O seu instinto paternal é o mais admirável do mundo Pokémon, só comparável ao de Kangaskhan e Dragapult.",
   "cobblemon.species.arrkuro.name": "Arrkuro",
-  "cobblemon.species.arrkuro.desc1": "Devido à sua natureza orgulhosa, tem tendência a desobedecer ao treinador se não o considerar respeitável.",
-  "cobblemon.species.arrkuro.desc2": "Sua capacidade de natação e sua defesa se intensificam, tornando-o o segundo predador marinho mais habilidoso, logo abaixo de sua evolução.",
-
+  "cobblemon.species.arrkuro.desc1": "Devido à sua natureza orgulhosa, tende a desobedecer ao treinador se não o considerar respeitável.",
+  "cobblemon.species.arrkuro.desc2": "A sua capacidade de natação e defesa intensificam-se, tornando-o o segundo predador marinho mais habilidoso, logo abaixo da sua evolução.",
   "cobblemon.species.zarinanjo.name": "Zarinanjo",
-  "cobblemon.species.zarinanjo.desc1": "É capaz de lançar objetos pequenos com tanta força que pode causar um dano contundente considerável a quem receber o impacto.",
-  "cobblemon.species.zarinanjo.desc2": "Junto a duas Marigüeyas, as usa como projéteis para enfrentar seus predadores, rivalizando com eles.",
-
+  "cobblemon.species.zarinanjo.desc1": "É capaz de lançar objectos pequenos com tanta força que pode causar um dano contundente considerável a quem receber o impacto.",
+  "cobblemon.species.zarinanjo.desc2": "Junto com duas Marigüeyas, usa-as como projéteis para enfrentar os seus predadores, rivalizando com eles.",
   "cobblemon.species.kurperor.name": "Kurperor",
-  "cobblemon.species.kurperor.desc1": "Kurperor é conhecido como o \"Rei das Profundezas\" por sua imponente presença e longevidade. Outros Pokémon o procuram por sua proteção e sabedoria em combate.",
+  "cobblemon.species.kurperor.desc1": "Kurperor é conhecido como o \"Rei das Profundezas\" pela sua presença imponente e longevidade. Outros Pokémon procuram-no pela sua protecção e sabedoria em combate.",
   "cobblemon.species.kurperor.desc2": "Ser treinador de um Kurperor é símbolo de admiração e respeito, pois esta espécie só é digna de um governante admirável.",
-
   "cobblemon.species.aelubi.name": "Aelubi",
-  "cobblemon.species.aelubi.desc1": "Aelubi sobrevoa o mundo em sua missão de erradicar o mal que corrompe tanto humanos quanto Pokémon.",
-  "cobblemon.species.aelubi.desc2": "Se algum dia o vir, mostre gratidão pela proteção que oferece dando-lhe algo, preferencialmente um doce ou sobremesa.",
-  "cobblemon.species.aelubi.desc3": "Diz-se que Aelubi trava intensas batalhas contra um Pokémon lendário de aspecto demoníaco, além de tentar purificar os lacaios desse Pokémon.",
-
+  "cobblemon.species.aelubi.desc1": "Aelubi sobrevoa o mundo na sua missão de erradicar o mal que corrompe tanto humanos como Pokémon.",
+  "cobblemon.species.aelubi.desc2": "Se alguma vez o vir, mostre-lhe gratidão pela protecção que oferece dando-lhe algo, preferencialmente um doce ou sobremesa.",
+  "cobblemon.species.aelubi.desc3": "Diz-se que Aelubi trava intensas batalhas contra um Pokémon lendário de aspecto demoníaco, além de tentar purificar os servos desse Pokémon.",
   "cobblemon.species.bellver.name": "Bellver",
-  "cobblemon.species.bellver.desc1": "Diferente de sua contraparte Lilver, Bellver é mais tranquila e relaxada.",
-  "cobblemon.species.bellver.desc2": "Seu aroma e atitude doce transmitem calma tanto para pessoas quanto para Pokémon.",
-
+  "cobblemon.species.bellver.desc1": "Ao contrário da sua contraparte Lilver, Bellver é mais calma e relaxada.",
+  "cobblemon.species.bellver.desc2": "O seu aroma e atitude doce transmitem calma tanto a pessoas como a Pokémon.",
   "cobblemon.species.belldy.name": "Belldy",
-  "cobblemon.species.belldy.desc1": "Seus membros se tornam mais robustos, assim como sua casca, o que aumenta significativamente sua resistência a ataques.",
-  "cobblemon.species.belldy.desc2": "Apesar de sua resistência aumentada, é um Pokémon majoritariamente pacifista.",
-
+  "cobblemon.species.belldy.desc1": "Os seus membros tornam-se mais robustos, assim como a sua casca, o que aumenta significativamente a sua resistência a ataques.",
+  "cobblemon.species.belldy.desc2": "Apesar da resistência aumentada, é um Pokémon maioritariamente pacifista.",
   "cobblemon.species.bellaze.name": "Bellaze",
-  "cobblemon.species.bellaze.desc1": "Sua cauda cresce até se tornar um arbusto de macieira, do qual ocasionalmente crescem maçãs.",
-  "cobblemon.species.bellaze.desc2": "O arbusto que cresce em sua cauda é o lar perfeito para Pokémon pequenos que buscam sua proteção, pois apesar de sua natureza tranquila, Bellaze não hesita em atacar para ajudar seus amigos.",
-
+  "cobblemon.species.bellaze.desc1": "A sua cauda cresce até se tornar um arbusto de macieira, do qual ocasionalmente crescem maçãs.",
+  "cobblemon.species.bellaze.desc2": "O arbusto que cresce na sua cauda é o lar perfeito para Pokémon pequenos que buscam a sua protecção, pois apesar da sua natureza tranquila, Bellaze não hesita em atacar para ajudar os seus amigos.",
   "cobblemon.species.byion.name": "Byion",
-  "cobblemon.species.byion.desc1": "Seus espinhos geram eletricidade suficiente para abastecer um arranha-céu inteiro.",
-  "cobblemon.species.byion.desc2": "Costuma viver em bandos junto com Lilver; não se sabe por quê, mas acredita-se que seu vínculo seja teórico.",
-
+  "cobblemon.species.byion.desc1": "As suas espinhas geram eletricidade suficiente para energizar um arranha-céus inteiro.",
+  "cobblemon.species.byion.desc2": "Costuma viver em bandos junto com Lilver; não se sabe porquê, mas acredita-se que o seu vínculo seja teórico.",
   "cobblemon.species.byohm.name": "Byohm",
-  "cobblemon.species.byohm.desc1": "Pode correr a velocidades incalculáveis e aumentar sua velocidade e energia cinética em questão de segundos.",
+  "cobblemon.species.byohm.desc1": "Pode correr a velocidades incalculáveis e aumentar a sua velocidade e energia cinética em questão de segundos.",
   "cobblemon.species.byohm.desc2": "Foram reportados casos de roubo de utensílios de cozinha, principalmente colheres; acredita-se que esta espécie esteja envolvida.",
-
   "cobblemon.species.mizuga.name": "Mizuga",
-  "cobblemon.species.mizuga.desc1": "Mizuga vive em oceanos quentes e recifes de coral, onde passa o dia brincando entre cardumes de peixes.",
-  "cobblemon.species.mizuga.desc2": "Os mergulhadores dizem que sua presença é sinal de um recife saudável e equilibrado.",
+  "cobblemon.species.mizuga.desc1": "Mizuga vive em oceanos quentes e recifes de coral, onde passa o dia a brincar entre cardumes de peixes.",
+  "cobblemon.species.mizuga.desc2": "Mergulhadores dizem que a sua presença é sinal de um recife saudável e equilibrado.",
   "cobblemon.species.mizuga.desc3": "É um Pokémon pacífico e curioso que gosta de se impulsionar com a água para realizar pequenas investidas sem intenção de causar dano.",
-
   "cobblemon.species.okamorph.name": "Okamorph",
-  "cobblemon.species.okamorph.desc1": "A determinação de Okamorph o fez evoluir para esta forma que se assemelha a um Pokémon lendário de uma região distante.",
-  "cobblemon.species.okamorph.desc2": "O poder de Okamorph se torna muito mais caótico apesar de perder a capacidade de se transformar.",
-
+  "cobblemon.species.okamorph.desc1": "A determinação de Okamorph fá-lo evoluir para esta forma que se assemelha a um Pokémon lendário de uma região distante.",
+  "cobblemon.species.okamorph.desc2": "O poder de Okamorph torna-se muito mais caótico apesar de perder a capacidade de se transformar.",
   "cobblemon.species.nefthlet.name": "Nefthlet",
-  "cobblemon.species.nefthlet.desc1": "Nefthlet costuma sobrevoar toda a região em busca de objetos antigos pertencentes a pessoas falecidas.",
-  "cobblemon.species.nefthlet.desc2": "Esta espécie mantém constantes disputas com Rookidee, pois os Nefthlet esperam que um treinador caia para roubar seus pertences, enquanto os Rookidee buscam protegê-los.",
-
+  "cobblemon.species.nefthlet.desc1": "Nefthlet costuma sobrevoar toda a região em busca de objectos antigos pertencentes a pessoas falecidas.",
+  "cobblemon.species.nefthlet.desc2": "Esta espécie mantém constantes disputas com Rookidee, pois os Nefthlet esperam que um treinador caia para roubar os seus pertences, enquanto os Rookidee procuram protegê-los.",
   "cobblemon.species.gotheneth.name": "Gotheneth",
-  "cobblemon.species.gotheneth.desc1": "Quando um Gotheneth se posa ao lado de uma pessoa, acredita-se que seu fim está próximo, embora seja apenas uma superstição que poucos se atrevem a ignorar.",
-  "cobblemon.species.gotheneth.desc2": "Serve como emissário de sua evolução, o Pokémon Pluma Fúnebre. Evite o contato com ele.",
-
+  "cobblemon.species.gotheneth.desc1": "Quando um Gotheneth pousa ao lado de uma pessoa, acredita-se que o seu fim está próximo, embora seja apenas uma superstição que poucos ousam ignorar.",
+  "cobblemon.species.gotheneth.desc2": "Serve como emissário da sua evolução, o Pokémon Pluma Fúnebre. Evite contacto com ele.",
   "cobblemon.species.nenebris.name": "Nenebris",
-  "cobblemon.species.nenebris.desc1": "Nenebris vaga em busca de almas frescas para sustentar sua existência por mais um dia.",
-  "cobblemon.species.nenebris.desc2": "Diz-se que seu aparecimento é um presságio de morte iminente, pois sua presença sempre coincide com o falecimento de algum humano ou Pokémon nas proximidades.",
-
+  "cobblemon.species.nenebris.desc1": "Nenebris vagueia em busca de almas frescas para sustentar a sua existência por mais um dia.",
+  "cobblemon.species.nenebris.desc2": "Diz-se que o seu aparecimento é um presságio de morte iminente, pois a sua presença sempre coincide com a morte de algum humano ou Pokémon nas proximidades.",
   "cobblemon.species.buntari.name": "Buntari",
-  "cobblemon.species.buntari.desc1": "Pode criar ilusões perfeitas que o fazem parecer outro Pokémon, mudando inclusive seu tipo para o do que imita.",
-  "cobblemon.species.buntari.desc2": "Quando sua ilusão se quebra, envolve seus aliados com sua enorme cauda fofa e libera uma energia curadora que restaura completamente sua vitalidade.",
-
+  "cobblemon.species.buntari.desc1": "Pode criar ilusões perfeitas que o fazem parecer outro Pokémon, mudando inclusive o seu tipo para o do que imita.",
+  "cobblemon.species.buntari.desc2": "Quando a sua ilusão se desfaz, envolve os seus aliados com a sua enorme cauda fofa e liberta energia curativa que restaura completamente a sua vitalidade.",
   "cobblemon.species.tokomand.name": "Tokomand",
-  "cobblemon.species.tokomand.desc1": "Não sabemos como roubou parte do traje de Mimikyu sem morrer na tentativa; no entanto, carrega uma coroa feita de papelão colada ao tecido com fita adesiva.",
-  "cobblemon.species.tokomand.desc2": "Sua atitude assusta todos os Pokémon ao seu redor. Não é recomendado que treinadores iniciantes tentem capturá-lo.",
-
+  "cobblemon.species.tokomand.desc1": "Não sabemos como roubou parte do traje de Mimikyu sem morrer na tentativa; no entanto, usa uma coroa feita de cartão colado ao tecido com fita adesiva.",
+  "cobblemon.species.tokomand.desc2": "A sua atitude assusta todos os Pokémon ao seu redor. Não é recomendado que treinadores principiantes tentem capturá-lo.",
+  "cobblemon.species.tokarmy.name": "Tokarmy",
+  "cobblemon.species.tokarmy.desc1": "Após inúmeros acontecimentos, Tokarmy agora usa a sua antiga máscara como capa, um símbolo que o identifica como um líder digno de comandar todos os Tokomand da região.",
+  "cobblemon.species.tokarmy.desc2": "Rumores dizem que Tokarmy tem a capacidade de pilotar um Tokomand gigante, formado por muitos Tokomand sob os seus cuidados.",
   "cobblemon.species.nenevern.name": "Nenevern",
   "cobblemon.species.nenevern.desc1": "Nenevern envolve-se nas suas grandes asas rosadas como se fossem uma capa e passa a maior parte do tempo a dormitar, mas se for incomodado, acorda com um guincho ultrassónico cheio de raiva que confunde e desorienta o rival.",
-  "cobblemon.species.nenevern.desc2": "O seu guincho deixa todos os Pokémon e humanos à sua volta tontos, é melhor não o incomodar durante o seu letargo.",
-
+  "cobblemon.species.nenevern.desc2": "O seu guincho tonta todos os Pokémon e humanos ao seu redor; é melhor não o perturbar durante o seu torpor.",
   "cobblemon.species.nenevamp.name": "Nenevamp",
-  "cobblemon.species.nenevamp.desc1": "A forma humanoide que Nenevamp adota ao evoluir é um reflexo de como era antes de sucumbir ao veneno que o transformou num Pokémon.",
-  "cobblemon.species.nenevamp.desc2": "A sua natureza vampírica deu origem a um grande número de imunidades, e agora alimenta-se principalmente do sangue dos seus oponentes.",
-
+  "cobblemon.species.nenevamp.desc1": "A forma humanóide que Nenevamp adopta ao evoluir é um reflexo de como ele se parecia antes de sucumbir ao veneno que o transformou num Pokémon.",
+  "cobblemon.species.nenevamp.desc2": "A sua natureza vampírica deu origem a um grande número de imunidades, além de agora se alimentar principalmente do sangue dos seus oponentes.",
   "cobblemon.move.comando": "Comando",
-  "cobblemon.move.comando.desc": "No primeiro turno, potencializa o ataque e Ataque Especial de seus aliados, aumentando também sua própria Evasão conforme a quantidade de aliados no campo. Nos turnos seguintes, impede que o rival use o movimento utilizado no turno anterior. Em combates individuais, a Evasão aumenta conforme a quantidade de Pokémon não debilitados na equipe."
+  "cobblemon.move.comando.desc": "No primeiro turno, potencializa o Ataque e Ataque Especial dos seus aliados, aumentando também a sua própria Evasão de acordo com a quantidade de aliados no campo. Nos turnos seguintes, impede que o rival use o movimento utilizado no turno anterior. Em combates individuais, a Evasão aumenta de acordo com a quantidade de Pokémon não nocauteados na equipa."
 }

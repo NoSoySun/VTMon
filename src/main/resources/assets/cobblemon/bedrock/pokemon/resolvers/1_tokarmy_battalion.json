@@ -3,7 +3,9 @@
     "order": 1,
     "variations": [
       {
-        "aspects": [],
+        "aspects": [
+          "battalion"
+        ],
         "poser": "cobblemon:tokarmy_battalion",
         "model": "cobblemon:tokarmy_battalion.geo",
         "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_battalion.png",
@@ -11,7 +13,8 @@
       },
       {
         "aspects": [
-          "shiny"
+          "shiny",
+          "battalion"
         ],
         "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_battalion_shiny.png"
       }

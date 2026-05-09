@@ -16,7 +16,6 @@
         "#minecraft:is_forest",
         "#cobblemon:is_sandy",
         "#cobblemon:is_savanna",
-        "#c:desert",
-        "#c:is_plains"
+        "#c:desert"
     ]
 }

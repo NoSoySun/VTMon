@@ -12,10 +12,23 @@
       "level": "25-45"
     }
   ],
-  "biome": [
-    "#cobblemon:is_beach",
-    "#minecraft:is_river",
-    "#cobblemon:is_forest",
-    "#c:plains"
-  ]
+  "biome": [ 
+            "minecraft:meadow",
+            "#minecraft:is_forest",
+            "minecraft:stony_shore",
+            "#cobblemon:is_beach",
+            "#c:stony_shores",
+            "terralith:basalt_cliffs",
+            "terralith:granite_cliffs",
+            "terralith:white_cliffs",
+            "#c:flower_forests",
+            "#c:tree_deciduous",
+            "terralith:alpha_islands",
+            "terralith:alpha_islands_winter",
+            "terralith:blooming_valley",
+            "terralith:forested_highlands",
+            "terralith:lavender_forest",
+            "terralith:lavender_valley",
+            "#byg:is_magical"
+          ]
 }

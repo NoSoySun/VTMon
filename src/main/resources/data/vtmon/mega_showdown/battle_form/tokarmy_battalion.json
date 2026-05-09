@@ -1,0 +1,12 @@
+{
+  "pokemons": ["Tokarmy"],
+  "showdown_form_change_id": "battalion",
+  "aspect_conditions": {
+    "apply": {
+      "aspects": ["battalion_forme=battalion"]
+    },
+    "revert": {
+      "aspects": ["battalion_forme=commander"]
+    }
+  }
+}

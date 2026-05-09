@@ -3,7 +3,9 @@
   "order": 0,
   "variations": [
     {
-      "aspects": [],
+      "aspects": [
+        "discharge-forme"
+      ],
       "poser": "cobblemon:aaiper",
       "model": "cobblemon:aaiper.geo",
       "texture": "cobblemon:textures/pokemon/aaiper/aaiper.png",
@@ -18,7 +20,8 @@
     },
     {
       "aspects": [
-        "shiny"
+        "shiny",
+        "discharge-forme"
       ],
       "texture": "cobblemon:textures/pokemon/aaiper/aaiper_shiny.png",
       "layers": [

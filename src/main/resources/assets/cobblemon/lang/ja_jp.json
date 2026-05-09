@@ -1,212 +1,212 @@
 {
-  "cobblemon.move.hellfireslash": "地獄斬",
-  "cobblemon.move.hellfireslash.desc": "使用者は2〜3回、致命的な斬撃で攻撃し、相手をやけど状態にする可能性があり、各ヒットで与えたダメージの50%を吸収し、攻撃と特攻を大幅に上昇させる。",
-
-  "cobblemon.move.electroears": "エレクトロイヤー",
-  "cobblemon.move.electroears.desc": "使用者は電気の耳をこすって帯電した一撃を放つ。まひ状態の時に威力が2倍になり、攻撃中は速度が決して低下しない。",
-
-  "cobblemon.move.voltivore": "ボルトィヴォ",
-  "cobblemon.move.voltivore.desc": "使用者は相手の運動エネルギーを吸収し、与えたダメージの半分を回復する。相手がまひ状態の場合、ダメージが大きくなる。",
-
-  "cobblemon.move.gmaxvolcaniceruption": "ギガ大噴火",
-  "cobblemon.move.gmaxvolcaniceruption.desc": "連鎖する火山噴火を引き起こし、相手を炎と岩の間に閉じ込め、フィールドを晴れ状態にする。",
-
-  "cobblemon.move.gmaxwildforest": "ギガ大繁殖",
-  "cobblemon.move.gmaxwildforest.desc": "周囲の植物の成長を加速させ、自分を中心にグラスフィールドとキノコのほうしを発生させ、さらに自身にくさタイプを追加する。",
-
-  "cobblemon.move.abyssalrush": "アビサルラッシュ",
-  "cobblemon.move.abyssalrush.desc": "深海の圧倒的な水をまとって突進し、あらゆるバリアを破壊して相手を後退させる。",
-
+  "cobblemon.move.hellfireslash": "地獄の斬撃",
+  "cobblemon.move.hellfireslash.desc": "使用者は2〜3回、致命的な斬撃を繰り出して攻撃し、相手をやけどにする可能性がある。また、各ヒットで与えたダメージの50%を吸収し、攻撃と特攻を大幅に上げる。",
+  
+  "cobblemon.move.electroears": "エレクトロイヤ",
+  "cobblemon.move.electroears.desc": "使用者は電気の耳をこすり、帯電した一撃を放つ。まひ状態のときに威力が2倍になり、攻撃中は速度が絶対に下がらない。",
+  
+  "cobblemon.move.voltivore": "ボルトヴォア",
+  "cobblemon.move.voltivore.desc": "使用者は相手の運動エネルギーを吸収し、与えたダメージの半分を回復する。相手がまひ状態のときはダメージが増大する。",
+  
+  "cobblemon.move.gmaxvolcaniceruption": "ギガ火山噴火",
+  "cobblemon.move.gmaxvolcaniceruption.desc": "連鎖する火山噴火を起こし、相手を炎と岩の間に閉じ込め、晴れの天候にする。",
+  
+  "cobblemon.move.gmaxwildforest": "ギガ野生の森",
+  "cobblemon.move.gmaxwildforest.desc": "周囲の植物の成長を加速させ、グラスフィールドとやどりぎのタネを展開する。さらに自身にくさタイプを追加する。",
+  
+  "cobblemon.move.abyssalrush": "深淵の突進",
+  "cobblemon.move.abyssalrush.desc": "深海の圧倒的な水をまとって突進し、全てのバリアを破壊して相手をひるませる。",
+  
   "cobblemon.move.gmaxflood": "ギガ大洪水",
-  "cobblemon.move.gmaxflood.desc": "戦場を水没させるほどの嵐を起こし、相手に連続ダメージを与えつつ、自分はアクアリングのおかげで定期的に体力を回復する。",
-
+  "cobblemon.move.gmaxflood.desc": "戦場を水没させるほどの嵐を起こし、相手に連続でダメージを与えながらアクアリングで自身の体力を繰り返し回復する。",
+  
   "cobblemon.move.berrytoss": "ベリー投げ",
-  "cobblemon.move.berrytoss.desc": "ベリーを強力に投げつけて突進する。ダメージは相手の現在のHPが最大HPに対して少ないほど大きくなる。",
-
-  "cobblemon.species.hichulla.name": "ヒチチラ",
-  "cobblemon.species.hichulla.desc1": "ヒチチラは周囲の隅々を探検するのが大好きなので、野生でよく見かける。",
-  "cobblemon.species.hichulla.desc2": "ヒチチラは歌に生まれついた才能があり、どこへ行っても小さなメロディーを口ずさんでいる。",
-
-  "cobblemon.ui.pokedex.region.vtmon": "Novaera",
-  "cobblemon.starterselection.category.novaera": "Novaera",
-
+  "cobblemon.move.berrytoss.desc": "強力にベリーを投げつけ、相手に強烈な突進を仕掛ける。相手のHPが最大値に対して低いほどダメージが大きくなる。",
+  
+  "cobblemon.species.hichulla.name": "ヒチュラ",
+  "cobblemon.species.hichulla.desc1": "ヒチュラは周囲の隅々を探検するのが大好きで、野生でよく見かける。",
+  "cobblemon.species.hichulla.desc2": "歌の才能が抜群で、どこへ行っても小さなメロディーを口ずさんでいる。",
+  
+  "cobblemon.ui.pokedex.region.vtmon": "ノヴァエラ",
+  
+  "cobblemon.starterselection.category.novaera": "ノヴァエラ",
+  
   "cobblemon.species.keiridol.name": "ケイリドル",
   "cobblemon.species.keiridol.desc1": "ケイリドルの歌声は女神の声に匹敵し、尾の音符は歌うメロディーと完全に同期している。",
-  "cobblemon.species.keiridol.desc2": "ケイリドルの声は50km以内にいる聞き手を魅了する能力を持つ。",
-
+  "cobblemon.species.keiridol.desc2": "その声は50km以内にいる者を魅了・催眠する力を持つ。",
+  
   "cobblemon.species.uynuk.name": "ウイヌク",
-  "cobblemon.species.uynuk.desc1": "ウイヌクは芸術家の作品に命を吹き込みたいという願いから生まれた。",
-  "cobblemon.species.uynuk.desc2": "その縁は草の葉のように薄く、切断能力は抜群である。",
-
+  "cobblemon.species.uynuk.desc1": "芸術家の願いから生まれた、作品に命を吹き込むために生まれた存在。",
+  "cobblemon.species.uynuk.desc2": "その縁は草の葉のように薄く、切断能力が驚異的である。",
+  
   "cobblemon.species.nucraft.name": "ヌクラフト",
-  "cobblemon.species.nucraft.desc1": "ヌクラフトは三次元的な体に進化し、より多くの芸術表現を世界に共有できるようになった。",
-  "cobblemon.species.nucraft.desc2": "その姿は完全な可動性を思わせるが、実際は頭・尾・腕しか動かせない。移動は小さなジャンプで行う。",
-
+  "cobblemon.species.nucraft.desc1": "三次元の体に進化し、より多くの芸術表現を世界に届けるようになった。",
+  "cobblemon.species.nucraft.desc2": "見た目では自由に動けそうだが、実際は頭・尾・腕しか動かせない。小さく飛び跳ねて移動する。",
+  
   "cobblemon.species.lilver.name": "リルバー",
-  "cobblemon.species.lilver.desc1": "リルバーはトレーナーと遊ぶのが大好きだが、炎の熱をコントロールしきれずやけどを負わせてしまうことがある。",
-  "cobblemon.species.lilver.desc2": "近くの火災を察知するのに最適なポケモンと言われ、多くの消防士が任務のガイドとして使用している。",
-
+  "cobblemon.species.lilver.desc1": "トレーナーと遊ぶのが大好きだが、炎の熱をコントロールしきれず、やけどを負わせてしまうことがある。",
+  "cobblemon.species.lilver.desc2": "近くの火災を感知するのに最適なポケモンとされ、多くの消防士がガイドとして使っている。",
+  
   "cobblemon.species.goldy.name": "ゴルディ",
-  "cobblemon.species.goldy.desc1": "ゴルディは炎のコントロールが優れており、トレーナーを驚かせるための華麗な技を繰り出す。",
-  "cobblemon.species.goldy.desc2": "ゴルディのトレーナーへの忠誠心は、炎に凝縮された精神的な絆によるものだと信じられている。",
-
+  "cobblemon.species.goldy.desc1": "炎のコントロールが上手くなり、トレーナーを驚かせる華麗な技を繰り出す。",
+  "cobblemon.species.goldy.desc2": "トレーナーへの忠誠心は、炎に凝縮された霊的な絆によるものだと言われている。",
+  
   "cobblemon.species.lylaze.name": "リレイズ",
-  "cobblemon.species.lylaze.desc1": "初めて確認されたリレイズの個体は、トレーナーを悲惨な事故から救うために命を捧げたと言われている。",
-  "cobblemon.species.lylaze.desc2": "穏やかで平和な性質のため、野生で見かけても危険はない。",
-
+  "cobblemon.species.lylaze.desc1": "初めて確認されたリレイズは、トレーナーを悲劇的な事故から守るために命を捧げた。",
+  "cobblemon.species.lylaze.desc2": "平和で穏やかな性格なので、野生で見かけても心配はいらない。",
+  
   "cobblemon.species.ghissel.name": "ギッセル",
-  "cobblemon.species.ghissel.desc1": "忘れ去られた地下墓地で生まれ、さまよう魂の苦しみを吸収し浄化しながら、暗黒のエネルギーを蓄える。",
-  "cobblemon.species.ghissel.desc2": "やがて吸収した不純物をスペクトルの毒に変え、浄化した魂の苦しみを封じ込める。",
-
+  "cobblemon.species.ghissel.desc1": "忘れられた地下墓地で生まれ、墓をさまよいながらさまよう魂の苦痛を吸収し、浄化して暗黒のエネルギーを蓄える。",
+  "cobblemon.species.ghissel.desc2": "やがて吸収した不純物を幽霊の毒に変え、浄化した魂の苦しみを封じる。",
+  
   "cobblemon.species.schlanghoul.name": "シュランゴウル",
-  "cobblemon.species.schlanghoul.desc1": "頭部に骨の突起が現れ、特に鼻先に目立つ。これは浄化しようとする苦しみの魂が原因だ。",
-  "cobblemon.species.schlanghoul.desc2": "首の結晶は吸収した魂を貯蔵し、体を強化すると同時に毒の威力を大幅に高める。",
-
+  "cobblemon.species.schlanghoul.desc1": "頭部に骨の突起が現れ、特に鼻先に目立つ。これは浄化しようとする哀れな魂の影響である。",
+  "cobblemon.species.schlanghoul.desc2": "首の結晶は吸収した魂を貯蔵し、体を強化すると同時に毒をより強力にする。",
+  
   "cobblemon.species.ghiftdorah.name": "ギフトドラ",
-  "cobblemon.species.ghiftdorah.desc1": "吸収した魂が体を完全に変異させ、長年の苦痛の蓄積により魂が邪悪になった。",
-  "cobblemon.species.ghiftdorah.desc2": "左右の頭の行動が不安定なのは体内で魂たちが支配権を争っているためだが、連携したときは強力な武器となる。",
-
+  "cobblemon.species.ghiftdorah.desc1": "吸収した魂が体を完全に変異させ、長年の苦痛により魂が邪悪になった。",
+  "cobblemon.species.ghiftdorah.desc2": "左右の頭の奇妙な動きは体内で魂が支配権を争うためだが、連携すると致命的な武器となる。",
+  
   "cobblemon.species.hapu.name": "ハプ",
-  "cobblemon.species.hapu.desc1": "エネルギーが足りなくなると発電所に忍び込むことが多い。非常に活発なので頻繁に充電する必要がある。",
-  "cobblemon.species.hapu.desc2": "野生のハプは電気嵐の際に尾を避雷針のように使ってエネルギーを補充する。",
-
+  "cobblemon.species.hapu.desc1": "エネルギーが足りなくなると発電所に忍び込むことが多い。非常に活発なので頻繁に充電が必要。",
+  "cobblemon.species.hapu.desc2": "野生のハプは電気嵐のときに尾を避雷針にしてエネルギーを充電する。",
+  
   "cobblemon.species.strideer.name": "ストライダー",
-  "cobblemon.species.strideer.desc1": "ストライダーは角を通してさまざまなエネルギーを操り、相手を容赦なく攻撃する。",
-  "cobblemon.species.strideer.desc2": "時々体が許容量を超えるエネルギーを溜め込み、周囲に短絡を引き起こす。",
-
-  "cobblemon.species.aaiper.name": "アイパー",
-  "cobblemon.species.aaiper.desc1": "過負荷による体内のイオン化で、肉体が純粋なエネルギーに変わった。",
-  "cobblemon.species.aaiper.desc2": "純粋なエネルギー体であるため、家電製品に忍び込んで短絡を起こす。",
-
+  "cobblemon.species.strideer.desc1": "角を使って様々なエネルギーを操り、相手を容赦なく攻撃する。",
+  "cobblemon.species.strideer.desc2": "時々体が耐えきれないほどのエネルギーを溜め、周囲にショートを引き起こす。",
+  
+  "cobblemon.species.aaiper.name": "アアイパー",
+  "cobblemon.species.aaiper.desc1": "過負荷により肉体がイオン化し、純粋なエネルギー体となった。",
+  "cobblemon.species.aaiper.desc2": "純粋なエネルギーであるため、家電に忍び込んでショートさせる。",
+  
   "cobblemon.ability.divinevoice": "天使の声",
-  "cobblemon.ability.divinevoice.desc": "声が特殊な周波数を出し、音とフェアリータイプの技を強化し、粉末系の技から身を守る。",
-  "cobblemon.battle.ability.divinevoice": "%1$sの天使の声が粉末を防ぎ、歌声を強化する。",
-
+  "cobblemon.ability.divinevoice.desc": "声が特殊な周波数を発し、音とフェアリータイプの技を強化し、粉末系の技から守る。",
+  "cobblemon.battle.ability.divinevoice": "%1$sの天使の声が粉末を防ぎ、歌を強化する。",
+  
   "cobblemon.ability.corruptedsoul": "腐敗した魂",
-  "cobblemon.ability.corruptedsoul.desc": "ノーマルとゴーストタイプの技をあくタイプに変換し、威嚇とひるみを無効にし、どくタイプの技を強化する。",
-
+  "cobblemon.ability.corruptedsoul.desc": "ノーマルとゴーストタイプの技をあくタイプに変換し、威嚇とひるみ無効、毒タイプの技を強化する。",
+  
   "cobblemon.ability.precise": "精密",
-  "cobblemon.ability.precise.desc": "複数回攻撃する技のヒット数を最大まで保証し、結果としてより大きなダメージを与える。",
-
-  "cobblemon.ability.illusiotype": "イリュージョンタイプ",
-  "cobblemon.ability.illusiotype.desc": "チーム内の他のポケモンの姿とタイプを完全に模倣する。",
-
+  "cobblemon.ability.precise.desc": "多段攻撃のヒット数を必ず最大にし、結果としてより大きなダメージを与える。",
+  
+  "cobblemon.ability.illusiotype": "幻影タイプ",
+  "cobblemon.ability.illusiotype.desc": "チーム内のポケモンの姿とタイプを完全に模倣する。",
+  
   "cobblemon.ability.illusoryember": "幻の残り火",
-  "cobblemon.ability.illusoryember.desc": "戦闘開始時にチーム最後のポケモンの姿になる。相手をやけどにし、幻が解けたときに全HPを回復する。",
-
-  "cobblemon.ability.sagacity": "賢慮",
-  "cobblemon.ability.sagacity.desc": "戦闘開始時に使用者の知恵が相手を威圧し、特攻を1段階下げる。",
-
-  "cobblemon.ability.chaosenergy": "混沌のエネルギー",
-  "cobblemon.ability.chaosenergy.desc": "使用者のエネルギーが溢れ出し、戦闘開始時と毎ターン後に物理攻撃・特殊攻撃・素早さを上昇させ、技の威力を50%増加させる。",
-
+  "cobblemon.ability.illusoryember.desc": "戦闘開始時にチーム最後のポケモンの姿になる。相手をやけどにし、幻が解けたときに全回復する。",
+  
+  "cobblemon.ability.sagacity": "賢明",
+  "cobblemon.ability.sagacity.desc": "戦闘に入ると、賢さが相手を威圧し、相手の特攻を1段階下げる。",
+  
+  "cobblemon.ability.chaosenergy": "混沌エネルギー",
+  "cobblemon.ability.chaosenergy.desc": "エネルギーが溢れ、登場時と毎ターン後に攻撃・特攻・素早さが上がり、さらに与える技のダメージが50%増加する。",
+  
   "cobblemon.ability.grandencore": "グランアンコール",
   "cobblemon.ability.grandencore.desc": "観客の要望に応じて40%の確率で2回攻撃する。",
-
+  
   "cobblemon.ability.curiousinstinct": "好奇心の本能",
-  "cobblemon.ability.curiousinstinct.desc": "相手全員の能力を1つランダムにコピーする好奇心から。",
-
+  "cobblemon.ability.curiousinstinct.desc": "相手の能力をランダムに1つコピーする。どういう仕組みか知りたいという好奇心から。",
+  
   "cobblemon.ability.bloodsucker": "吸血",
-  "cobblemon.ability.bloodsucker.desc": "相手の血を吸って、与えたダメージの一部だけHPを回復する。相手がひんしになると、自分のHPをすべて回復する。",
-
+  "cobblemon.ability.bloodsucker.desc": "相手の血を吸い、与えたダメージの一部を回復する。相手が倒れると全回復する。",
+  
   "item.cobblemon.bread": "パン",
-
-  "cobblemon.battle.heal.illusoryember": "%1$sは幻の残り火を吸収してHPを回復した。",
-
+  
+  "cobblemon.battle.heal.illusoryember": "%1$sは幻の残り火を吸収して体力を回復した。",
+  
   "cobblemon.species.kreti.name": "クレティ",
-  "cobblemon.species.kreti.desc1": "クレティは人やポケモンにいたずらをするのが大好きだが、悪気はない。それは好意の表れだ。",
-  "cobblemon.species.kreti.desc2": "炎で非常に精巧な幻を作り出し、見る者を誰でも惑わすことができる。",
-
+  "cobblemon.species.kreti.desc1": "人やポケモンにいたずらをするのが好きだが、悪気はない。気に入っている証拠だ。",
+  "cobblemon.species.kreti.desc2": "炎で非常に精巧な幻を作り出し、見る者を惑わす。",
+  
   "cobblemon.species.kretsune.name": "クレツネ",
-  "cobblemon.species.kretsune.desc1": "いたずら好きながら「預言者」と呼ばれ、神聖な存在と深い関係を持ち、その声となる。",
-  "cobblemon.species.kretsune.desc2": "常にヒチチラの群れを守り、ケイリドルの近くにいる。",
-
-  "cobblemon.species.yurcat.name": "ユンキャト",
-  "cobblemon.species.yurcat.desc1": "ユンキャトは王族や威厳と結びつけて語られる種で、「深淵の王」の子孫である。",
-  "cobblemon.species.yurcat.desc2": "捕まえても簡単にはトレーナーを認めない。信頼と承認を勝ち取らなければならない。",
-
+  "cobblemon.species.kretsune.desc1": "いたずら好きだが「預言者」と呼ばれ、神聖な存在の声を代弁する。",
+  "cobblemon.species.kretsune.desc2": "ヒチュラの群れを常に守り、ケイリドルの近くにいる。",
+  
+  "cobblemon.species.yurcat.name": "ユルキャット",
+  "cobblemon.species.yurcat.desc1": "王族や高貴なイメージが強く、「深淵の王」の子孫とされる。",
+  "cobblemon.species.yurcat.desc2": "捕まえても簡単にトレーナーを認めず、信頼を勝ち取らなければならない。",
+  
   "cobblemon.species.marigueya.name": "マリグエヤ",
-  "cobblemon.species.marigueya.desc1": "マリグエヤは木に登って天敵から身を隠し、地元のベリーに擬態する。",
-  "cobblemon.species.marigueya.desc2": "自然界でもトレーナーとの間でも問題を起こしやすく、持ち物が散らばっていることに驚かないでほしい。",
-
+  "cobblemon.species.marigueya.desc1": "木に登って地元のベリーに擬態し、敵から身を隠す。",
+  "cobblemon.species.marigueya.desc2": "自然界でもトレーナーとの間でも問題を起こしやすく、荷物が散乱していることも多い。",
+  
   "cobblemon.species.nancuache.name": "ナンクアチェ",
-  "cobblemon.species.nancuache.desc1": "いつも背中にマリグエヤを乗せており、虫タイプに弱いにもかかわらず虫ポケモンに挑むのが好きだ。",
-  "cobblemon.species.nancuache.desc2": "その父性本能はポケモン界で最も称賛され、KangaskhanやDragapultに匹敵する。",
-
+  "cobblemon.species.nancuache.desc1": "いつもマリグエヤを背中に乗せており、虫タイプに弱いのに積極的に挑む。",
+  "cobblemon.species.nancuache.desc2": "親としての本能はカンガルーとドラパルトに匹敵するほど素晴らしい。",
+  
   "cobblemon.species.arrkuro.name": "アークロ",
-  "cobblemon.species.arrkuro.desc1": "誇り高い性格のため、トレーナーを尊敬できないと命令に従わない傾向がある。",
-  "cobblemon.species.arrkuro.desc2": "泳ぎの能力と防御力が強化され、深海の第二の捕食者となる（進化形の次）。",
-
+  "cobblemon.species.arrkuro.desc1": "プライドが高く、トレーナーを尊敬できないと命令を聞かない。",
+  "cobblemon.species.arrkuro.desc2": "泳ぎと防御力が強化され、進化前の次に優れた海の捕食者となる。",
+  
   "cobblemon.species.zarinanjo.name": "ザリナンジョ",
-  "cobblemon.species.zarinanjo.desc1": "小さな物を非常に強い力で投げ、衝撃を受けた者に大きな打撃を与えることができる。",
+  "cobblemon.species.zarinanjo.desc1": "小さな物をものすごい力で投げ、衝撃を受けた者に大きな打撃を与える。",
   "cobblemon.species.zarinanjo.desc2": "2匹のマリグエヤを一緒に投げて敵と戦い、互角に渡り合う。",
-
+  
   "cobblemon.species.kurperor.name": "クルペラー",
-  "cobblemon.species.kurperor.desc1": "圧倒的な存在感と長寿から「深淵の王」と呼ばれ、他のポケモンから保護と戦闘の知恵を求めて集まる。",
-  "cobblemon.species.kurperor.desc2": "クルペラーのトレーナーであることは尊敬と称賛の象徴であり、この種は優れた支配者にしか値しない。",
-
+  "cobblemon.species.kurperor.desc1": "威厳と長寿から「深淵の王」と呼ばれ、他のポケモンが保護と戦いの知恵を求めて集まる。",
+  "cobblemon.species.kurperor.desc2": "クルペラーのトレーナーになることは尊敬の証であり、立派な統治者にしかふさわしくない。",
+  
   "cobblemon.species.aelubi.name": "アエルビ",
-  "cobblemon.species.aelubi.desc1": "アエルビは人間とポケモンを腐敗させる悪を根絶するため、世界を飛び回っている。",
-  "cobblemon.species.aelubi.desc2": "もし出会ったら、守ってくれた感謝として何か（できればお菓子やデザート）を捧げよう。",
+  "cobblemon.species.aelubi.desc1": "人間とポケモンを蝕む悪を根絶するため、世界中を飛び回る。",
+  "cobblemon.species.aelubi.desc2": "見かけたら保護への感謝として、何か（特に甘いものやデザート）を差し上げるのが良い。",
   "cobblemon.species.aelubi.desc3": "悪魔のような姿の伝説のポケモンと激しい戦いを繰り広げ、その手下を浄化しようとしていると言われる。",
-
+  
   "cobblemon.species.bellver.name": "ベルバー",
-  "cobblemon.species.bellver.desc1": "対になるリルバーとは違い、ベルバーは穏やかでリラックスした性格だ。",
-  "cobblemon.species.bellver.desc2": "甘い香りと優しい態度が、人間にもポケモンにも落ち着きを与える。",
-
+  "cobblemon.species.bellver.desc1": "対になるリルバーとは対照的に、落ち着いていて穏やか。",
+  "cobblemon.species.bellver.desc2": "甘い香りと優しい態度で、人間もポケモンも安心させる。",
   "cobblemon.species.belldy.name": "ベルディ",
-  "cobblemon.species.belldy.desc1": "四肢と樹皮がより頑丈になり、攻撃への耐久力が大幅に向上した。",
-  "cobblemon.species.belldy.desc2": "耐久力が増したものの、主に平和主義者である。",
-
+  "cobblemon.species.belldy.desc1": "手足と樹皮がより頑丈になり、攻撃への耐性が大幅に上がる。",
+  "cobblemon.species.belldy.desc2": "耐性は上がったものの、基本的に平和主義者。",
+  
   "cobblemon.species.bellaze.name": "ベラゼ",
-  "cobblemon.species.bellaze.desc1": "尾がリンゴの木の茂みに成長し、時折リンゴが実る。",
-  "cobblemon.species.bellaze.desc2": "尾の茂みは小さなポケモンたちの理想の住処であり、穏やかな性格ながら友達を守るためにためらわず戦う。",
-
+  "cobblemon.species.bellaze.desc1": "尾がリンゴの木の茂みに成長し、時折リンゴを実らせる。",
+  "cobblemon.species.bellaze.desc2": "尾の茂みは小さなポケモンの理想の住処。小さな友人を守るため、穏やかな性格でも迷わず戦う。",
+  
   "cobblemon.species.byion.name": "バイオン",
-  "cobblemon.species.byion.desc1": "棘から発生する電気は高層ビル全体に電力を供給できるほど強力だ。",
-  "cobblemon.species.byion.desc2": "リルバーの群れと共に暮らすことが多いが、その絆の理由は理論上のものであると考えられている。",
-
-  "cobblemon.species.byohm.name": "バイオーム",
-  "cobblemon.species.byohm.desc1": "計り知れない速度で走り、数秒で速度と運動エネルギーを爆発的に高めることができる。",
-  "cobblemon.species.byohm.desc2": "キッチン用品（特にスプーン）の盗難事件が報告されており、この種が関与していると噂されている。",
-
+  "cobblemon.species.byion.desc1": "トゲから発生する電気は高層ビル1棟を丸ごと賄えるほど。",
+  "cobblemon.species.byion.desc2": "リルバーと群れで暮らすことが多いが、その絆の理由はまだ解明されていない。",
+  
+  "cobblemon.species.byohm.name": "ビョーム",
+  "cobblemon.species.byohm.desc1": "計り知れない速度で走り、数秒で速度と運動エネルギーを爆発的に高める。",
+  "cobblemon.species.byohm.desc2": "キッチン用品、特にスプーンの窃盗事件が報告されており、この種が関与していると噂される。",
+  
   "cobblemon.species.mizuga.name": "ミズガ",
-  "cobblemon.species.mizuga.desc1": "暖かい海とサンゴ礁に生息し、一日中魚の群れの中で遊んでいる。",
-  "cobblemon.species.mizuga.desc2": "ダイバーはその存在を健全でバランスの取れたサンゴ礁の証拠だと語る。",
-  "cobblemon.species.mizuga.desc3": "平和で好奇心旺盛なポケモンで、水を活用して軽い突進をして遊ぶが、危害を加えるつもりはない。",
-
+  "cobblemon.species.mizuga.desc1": "暖かい海やサンゴ礁に生息し、一日中魚の群れの中で遊んでいる。",
+  "cobblemon.species.mizuga.desc2": "ダイバーはその存在を健全なサンゴ礁の証拠だと語る。",
+  "cobblemon.species.mizuga.desc3": "平和で好奇心旺盛。水を蹴って小さな突進を繰り返すが、危害を加える気はない。",
+  
   "cobblemon.species.okamorph.name": "オカモルフ",
-  "cobblemon.species.okamorph.desc1": "オカモルフの強い意志が、遠い地方の伝説のポケモンに似たこの姿への進化を促した。",
-  "cobblemon.species.okamorph.desc2": "変身能力を失った代わりに、その力はより混沌としたものになった。",
-
-  "cobblemon.species.nefthlet.name": "ネフスレ",
-  "cobblemon.species.nefthlet.desc1": "ネフスレは亡くなった人々の古い品物を求めて地域中を飛び回る。",
-  "cobblemon.species.nefthlet.desc2": "ルクディーと常に争っている。ネフスレはトレーナーが倒れるのを待って荷物を盗み、ルクディーはそれを守ろうとする。",
-
-  "cobblemon.species.gotheneth.name": "ゴスネ",
-  "cobblemon.species.gotheneth.desc1": "ゴスネが人の傍に止まると死期が近いと言われるが、それは無視しがたい迷信に過ぎない。",
-  "cobblemon.species.gotheneth.desc2": "進化形である「葬送の羽」ポケモンの使者として機能する。接触は避けよう。",
-
+  "cobblemon.species.okamorph.desc1": "強い意志が遠い地方の伝説のポケモンに似た姿への進化を促した。",
+  "cobblemon.species.okamorph.desc2": "変身能力を失った代わりに、力はより混沌としたものになった。",
+  
+  "cobblemon.species.nefthlet.name": "ネフスレット",
+  "cobblemon.species.nefthlet.desc1": "亡くなった人の古い遺物を求めて地域全体を飛び回る。",
+  "cobblemon.species.nefthlet.desc2": "ルクシーと常に争っている。ルクシーはトレーナーを守ろうとし、ネフスレットは落ちたトレーナーの荷物を狙う。",
+  "cobblemon.species.gotheneth.name": "ゴテネス",
+  "cobblemon.species.gotheneth.desc1": "ゴテネスが人のそばに止まると死期が近いと言われるが、それは無視できない迷信だ。",
+  "cobblemon.species.gotheneth.desc2": "進化形である葬送の羽ポケモンの使者。接触は避けた方がよい。",
   "cobblemon.species.nenebris.name": "ネネブリス",
-  "cobblemon.species.nenebris.desc1": "ネネブリスは新鮮な魂を探してさまよい、自身の存在をもう一日維持する。",
-  "cobblemon.species.nenebris.desc2": "その出現は死の予兆とされ、近くで必ず人間かポケモンの死と重なる。",
-
+  "cobblemon.species.nenebris.desc1": "新鮮な魂を探してさまよい、自身の存在をあと一日保つ。",
+  "cobblemon.species.nenebris.desc2": "その出現は死の前兆とされ、近くで必ず人間かポケモンが命を落とす。",
+  
   "cobblemon.species.buntari.name": "ブンタリ",
-  "cobblemon.species.buntari.desc1": "完璧な幻を作り出し、別のポケモンに見せかけ、タイプまで模倣できる。",
-  "cobblemon.species.buntari.desc2": "幻が破れると、ふわふわの大きな尾で仲間を包み込み、完全回復する癒しのエネルギーを放つ。",
-
+  "cobblemon.species.buntari.desc1": "完璧な幻を作り出し、自分を別のポケモンに見せかけ、タイプまで変える。",
+  "cobblemon.species.buntari.desc2": "幻が解けると、ふわふわの大きな尾で仲間を包み、癒しのエネルギーで完全に回復させる。",
+  
   "cobblemon.species.tokomand.name": "トコマンド",
-  "cobblemon.species.tokomand.desc1": "ミミッキュの衣装の一部を死なずに盗む方法は謎だが、段ボールとテープで作った王冠を被っている。",
-  "cobblemon.species.tokomand.desc2": "その態度で周囲のポケモンを全員怖がらせる。初心者トレーナーは捕まえない方がいい。",
-
-  "cobblemon.species.nenevern.name": "ネネバーン",
-  "cobblemon.species.nenevern.desc1": "ネネバーンは大きなピンクの翼をマントのように体に巻きつけ、ほとんどの時間をうとうと過ごしますが、邪魔されると怒りに満ちた超音波の叫び声を上げ、相手を混乱させ方向感覚を失わせます。",
-  "cobblemon.species.nenevern.desc2": "その叫び声は周囲のすべてのポケモンと人間をめまいさせます。眠っている間は邪魔しないのが賢明です。",
-
+  "cobblemon.species.tokomand.desc1": "ミミッキュの衣装の一部を死なずに盗んだ方法は謎だが、段ボールとガムテープで作った王冠を被っている。",
+  "cobblemon.species.tokomand.desc2": "その態度で周囲のポケモンを怯えさせる。初心者トレーナーは捕まえない方が無難。",
+  "cobblemon.species.tokarmy.name": "トカーミー",
+  "cobblemon.species.tokarmy.desc1": "数々の出来事の末、古い仮面をマントにし、地域の全トコマンドを率いるにふさわしいリーダーとなった。",
+  "cobblemon.species.tokarmy.desc2": "多くのトコマンドを束ねて巨大なトコマンドを操縦できるという噂がある。",
+  
+  "cobblemon.species.nenevern.name": "ネネヴァーン",
+  "cobblemon.species.nenevern.desc1": "大きなピンクの翼をマントのようにまとってほとんど眠っているが、邪魔されると怒りに満ちた超音波の叫びを上げ、相手を混乱させる。",
+  "cobblemon.species.nenevern.desc2": "その叫びは周囲のポケモンと人間をめまいさせる。眠っているときは絶対に起こさない方がいい。",
   "cobblemon.species.nenevamp.name": "ネネヴァンプ",
-  "cobblemon.species.nenevamp.desc1": "ネネヴァンプが進化して得た人型の姿は、ポケモンへと変えた毒に屈する前の面影を映しています。",
-  "cobblemon.species.nenevamp.desc2": "その吸血鬼のような性質は数多くの耐性と無効をもたらし、今では主に相手の血を糧にしています。",
-
+  "cobblemon.species.nenevamp.desc1": "進化して得た人型は、毒に侵される前の姿を反映している。",
+  "cobblemon.species.nenevamp.desc2": "吸血鬼のような性質により多くの耐性を獲得し、主に相手の血を糧とする。",
+  
   "cobblemon.move.comando": "コマンド",
-  "cobblemon.move.comando.desc": "1ターン目に味方の攻撃・特攻を強化し、味方の数に応じて自身の回避率も上昇させる。以降のターンでは相手が前ターンに使った技を使えなくする。シングルバトルでは、倒れていない味方の数に応じて回避率が上昇する。"
+  "cobblemon.move.comando.desc": "1ターン目に味方の攻撃と特攻を上げ、自分の回避率をフィールド上の味方の数に応じて上昇させる。次のターン以降は相手が前ターンに使った技を封じる。シングルバトルでは、倒れていない味方の数に応じて回避率が上がる。"
 }

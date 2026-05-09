@@ -17,9 +17,12 @@
     }
   ],
   "biome": [
-    "#cobblemon:is_beach",
-    "#minecraft:is_river",
-    "#cobblemon:is_forest",
-    "#c:plains"
+    "minecraft:meadow",
+    "minecraft:cherry_grove",
+    "#minecraft:is_forest",
+    "#c:floral",
+    "#byg:is_magical",
+    "#c:plains",
+    "#cobblemon:is_plains"
   ]
 }

@@ -19,9 +19,6 @@
     "main": [
       "com.nosoysun.vtmon.VTMon"
     ],
-    "fabric-datagen": [
-      "com.nosoysun.vtmon.VTMonDataGenerator"
-    ],
     "client": [
       "com.nosoysun.vtmon.VTMonClient"
     ]
