@@ -1,6 +1,6 @@
 {
   "pokemons": ["Tokarmy"],
-  "showdown_form_change_id": "commander",
+  "showdown_form_change_id": "tokarmy",
   "aspect_conditions": {
     "apply": {
       "aspects": ["battalion_forme=commander"]
