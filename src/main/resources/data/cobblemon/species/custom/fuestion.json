@@ -1,0 +1,303 @@
+{
+  "implemented": true,
+  "name": "Fuestion",
+  "nationalPokedexNumber": 4118,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "abilities": [
+    "informant"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "atk": 65,
+    "def": 80,
+    "spa": 105,
+    "spd": 125,
+    "spe": 75
+  },
+  "aspects": [],
+  "riding": {
+    "behaviours": {
+      "AIR": {
+        "key": "cobblemon:air/bird",
+        "rideSounds": [
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.wind",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          },
+          {
+            "muffleEnabled": true,
+            "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+            "playForNonPassengers": true,
+            "soundLocation": "cobblemon:ride.loop.leather",
+            "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+          }
+        ],
+        "stats": {
+          "ACCELERATION": "70-100",
+          "JUMP": "50-80",
+          "SKILL": "80-100",
+          "SPEED": "65-100",
+          "STAMINA": "50-80"
+        },
+        "canSprint": true
+      },
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": true,
+        "canSprint": true,
+        "stats": {
+          "ACCELERATION": "35-55",
+          "JUMP": "15-30",
+          "SKILL": "20-40",
+          "SPEED": "25-45",
+          "STAMINA": "20-35"
+        }
+      }
+    },
+    "seats": [
+      {
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "poseOffsets": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.45,
+              "z": 0.32
+            },
+            "poseTypes": [
+              "STAND"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.02,
+              "y": -1.55,
+              "z": 0.12
+            },
+            "poseTypes": [
+              "WALK"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.04,
+              "y": -2.15,
+              "z": 0.08
+            },
+            "poseTypes": [
+              "HOVER"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.06,
+              "y": -1.95,
+              "z": -0.42
+            },
+            "poseTypes": [
+              "FLY"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -0.75,
+              "z": -0.26
+            },
+            "poseTypes": [
+              "FLOAT"
+            ]
+          },
+          {
+            "offset": {
+              "x": -0.02,
+              "y": -1.55,
+              "z": 0.12
+            },
+            "poseTypes": [
+              "SWIM"
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": -1.45,
+              "z": 0.32
+            },
+            "poseTypes": [
+              "GLIDE"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "stepHeight": 1.661132813,
+      "fly": {
+        "canFly": true,
+        "flySpeedHorizontal": 0.6
+      },
+      "walk": {
+        "canWalk": false,
+        "avoidsLand": true
+      },
+      "looksAtEntities": true
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.001,
+  "shoulderMountable": false,
+  "forms": [],
+  "lightingData": {
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
+  },
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:confusion",
+    "1:confuseray",
+    "1:curse",
+    "1:detect",
+    "1:disarmingvoice",
+    "1:feint",
+    "1:foresight",
+    "1:growl",
+    "1:hex",
+    "1:leer",
+    "1:meanlook",
+    "1:nightshade",
+    "1:playnice",
+    "1:sandattack",
+    "1:shadowsneak",
+    "1:taunt",
+    "6:confuseray",
+    "9:nightshade",
+    "12:psychoshift",
+    "15:feintattack",
+    "18:psychocut",
+    "21:shadowball",
+    "24:calmmind",
+    "27:darkpulse",
+    "30:psychic",
+    "33:megahorn",
+    "36:nastyplot",
+    "39:psyshock",
+    "42:storedpower",
+    "45:futurevision",
+    "48:partingshot",
+    "52:expandingforce",
+    "egg:extrasensory",
+    "egg:faketears",
+    "egg:foresight",
+    "egg:grudge",
+    "egg:imprison",
+    "egg:spite",
+    "egg:trick",
+    "egg:healbell",
+    "egg:wish",
+    "tm:calmmind",
+    "tm:darkpulse",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:shadowball",
+    "tm:nastyplot",
+    "tm:taunt",
+    "tm:throatchop",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:snarl",
+    "tm:payback",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:psychocut",
+    "tm:expandingforce",
+    "tm:storedpower",
+    "tm:futurevision",
+    "tm:imprison",
+    "tm:nightshade",
+    "tm:hex",
+    "tm:willowisp",
+    "tm:confuseray",
+    "tm:hypnosis",
+    "tm:terablast",
+    "tm:uturn",
+    "tm:partingshot",
+    "tm:teleport",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:protect",
+    "tm:sleeptalk",
+    "tm:rest",
+    "tm:recover",
+    "tm:painsplit",
+    "tm:healbell",
+    "tm:wish",
+    "tm:toxic",
+    "tm:thunderwave",
+    "tm:encore",
+    "tm:energyball",
+    "tm:sludgebomb",
+    "tm:icebeam",
+    "tm:earthpower",
+    "tm:powergem",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:psychic",
+    "tutor:psyshock",
+    "tutor:shadowball",
+    "tutor:psychocut",
+    "tutor:expandingforce",
+    "tutor:energyball",
+    "tutor:sludgebomb",
+    "tutor:icebeam",
+    "tutor:earthpower",
+    "tutor:trick",
+    "tutor:healbell",
+    "tutor:painsplit",
+    "tutor:telekinesis"
+],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "cobblemon.species.fuestion.desc1",
+    "cobblemon.species.fuestion.desc2"
+  ],
+  "baseScale": 1.05,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 35,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "weight": 2.5,
+  "height": 1.9
+}

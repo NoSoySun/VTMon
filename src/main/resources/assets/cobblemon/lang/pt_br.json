@@ -77,6 +77,9 @@
   "cobblemon.ability.curiousinstinct.desc": "Copia uma habilidade aleatória de todos os oponentes por curiosidade de saber como funciona.",
   "cobblemon.ability.bloodsucker": "Chupasangue",
   "cobblemon.ability.bloodsucker.desc": "O usuário se alimenta do sangue do oponente, recuperando parte do dano causado ao alvo. Se o alvo for nocauteado, o usuário recupera toda a sua saúde.",
+  "cobblemon.ability.informant": "Informante",
+  "cobblemon.ability.informant.desc": "Ao entrar em combate, cria um Terreno Psíquico. Enquanto ele estiver ativo, seus movimentos ignoram a Evasão e aumentos defensivos do alvo, sua Precisão sobe a cada turno até três vezes, ataques Psíquicos ou Sombrios prolongam o terreno e ataques Sombrios podem reduzir a Precisão do alvo.",
+  "cobblemon.ability.informant.extend": "Informante prolongou o Terreno Psíquico.",
   "item.cobblemon.bread": "Pão",
   "cobblemon.battle.heal.illusoryember": "%1$s absorveu as brasas de sua ilusão, recuperando seus PS.",
   "cobblemon.species.kreti.name": "Kreti",
@@ -153,6 +156,9 @@
   "cobblemon.species.nenevamp.name": "Nenevamp",
   "cobblemon.species.nenevamp.desc1": "A forma humanoide que Nenevamp adota ao evoluir é um reflexo de como ele se parecia antes de sucumbir ao veneno que o transformou em um Pokémon.",
   "cobblemon.species.nenevamp.desc2": "Sua natureza vampírica deu origem a um grande número de imunidades, além de agora se alimentar principalmente do sangue de seus oponentes.",
+  "cobblemon.species.fuestion.name": "Fuestion",
+  "cobblemon.species.fuestion.desc1": "Fuestion deixa rastros de poder psíquico ao seu redor para ampliar sua percepção.",
+  "cobblemon.species.fuestion.desc2": "Ao ajustar a forma e a posição desses rastros, consegue ouvir tudo com o chifre em sua cabeça e ver através de sua cauda, abrangendo um amplo alcance sensorial.",
   "cobblemon.move.comando": "Comando",
   "cobblemon.move.comando.desc": "No primeiro turno, potencializa o Ataque e Ataque Especial de seus aliados, aumentando também sua própria Evasão de acordo com a quantidade de aliados no campo. Nos turnos seguintes, impede que o rival use o movimento utilizado no turno anterior. Em combates individuais, a Evasão aumenta de acordo com a quantidade de Pokémon não nocauteados na equipe."
 }

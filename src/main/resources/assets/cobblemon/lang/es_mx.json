@@ -109,6 +109,9 @@
   "cobblemon.ability.bloodsucker": "Chupasangre",
   "cobblemon.ability.bloodsucker.desc": "El usuario se alimenta de la sangre de su oponente, recuperando parte del daño hecho al objetivo. Si el objetivo cae debilitado, el usuario recupera toda su salud.",
 
+  "cobblemon.ability.informant": "Informante",
+  "cobblemon.ability.informant.desc": "Al entrar en combate, crea un campo psíquico. Mientras está activo, sus movimientos ignoran la Evasión y las mejoras defensivas del objetivo, su Precisión sube cada turno hasta tres veces, sus ataques Psíquico o Siniestro prolongan el campo y sus ataques Siniestro pueden bajar la Precisión del objetivo.",
+  "cobblemon.ability.informant.extend": "Informante extendió el campo psíquico.",
   "item.cobblemon.bread": "Pan",
 
   "cobblemon.battle.heal.illusoryember": "%1$s absorbió las brasas de su ilusión recuperando su PS.",
@@ -212,6 +215,9 @@
   "cobblemon.species.nenevamp.desc1": "La forma humanoide que adopta Nenevamp al evolucionar es un reflejo de como se veía antes de sucumbir ante el veneno que la convirtió en un Pokémon.",
   "cobblemon.species.nenevamp.desc2": "Su naturaleza vampírica dio paso a gran numero de inmunidades, además de que ahora se alimenta principalmente de la sangre de sus oponentes.",
 
+  "cobblemon.species.fuestion.name": "Fuestion",
+  "cobblemon.species.fuestion.desc1": "Fuestion deja rastros de poder psíquico en su entorno para extender su percepción.",
+  "cobblemon.species.fuestion.desc2": "Al ajustar la forma y posición de estos rastros, puede escuchar todo con el cuerno de su cabeza y ver a través de su cola, abarcando un amplio rango sensorial.",
   "cobblemon.move.comando": "Comando",
   "cobblemon.move.comando.desc": "En el primer turno, potencia el ataque y Ataque Especial de sus aliados, aumentando también su propia Evasión según la cantidad de aliados en el campo, en los siguientes turnos, evita que el rival use el movimiento utilizado en el turno anterior. En combates individuales, la Evasión aumenta según la cantidad de Pokémon no debilitados en el equipo."
 }

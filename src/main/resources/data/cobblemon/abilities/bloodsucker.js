@@ -1,30 +1,40 @@
 {
     onModifyMove(move, pokemon) {
         if (move.flags['bite']) {
-            move.basePower = Math.floor(move.basePower * 1.5);
-            move.drain = [3, 5];
+            move.basePower = Math.ceil(move.basePower * 1.5);
+            move.drain = [3, 4];
         }
     },
 
     onTryHit(target, source, move) {
-        if (target === source || move.category === 'Status' || move.type === '???' || move.id === 'struggle') return;
-        if (move.id === 'skydrop' && !source.volatiles['skydrop']) return;
+        if (target === source) return;
+        if (move.category === 'Status') return;
 
-        this.debug('Bloodsucker immunity: ' + move.id);
-
-        const effectiveness = target.runEffectiveness(move);
-
-        if (effectiveness >= 1) {
-            if (move.smartTarget) {
-                move.smartTarget = false;
-            } else {
-                this.add('-immune', target, '[from] ability: Bloodsucker');
-            }
+        if (move.type === 'Poison' || move.type === 'Dark') {
+            this.add('-immune', target, '[from] ability: Bloodsucker');
             return null;
         }
     },
 
-    flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, failskillswap: 1, breakable: 1 },
+    onEffectiveness(typeMod, target, type, move) {
+        
+        if (move.type === 'Poison' || move.type === 'Dark') {
+            return;
+        }
+
+        if (typeMod === 1 || typeMod >= 2) {
+            return typeMod * -1;
+        }
+    },
+
+    flags: {
+        failroleplay: 1,
+        noreceiver: 1,
+        noentrain: 1,
+        failskillswap: 1,
+        breakable: 1,
+    },
+
     name: "Bloodsucker",
     rating: 4,
     num: -19456,

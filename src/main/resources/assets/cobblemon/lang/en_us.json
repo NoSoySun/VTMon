@@ -77,6 +77,9 @@
   "cobblemon.ability.curiousinstinct.desc": "Copies a random ability from all its opponents out of curiosity to know how it works.",
   "cobblemon.ability.bloodsucker": "Bloodsucker",
   "cobblemon.ability.bloodsucker.desc": "The user feeds on the blood of its opponent, recovering part of the damage dealt to the target. If the target faints, the user recovers all its health.",
+  "cobblemon.ability.informant": "Informant",
+  "cobblemon.ability.informant.desc": "Sets Psychic Terrain upon entering battle. While it is active, the user's moves ignore the target's Evasion and defensive boosts, its Accuracy rises each turn up to three times, Psychic- and Dark-type attacks extend the terrain, and Dark-type attacks may lower the target's Accuracy.",
+  "cobblemon.ability.informant.extend": "Informant extended the Psychic Terrain.",
   "item.cobblemon.bread": "Bread",
   "cobblemon.battle.heal.illusoryember": "%1$s absorbed the embers of its illusion, recovering its HP.",
   "cobblemon.species.kreti.name": "Kreti",
@@ -153,6 +156,9 @@
   "cobblemon.species.nenevamp.name": "Nenevamp",
   "cobblemon.species.nenevamp.desc1": "The humanoid form that Nenevamp adopts upon evolving is a reflection of how it looked before succumbing to the poison that turned it into a Pokémon.",
   "cobblemon.species.nenevamp.desc2": "Its vampiric nature gave way to a large number of immunities, and it now mainly feeds on the blood of its opponents.",
+  "cobblemon.species.fuestion.name": "Fuestion",
+  "cobblemon.species.fuestion.desc1": "Fuestion leaves traces of psychic power in its surroundings to extend its perception.",
+  "cobblemon.species.fuestion.desc2": "By adjusting the shape and position of these traces, it can hear everything with the horn on its head and see through its tail, covering a wide sensory range.",
   "cobblemon.move.comando": "Command",
   "cobblemon.move.comando.desc": "On the first turn, it boosts the Attack and Special Attack of its allies, also increasing its own Evasion based on the number of allies on the field. In subsequent turns, it prevents the rival from using the move used in the previous turn. In single battles, Evasion increases based on the number of non-fainted Pokémon in the team."
 }

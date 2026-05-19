@@ -110,6 +110,9 @@
   "cobblemon.ability.bloodsucker": "吸血",
   "cobblemon.ability.bloodsucker.desc": "相手の血を吸い、与えたダメージの一部を回復する。相手が倒れると全回復する。",
   
+  "cobblemon.ability.informant": "密告者",
+  "cobblemon.ability.informant.desc": "登場時にサイコフィールドを展開する。展開中、自分の技は相手の回避率と防御系ランクを無視し、毎ターン命中率が最大3段階まで上がる。エスパー・あくタイプの攻撃はフィールドを延長し、あくタイプの攻撃は相手の命中率を下げることがある。",
+  "cobblemon.ability.informant.extend": "密告者がサイコフィールドを延長した。",
   "item.cobblemon.bread": "パン",
   
   "cobblemon.battle.heal.illusoryember": "%1$sは幻の残り火を吸収して体力を回復した。",
@@ -207,6 +210,9 @@
   "cobblemon.species.nenevamp.desc1": "進化して得た人型は、毒に侵される前の姿を反映している。",
   "cobblemon.species.nenevamp.desc2": "吸血鬼のような性質により多くの耐性を獲得し、主に相手の血を糧とする。",
   
+  "cobblemon.species.fuestion.name": "フエスション",
+  "cobblemon.species.fuestion.desc1": "周囲にサイコパワーの痕跡を残し、知覚を広げる。",
+  "cobblemon.species.fuestion.desc2": "その痕跡の形と位置を調整することで、頭の角ですべてを聞き、尾を通して見ることができ、広い感覚範囲を得る。",
   "cobblemon.move.comando": "コマンド",
   "cobblemon.move.comando.desc": "1ターン目に味方の攻撃と特攻を上げ、自分の回避率をフィールド上の味方の数に応じて上昇させる。次のターン以降は相手が前ターンに使った技を封じる。シングルバトルでは、倒れていない味方の数に応じて回避率が上がる。"
 }
