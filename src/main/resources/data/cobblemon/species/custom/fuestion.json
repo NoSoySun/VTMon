@@ -52,10 +52,10 @@
         "canSprint": true,
         "stats": {
           "ACCELERATION": "35-55",
-          "JUMP": "15-30",
-          "SKILL": "20-40",
-          "SPEED": "25-45",
-          "STAMINA": "20-35"
+          "JUMP": "15-55",
+          "SKILL": "20-55",
+          "SPEED": "25-55",
+          "STAMINA": "20-55"
         }
       }
     },
