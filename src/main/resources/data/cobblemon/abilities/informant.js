@@ -1,13 +1,24 @@
 {
     onStart(source) {
-        this.field.setTerrain('psychicterrain', source);
+        this.field.setTerrain('psychicterrain');
+        this.effectState.accuracyBoosts = 0;
         this.add('-ability', source, 'Informant');
     },
 
     onModifyMove(move, pokemon, target) {
         if (this.field.isTerrain('psychicterrain') && target) {
             move.ignoreEvasion = true;
-            move.ignoreDefensive = true;
+        }
+    },
+
+    onAnyModifyBoost(boosts, pokemon) {
+        if (!this.field.isTerrain('psychicterrain')) return;
+        const informantUser = this.effectState.target;
+        if (informantUser === pokemon) return;
+        if (informantUser === this.activePokemon && pokemon === this.activeTarget) {
+            boosts['def'] = 0;
+            boosts['spd'] = 0;
+            boosts['evasion'] = 0;
         }
     },
 
@@ -16,18 +27,16 @@
     onResidual(pokemon) {
         if (!this.field.isTerrain('psychicterrain')) return;
 
-        if (!pokemon.volatiles['informantacc']) {
-            pokemon.addVolatile('informantacc');
-        }
-        const volatile = pokemon.volatiles['informantacc'];
-        if (volatile.stages < 3) {
+        if (this.effectState.accuracyBoosts === undefined) {
+            this.effectState.accuracyBoosts = 0;
+        } else {
             this.boost({ accuracy: 1 }, pokemon, pokemon, this.effect);
-            volatile.stages = (volatile.stages || 0) + 1;
+            this.effectState.accuracyBoosts++;
         }
     },
 
     onSourceDamagingHit(damage, target, source, move) {
-        if (move.type === 'Dark' && this.field.isTerrain('psychicterrain') && this.randomChance(20, 100)) {
+        if (move.type === 'Dark' && this.field.isTerrain('psychicterrain') && this.randomChance(1, 5)) {
             this.add('-ability', source, 'Informant');
             this.boost({ accuracy: -1 }, target, source, this.effect);
         }
