@@ -1,7 +1,7 @@
 {
     "implemented": true,
     "name": "Ghissel",
-    "nationalPokedexNumber": 5120,
+    "nationalPokedexNumber": 4114,
     "primaryType": "poison",
     "secondaryType": "ghost",
     "abilities": ["cursedbody", "h:intimidate"],

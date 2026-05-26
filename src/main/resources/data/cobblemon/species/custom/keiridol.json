@@ -1,10 +1,10 @@
 {
     "implemented": true,
     "name": "Keiridol",
-    "nationalPokedexNumber": 4097,
+    "nationalPokedexNumber": 4098,
     "primaryType": "normal",
     "secondaryType": "fairy",
-    "abilities": ["curiousinstinct", "grandencore", "h:divinevoice"],
+    "abilities": ["miraculoussong", "divineinspiration", "h:greatencore"],
     "features": ["mega_evolution"],
     "baseStats": {
         "hp": 100,

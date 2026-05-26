@@ -1,9 +1,9 @@
 {
   "implemented": true,
   "name": "hichulla",
-  "nationalPokedexNumber": 4096,
+  "nationalPokedexNumber": 4097,
   "primaryType": "normal",
-  "abilities": ["curiousinstinct", "grandencore", "h:pickup"],
+  "abilities": ["curiousinstinct", "pickup", "h:greatencore"],
   "baseStats": {
     "hp": 40,
     "attack": 45,

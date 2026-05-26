@@ -1,7 +1,7 @@
 {
   inherit: false,
   isNonstandard: null,
-  name: "Grand Encore",
+  name: "Great Encore",
   shortDesc: "40% chance: User's damaging moves hit twice (2nd hit at 50%).",
 
   onPrepareHit(source, target, move) {
@@ -13,14 +13,14 @@
     ) {
       if (this.randomChance(40, 100)) {
         move.multihit = 2;
-        move.multihitType = 'grandencore';
+        move.multihitType = 'greatencore';
       }
     }
   },
 
   onBasePower(basePower, attacker, defender, move) {
-    if (move.multihitType === 'grandencore' && move.hit > 1) {
-      this.debug('Grand Encore second hit weakening');
+    if (move.multihitType === 'greatencore' && move.hit > 1) {
+      this.debug('Great Encore second hit weakening');
       return this.chainModify(0.5);
     }
   },

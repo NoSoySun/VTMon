@@ -1,6 +1,6 @@
 {
     "implemented": true,
-    "nationalPokedexNumber": 4116,
+    "nationalPokedexNumber": 4122,
     "name": "Nenevern",
     "primaryType": "dragon",
     "secondaryType": "ghost",
@@ -14,7 +14,9 @@
     "labels": [
         "custom"
     ],
-    "aspects": [],
+    "aspects": [
+        "novaeran"
+    ],
     "abilities": [
         "frisk",
         "infiltrator",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nenevern",
+  "speciesId": "cobblemon:nenevern",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

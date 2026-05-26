@@ -1,6 +1,6 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 4112,
+  "nationalPokedexNumber": 4120,
   "name": "Buntari",
   "primaryType": "normal",
   "secondaryType": "fairy",
@@ -17,7 +17,7 @@
   "aspects": [],
  "riding": {},
   "abilities": [
-    "illusiotype"
+    "imposter"
   ],
   "eggGroups": [
     "field"

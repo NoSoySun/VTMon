@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:tokarmy",
+  "speciesId": "cobblemon:tokarmy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Battalion",
+      "unlockForms": [
+        "Battalion"
+      ]
+    }
+  ],
+  "variations": []
+}

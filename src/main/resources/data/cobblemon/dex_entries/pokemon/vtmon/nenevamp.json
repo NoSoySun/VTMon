@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nenevamp",
+  "speciesId": "cobblemon:nenevamp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "Hapu",
-  "nationalPokedexNumber": 4100,
+  "nationalPokedexNumber": 4104,
   "primaryType": "electric",
   "abilities": ["lightningrod", "static", "h:galvanize"],
   "baseStats": {

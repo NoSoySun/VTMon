@@ -1,0 +1,107 @@
+plugins {
+	id 'java-library'
+	id 'maven-publish'
+	id 'net.neoforged.moddev' version "${moddevgradle_version}"
+}
+
+version = rootProject.mod_version
+group = rootProject.maven_group
+
+def sharedResourcesDir = rootProject.layout.projectDirectory.dir('src/main/resources')
+def neoForgeJavaDir = rootProject.layout.projectDirectory.dir('src/neoforge/java')
+def neoForgeResourcesDir = rootProject.layout.projectDirectory.dir('src/neoforge/resources')
+
+base {
+	archivesName = "${rootProject.archives_base_name}-neoforge"
+}
+
+sourceSets {
+	main {
+		java.srcDir neoForgeJavaDir
+		resources {
+			srcDir sharedResourcesDir
+			srcDir neoForgeResourcesDir
+		}
+	}
+}
+
+java {
+	withSourcesJar()
+	toolchain.languageVersion = JavaLanguageVersion.of(21)
+}
+
+neoForge {
+	version = rootProject.neo_version
+
+	runs {
+		client {
+			client()
+			systemProperty 'neoforge.enabledGameTestNamespaces', rootProject.mod_id
+		}
+
+		server {
+			server()
+			programArgument '--nogui'
+			systemProperty 'neoforge.enabledGameTestNamespaces', rootProject.mod_id
+		}
+
+		configureEach {
+			systemProperty 'forge.logging.markers', 'REGISTRIES'
+			logLevel = org.slf4j.event.Level.DEBUG
+		}
+	}
+
+	mods {
+		"${rootProject.mod_id}" {
+			sourceSet(sourceSets.main)
+		}
+	}
+}
+
+dependencies {
+	implementation "curse.maven:cobblemon-687131:${rootProject.cobblemon_neoforge_file_id}"
+	implementation "curse.maven:cobblemon-mega-showdown-1189523:${rootProject.mega_showdown_neoforge_file_id}"
+	implementation "curse.maven:accessories-938917:${rootProject.accessories_neoforge_file_id}"
+	implementation "curse.maven:architectury-api-419699:${rootProject.architectury_neoforge_file_id}"
+	implementation "curse.maven:owo-lib-532610:${rootProject.owo_neoforge_file_id}"
+	implementation "curse.maven:kotlin-for-forge-351264:${rootProject.kotlin_for_forge_file_id}"
+}
+
+processResources {
+	def replaceProperties = [
+			minecraft_version      : rootProject.minecraft_version,
+			minecraft_version_range: rootProject.minecraft_version_range,
+			neo_version            : rootProject.neo_version,
+			loader_version_range   : rootProject.loader_version_range,
+			mod_id                 : rootProject.mod_id,
+			mod_name               : rootProject.mod_name,
+			mod_license            : rootProject.mod_license,
+			mod_version            : rootProject.mod_version
+	]
+
+	inputs.properties replaceProperties
+	filesMatching('META-INF/neoforge.mods.toml') {
+		expand replaceProperties
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	options.encoding = 'UTF-8'
+	options.release = 21
+}
+
+jar {
+	inputs.property "archivesName", project.base.archivesName
+	from(rootProject.file("LICENSE")) {
+		rename { "${it}_${inputs.properties.archivesName}" }
+	}
+}
+
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
+			artifactId = project.base.archivesName.get()
+			from components.java
+		}
+	}
+}

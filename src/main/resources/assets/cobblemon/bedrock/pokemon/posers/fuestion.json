@@ -1,7 +1,7 @@
 {
-  "portraitScale": 2.0,
-  "portraitTranslation": [0, 1.8, 0],
-  "profileScale": 0.6,
+  "portraitScale": 0.75,
+  "portraitTranslation": [0, 1.35, 0],
+  "profileScale": 0.42,
   "profileTranslation": [0, 0.8, -6],
 
   "rootBone": "fuestion",
@@ -19,7 +19,7 @@
       "poseTypes": ["PORTRAIT", "PROFILE"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('neck')",
         "q.bedrock('fuestion', 'air_idle')"
       ]
     },
@@ -28,7 +28,7 @@
       "poseTypes": ["HOVER"],
       "isBattle": true,
       "animations": [
-        "q.look('head')",
+        "q.look('neck')",
         "q.bedrock('fuestion', 'air_idle')"
       ],
       "namedAnimations": {
@@ -40,7 +40,7 @@
       "poseTypes": ["HOVER"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('neck')",
         "q.bedrock('fuestion', 'air_idle')"
       ]
     },
@@ -49,7 +49,7 @@
       "poseTypes": ["FLY"],
       "isBattle": false,
       "animations": [
-        "q.look('head')",
+        "q.look('neck')",
         "q.bedrock('fuestion', 'air_fly')"
       ]
     }

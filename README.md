@@ -15,11 +15,20 @@ This is a Fabric mod for Minecraft that adds VTubers converted into Pokémon for
 
 ## Building
 
-To build the mod:
+To build the Fabric mod:
 
 ```bash
-./gradlew build
+./gradlew :fabric:build
 ```
+
+To build both Fabric and NeoForge:
+
+```bash
+./gradlew :fabric:build :neoforge:build
+```
+
+The Fabric build output is generated in `fabric/build/libs`.
+The NeoForge build output is generated in `neoforge/build/libs`.
 
 ## Contributing
 
