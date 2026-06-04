@@ -28,6 +28,7 @@ public class ModItemGroups {
 						entries.accept(ModItems.EMERALD_LEGGINGS.get());
 						entries.accept(ModItems.EMERALD_BOOTS.get());
 						entries.accept(ModItems.EMERALD_SWORD.get());
+						entries.accept(ModItems.EMERALD_KNIFE.get());
 						entries.accept(ModItems.EMERALD_SHOVEL.get());
 						entries.accept(ModItems.EMERALD_AXE.get());
 						entries.accept(ModItems.EMERALD_PICKAXE.get());

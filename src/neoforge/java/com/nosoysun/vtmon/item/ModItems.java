@@ -23,11 +23,13 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.ItemAbility;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.List;
+import java.util.Set;
 import java.util.function.Supplier;
 
 public class ModItems {
@@ -164,6 +166,22 @@ public class ModItems {
 			}
 	);
 
+	private static final ItemAbility KNIFE_DIG = ItemAbility.get("knife_dig");
+	private static final ItemAbility KNIFE_HARVEST = ItemAbility.get("knife_harvest");
+	private static final Set<ItemAbility> EMERALD_KNIFE_ABILITIES = Set.of(KNIFE_DIG, KNIFE_HARVEST);
+
+	public static final DeferredItem<Item> EMERALD_KNIFE = registerItem(
+			"emerald_knife",
+			() -> new SwordItem(ModToolMaterials.EMERALD, new Item.Properties()
+					.rarity(Rarity.RARE)
+					.attributes(SwordItem.createAttributes(ModToolMaterials.EMERALD, 0.5F, 2.0F))) {
+				@Override
+				public boolean canPerformAction(ItemStack stack, ItemAbility itemAbility) {
+					return EMERALD_KNIFE_ABILITIES.contains(itemAbility) || super.canPerformAction(stack, itemAbility);
+				}
+			}
+	);
+
 	public static final DeferredItem<Item> EMERALD_PICKAXE = registerItem(
 			"emerald_pickaxe",
 			() -> new PickaxeItem(ModToolMaterials.EMERALD, new Item.Properties()
@@ -251,10 +269,12 @@ public class ModItems {
 			event.accept(EMERALD_PICKAXE.get());
 			event.accept(EMERALD_SHOVEL.get());
 			event.accept(EMERALD_HOE.get());
+			event.accept(EMERALD_KNIFE.get());
 		}
 
 		if (event.getTabKey() == CreativeModeTabs.COMBAT) {
 			event.accept(EMERALD_SWORD.get());
+			event.accept(EMERALD_KNIFE.get());
 			event.accept(EMERALD_AXE.get());
 			event.accept(EMERALD_MACE.get());
 			event.accept(EMERALD_HELMET.get());

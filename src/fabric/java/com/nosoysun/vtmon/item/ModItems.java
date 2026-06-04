@@ -159,6 +159,13 @@ public class ModItems {
             }
     );
 
+    public static final Item EMERALD_KNIFE = registerItem(
+            "emerald_knife",
+            new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
+                    .rarity(Rarity.RARE)
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0.5F, 2.0F)))
+    );
+
     public static final Item EMERALD_PICKAXE = registerItem(
             "emerald_pickaxe",
             new PickaxeItem(ModToolMaterials.EMERALD, new Item.Settings()
@@ -253,10 +260,12 @@ public class ModItems {
             entries.add(EMERALD_PICKAXE);
             entries.add(EMERALD_SHOVEL);
             entries.add(EMERALD_HOE);
+            entries.add(EMERALD_KNIFE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(EMERALD_SWORD);
+            entries.add(EMERALD_KNIFE);
             entries.add(EMERALD_AXE);
             entries.add(EMERALD_MACE);
             entries.add(EMERALD_HELMET);

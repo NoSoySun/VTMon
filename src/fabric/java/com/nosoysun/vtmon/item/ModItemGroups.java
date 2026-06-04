@@ -26,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_LEGGINGS);
                         entries.add(ModItems.EMERALD_BOOTS);
                         entries.add(ModItems.EMERALD_SWORD);
+                        entries.add(ModItems.EMERALD_KNIFE);
                         entries.add(ModItems.EMERALD_SHOVEL);
                         entries.add(ModItems.EMERALD_AXE);
                         entries.add(ModItems.EMERALD_PICKAXE);
