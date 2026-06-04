@@ -174,7 +174,7 @@ public class ModItems {
 			"emerald_knife",
 			() -> new SwordItem(ModToolMaterials.EMERALD, new Item.Properties()
 					.rarity(Rarity.RARE)
-					.attributes(SwordItem.createAttributes(ModToolMaterials.EMERALD, 0.5F, 2.0F))) {
+					.attributes(SwordItem.createAttributes(ModToolMaterials.EMERALD, 1, 2.0F))) {
 				@Override
 				public boolean canPerformAction(ItemStack stack, ItemAbility itemAbility) {
 					return EMERALD_KNIFE_ABILITIES.contains(itemAbility) || super.canPerformAction(stack, itemAbility);

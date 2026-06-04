@@ -163,7 +163,7 @@ public class ModItems {
             "emerald_knife",
             new SwordItem(ModToolMaterials.EMERALD, new Item.Settings()
                     .rarity(Rarity.RARE)
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 0.5F, 2.0F)))
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.EMERALD, 1, 2.0F)))
     );
 
     public static final Item EMERALD_PICKAXE = registerItem(
