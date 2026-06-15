@@ -131,6 +131,7 @@
   "cobblemon.species.kretsune.name": "クレツネ",
   "cobblemon.species.kretsune.desc1": "いたずら好きだが「預言者」と呼ばれ、神聖な存在の声を代弁する。",
   "cobblemon.species.kretsune.desc2": "ヒチュラの群れを常に守り、ケイリドルの近くにいる。",
+  "cobblemon.species.kretsune_mega.desc": "メガシンカによって霊的な炎が強まり、圧倒的な物理と特殊の力を持つゴーストの力を得る。",
 
   "cobblemon.species.yurcat.name": "ユルキャット",
   "cobblemon.species.yurcat.desc1": "王族や高貴なイメージが強く、「深淵の王」の子孫とされる。",
@@ -225,6 +226,13 @@
   "cobblemon.species.fuestion.name": "フエスション",
   "cobblemon.species.fuestion.desc1": "周囲にサイコパワーの痕跡を残し、知覚を広げる。",
   "cobblemon.species.fuestion.desc2": "その痕跡の形と位置を調整することで、頭の角ですべてを聞き、尾を通して見ることができ、広い感覚範囲を得る。",
+
+  "cobblemon.species.erien.name": "エリエン",
+  "cobblemon.species.erien.desc1": "宇宙から来たと推測されている。いつこの星に住み始めたのかは、誰にもわかっていない。",
+  "cobblemon.species.erien.desc2": "星や宇宙と特別なつながりを持ち、流星群が起こる時期を予知できるほど感覚が鋭い。",
+  "cobblemon.species.erien.desc3": "洞窟をすみかにすることが多いが、森で暮らしている姿も見られる。",
+  "cobblemon.ability.zerogravity": "ゼログラビティ",
+  "cobblemon.ability.zerogravity.desc": "戦闘に出ると、5ターンの間じゅうりょく状態にする。",
 
   "cobblemon.move.comando": "コマンド",
   "cobblemon.move.comando.desc": "1ターン目に味方の攻撃と特攻を上げ、自分の回避率をフィールド上の味方の数に応じて上昇させる。次のターン以降は相手が前ターンに使った技を封じる。シングルバトルでは、倒れていない味方の数に応じて回避率が上がる。"

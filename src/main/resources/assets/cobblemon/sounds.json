@@ -82,5 +82,8 @@
   },
   "pokemon.nenevamp.cry": {
     "sounds": [{"name": "cobblemon:pokemon/nenevamp/nenevamp_cry", "volume": 1.25}]
+  },
+  "pokemon.erien.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/erien/erien_cry", "volume": 1.0}]
   }
 }

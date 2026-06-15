@@ -22,6 +22,7 @@ public class ModItemGroups {
 						entries.accept(ModItems.BYOHMITE.get());
 						entries.accept(ModItems.BYOHMITE_Z.get());
 						entries.accept(ModItems.KEIRIDOLITE.get());
+						entries.accept(ModItems.KRETSUNITE.get());
 						entries.accept(ModItems.SCHLANGHITE.get());
 						entries.accept(ModItems.EMERALD_HELMET.get());
 						entries.accept(ModItems.EMERALD_CHESTPLATE.get());

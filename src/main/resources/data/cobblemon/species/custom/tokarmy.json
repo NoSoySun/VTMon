@@ -208,12 +208,6 @@
     "evolutions": [],
     "forms": [
         {
-            "name": "Normal",
-            "aspects": [
-                "commander"
-            ]
-        },
-        {
             "name": "Battalion",
             "maleRatio": 0.5,
             "height": 82,

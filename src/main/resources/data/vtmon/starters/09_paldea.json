@@ -1,0 +1,9 @@
+{
+  "name": "Paldea",
+  "displayName": "cobblemon.starterselection.category.paldea",
+  "pokemon": [
+    "Sprigatito level=7",
+    "Fuecoco level=7",
+    "Quaxly level=7"
+  ]
+}

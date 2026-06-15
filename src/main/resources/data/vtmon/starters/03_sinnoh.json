@@ -1,0 +1,11 @@
+{
+  "name": "Sinnoh",
+  "displayName": "cobblemon.starterselection.category.sinnoh",
+  "pokemon": [
+    "Turtwig level=7",
+    "Chimchar level=7",
+    "Piplup level=7",
+    "Riolu level=7",
+    "Shinx level=7"
+  ]
+}

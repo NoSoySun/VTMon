@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:erien",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:erien",
+      "model": "cobblemon:erien.geo",
+      "texture": "cobblemon:textures/pokemon/erien/erien.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/erien/erien_shiny.png"
+    }
+  ]
+}

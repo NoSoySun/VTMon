@@ -1,0 +1,10 @@
+{
+  "name": "Galar",
+  "displayName": "cobblemon.starterselection.category.galar",
+  "pokemon": [
+    "Grookey level=7",
+    "Scorbunny level=7",
+    "Sobble level=7",
+    "Hatenna level=7"
+  ]
+}

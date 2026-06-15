@@ -1,0 +1,64 @@
+{
+  "portraitScale": 1.35,
+  "portraitTranslation": [
+    0,
+    -0.15,
+    0
+  ],
+  "profileScale": 0.85,
+  "profileTranslation": [
+    0,
+    0.45,
+    0
+  ],
+  "rootBone": "body",
+  "animations": {
+    "cry": "q.bedrock_primary('erien', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": [
+        "STAND"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('erien', 'ground_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('erien', 'cry', q.curve('symmetrical_wide'))"
+      },
+      "quirks": [
+        "q.bedrock_quirk('erien', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('erien', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('erien', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('erien', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('erien', 'blink')"
+      ]
+    }
+  }
+}

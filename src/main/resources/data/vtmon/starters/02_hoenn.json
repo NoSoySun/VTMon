@@ -1,0 +1,11 @@
+{
+  "name": "Hoenn",
+  "displayName": "cobblemon.starterselection.category.hoenn",
+  "pokemon": [
+    "Treecko level=7",
+    "Torchic level=7",
+    "Mudkip level=7",
+    "Ralts level=7",
+    "Absol level=7"
+  ]
+}

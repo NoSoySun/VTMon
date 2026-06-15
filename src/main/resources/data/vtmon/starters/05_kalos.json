@@ -1,0 +1,13 @@
+{
+  "name": "Kalos",
+  "displayName": "cobblemon.starterselection.category.kalos",
+  "pokemon": [
+    "Chespin level=7",
+    "Fennekin level=7",
+    "Froakie level=7",
+    "Espurr level=7",
+    "Tepig level=7 pokeball=cherish_ball",
+    "Chikorita level=7 pokeball=cherish_ball",
+    "Totodile level=7 pokeball=cherish_ball"
+  ]
+}

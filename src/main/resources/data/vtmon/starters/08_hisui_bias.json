@@ -1,0 +1,10 @@
+{
+  "name": "Hisui Bias",
+  "displayName": "cobblemon.starterselection.category.hisui_bias",
+  "pokemon": [
+    "Rowlet region_bias=hisui level=7 pokeball=ancient_poke_ball",
+    "Cyndaquil region_bias=hisui level=7 pokeball=ancient_poke_ball",
+    "Oshawott region_bias=hisui level=7 pokeball=ancient_poke_ball",
+    "Zorua hisuian level=7 pokeball=ancient_great_ball"
+  ]
+}

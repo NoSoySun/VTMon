@@ -76,6 +76,21 @@ public class ModItems {
             }
     );
 
+    public static final Item KRETSUNITE = registerItem(
+            "kretsunite",
+            new Item(new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+                    .component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "mega")
+                    .component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(), Identifier.of("vtmon", "kretsunite"))
+            ) {
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.vtmon.kretsunite.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            }
+    );
+
     public static final Item CROWN = registerItem(
             "crown",
             new Item(new Item.Settings()

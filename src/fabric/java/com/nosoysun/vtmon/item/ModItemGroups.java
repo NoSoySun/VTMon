@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BYOHMITE);
                         entries.add(ModItems.BYOHMITE_Z);
                         entries.add(ModItems.KEIRIDOLITE);
+                        entries.add(ModItems.KRETSUNITE);
                         entries.add(ModItems.SCHLANGHITE);
                         entries.add(ModItems.EMERALD_HELMET);
                         entries.add(ModItems.EMERALD_CHESTPLATE);

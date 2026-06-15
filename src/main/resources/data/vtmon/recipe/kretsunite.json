@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "OWO",
+    " S "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_powder"
+    },
+    "O": {
+      "item": "minecraft:echo_shard"
+    },
+    "W": {
+      "item": "mega_showdown:mega_stone"
+    },
+    "S": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "id": "vtmon:kretsunite",
+    "count": 1
+  }
+}

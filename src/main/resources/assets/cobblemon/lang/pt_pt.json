@@ -131,6 +131,7 @@
   "cobblemon.species.kretsune.name": "Kretsune",
   "cobblemon.species.kretsune.desc1": "Apesar da sua natureza travessa, é conhecido como \"O Profeta\", pois costuma ser a voz dos seres divinos com os quais mantém uma relação próxima.",
   "cobblemon.species.kretsune.desc2": "Sempre protege os bandos de Hichulla de qualquer perigo e fica perto de Keiridol.",
+  "cobblemon.species.kretsune_mega.desc": "A megaevolução intensifica as chamas espirituais de Kretsune, concedendo-lhe poder fantasmagórico e uma força física e especial avassaladora.",
 
   "cobblemon.species.yurcat.name": "Yurcat",
   "cobblemon.species.yurcat.desc1": "É uma espécie comumente associada à realeza e ao prestígio, pois é a cria do proclamado \"Rei das Profundezas\".",
@@ -225,6 +226,13 @@
   "cobblemon.species.fuestion.name": "Fuestion",
   "cobblemon.species.fuestion.desc1": "Fuestion deixa rastos de poder psíquico à sua volta para ampliar a sua perceção.",
   "cobblemon.species.fuestion.desc2": "Ao ajustar a forma e a posição desses rastos, consegue ouvir tudo com o corno na sua cabeça e ver através da sua cauda, abrangendo um amplo alcance sensorial.",
+
+  "cobblemon.species.erien.name": "Erien",
+  "cobblemon.species.erien.desc1": "Alguns especulam que Erien veio do espaço sideral. Ninguém sabe ao certo quando esta espécie começou a habitar o nosso planeta.",
+  "cobblemon.species.erien.desc2": "Possui uma ligação única às estrelas e ao cosmos, aguçando os sentidos ao ponto de prever chuvas de meteoros.",
+  "cobblemon.species.erien.desc3": "Os Erien costumam refugiar-se em cavernas, embora também possam ser encontrados a habitar florestas.",
+  "cobblemon.ability.zerogravity": "Gravidade Zero",
+  "cobblemon.ability.zerogravity.desc": "Ao entrar em combate, ativa o efeito de Gravidade durante cinco turnos.",
 
   "cobblemon.move.comando": "Comando",
   "cobblemon.move.comando.desc": "No primeiro turno, potencializa o Ataque e Ataque Especial dos seus aliados, aumentando também a sua própria Evasão de acordo com a quantidade de aliados no campo. Nos turnos seguintes, impede que o rival use o movimento utilizado no turno anterior. Em combates individuais, a Evasão aumenta de acordo com a quantidade de Pokémon não nocauteados na equipa."

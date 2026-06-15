@@ -127,6 +127,7 @@
   "cobblemon.species.kretsune.name": "Kretsune",
   "cobblemon.species.kretsune.desc1": "Despite its mischievous nature, it is known as \"The Prophet\", as it is usually the voice of the divine beings with which it maintains a close relationship.",
   "cobblemon.species.kretsune.desc2": "It always protects the packs of Hichulla from any danger and stays close to Keiridol.",
+  "cobblemon.species.kretsune_mega.desc": "Mega Evolution intensifies Kretsune's spiritual flames, granting it ghostly power and overwhelming physical and special strength.",
 
   "cobblemon.species.yurcat.name": "Yurcat",
   "cobblemon.species.yurcat.desc1": "It is a species commonly associated with royalty and prestige, as it is the offspring of the proclaimed \"King of the Depths\".",
@@ -221,6 +222,13 @@
   "cobblemon.species.fuestion.name": "Fuestion",
   "cobblemon.species.fuestion.desc1": "Fuestion leaves traces of psychic power in its surroundings to extend its perception.",
   "cobblemon.species.fuestion.desc2": "By adjusting the shape and position of these traces, it can hear everything with the horn on its head and see through its tail, covering a wide sensory range.",
+
+  "cobblemon.species.erien.name": "Erien",
+  "cobblemon.species.erien.desc1": "Some speculate that Erien originated from outer space. No one knows for certain when this species began to inhabit our planet.",
+  "cobblemon.species.erien.desc2": "It possesses a unique connection with the stars and the cosmos, sharpening its senses to the point where it can predict meteor showers.",
+  "cobblemon.species.erien.desc3": "Erien tend to take refuge in caves, although they can also be found inhabiting forests.",
+  "cobblemon.ability.zerogravity": "Zero Gravity",
+  "cobblemon.ability.zerogravity.desc": "Activates the Gravity effect for five turns when the Pokémon enters battle.",
 
   "cobblemon.move.comando": "Command",
   "cobblemon.move.comando.desc": "On the first turn, it boosts the Attack and Special Attack of its allies, also increasing its own Evasion based on the number of allies on the field. In subsequent turns, it prevents the rival from using the move used in the previous turn. In single battles, Evasion increases based on the number of non-fainted Pokémon in the team."

@@ -88,6 +88,22 @@ public class ModItems {
 			}
 	);
 
+	public static final DeferredItem<Item> KRETSUNITE = registerItem(
+			"kretsunite",
+			() -> new Item(new Item.Properties()
+					.rarity(Rarity.UNCOMMON)
+					.component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "mega")
+					.component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(),
+							ResourceLocation.fromNamespaceAndPath("vtmon", "kretsunite"))
+			) {
+				@Override
+				public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+					tooltip.add(Component.translatable("tooltip.vtmon.kretsunite.tooltip"));
+					super.appendHoverText(stack, context, tooltip, flag);
+				}
+			}
+	);
+
 	public static final DeferredItem<Item> CROWN = registerItem(
 			"crown",
 			() -> new Item(new Item.Properties()

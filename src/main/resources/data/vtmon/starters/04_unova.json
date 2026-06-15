@@ -1,0 +1,10 @@
+{
+  "name": "Unova",
+  "displayName": "cobblemon.starterselection.category.unova",
+  "pokemon": [
+    "Snivy level=7",
+    "Tepig level=7",
+    "Oshawott level=7",
+    "Zorua level=7"
+  ]
+}

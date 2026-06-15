@@ -3,14 +3,27 @@
 	"animations": {
 		"animation.kretsune.ground_idle": {
 			"loop": true,
-			"animation_length": 1.5,
 			"bones": {
 				"head": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.75": [-2.5, 0, 0],
-						"1.5": [0, 0, 0]
-					}
+					"rotation": ["-1.25+5*math.sin(180-45*q.anim_time)", 0, 0]
+				},
+				"tail": {
+					"rotation": ["-22.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail16": {
+					"rotation": ["-22.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail17": {
+					"rotation": ["2.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail18": {
+					"rotation": ["-2.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
 				}
 			}
 		},

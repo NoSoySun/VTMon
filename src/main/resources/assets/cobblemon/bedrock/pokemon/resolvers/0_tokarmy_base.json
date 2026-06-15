@@ -3,9 +3,7 @@
     "order": 0,
     "variations": [
       {
-        "aspects": [
-          "commander"
-        ],
+        "aspects": [],
         "poser": "cobblemon:tokomand",
         "model": "cobblemon:tokarmy.geo",
         "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy.png",
@@ -13,8 +11,7 @@
       },
       {
         "aspects": [
-          "shiny",
-          "commander"
+          "shiny"
         ],
         "texture": "cobblemon:textures/pokemon/tokarmy/tokarmy_shiny.png"
       }

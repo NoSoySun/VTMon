@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4124,
+  "name": "Erien",
+  "primaryType": "bug",
+  "maleRatio": 0.0,
+  "height": 7,
+  "weight": 6.5,
+  "pokedex": [
+    "cobblemon.species.erien.desc1",
+    "cobblemon.species.erien.desc2",
+    "cobblemon.species.erien.desc3"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "telepathy",
+    "h:zerogravity"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 45,
+    "defence": 80,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "forms": [],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.1,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.35
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-7",
+      "drowsyChance": 0.02,
+      "rouseChance": 0.01
+    },
+    "herd": {
+      "maxSize": "4"
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true
+    }
+  },
+  "moves": [
+    "1:confusion",
+    "1:defensecurl",
+    "1:growl",
+    "1:strugglebug",
+    "5:infestation",
+    "8:psybeam",
+    "12:bugbite",
+    "16:lightscreen",
+    "20:reflect",
+    "24:signalbeam",
+    "28:gravity",
+    "32:extrasensory",
+    "36:bugbuzz",
+    "40:psychic",
+    "44:cosmicpower",
+    "48:quiverdance",
+    "52:futuresight",
+    "56:healpulse",
+    "egg:allyswitch",
+    "egg:recover",
+    "egg:safeguard",
+    "egg:stickyweb",
+    "egg:storedpower",
+    "egg:telekinesis",
+    "egg:wish",
+    "tm:bugbuzz",
+    "tm:calmmind",
+    "tm:cosmicpower",
+    "tm:dazzlinggleam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gravity",
+    "tm:helpinghand",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:shadowball",
+    "tm:sleeptalk",
+    "tm:storedpower",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tm:trickroom",
+    "tm:uturn",
+    "tutor:allyswitch",
+    "tutor:bugbite",
+    "tutor:bugbuzz",
+    "tutor:cosmicpower",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:signalbeam",
+    "tutor:skillswap",
+    "tutor:telekinesis",
+    "tutor:trickroom"
+  ]
+}

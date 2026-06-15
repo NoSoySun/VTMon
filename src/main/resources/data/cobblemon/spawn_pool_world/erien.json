@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "erien_cave",
+      "pokemon": "erien",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-36",
+      "weight": 8.0,
+      "condition": {
+        "canSeeSky": false,
+        "maxSkyLight": 7,
+        "biomes": [
+          "minecraft:lush_caves",
+          "minecraft:dripstone_caves",
+          "minecraft:deep_dark"
+        ]
+      }
+    },
+    {
+      "id": "erien_forest",
+      "pokemon": "erien",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-32",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_forest",
+          "minecraft:cherry_grove",
+          "#c:flower_forests",
+          "#c:tree_deciduous",
+          "#byg:is_magical"
+        ]
+      }
+    }
+  ]
+}

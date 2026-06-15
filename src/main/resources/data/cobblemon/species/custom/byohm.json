@@ -21,7 +21,10 @@
   },
   "behaviour": {
     "moving": {
-      "canLook": true
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 24.68
+      }
     }
   },
   "catchRate": 75,
@@ -52,6 +55,14 @@
         "special_defence": 65,
         "speed": 160
       },
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "walkSpeed": 37.014
+          }
+        }
+      },
       "evolutions": [],
       "dynamaxBlocked": true,
       "battleOnly": true
@@ -80,6 +91,14 @@
         "special_attack": 50,
         "special_defence": 65,
         "speed": 100
+      },
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "walkSpeed": 0.617
+          }
+        }
       },
       "evolutions": [],
       "dynamaxBlocked": true,

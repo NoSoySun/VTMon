@@ -1,0 +1,186 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.kretsune_mega.ground_idle": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["-1.25+5*math.sin(180-45*q.anim_time)", 0, 0]
+				},
+				"tail": {
+					"rotation": ["-22.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail16": {
+					"rotation": ["-22.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail17": {
+					"rotation": ["2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail18": {
+					"rotation": ["-2.5+30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"fur": {
+					"rotation": {
+						"0.0": {
+							"post": ["-10-2.5*math.abs(math.sin(180-45*q.anim_time+15))", 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"scale": {
+						"0.0": {
+							"post": [
+								"1+0.0625*math.abs(math.sin(45*q.anim_time+15))",
+								"1+0.0625*math.abs(math.sin(45*q.anim_time+15))",
+								"1+0.0625*math.abs(math.sin(45*q.anim_time+15))"
+							],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"tail4": {
+					"rotation": ["-22.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["2.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["-2.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail7": {
+					"rotation": ["30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail8": {
+					"rotation": ["30*math.sin(1.5*(180-45*q.anim_time))", 0, 0]
+				},
+				"tail9": {
+					"rotation": ["-2.5+30*math.cos(1.5*(180-45*q.anim_time))", 0, 0]
+				}
+			}
+		},
+		"animation.kretsune_mega.ground_walk": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"left_leg_front": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [15, 0, 0],
+						"1.5": [0, 0, 0],
+						"2.0": [-15, 0, 0]
+					}
+				},
+				"right_leg_front": {
+					"rotation": {
+						"0.0": [15, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"1.5": [0, 0, 0],
+						"2.0": [15, 0, 0]
+					}
+				},
+				"left_leg_back": {
+					"rotation": {
+						"0.0": [15, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [-15, 0, 0],
+						"1.5": [0, 0, 0],
+						"2.0": [15, 0, 0]
+					}
+				},
+				"right_leg_back": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"0.5": [0, 0, 0],
+						"1.0": [15, 0, 0],
+						"1.5": [0, 0, 0],
+						"2.0": [-15, 0, 0]
+					}
+				},
+				"bone6": {
+					"rotation": {
+						"0.0": [30, 0, 0],
+						"0.8": [0, 0, 0],
+						"1.5": [20, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 1, 0],
+						"0.8": [0, 0, 0],
+						"1.5": [0, 1, 0]
+					}
+				},
+				"bone7": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.7": [30, 0, 0],
+						"1.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.7": [0, 1, 0],
+						"1.5": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.kretsune_mega.cry": {
+			"animation_length": 2,
+			"bones": {
+				"bone2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-80, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [10, 0, 0],
+						"0.5": [-10, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bone7": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"0.625": [60, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"torso": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [22.5, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bone9": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.5": [-80, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"bone11": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"0.625": [60, 0, 0],
+						"1.5": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.6667": {
+					"effect": "pokemon.kretsune.cry"
+				}
+			}
+		}
+	}
+}

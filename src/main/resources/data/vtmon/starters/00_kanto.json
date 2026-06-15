@@ -1,0 +1,11 @@
+{
+  "name": "Kanto",
+  "displayName": "cobblemon.starterselection.category.kanto",
+  "pokemon": [
+    "Bulbasaur level=7",
+    "Charmander level=7",
+    "Squirtle level=7",
+    "Pikachu level=7",
+    "Eevee level=7"
+  ]
+}

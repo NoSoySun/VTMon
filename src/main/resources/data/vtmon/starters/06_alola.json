@@ -1,0 +1,11 @@
+{
+  "name": "Alola",
+  "displayName": "cobblemon.starterselection.category.alola",
+  "pokemon": [
+    "Rowlet level=7",
+    "Litten level=7",
+    "Popplio level=7",
+    "Mimikyu level=7",
+    "Vulpix level=7 alolan"
+  ]
+}

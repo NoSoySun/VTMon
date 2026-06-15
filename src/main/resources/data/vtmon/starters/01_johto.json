@@ -1,0 +1,11 @@
+{
+  "name": "Johto",
+  "displayName": "cobblemon.starterselection.category.johto",
+  "pokemon": [
+    "Chikorita level=7",
+    "Cyndaquil level=7",
+    "Totodile level=7",
+    "Togepi level=7",
+    "Pichu level=7"
+  ]
+}

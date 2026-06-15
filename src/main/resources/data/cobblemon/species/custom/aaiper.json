@@ -160,12 +160,6 @@
   "shoulderMountable": false,
   "forms": [
     {
-      "name": "Normal",
-      "aspects": [
-        "discharge-forme"
-      ]
-    },
-    {
       "name": "Overcharge",
       "primaryType": "electric",
       "secondaryType": "fire",

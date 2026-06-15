@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:kretsune",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+      ],
+      "poser": "cobblemon:kretsune_mega",
+      "model": "cobblemon:kretsune_mega.geo",
+      "texture": "cobblemon:textures/pokemon/kretsune/kretsune_mega.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny",
+        "mega"
+      ],
+      "texture": "cobblemon:textures/pokemon/kretsune/kretsune_mega_shiny.png"
+    }
+  ]
+}
