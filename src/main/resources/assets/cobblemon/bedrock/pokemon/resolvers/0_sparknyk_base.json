@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:sparknyk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sparknyk",
+      "model": "cobblemon:sparknyk.geo",
+      "texture": "cobblemon:textures/pokemon/sparknyk/sparknyk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sparknyk/sparknyk_shiny.png"
+    }
+  ]
+ }

@@ -937,6 +937,14 @@
 					]
 				},
 				{
+					"name": "locator_seat_2",
+					"parent": "body",
+					"pivot": [0, 23.5, 7],
+					"locators": {
+						"seat_2": [0, 20, 6]
+					}
+				},
+				{
 					"name": "locator_seat_1",
 					"parent": "body",
 					"pivot": [0, 23.5, -7],

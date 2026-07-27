@@ -4,8 +4,8 @@
 		{
 			"description": {
 				"identifier": "geometry.kretsune_mega",
-				"texture_width": 1024,
-				"texture_height": 1024,
+				"texture_width": 206,
+				"texture_height": 102,
 				"visible_bounds_width": 5,
 				"visible_bounds_height": 3.5,
 				"visible_bounds_offset": [0, 1.25, 0]
@@ -731,6 +731,14 @@
 					"cubes": [
 						{"origin": [-9.86886, 27.17418, 3.50833], "size": [20, 24, 20], "inflate": -8, "pivot": [-8.86886, 27.17418, 4.50833], "rotation": [-30, 0, 0], "uv": [9, 2], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_seat_1",
+					"parent": "body",
+					"pivot": [0, 16, 1.5],
+					"locators": {
+						"seat_1": [0, 17, 1.5]
+					}
 				}
 			]
 		}

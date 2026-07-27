@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.KEIRIDOLITE);
                         entries.add(ModItems.KRETSUNITE);
                         entries.add(ModItems.SCHLANGHITE);
+                        entries.add(ModItems.SUNTHERITE);
                         entries.add(ModItems.EMERALD_HELMET);
                         entries.add(ModItems.EMERALD_CHESTPLATE);
                         entries.add(ModItems.EMERALD_LEGGINGS);
@@ -35,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.EMERALD_MACE);
                         entries.add(ModItems.CROWN);
                         entries.add(Items.CLOCK);
+                        entries.add(ModItems.GEM_FOSSIL);
                     }).build());
     public static void registerItemGroups() {
         VTMon.LOGGER.info("Registering Item Groups for " + VTMon.MOD_ID);

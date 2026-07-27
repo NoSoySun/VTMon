@@ -19,7 +19,7 @@
   "features": [
         "novaeran"
     ],
-  "aspects": [],
+  "aspects": ["novaeran"],
   "riding": {
     "behaviours": {
       "LAND": {
@@ -36,6 +36,7 @@
     },
     "seats": [
       {
+        "locator": "seat_1",
         "offset": {
           "x": 0.0,
           "y": 0.0,

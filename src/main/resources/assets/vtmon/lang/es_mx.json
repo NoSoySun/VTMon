@@ -16,6 +16,12 @@
 "item.vtmon.schlanghite": "Schlanghita",
 "tooltip.vtmon.schlanghite.tooltip": "Permite a Schlanghoul megaevolucionar a Mega Schlanghoul",
 
+"item.vtmon.suntherite": "Suntherita",
+"tooltip.vtmon.suntherite.tooltip": "Permite a Sunther megaevolucionar en Mega Sunther",
+
+"item.vtmon.gem_fossil": "Fósil Gema",
+"tooltip.vtmon.gem_fossil.tooltip": "Un fragmento fósil raro asociado al antiguo poder de las gemas.",
+
 "item.vtmon.crown": "Corona",
 "tooltip.vtmon.crown.tooltip": "Aumenta todas las estadísticas de combate de Tokomand y Tokarmy en un 50%",
 

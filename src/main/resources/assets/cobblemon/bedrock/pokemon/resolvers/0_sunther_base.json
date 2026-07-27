@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:sunther",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sunther",
+      "model": "cobblemon:sunther.geo",
+      "texture": "cobblemon:textures/pokemon/sunther/sunther.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/sunther/sunther_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sunther/sunther_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/sunther/sunther_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

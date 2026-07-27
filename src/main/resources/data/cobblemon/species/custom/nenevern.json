@@ -99,21 +99,11 @@
                     "STAMINA": "45-67"
                 },
                 "canSprint": true
-            },
-            "LAND": {
-                "key": "cobblemon:land/horse",
-                "rideSounds": [],
-                "stats": {
-                    "ACCELERATION": "65-127",
-                    "JUMP": "45-67",
-                    "SKILL": "45-75",
-                    "SPEED": "35-75",
-                    "STAMINA": "15-30"
-                }
             }
         },
         "seats": [
             {
+                "locator": "seat_1",
                 "offset": {
                     "x": 0.0,
                     "y": 0.0,
@@ -219,6 +209,9 @@
             },
             "swim": {
                 "avoidsWater": true
+            },
+            "walk": {
+                "avoidsLand": true
             }
         },
         "resting": {

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.brawlony.ground_idle": {
+			"loop": true,
+			"bones": {
+				"torso": {
+					"rotation": [22.5, 0, 0]
+				},
+				"torso_up": {
+					"rotation": [45, 0, 0]
+				},
+				"leftarm": {
+					"rotation": [-57.5, 0, 0],
+					"position": [0, "0.5+math.sin(query.anim_time*135)", "1+math.sin(query.anim_time*135)"]
+				},
+				"neck": {
+					"rotation": [-45, 0, 0]
+				},
+				"tail2": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail7": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				}
+			}
+		}
+	}
+}

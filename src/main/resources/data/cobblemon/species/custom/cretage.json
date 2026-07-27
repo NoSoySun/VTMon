@@ -1,0 +1,81 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4128,
+  "name": "Cretage",
+  "primaryType": "electric",
+  "secondaryType": "psychic",
+  "preEvolution": "sparknyk",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 120,
+  "pokedex": [
+    "cobblemon.species.cretage.desc1",
+    "cobblemon.species.cretage.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "static",
+    "lightningrod",
+    "h:galvanize"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 92,
+    "attack": 88,
+    "defence": 73,
+    "special_attack": 115,
+    "special_defence": 83,
+    "speed": 84
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 95,
+  "experienceGroup": "medium_slow",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.55,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4"
+    }
+  },
+  "moves": [
+    "1:thundershock",
+    "1:tailwhip",
+    "1:confusion",
+    "4:spark",
+    "7:charge",
+    "9:quickattack",
+    "12:thunderwave",
+    "15:psybeam",
+    "18:electroball",
+    "21:lowkick",
+    "24:thunderbolt",
+    "27:calmmind",
+    "30:discharge",
+    "33:psychic",
+    "36:wildcharge",
+    "40:thunder",
+    "44:closecombat",
+    "48:voltswitch"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:cretage",
+    "speciesId": "cobblemon:cretage",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

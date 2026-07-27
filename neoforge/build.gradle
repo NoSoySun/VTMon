@@ -65,6 +65,7 @@ dependencies {
 	implementation "curse.maven:architectury-api-419699:${rootProject.architectury_neoforge_file_id}"
 	implementation "curse.maven:owo-lib-532610:${rootProject.owo_neoforge_file_id}"
 	implementation "curse.maven:kotlin-for-forge-351264:${rootProject.kotlin_for_forge_file_id}"
+	implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"
 }
 
 processResources {

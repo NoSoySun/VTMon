@@ -7,46 +7,28 @@
         "poser": "cobblemon:kretsune",
         "model": "cobblemon:kretsune.geo",
         "texture": "cobblemon:textures/pokemon/kretsune/kretsune.png",
-        "layers": [
-          {
-            "name": "flame",
-            "texture": {
-              "frames": [
-                "cobblemon:textures/pokemon/kretsune/flame/frame1.png",
-                "cobblemon:textures/pokemon/kretsune/flame/frame2.png",
-                "cobblemon:textures/pokemon/kretsune/flame/frame3.png",
-                "cobblemon:textures/pokemon/kretsune/flame/frame4.png"
-              ],
-              "fps": 16,
-              "loop": true
-            },
-            "emissive": true,
-            "cutout": true
-          }
-        ]
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/kretsune/kretsune_emissive.png",
+          "translucent": true
+        }
+      ]
       },
       {
         "aspects": [
           "shiny"
         ],
         "texture": "cobblemon:textures/pokemon/kretsune/kretsune_shiny.png",
-        "layers": [
-          {
-            "name": "flame",
-            "texture": {
-              "frames": [
-                "cobblemon:textures/pokemon/kretsune/flame_shiny/frame1.png",
-                "cobblemon:textures/pokemon/kretsune/flame_shiny/frame2.png",
-                "cobblemon:textures/pokemon/kretsune/flame_shiny/frame3.png",
-                "cobblemon:textures/pokemon/kretsune/flame_shiny/frame4.png"
-              ],
-              "fps": 16,
-              "loop": true
-            },
-            "emissive": true,
-            "cutout": true
-          }
-        ]
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/kretsune/kretsune_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
       }
     ]
    }

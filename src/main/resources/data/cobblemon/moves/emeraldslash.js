@@ -1,0 +1,23 @@
+{
+	num: -1002,
+	accuracy: true,
+	basePower: 100,
+	category: "Physical",
+	name: "Emerald Slash",
+	pp: 5,
+	priority: 0,
+	flags: {
+		contact: 1,
+		mirror: 1,
+		slicing: 1,
+	},
+	drain: [3, 4],
+	breaksProtect: true,
+	breaksSubstitute: true,
+	ignoreDefensive: true,
+	infiltrates: true,
+	willCrit: true,
+	target: "normal",
+	type: "Steel",
+	contestType: "Cool",
+}

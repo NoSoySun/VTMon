@@ -16,7 +16,13 @@
   "item.vtmon.schlanghite": "Schlanghita",
   "tooltip.vtmon.schlanghite.tooltip": "Permite que Schlanghoul megaevolua se estiver na forma Fantasma",
 
-  "item.vtmon.crown": "Coroa",
+  "item.vtmon.suntherite": "Suntherita",
+  "tooltip.vtmon.suntherite.tooltip": "Permite que Sunther megaevolua para Mega Sunther",
+
+  "item.vtmon.gem_fossil": "Fóssil Gema",
+"tooltip.vtmon.gem_fossil.tooltip": "Um fragmento fóssil raro associado ao antigo poder das gemas.",
+
+"item.vtmon.crown": "Coroa",
   "tooltip.vtmon.crown.tooltip": "Aumenta todas as estatísticas de combate de Tokomand e Tokarmy em 50%",
 
   "item.vtmon.emerald_helmet": "Capacete de Esmeralda",

@@ -1,0 +1,229 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.brawlony.ground_idle": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"position": [0, "1+0.5*math.sin(query.anim_time*135)", "1+0.5*math.sin(query.anim_time*135)"]
+				},
+				"rightarm": {
+					"position": [0, "1+0.5*math.sin(query.anim_time*135)", "1+0.5*math.sin(query.anim_time*135)"]
+				},
+				"tail2": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail7": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				}
+			}
+		},
+		"animation.brawlony.ground_walk": {
+			"loop": true,
+			"bones": {
+				"leftleg": {
+					"rotation": ["-30*math.sin(query.anim_time*135)", 0, 0]
+				},
+				"rightleg": {
+					"rotation": ["30*math.sin(query.anim_time*135)", 0, 0]
+				},
+				"torso": {
+					"rotation": [22.5, 0, 0]
+				},
+				"torso_up": {
+					"rotation": [45, 0, 0]
+				},
+				"leftarm": {
+					"rotation": ["-47.5+math.sin(query.anim_time*135+35) * 30", 0, 0]
+				},
+				"rightarm": {
+					"rotation": ["-47.5-math.sin(query.anim_time*135+35) * 30", 0, 0]
+				},
+				"leftarm_2": {
+					"rotation": ["-math.abs(22.5*math.sin(query.anim_time*67.5))", 0, 0]
+				},
+				"rightarm_2": {
+					"rotation": ["-math.abs(22.5*math.sin(query.anim_time*67.5))", 0, 0]
+				},
+				"neck": {
+					"rotation": [-45, 0, 0]
+				},
+				"tail2": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail7": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				}
+			}
+		},
+		"animation.brawlony.blink": {
+			"animation_length": 0.125,
+			"bones": {
+				"eyelid_right": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [-0.125, 0.125, 0],
+						"0.0833": [-0.125, 0.125, 0],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eyelid_left": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0417": [0.125, 0.125, 0],
+						"0.0833": [0.125, 0.125, 0],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.brawlony.battle_idle": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"position": [0, "0.25*math.sin(query.anim_time*135)", 0]
+				},
+				"rightarm": {
+					"position": [0, "0.25*math.sin(query.anim_time*135)", 0]
+				},
+				"chest": {
+					"scale": {
+						"0.0": {
+							"post": [
+								"1 + 0.035 * math.sin(query.anim_time * 135) + (0.0035/2) * math.sin(query.anim_time * 67.5)",
+								"1 + 0.035 * math.sin(query.anim_time * 135) + (0.0035/2) * math.sin(query.anim_time * 67.5)",
+								"1 + 0.035 * math.sin(query.anim_time * 135) + (0.0035/2) * math.sin(query.anim_time * 67.5)"
+							],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"tail2": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail6": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail7": {
+					"rotation": ["-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				}
+			}
+		},
+		"animation.brawlony.cry": {
+			"animation_length": 2.5,
+			"bones": {
+				"leftarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, -90, -90],
+						"2.25": [0, -90, -90],
+						"2.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [-1, 0, 0],
+						"2.5": [0, 0, 0]
+					}
+				},
+				"leftarm_2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, 0, 115],
+						"0.5": [0, 0, 0],
+						"0.75": [0, 0, 115],
+						"1.0": [0, 0, 0],
+						"1.25": [0, 0, 115],
+						"1.5": [0, 0, 0],
+						"1.75": [0, 0, 115],
+						"2.0": [0, 0, 0],
+						"2.25": [0, 0, 0]
+					}
+				},
+				"neck": {
+					"rotation": {
+						"0.0": [-20, 0, 0],
+						"2.5": [0, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"2.5": [0, 0, 0]
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [60, 0, 0],
+						"2.25": [60, 0, 0],
+						"2.5": [0, 0, 0]
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, 90, 90],
+						"2.25": [0, 90, 90],
+						"2.5": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [1, 0, 0],
+						"2.5": [0, 0, 0]
+					}
+				},
+				"rightarm_2": {
+					"rotation": {
+						"0.25": [0, 0, 0],
+						"0.5": [0, 0, -115],
+						"0.75": [0, 0, 0],
+						"1.0": [0, 0, -115],
+						"1.25": [0, 0, 0],
+						"1.5": [0, 0, -115],
+						"1.75": [0, 0, 0],
+						"2.0": [0, 0, -115],
+						"2.25": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.125": {
+					"effect": "pokemon.brawlony.cry"
+				}
+			}
+		}
+	}
+}

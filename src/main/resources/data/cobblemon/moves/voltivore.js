@@ -1,5 +1,5 @@
 {
-  num: -189,
+  num: -1004,
   accuracy: true,
   basePower: 120,
 	basePowerCallback(pokemon, target, move) {

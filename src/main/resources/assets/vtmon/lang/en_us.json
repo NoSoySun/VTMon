@@ -16,6 +16,12 @@
   "item.vtmon.schlanghite": "Schlanghite",
   "tooltip.vtmon.schlanghite.tooltip": "Allows Schlanghoul to Mega Evolve if it's in its Phantom form",
 
+  "item.vtmon.suntherite": "Suntherite",
+  "tooltip.vtmon.suntherite.tooltip": "Allows Sunther to Mega Evolve into Mega Sunther",
+
+  "item.vtmon.gem_fossil": "Gem Fossil",
+  "tooltip.vtmon.gem_fossil.tooltip": "A rare fossil shard associated with ancient gemstone power.",
+
   "item.vtmon.emerald_helmet": "Emerald Helmet",
   "item.vtmon.emerald_chestplate": "Emerald Chestplate",
   "item.vtmon.emerald_leggings": "Emerald Leggings",

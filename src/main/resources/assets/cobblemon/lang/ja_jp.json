@@ -5,6 +5,9 @@
   "cobblemon.move.electroears": "エレクトロイヤ",
   "cobblemon.move.electroears.desc": "使用者は電気の耳をこすり、帯電した一撃を放つ。まひ状態のときに威力が2倍になり、攻撃中は速度が絶対に下がらない。",
 
+  "cobblemon.move.emeraldflame": "エメラルドフレイム",
+  "cobblemon.move.emeraldflame.desc": "必ず急所に当たる。この技は相手のタイプに関係なく常に効果抜群になる。50%の確率で相手をやけど状態にする。",
+
   "cobblemon.move.voltivore": "ボルトヴォア",
   "cobblemon.move.voltivore.desc": "使用者は相手の運動エネルギーを吸収し、与えたダメージの半分を回復する。相手がまひ状態のときはダメージが増大する。",
 
@@ -22,6 +25,18 @@
 
   "cobblemon.move.berrytoss": "ベリー投げ",
   "cobblemon.move.berrytoss.desc": "強力にベリーを投げつけ、相手に強烈な突進を仕掛ける。相手のHPが最大値に対して低いほどダメージが大きくなる。",
+
+  "cobblemon.move.balancepulse": "バランスパルス",
+  "cobblemon.move.balancepulse.desc": "使用者はバランスの取れたエネルギーの集中パルスを放つ。必ず急所に当たり、相手の全能力を大幅に下げる。",
+
+  "cobblemon.move.emeraldslash": "エメラルドスラッシュ",
+  "cobblemon.move.emeraldslash.desc": "信じられない速さで敵を切り裂く。相手の防御、まもる、みがわりを無視し、必ず急所に当たる。",
+
+  "cobblemon.move.eternalwill": "永遠の意志",
+  "cobblemon.move.eternalwill.desc": "使用者の不屈の意志が高まり、こうげきととくこうがぐーんと上がる。",
+
+  "cobblemon.move.sacredeclipse": "神聖な日食",
+  "cobblemon.move.sacredeclipse.desc": "使用者は4~5発の宇宙エネルギーの連続攻撃を放つ。最後の一発は必ず急所に当たる。",
 
   "cobblemon.species.hichulla.name": "ヒチュラ",
   "cobblemon.species.hichulla.desc1": "ヒチュラは周囲の隅々を探検するのが大好きで、野生でよく見かける。",
@@ -100,6 +115,8 @@
 
   "cobblemon.ability.illusoryember": "幻の残り火",
   "cobblemon.ability.illusoryember.desc": "戦闘開始時にチーム最後のポケモンの姿になる。相手をやけどにし、幻が解けたときに全回復する。",
+  "cobblemon.ability.divineflame": "神聖な炎",
+  "cobblemon.ability.divineflame.desc": "攻撃するノーマルタイプの技をほのおタイプに変えて強化する。ほのお技を吸収し、接触した相手をやけどにすることがあり、タイプ一致技も強化する。",
 
   "cobblemon.ability.sagacity": "賢明",
   "cobblemon.ability.sagacity.desc": "戦闘に入ると、賢さが相手を威圧し、相手の特攻を1段階下げる。",
@@ -109,6 +126,11 @@
 
   "cobblemon.ability.greatencore": "グランアンコール",
   "cobblemon.ability.greatencore.desc": "人気に応えて、40%の確率で最後に使った攻撃を繰り返す。",
+
+  "cobblemon.ability.elementaldomain": "エレメンタルドメイン",
+  "cobblemon.ability.elementaldomain.desc": "ポケモンはすべてのタイプの技でSTABを得る。",
+  "cobblemon.ability.ultimatehero": "アルティメットヒーロー",
+  "cobblemon.ability.ultimatehero.desc": "メガシンカ中、主要な能力を2倍にする。",
 
   "cobblemon.ability.curiousinstinct": "好奇心の本能",
   "cobblemon.ability.curiousinstinct.desc": "相手の能力をランダムに1つコピーする。どういう仕組みか知りたいという好奇心から。",
@@ -235,5 +257,15 @@
   "cobblemon.ability.zerogravity.desc": "戦闘に出ると、5ターンの間じゅうりょく状態にする。",
 
   "cobblemon.move.comando": "コマンド",
-  "cobblemon.move.comando.desc": "1ターン目に味方の攻撃と特攻を上げ、自分の回避率をフィールド上の味方の数に応じて上昇させる。次のターン以降は相手が前ターンに使った技を封じる。シングルバトルでは、倒れていない味方の数に応じて回避率が上がる。"
+  "cobblemon.move.comando.desc": "1ターン目に味方の攻撃と特攻を上げ、自分の回避率をフィールド上の味方の数に応じて上昇させる。次のターン以降は相手が前ターンに使った技を封じる。シングルバトルでは、倒れていない味方の数に応じて回避率が上がる。",
+
+  "cobblemon.species.sparknyk.name": "スパーク",
+  "cobblemon.species.sparknyk.desc1": "スパークは頭のトサカにエネルギーを蓄えることができる。非常に好奇心旺盛で、何時間も電子機器を観察している。",
+  "cobblemon.species.sparknyk.desc2": "興奮すると、尻尾から小さな稲妻のような火花を散らす。",
+  "cobblemon.species.cretage.name": "クレテージ",
+  "cobblemon.species.cretage.desc1": "クレテージは、帯電した髭のような頭部から電気とサイコパワーを放ち、接近戦では強力な相手となる。",
+  "cobblemon.species.cretage.desc2": "体の中で電気と思念が共鳴し、雷の一撃と超能力の衝撃を同時に放ち、相手を圧倒する。",
+  "cobblemon.species.brawlony.name": "ブロウロニー",
+  "cobblemon.species.brawlony.desc1": "ブロウロニーは電気エネルギーを強力な格闘技に変換する。戦闘態勢に入ると頭のトサカが激しく輝く。",
+  "cobblemon.species.brawlony.desc2": "ブロウロニーは電撃を帯びた一撃で岩を砕くことができると言われている。その闘志は決して揺るがない。"
 }

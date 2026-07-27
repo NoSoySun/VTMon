@@ -5,6 +5,9 @@
   "cobblemon.move.electroears": "Electrorejas",
   "cobblemon.move.electroears.desc": "El usuario frota sus orejas eléctricas y lanza un golpe cargado. Su poder se duplica si está paralizado, y la velocidad nunca disminuye mientras ataca.",
 
+  "cobblemon.move.emeraldflame": "Llama Esmeralda",
+  "cobblemon.move.emeraldflame.desc": "Siempre asesta un golpe crítico. Este movimiento siempre es supereficaz sin importar el tipo del objetivo. Tiene un 50% de probabilidad de quemar al objetivo.",
+
   "cobblemon.move.voltivore": "Voltívoro",
   "cobblemon.move.voltivore.desc": "El usuario se alimenta de la energía cinética de su oponente recuperando la mitad del daño hecho al objetivo. Si el objetivo está paralizado, el daño será mayor.",
 
@@ -22,6 +25,18 @@
 
   "cobblemon.move.berrytoss": "Lanzabayas",
   "cobblemon.move.berrytoss.desc": "Lanza sus proyectiles con fuerza hacia el oponente para arremeter con un fuerte embiste. El daño depende de los PS del objetivo, mientras menor sea en relación a sus PS máximos, mayor sera el daño.",
+
+  "cobblemon.move.balancepulse": "Pulso Equilibrio",
+  "cobblemon.move.balancepulse.desc": "El usuario libera un pulso concentrado de energía equilibrada que siempre asesta un golpe crítico y reduce duramente todas las estadísticas del objetivo.",
+
+  "cobblemon.move.emeraldslash": "Tajo Esmeralda",
+  "cobblemon.move.emeraldslash.desc": "El usuario realiza un corte increíblemente rápido que ignora las defensas, la protección y el sustituto del objetivo, y siempre asesta un golpe crítico.",
+
+  "cobblemon.move.eternalwill": "Voluntad Eterna",
+  "cobblemon.move.eternalwill.desc": "La fuerza de voluntad indomable del usuario se eleva, aumentando fuertemente su Ataque y Ataque Especial.",
+
+  "cobblemon.move.sacredeclipse": "Eclipse Sagrado",
+  "cobblemon.move.sacredeclipse.desc": "El usuario golpea al objetivo con una ráfaga de 4 a 5 destellos de energía cósmica. El último destello siempre asesta un golpe crítico.",
 
   "cobblemon.species.hichulla.name": "Hichulla",
   "cobblemon.species.hichulla.desc1": "Hichulla adora explorar cada rincón de sus alrededores, por lo que es habitual encontrarlo en estado salvaje.",
@@ -100,6 +115,8 @@
 
   "cobblemon.ability.illusoryember": "Brasa Ilusoria",
   "cobblemon.ability.illusoryember.desc": "Adopta el aspecto del último Pokémon del equipo al entrar en combate. Puede quemar al objetivo y recupera todos sus PS al dehacerse la ilusión.",
+  "cobblemon.ability.divineflame": "Llama Divina",
+  "cobblemon.ability.divineflame.desc": "Convierte los movimientos dañinos de tipo Normal en tipo Fuego y los potencia. También absorbe ataques de tipo Fuego, puede quemar por contacto y fortalece los movimientos de sus mismos tipos.",
 
   "cobblemon.ability.sagacity": "Sagacidad",
   "cobblemon.ability.sagacity.desc": "Al entrar en combate, la astucia del usuario intimida al rival de tal manera que su Ataque Especial disminuye un nivel.",
@@ -109,6 +126,11 @@
 
   "cobblemon.ability.greatencore": "Gran Encore",
   "cobblemon.ability.greatencore.desc": "El Pokémon tiene un 40% de probabilidad de repetir su último ataque por petición popular.",
+
+  "cobblemon.ability.elementaldomain": "Dominio Elemental",
+  "cobblemon.ability.elementaldomain.desc": "El Pokémon obtiene STAB en los movimientos de todos los tipos.",
+  "cobblemon.ability.ultimatehero": "Héroe Definitivo",
+  "cobblemon.ability.ultimatehero.desc": "Duplica sus estadísticas principales al Mega evolucionar.",
 
   "cobblemon.ability.curiousinstinct": "Instinto Curioso",
   "cobblemon.ability.curiousinstinct.desc": "Copia una habilidad al azar de todos sus oponentes por la curiosidad que le da saber como funciona.",
@@ -235,5 +257,15 @@
   "cobblemon.ability.zerogravity.desc": "Al entrar en combate, activa el efecto de Gravedad durante cinco turnos.",
 
   "cobblemon.move.comando": "Comando",
-  "cobblemon.move.comando.desc": "En el primer turno, potencia el ataque y Ataque Especial de sus aliados, aumentando también su propia Evasión según la cantidad de aliados en el campo, en los siguientes turnos, evita que el rival use el movimiento utilizado en el turno anterior. En combates individuales, la Evasión aumenta según la cantidad de Pokémon no debilitados en el equipo."
+  "cobblemon.move.comando.desc": "En el primer turno, potencia el ataque y Ataque Especial de sus aliados, aumentando también su propia Evasión según la cantidad de aliados en el campo, en los siguientes turnos, evita que el rival use el movimiento utilizado en el turno anterior. En combates individuales, la Evasión aumenta según la cantidad de Pokémon no debilitados en el equipo.",
+
+  "cobblemon.species.sparknyk.name": "Sparknyk",
+  "cobblemon.species.sparknyk.desc1": "Sparknyk puede almacenar energía en la cresta de su cabeza. Es extremadamente curioso y pasa horas observando aparatos electrónicos.",
+  "cobblemon.species.sparknyk.desc2": "Cuando se emociona, su cola emite chispas en forma de pequeños relámpagos.",
+  "cobblemon.species.cretage.name": "Cretage",
+  "cobblemon.species.cretage.desc1": "Cretage canaliza energía psíquica chispeante a través de su cresta electrificada, convirtiéndolo en un adversario formidable en combate cercano.",
+  "cobblemon.species.cretage.desc2": "Su cuerpo zumba con electricidad y pensamiento a la vez, permitiéndole abrumar a sus rivales con ráfagas de trueno y fuerza telepática.",
+  "cobblemon.species.brawlony.name": "Brawlony",
+  "cobblemon.species.brawlony.desc1": "Brawlony canaliza su energía eléctrica en potentes golpes de lucha. Su cresta brilla intensamente cuando está listo para el combate.",
+  "cobblemon.species.brawlony.desc2": "Se dice que Brawlony puede partir una roca con un solo puñetazo cargado de electricidad. Su espíritu de lucha es inquebrantable."
 }

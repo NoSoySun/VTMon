@@ -16,15 +16,8 @@
 	target: "allAdjacentFoes",
 	type: "Grass",
 	contestType: "Beautiful",
-	self: {
-		boosts: {
-		atk: 2,
-			evasion: 2,
-			spe: 2
-		}
-	},
-
 	onTry(source, target, move) {
+		this.boost({atk: 2, evasion: 2, spe: 2}, source);
 		this.field.setTerrain('grassyterrain');
 	},
 
@@ -57,8 +50,7 @@
 		}
 	},
 
-	self: {
-		onHit(source) {
+	onHitAfter(target, source, move) {
 			let healAmount = 0.5;
 			if (this.field.isTerrain('grassyterrain')) {
 				if (this.field.isWeather('raindance')) {
@@ -73,6 +65,5 @@
 				healAmount = 0.25;
 			}
 			this.heal(Math.floor(source.maxhp * healAmount), source, source);
-		},
 	},
 }

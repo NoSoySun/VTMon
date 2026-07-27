@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:brawlony",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:brawlony",
+      "model": "cobblemon:brawlony.geo",
+      "texture": "cobblemon:textures/pokemon/brawlony/brawlony.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/brawlony/brawlony_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/brawlony/brawlony_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/brawlony/brawlony_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

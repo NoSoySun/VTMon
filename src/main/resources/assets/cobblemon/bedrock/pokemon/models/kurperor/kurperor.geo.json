@@ -588,11 +588,19 @@
 					]
 				},
 				{
-					"name": "locator_seat_1",
-					"parent": "body",
-					"pivot": [0, 22.5, -11],
+					"name": "locator_seat_2",
+					"parent": "torso",
+					"pivot": [0, 23.5, 8],
 					"locators": {
-						"seat_1": [0, 19, -10]
+						"seat_2": [0, 20, 6]
+					}
+				},
+				{
+					"name": "locator_seat_1",
+					"parent": "torso",
+					"pivot": [0, 24.5, -5.5],
+					"locators": {
+						"seat_1": [0, 21, -4.5]
 					}
 				}
 			]

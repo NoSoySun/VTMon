@@ -17,18 +17,35 @@
     {
       "name": "Mega",
       "secondaryType": "ghost",
-      "pokedex": ["cobblemon.species.kretsune_mega.desc"],
-      "labels": ["custom", "mega"],
-      "aspects": ["mega"],
-      "abilities": ["illusoryember", "h:illusoryember"],
+      "pokedex": [
+        "cobblemon.species.kretsune_mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "divineflame",
+        "h:divineflame"
+      ],
       "baseStats": {
         "hp": 80,
-        "attack": 150,
-        "defence": 75,
-        "special_attack": 150,
-        "special_defence": 75,
-        "speed": 120
-    },
+        "attack": 160,
+        "defence": 70,
+        "special_attack": 160,
+        "special_defence": 70,
+        "speed": 110
+      },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.617
+          }
+        }
+      },
       "evolutions": [],
       "dynamaxBlocked": true,
       "battleOnly": true
@@ -36,9 +53,9 @@
   ],
   "aspects": [],
   "lightingData": {
-  "lightLevel": 14,
-  "liquidGlowMode": "LAND"
- },
+    "lightLevel": 14,
+    "liquidGlowMode": "LAND"
+  },
   "abilities": [
     "sagacity",
     "illusoryember",
@@ -48,13 +65,13 @@
     "field"
   ],
   "baseStats": {
-        "hp": 80,
-        "attack": 120,
-        "defence": 65,
-        "special_attack": 120,
-        "special_defence": 65,
-        "speed": 100
-    },
+    "hp": 80,
+    "attack": 120,
+    "defence": 65,
+    "special_attack": 120,
+    "special_defence": 65,
+    "speed": 100
+  },
   "evYield": {
     "hp": 0,
     "attack": 0,
@@ -78,22 +95,42 @@
     "height": 1.15,
     "fixed": false
   },
-  "behaviour": {
-    "moving": {
-      "walk": {
-        "walkSpeed": 0.2
-      }
-    }
-  },
-    "ai": [
-        {
-            "type": "apply_behaviours",
-            "behaviours": [
-                "cobblemon:pokemon_fox",
-                "cobblemon:attack_hostile_mobs"
-            ]
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": true,
+        "canSprint": true,
+        "stats": {
+          "ACCELERATION": "75-100",
+          "JUMP": "70-100",
+          "SKILL": "70-100",
+          "SPEED": "75-100",
+          "STAMINA": "55-95"
         }
-    ],
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1",
+        "offset": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    ]
+  },
+  "ai": [
+    {
+      "type": "apply_behaviours",
+      "behaviours": [
+        "cobblemon:pokemon_fox",
+        "cobblemon:attack_hostile_mobs"
+      ]
+    }
+  ],
   "drops": {
     "amount": 3,
     "entries": [

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:sparknyk",
+    "speciesId": "cobblemon:sparknyk",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Normal",
+        "unlockForms": [
+          "Normal"
+        ]
+      }
+    ],
+    "variations": []
+  }

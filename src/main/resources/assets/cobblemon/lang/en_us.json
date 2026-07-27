@@ -5,6 +5,9 @@
   "cobblemon.move.electroears": "Electrorears",
   "cobblemon.move.electroears.desc": "The user rubs its electric ears and launches a charged strike. Its power doubles if paralyzed, and its speed never decreases while attacking.",
 
+  "cobblemon.move.emeraldflame": "Emerald Flame",
+  "cobblemon.move.emeraldflame.desc": "Always lands a critical hit. This move is always super effective regardless of the target's type. Has a 50% chance to burn the target.",
+
   "cobblemon.move.voltivore": "Voltivore",
   "cobblemon.move.voltivore.desc": "The user feeds on the kinetic energy of its opponent, recovering half the damage dealt to the target. If the target is paralyzed, the damage will be greater.",
 
@@ -22,6 +25,18 @@
 
   "cobblemon.move.berrytoss": "Berry Toss",
   "cobblemon.move.berrytoss.desc": "Throws its projectiles forcefully toward the opponent to strike with a powerful charge. The damage depends on the target's HP; the lower it is relative to its maximum HP, the greater the damage.",
+
+  "cobblemon.move.balancepulse": "Balance Pulse",
+  "cobblemon.move.balancepulse.desc": "The user releases a concentrated burst of balanced energy that always lands a critical hit and harshly lowers all the target's stats.",
+
+  "cobblemon.move.emeraldslash": "Emerald Slash",
+  "cobblemon.move.emeraldslash.desc": "The user delivers a blindingly fast slash that ignores the target's defenses, protection, and substitute, and always lands a critical hit.",
+
+  "cobblemon.move.eternalwill": "Eternal Will",
+  "cobblemon.move.eternalwill.desc": "The user's indomitable willpower surges, sharply raising its Attack and Special Attack.",
+
+  "cobblemon.move.sacredeclipse": "Sacred Eclipse",
+  "cobblemon.move.sacredeclipse.desc": "The user strikes the target with a barrage of 4 to 5 blasts of cosmic energy. The final blast always lands a critical hit.",
 
   "cobblemon.species.hichulla.name": "Hichulla",
   "cobblemon.species.hichulla.desc1": "Hichulla loves to explore every corner of its surroundings, so it is common to find it in the wild.",
@@ -63,6 +78,12 @@
   "cobblemon.species.schlanghoul.desc1": "Its head begins to show bony protuberances, mainly noticeable on its snout; this is due to the grieving souls it absorbs in an attempt to purify them.",
   "cobblemon.species.schlanghoul.desc2": "The crystal on its neck stores the souls it absorbs, which strengthen its body and make its poison much more lethal.",
 
+  "cobblemon.species.sunther.name": "Sunther",
+  "cobblemon.species.sunther.desc1": "Sunther was born from fossil resurrection experiments using the stable DNA of a legendary trainer from ancient times, granting it exceptional power that is believed to make it master all elemental types.",
+  "cobblemon.species.sunther.desc2": "The latent DNA within Sunther brought with it an extremely strong spirit of justice, so it will protect anyone in danger, even if that means giving its life in battle.",
+  "cobblemon.species.sunther.desc3": "It is said to be capable of creating and destroying entire worlds with a single thought, which has cast doubt on the true origin of its power.",
+  "cobblemon.species.sunther_mega.desc": "Its Mega Evolution transforms its essence into a heroic and draconic form, greatly boosting its offensive power and battlefield presence.",
+
   "cobblemon.species.hapu.name": "Hapu",
   "cobblemon.species.hapu.desc1": "It often sneaks into power plants when it needs energy. It is a very active Pokémon, so it needs to recharge frequently.",
   "cobblemon.species.hapu.desc2": "Wild Hapu take advantage of electrical storms to recharge their energy using their tails as lightning rods.",
@@ -96,6 +117,8 @@
 
   "cobblemon.ability.illusoryember": "Illusory Ember",
   "cobblemon.ability.illusoryember.desc": "Adopts the appearance of the last Pokémon on the team upon entering battle. It can burn the target and recovers all its HP when the illusion is undone.",
+  "cobblemon.ability.divineflame": "Divine Flame",
+  "cobblemon.ability.divineflame.desc": "Turns damaging Normal-type moves into Fire-type moves and powers them up. It also absorbs Fire-type attacks, may burn attackers on contact, and strengthens moves that match its types.",
 
   "cobblemon.ability.sagacity": "Sagacity",
   "cobblemon.ability.sagacity.desc": "Upon entering battle, the user's cunning intimidates the opponent so that its Special Attack decreases by one stage.",
@@ -105,6 +128,11 @@
 
   "cobblemon.ability.greatencore": "Great Encore",
   "cobblemon.ability.greatencore.desc": "The Pokémon has a 40% chance to repeat its last attack by popular demand.",
+
+  "cobblemon.ability.elementaldomain": "Elemental Domain",
+  "cobblemon.ability.elementaldomain.desc": "The Pokémon gains STAB on moves of every type.",
+  "cobblemon.ability.ultimatehero": "Ultimate Hero",
+  "cobblemon.ability.ultimatehero.desc": "Doubles its main stats while Mega Evolved.",
 
   "cobblemon.ability.curiousinstinct": "Curious Instinct",
   "cobblemon.ability.curiousinstinct.desc": "Copies a random ability from all its opponents out of curiosity to know how it works.",
@@ -231,5 +259,16 @@
   "cobblemon.ability.zerogravity.desc": "Activates the Gravity effect for five turns when the Pokémon enters battle.",
 
   "cobblemon.move.comando": "Command",
-  "cobblemon.move.comando.desc": "On the first turn, it boosts the Attack and Special Attack of its allies, also increasing its own Evasion based on the number of allies on the field. In subsequent turns, it prevents the rival from using the move used in the previous turn. In single battles, Evasion increases based on the number of non-fainted Pokémon in the team."
+  "cobblemon.move.comando.desc": "On the first turn, it boosts the Attack and Special Attack of its allies, also increasing its own Evasion based on the number of allies on the field. In subsequent turns, it prevents the rival from using the move used in the previous turn. In single battles, Evasion increases based on the number of non-fainted Pokémon in the team.",
+
+  "cobblemon.species.sparknyk.name": "Sparknyk",
+  "cobblemon.species.sparknyk.desc1": "Sparknyk can store energy in the crest on its head. It is extremely curious and spends hours watching electronic devices.",
+  "cobblemon.species.sparknyk.desc2": "When it gets excited, its tail emits sparks in the form of small lightning bolts.",
+  
+  "cobblemon.species.cretage.name": "Cretage",
+  "cobblemon.species.cretage.desc1": "Cretage channels crackling psychic energy through its electrified crest, making it a formidable opponent in close quarters.",
+  "cobblemon.species.cretage.desc2": "Its body hums with static and thought alike, allowing it to overwhelm foes with bursts of thunder and telepathic force.",
+  "cobblemon.species.brawlony.name": "Brawlony",
+  "cobblemon.species.brawlony.desc1": "Brawlony channels its electrical energy into powerful fighting blows. Its crest glows intensely when it is ready for battle.",
+  "cobblemon.species.brawlony.desc2": "It is said that Brawlony can split a rock with a single electrified punch. Its fighting spirit is unbreakable."
 }

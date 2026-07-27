@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:cretage",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:cretage",
+      "model": "cobblemon:cretage.geo",
+      "texture": "cobblemon:textures/pokemon/cretage/cretage.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/cretage/cretage_shiny.png"
+    }
+  ]
+}

@@ -126,6 +126,21 @@ public class ModItems {
             }
     );
 
+    public static final Item SUNTHERITE = registerItem(
+            "suntherite",
+            new Item(new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+                    .component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "mega")
+                    .component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(), Identifier.of("vtmon","suntherite"))
+            ) {
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.vtmon.suntherite.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            }
+    );
+
 
 
     // =========================
@@ -259,6 +274,23 @@ public class ModItems {
                 true  // mostrar en el tooltip
         );
     }
+
+    /* =========================
+       ==        ITEMS        ==
+       ========================= */
+
+       public static final Item GEM_FOSSIL = registerItem(
+            "gem_fossil",
+            new Item(new Item.Settings()
+                    .rarity(Rarity.EPIC)
+                    ) {
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.vtmon.gem_fossil.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            }
+    );
 
     // =========================
     // 🧩 REGISTRO

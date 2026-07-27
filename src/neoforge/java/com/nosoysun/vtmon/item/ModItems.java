@@ -141,6 +141,33 @@ public class ModItems {
 			}
 	);
 
+	public static final DeferredItem<Item> SUNTHERITE = registerItem(
+			"suntherite",
+			() -> new Item(new Item.Properties()
+					.rarity(Rarity.UNCOMMON)
+					.component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "mega")
+					.component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(),
+							ResourceLocation.fromNamespaceAndPath("vtmon", "suntherite"))
+			) {
+				@Override
+				public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+					tooltip.add(Component.translatable("tooltip.vtmon.suntherite.tooltip"));
+					super.appendHoverText(stack, context, tooltip, flag);
+				}
+			}
+	);
+
+	public static final DeferredItem<Item> GEM_FOSSIL = registerItem(
+			"gem_fossil",
+			() -> new Item(new Item.Properties().rarity(Rarity.EPIC)) {
+				@Override
+				public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+					tooltip.add(Component.translatable("tooltip.vtmon.gem_fossil.tooltip"));
+					super.appendHoverText(stack, context, tooltip, flag);
+				}
+			}
+	);
+
 	public static final DeferredItem<Item> EMERALD_HELMET = registerItem(
 			"emerald_helmet",
 			() -> new ArmorItem(ModArmorMaterials.EMERALD_ARMOR_MATERIAL,

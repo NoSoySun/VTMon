@@ -1,0 +1,209 @@
+{
+  "implemented": true,
+  "name": "Sunther",
+  "nationalPokedexNumber": 4128,
+  "primaryType": "fairy",
+  "secondaryType": "steel",
+  "abilities": [
+    "elementaldomain"
+  ],
+  "features": [
+    "mega_evolution"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 155,
+    "defence": 105,
+    "special_attack": 155,
+    "special_defence": 105,
+    "speed": 100
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "forms": [
+    {
+      "name": "Mega",
+      "secondaryType": "dragon",
+      "pokedex": [
+        "cobblemon.species.sunther_mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega",
+        "legendary"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "ultimatehero"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 190,
+        "defence": 115,
+        "special_attack": 190,
+        "special_defence": 115,
+        "speed": 110
+      },
+      "behaviour": {
+        "moving": {
+          "canLook": true,
+          "walk": {
+            "avoidsLand": true
+          },
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 2.25
+          }
+        }
+      },
+      "evolutions": [],
+      "dynamaxBlocked": true,
+      "battleOnly": true
+    }
+  ],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:quickattack",
+    "1:metalclaw",
+    "1:psychocut",
+    "1:nightslash",
+    "1:shadowclaw",
+    "1:dragonclaw",
+    "1:emeraldslash",
+    "1:fairywind",
+    "1:gust",
+    "1:emeraldflame",
+    "5:drainingkiss",
+    "10:flashcannon",
+    "15:playrough",
+    "20:ironhead",
+    "25:moonblast",
+    "30:steelbeam",
+    "35:dazzlinggleam",
+    "40:airslash",
+    "45:acrobatics",
+    "50:extremespeed",
+    "55:balancepulse",
+    "60:eternalwill",
+    "65:sacredeclipse",
+    "70:dragonpulse",
+    "75:darkpulse",
+    "80:aurasphere",
+    "85:hyperbeam",
+    "90:dracometeor",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:heatwave",
+    "tm:mysticalfire",
+    "tm:burningjealousy",
+    "tm:willowisp",
+    "tm:surf",
+    "tm:waterpulse",
+    "tm:hydropump",
+    "tm:originpulse",
+    "tm:whirlpool",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:leafstorm",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:risingvoltage",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:freezedry",
+    "tm:icywind",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:stompingtantrum",
+    "tm:powergem",
+    "tm:ancientpower",
+    "tm:meteorbeam",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:expandingforce",
+    "tm:shadowball",
+    "tm:focusblast",
+    "tm:protect",
+    "tm:substitute",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:safeguard",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:workup",
+    "tm:agility",
+    "tm:recover",
+    "tm:healpulse",
+    "tm:helpinghand",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:terablast",
+    "tutor:nightslash",
+    "tutor:dragonclaw",
+    "tutor:shadowclaw",
+    "tutor:psychocut",
+    "tutor:airslash",
+    "tutor:hurricane",
+    "tutor:aircutter",
+    "tutor:tailwind",
+    "tutor:xscissor",
+    "tutor:leechlife",
+    "tutor:lunge",
+    "tutor:crunch",
+    "tutor:knockoff",
+    "tutor:phantomforce",
+    "tutor:vacuumwave",
+    "tutor:forcepalm",
+    "tutor:drainpunch",
+    "tutor:brickbreak",
+    "tutor:machpunch",
+    "tutor:upperhand",
+    "tutor:reversal",
+    "tutor:poisonjab",
+    "tutor:crosspoison",
+    "tutor:gunkshot"
+  ],
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.sunther.desc1",
+    "cobblemon.species.sunther.desc2",
+    "cobblemon.species.sunther.desc3"
+  ],
+  "baseScale": 1.728,
+  "hitbox": {
+    "width": 0.875,
+    "height": 2.3,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  }
+}

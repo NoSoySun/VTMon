@@ -85,5 +85,11 @@
   },
   "pokemon.erien.cry": {
     "sounds": [{"name": "cobblemon:pokemon/erien/erien_cry", "volume": 1.0}]
+  },
+  "pokemon.sparknyk.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/sparknyk/sparknyk_cry", "volume": 1.75}]
+  },
+  "pokemon.sunther.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/sunther/sunther_cry", "volume": 1.0}]
   }
 }

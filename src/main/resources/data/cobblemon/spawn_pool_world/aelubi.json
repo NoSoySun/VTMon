@@ -10,7 +10,7 @@
         "context": "grounded",
         "bucket": "ultra-rare",
         "level": "70-85",
-        "weight": 1.0,
+        "weight": 0.01,
         "condition": {
           "minSkyLight": 10,
           "maxSkyLight": 15,
@@ -34,8 +34,7 @@
               "#cobblemon:is_spooky"
            ]
         }
-      },
-      
+      },   
       {
         "id": "aelubi-1",
         "pokemon": "aelubi",
@@ -43,7 +42,7 @@
         "context": "grounded",
         "bucket": "ultra-rare",
         "level": "70-85",
-        "weight": 1.0,
+        "weight": 0.01,
         "condition": {
           "minSkyLight": 10,
           "maxSkyLight": 15,
@@ -52,6 +51,28 @@
             "minecraft:ancient_city",
             "minecraft:end_city",
             "#minecraft:village"
+          ]
+        },
+        "anticondition": {
+           "biomes": [
+              "#cobblemon:is_spooky"
+           ]
+        }
+      },
+      {
+        "id": "aelubi-0",
+        "pokemon": "aelubi",
+        "type": "pokemon",
+        "context": "grounded",
+        "bucket": "rare",
+        "level": "70-85",
+        "weight": 10.0,
+        "condition": {
+          "minSkyLight": 10,
+          "maxSkyLight": 15,
+          "canSeeSky": true,
+          "biomes": [
+            "#aether:is_aether"
           ]
         },
         "anticondition": {
