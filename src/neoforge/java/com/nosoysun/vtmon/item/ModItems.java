@@ -3,6 +3,7 @@ package com.nosoysun.vtmon.item;
 import com.github.yajatkaul.mega_showdown.components.MegaShowdownDataComponents;
 import com.nosoysun.vtmon.VTMon;
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -67,7 +68,8 @@ public class ModItems {
 
 				@Override
 				public boolean isFoil(ItemStack stack) {
-					return true;
+					Minecraft client = Minecraft.getInstance();
+					return client.level != null && client.level.isNight();
 				}
 			}
 	);

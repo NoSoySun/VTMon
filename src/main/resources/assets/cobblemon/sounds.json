@@ -63,7 +63,7 @@
     "sounds": [{"name": "cobblemon:pokemon/byion/byion_cry", "volume": 1.0}]
   },
   "pokemon.byohm.cry": {
-    "sounds": [{"name": "cobblemon:pokemon/byohm/byohm_cry", "volume": 1.0}]
+    "sounds": [{"name": "cobblemon:pokemon/byohm/byohm_cry", "volume": 0.75}]
   },
   "pokemon.byohm_mega_z.cry": {
     "sounds": [{"name": "cobblemon:pokemon/byohm/byohm_mega_z_cry", "volume": 1.0}]
@@ -91,5 +91,14 @@
   },
   "pokemon.sunther.cry": {
     "sounds": [{"name": "cobblemon:pokemon/sunther/sunther_cry", "volume": 1.0}]
+  },
+  "pokemon.chiboo.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/chiboo/chiboo_cry", "volume": 1.0}]
+  },
+  "pokemon.pookyuubi.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/pookyuubi/pookyuubi_cry", "volume": 1.5}]
+  },
+  "pokemon.meibloom.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/meibloom/meibloom_cry", "volume": 0.875}]
   }
 }

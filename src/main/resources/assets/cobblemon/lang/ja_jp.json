@@ -204,6 +204,10 @@
   "cobblemon.species.byohm.desc1": "計り知れない速度で走り、数秒で速度と運動エネルギーを爆発的に高める。",
   "cobblemon.species.byohm.desc2": "キッチン用品、特にスプーンの窃盗事件が報告されており、この種が関与していると噂される。",
 
+  "cobblemon.species.ironimpulse.name": "テツノインパルス",
+  "cobblemon.species.ironimpulse.desc1": "未来のビョームではないかと言われる謎のポケモン。金属製の四肢と、莫大な電気エネルギーを放つコアを持つ。",
+  "cobblemon.species.ironimpulse.desc2": "テツノインパルスはビョームの思考と動機によって動く。ビョームが見て感じたすべてを認識している。",
+
   "cobblemon.species.mizuga.name": "ミズガ",
   "cobblemon.species.mizuga.desc1": "暖かい海やサンゴ礁に生息し、一日中魚の群れの中で遊んでいる。",
   "cobblemon.species.mizuga.desc2": "ダイバーはその存在を健全なサンゴ礁の証拠だと語る。",
@@ -267,5 +271,12 @@
   "cobblemon.species.cretage.desc2": "体の中で電気と思念が共鳴し、雷の一撃と超能力の衝撃を同時に放ち、相手を圧倒する。",
   "cobblemon.species.brawlony.name": "ブロウロニー",
   "cobblemon.species.brawlony.desc1": "ブロウロニーは電気エネルギーを強力な格闘技に変換する。戦闘態勢に入ると頭のトサカが激しく輝く。",
-  "cobblemon.species.brawlony.desc2": "ブロウロニーは電撃を帯びた一撃で岩を砕くことができると言われている。その闘志は決して揺るがない。"
+  "cobblemon.species.brawlony.desc2": "ブロウロニーは電撃を帯びた一撃で岩を砕くことができると言われている。その闘志は決して揺るがない。",
+
+"cobblemon.species.chiboo.name": "チブー",
+"cobblemon.species.chiboo.desc1": "悲しげな遠吠えと落ち着かない眼差しで夜をさまよう幽霊のような犬。",
+"cobblemon.species.chiboo.desc2": "その霊体はろうそくの煙のように揺らめき、迷った旅人の匂いをたどって安全な場所へと導くと言われている。",
+"cobblemon.species.pookyuubi.name": "ポキュウビー",
+"cobblemon.species.pookyuubi.desc1": "成長すると、その霊体は九本の尾を持つ狐の姿になり、毛並みは今もろうそくの煙のように揺らめいている。",
+"cobblemon.species.pookyuubi.desc2": "迷った旅人の匂いを追う習性は変わらないが、今では光る尾で安全な道を照らし、さまよう霊を寄せつけない。"
 }

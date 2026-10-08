@@ -4,25 +4,65 @@
     rating: 5,
     num: -1502,
 
-    onModifyAtk() {
-        return this.chainModify([77, 36]);
-    },
-    onModifyDef() {
-        return this.chainModify([77, 36]);
-    },
-    onModifySpA() {
-        return this.chainModify([77, 36]);
-    },
-    onModifySpD() {
-        return this.chainModify([77, 36]);
-    },
-    onModifySpe() {
-        return this.chainModify([77, 36]);
+    onModifyAtkPriority: 5,
+    onModifyAtk(atk, pokemon) {
+        const stats = pokemon.species.baseStats;
+        const total = stats.hp + stats.atk + stats.def + stats.spa + stats.spd + stats.spe;
+        const hp = stats.hp;
+
+        const k = ((2 * total) - hp) / (total - hp);
+
+        return this.chainModify(k);
     },
 
+    onModifyDefPriority: 5,
+    onModifyDef(def, pokemon) {
+        const stats = pokemon.species.baseStats;
+        const total = stats.hp + stats.atk + stats.def + stats.spa + stats.spd + stats.spe;
+        const hp = stats.hp;
+
+        const k = ((2 * total) - hp) / (total - hp);
+
+        return this.chainModify(k);
+    },
+
+    onModifySpAPriority: 5,
+    onModifySpA(spa, pokemon) {
+        const stats = pokemon.species.baseStats;
+        const total = stats.hp + stats.atk + stats.def + stats.spa + stats.spd + stats.spe;
+        const hp = stats.hp;
+
+        const k = ((2 * total) - hp) / (total - hp);
+
+        return this.chainModify(k);
+    },
+
+    onModifySpDPriority: 5,
+    onModifySpD(spd, pokemon) {
+        const stats = pokemon.species.baseStats;
+        const total = stats.hp + stats.atk + stats.def + stats.spa + stats.spd + stats.spe;
+        const hp = stats.hp;
+
+        const k = ((2 * total) - hp) / (total - hp);
+
+        return this.chainModify(k);
+    },
+
+    onModifySpePriority: 5,
+    onModifySpe(spe, pokemon) {
+        const stats = pokemon.species.baseStats;
+        const total = stats.hp + stats.atk + stats.def + stats.spa + stats.spd + stats.spe;
+        const hp = stats.hp;
+
+        const k = ((2 * total) - hp) / (total - hp);
+
+        return this.chainModify(k);
+    },
+
+    onBasePowerPriority: 21,
     onBasePower(basePower, attacker, defender, move) {
         if (move.category !== "Status") {
-            return this.chainModify(2);
+            return this.chainModify([5, 2]);
         }
     },
 
@@ -33,18 +73,20 @@
     },
 
     onStart(pokemon) {
-        this.add('-activate', pokemon, 'ability: Ultimate Hero');
+        this.add("-activate", pokemon, "ability: Ultimate Hero");
 
-        if (pokemon.hp < pokemon.maxHp) {
-            this.heal(pokemon.maxHp - pokemon.hp);
+        if (pokemon.hp < pokemon.maxhp) {
+            this.heal(pokemon.maxhp - pokemon.hp, pokemon);
         }
     },
-    
-  onResidual(pokemon) {
-    if (pokemon.hp < pokemon.maxHp) {
-            this.heal(Math.floor(pokemon.maxHp/8));
+
+    onResidualOrder: 5,
+    onResidualSubOrder: 2,
+    onResidual(pokemon) {
+        if (pokemon.hp && pokemon.hp < pokemon.maxhp) {
+            this.heal(pokemon.baseMaxhp / 8, pokemon);
         }
-  },
+    },
 
     flags: {
         failroleplay: 1,

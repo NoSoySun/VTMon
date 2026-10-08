@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:chiboo",
+  "speciesId": "cobblemon:chiboo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

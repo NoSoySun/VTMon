@@ -206,6 +206,10 @@
   "cobblemon.species.byohm.desc1": "It can run at incalculable speeds and increase its speed and kinetic energy in a matter of seconds.",
   "cobblemon.species.byohm.desc2": "There have been reports of theft of kitchen utensils, mostly spoons; this species is believed to be involved.",
 
+  "cobblemon.species.ironimpulse.name": "Iron Impulse",
+  "cobblemon.species.ironimpulse.desc1": "This strange creature is rumored to be a Byohm from a possible future, reconstructed with metallic limbs and a core that discharges immense electrical energy.",
+  "cobblemon.species.ironimpulse.desc2": "Iron Impulse operates on Byohm's thoughts and motivations. It is aware of everything Byohm has seen and felt.",
+
   "cobblemon.species.mizuga.name": "Mizuga",
   "cobblemon.species.mizuga.desc1": "Mizuga lives in warm oceans and coral reefs, where it spends the day playing among schools of fish.",
   "cobblemon.species.mizuga.desc2": "Divers say that its presence is a sign of a healthy and balanced reef.",
@@ -270,5 +274,11 @@
   "cobblemon.species.cretage.desc2": "Its body hums with static and thought alike, allowing it to overwhelm foes with bursts of thunder and telepathic force.",
   "cobblemon.species.brawlony.name": "Brawlony",
   "cobblemon.species.brawlony.desc1": "Brawlony channels its electrical energy into powerful fighting blows. Its crest glows intensely when it is ready for battle.",
-  "cobblemon.species.brawlony.desc2": "It is said that Brawlony can split a rock with a single electrified punch. Its fighting spirit is unbreakable."
+  "cobblemon.species.brawlony.desc2": "It is said that Brawlony can split a rock with a single electrified punch. Its fighting spirit is unbreakable.",
+"cobblemon.species.chiboo.name": "Chiboo",
+"cobblemon.species.chiboo.desc1": "It wanders the night with a mournful howl and a restless gaze.",
+"cobblemon.species.chiboo.desc2": "Its ghostly body flickers like candle smoke, and it is said to guide lost travelers back to safety by following their scent.",
+"cobblemon.species.pookyuubi.name": "Pookyuubi",
+"cobblemon.species.pookyuubi.desc1": "As it grows, its ghostly body takes the shape of a nine-tailed fox, its wisps flickering like candle flames.",
+"cobblemon.species.pookyuubi.desc2": "It still follows the scent of lost travelers, but now its glowing tails light their way home and keep wandering spirits at bay."
 }

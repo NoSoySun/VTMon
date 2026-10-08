@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "tableName": "vtmon_ironimpulse",
+  "labels": [
+    "vtmon",
+    "ironimpulse"
+  ],
+  "bucket": "ultra-rare",
+  "pokemon": [
+    "ironimpulse"
+  ],
+  "weight": 1,
+  "spawnConditions": [
+    {
+      "priority": 1,
+      "condition": {
+        "biome": "#cobblemon:is_arid"
+      }
+    }
+  ]
+}

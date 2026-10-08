@@ -19,6 +19,8 @@
 	critRatio: 2,
 	multihit: [2, 3],
 	multiaccuracy: true,
+	smartTarget: true,
+	willCrit: true,
 	secondary: {
 	  chance: 75,
 	  status: "brn"

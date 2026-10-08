@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.AttributeModifierSlot;
 import net.minecraft.component.type.AttributeModifiersComponent;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.*;
@@ -56,7 +57,8 @@ public class ModItems {
 
                 @Override
                 public boolean hasGlint(ItemStack stack) {
-                    return true;
+                                        MinecraftClient client = MinecraftClient.getInstance();
+                                        return client.world != null && client.world.isNight();
                 }
             }
     );

@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:meibloom",
+  "speciesId": "cobblemon:meibloom",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

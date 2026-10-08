@@ -200,6 +200,10 @@
   "cobblemon.species.byohm.desc1": "Pode correr em velocidades incalculáveis e aumentar sua velocidade e energia cinética em questão de segundos.",
   "cobblemon.species.byohm.desc2": "Foram reportados casos de roubo de utensílios de cozinha, principalmente colheres; acredita-se que essa espécie esteja envolvida.",
 
+  "cobblemon.species.ironimpulse.name": "Ferro Impulso",
+  "cobblemon.species.ironimpulse.desc1": "Rumores dizem que esta criatura estranha é uma Byohm de um possível futuro, reconstruída com membros metálicos e um núcleo capaz de liberar imensa energia elétrica.",
+  "cobblemon.species.ironimpulse.desc2": "Ferro Impulso opera com os pensamentos e as motivações de Byohm. Está consciente de tudo o que Byohm viu e sentiu.",
+
   "cobblemon.species.mizuga.name": "Mizuga",
   "cobblemon.species.mizuga.desc1": "Mizuga vive em oceanos quentes e recifes de coral, onde passa o dia brincando entre cardumes de peixes.",
   "cobblemon.species.mizuga.desc2": "Mergulhadores dizem que sua presença é sinal de um recife saudável e equilibrado.",
@@ -263,5 +267,11 @@
   "cobblemon.species.cretage.desc2": "Seu corpo zumbifica com eletricidade e pensamento ao mesmo tempo, permitindo-lhe dominar os oponentes com rajadas de trovão e força telepática.",
   "cobblemon.species.brawlony.name": "Brawlony",
   "cobblemon.species.brawlony.desc1": "Brawlony canaliza sua energia elétrica em poderosos golpes de luta. Sua crista brilha intensamente quando está pronto para o combate.",
-  "cobblemon.species.brawlony.desc2": "Diz-se que Brawlony pode partir uma rocha com um único soco eletrificado. Seu espírito de luta é inabalável."
+  "cobblemon.species.brawlony.desc2": "Diz-se que Brawlony pode partir uma rocha com um único soco eletrificado. Seu espírito de luta é inabalável.",
+"cobblemon.species.chiboo.name": "Chiboo",
+"cobblemon.species.chiboo.desc1": "Um canino espectral que vagueia pela noite com um uivo lastimoso e um olhar inquieto.",
+"cobblemon.species.chiboo.desc2": "Seu corpo fantasmagórico pisca como fumaça de vela, e diz-se que guia viajantes perdidos de volta à segurança seguindo seu cheiro.",
+"cobblemon.species.pookyuubi.name": "Pookyuubi",
+"cobblemon.species.pookyuubi.desc1": "Ao crescer, seu corpo fantasmagórico assume a forma de uma raposa de nove caudas, e sua pelagem ainda tremeluz como fumaça de vela.",
+"cobblemon.species.pookyuubi.desc2": "Ele ainda segue o cheiro de viajantes perdidos, mas agora suas caudas luminosas os guiam até um lugar seguro e afastam espíritos errantes."
 }

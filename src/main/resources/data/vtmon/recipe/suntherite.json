@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "OWE",
+        " S "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:dragon_gem"
+        },
+        "O": {
+            "item": "vtmon:emerald_sword"
+        },
+        "W": {
+            "item": "mega_showdown:mega_stone"
+        },
+        "E": {
+            "item": "vtmon:emerald_mace"
+        },
+        "S": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "id": "vtmon:suntherite",
+        "count": 1
+    }
+}

@@ -30,8 +30,8 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
 
-	modImplementation "curse.maven:cobblemon-687131:7553235"
-	modImplementation "curse.maven:cobblemon-mega-showdown-1189523:7633965"
+	modImplementation "curse.maven:cobblemon-687131:8868927"
+	modImplementation "curse.maven:cobblemon-mega-showdown-1189523:8870188"
 
 	modImplementation "net.fabricmc:fabric-language-kotlin:1.13.7+kotlin.2.2.21"
 	modImplementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.24"

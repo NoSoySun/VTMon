@@ -28,7 +28,7 @@
     }
   },
   "catchRate": 75,
-  "maleRatio": 0.999,
+  "maleRatio": 1,
   "shoulderMountable": false,
   "forms": [
     {

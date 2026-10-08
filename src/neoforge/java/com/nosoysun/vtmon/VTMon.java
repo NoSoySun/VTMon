@@ -4,6 +4,9 @@ import com.github.yajatkaul.mega_showdown.components.MegaShowdownDataComponents;
 import com.nosoysun.vtmon.item.ModArmorMaterials;
 import com.nosoysun.vtmon.item.ModItemGroups;
 import com.nosoysun.vtmon.item.ModItems;
+import com.nosoysun.vtmon.loot.GemFossilOncePerWorldCondition;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
@@ -21,6 +24,8 @@ public class VTMon {
 		ModArmorMaterials.register(modEventBus);
 		ModItems.register(modEventBus);
 		ModItemGroups.register(modEventBus);
+
+		Registry.register(BuiltInRegistries.LOOT_CONDITION_TYPE, GemFossilOncePerWorldCondition.ID, GemFossilOncePerWorldCondition.TYPE);
 
 		modEventBus.addListener(this::modifyDefaultComponents);
 	}

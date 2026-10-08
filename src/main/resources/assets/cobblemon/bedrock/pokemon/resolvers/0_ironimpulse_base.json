@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:ironimpulse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:byohm",
+      "model": "cobblemon:ironimpulse.geo",
+      "texture": "cobblemon:textures/pokemon/ironimpulse/ironimpulse.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ironimpulse/ironimpulse_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ironimpulse/ironimpulse_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/ironimpulse/ironimpulse_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

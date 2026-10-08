@@ -1,7 +1,8 @@
 {
   "result": "sunther lvl=80 min_perfect_ivs=4",
+  "loot_table": "vtmon:chests/gem_fossil",
   "fossils": [
-    "vtmon:gen_fossil",
+    "vtmon:gem_fossil",
     "vtmon:emerald_sword"
   ]
 }

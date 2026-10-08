@@ -19,8 +19,9 @@
   "item.vtmon.suntherite": "サンサー石",
   "tooltip.vtmon.suntherite.tooltip": "サンサーをメガサンサーにメガシンカさせることができる",
 
-  "item.vtmon.gem_fossil": "ジェムフォッシル",
+"item.vtmon.gem_fossil": "ジェムフォッシル",
 "tooltip.vtmon.gem_fossil.tooltip": "古代の宝石の力に関連する珍しい化石の破片。",
+
 
 "item.vtmon.crown": "王冠",
   "tooltip.vtmon.crown.tooltip": "トコマンドとトコアーミーの全ての戦闘ステータスを50%上昇させる",

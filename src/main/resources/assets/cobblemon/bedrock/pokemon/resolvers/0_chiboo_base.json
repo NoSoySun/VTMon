@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:chiboo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:chiboo",
+      "model": "cobblemon:chiboo.geo",
+      "texture": "cobblemon:textures/pokemon/chiboo/chiboo.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "tail",
+          "texture": "cobblemon:textures/pokemon/chiboo/chiboo_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/chiboo/chiboo_shiny.png",
+      "layers": [
+        {
+          "emissive": true,
+          "name": "shiny_tail",
+          "texture": "cobblemon:textures/pokemon/chiboo/chiboo_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

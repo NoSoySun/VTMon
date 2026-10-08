@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:pookyuubi",
+  "speciesId": "cobblemon:pookyuubi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

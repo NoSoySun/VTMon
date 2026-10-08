@@ -19,8 +19,9 @@
   "item.vtmon.suntherite": "Suntherita",
   "tooltip.vtmon.suntherite.tooltip": "Permite ao Sunther megaevoluir para Mega Sunther",
 
-  "item.vtmon.gem_fossil": "Fóssil Gema",
+"item.vtmon.gem_fossil": "Fóssil Gema",
 "tooltip.vtmon.gem_fossil.tooltip": "Um fragmento fóssil raro associado ao antigo poder das gemas.",
+
 
 "item.vtmon.crown": "Coroa",
   "tooltip.vtmon.crown.tooltip": "Aumenta todas as estatísticas de combate de Tokomand e Tokarmy em 50%",

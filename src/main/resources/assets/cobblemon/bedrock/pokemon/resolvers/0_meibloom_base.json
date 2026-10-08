@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:meibloom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:meibloom",
+      "model": "cobblemon:meibloom.geo",
+      "texture": "cobblemon:textures/pokemon/meibloom/meibloom.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/meibloom/meibloom_shiny.png",
+      "layers": []
+    }
+  ]
+}

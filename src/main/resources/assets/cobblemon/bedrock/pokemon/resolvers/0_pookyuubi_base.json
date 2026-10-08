@@ -1,0 +1,46 @@
+{
+    "order": 0,
+    "species": "cobblemon:pookyuubi",
+    "variations": [
+        {
+            "aspects": [],
+            "model": "cobblemon:pookyuubi.geo",
+            "poser": "cobblemon:pookyuubi",
+            "texture": "cobblemon:textures/pokemon/pookyuubi/pookyuubi.png",
+            "layers": [
+                {
+                    "emissive": true,
+                    "name": "tails",
+                    "texture": "cobblemon:textures/pokemon/pookyuubi/pookyuubi_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/pookyuubi/pookyuubi_shiny.png",
+            "layers": [
+                {
+                    "emissive": true,
+                    "name": "shiny_tails",
+                    "texture": "cobblemon:textures/pokemon/pookyuubi/pookyuubi_shiny_emissive.png",
+                    "translucent": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "alpha_eyes"
+            ],
+            "layers": [
+                {
+                    "emissive": true,
+                    "name": "alpha_eyes",
+                    "texture": "cobblemon:textures/pokemon/0038_ninetales/ninetales_alolan_alpha.png"
+                }
+            ]
+        }
+    ]
+}

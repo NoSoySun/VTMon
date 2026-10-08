@@ -206,6 +206,10 @@
   "cobblemon.species.byohm.desc1": "Puede correr a velocidades incalculables y aumentar su velocidad y energia cinética en cuestión de segundos.",
   "cobblemon.species.byohm.desc2": "Se han reportado casos de robo de utensillos de cocina, en su mayor parte, cucharas; se cree que esta especie está involucrada.",
 
+  "cobblemon.species.ironimpulse.name": "Ferroimpulso",
+  "cobblemon.species.ironimpulse.desc1": "Se rumorea que esta extraña criatura es una Byohm de un posible futuro, reconstruida con extremidades metálicas y un núcleo capaz de liberar energía eléctrica inmensa.",
+  "cobblemon.species.ironimpulse.desc2": "Ferroimpulso opera con los pensamientos y las motivaciones de Byohm. Es consciente de todo lo que Byohm ha visto y ha sentido.",
+
   "cobblemon.species.mizuga.name": "Mizuga",
   "cobblemon.species.mizuga.desc1": "Mizuga vive en océanos cálidos y arrecifes de coral, donde pasa el día jugando entre bancos de peces.",
   "cobblemon.species.mizuga.desc2": "Los buceadores dicen que su presencia es señal de un arrecife sano y equilibrado.",
@@ -269,5 +273,11 @@
   "cobblemon.species.cretage.desc2": "Su cuerpo zumba con electricidad y pensamiento a la vez, permitiéndole abrumar a sus rivales con ráfagas de trueno y fuerza telepática.",
   "cobblemon.species.brawlony.name": "Brawlony",
   "cobblemon.species.brawlony.desc1": "Brawlony canaliza su energía eléctrica en potentes golpes de lucha. Su cresta brilla intensamente cuando está listo para el combate.",
-  "cobblemon.species.brawlony.desc2": "Se dice que Brawlony puede partir una roca con un solo puñetazo cargado de electricidad. Su espíritu de lucha es inquebrantable."
+  "cobblemon.species.brawlony.desc2": "Se dice que Brawlony puede partir una roca con un solo puñetazo cargado de electricidad. Su espíritu de lucha es inquebrantable.",
+  "cobblemon.species.chiboo.name": "Chiboo",
+"cobblemon.species.chiboo.desc1": "Vaga por la noche con un aullido lastimero y una mirada inquieta.",
+"cobblemon.species.chiboo.desc2": "Su cuerpo fantasmal parpadea como el humo de una vela, y se dice que guía a los viajeros perdidos de vuelta a un lugar seguro siguiendo su olor.",
+"cobblemon.species.pookyuubi.name": "Pookyuubi",
+"cobblemon.species.pookyuubi.desc1": "Al crecer, su cuerpo fantasmal toma la forma de un zorro de nueve colas, y su pelaje aún parpadea como humo de vela.",
+"cobblemon.species.pookyuubi.desc2": "Aún sigue el rastro de los viajeros perdidos, pero ahora sus colas luminosas los guían hasta un lugar seguro y mantienen a raya a los espíritus errantes."
 }
