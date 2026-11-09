@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:meiki",
+  "speciesId": "cobblemon:meiki",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

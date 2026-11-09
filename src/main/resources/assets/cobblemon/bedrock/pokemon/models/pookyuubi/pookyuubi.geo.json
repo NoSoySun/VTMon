@@ -2031,6 +2031,14 @@
 					]
 				},
 				{
+					"name": "locator_butt",
+					"parent": "torso",
+					"pivot": [0, 14, 0],
+					"locators": {
+						"butt": [0, 14, 0]
+					}
+				},
+				{
 					"name": "legs",
 					"parent": "body",
 					"pivot": [0, 14.25, -0.75]

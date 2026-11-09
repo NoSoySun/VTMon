@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:nymphex",
+  "speciesId": "cobblemon:nymphex",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtmon:block/distorted_netherrack_brick_slab"
+    },
+    "type=double": {
+      "model": "vtmon:block/distorted_netherrack_brick_slab_double"
+    },
+    "type=top": {
+      "model": "vtmon:block/distorted_netherrack_brick_slab_top"
+    }
+  }
+}

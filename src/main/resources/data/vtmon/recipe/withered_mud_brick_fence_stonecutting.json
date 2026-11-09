@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vtmon:withered_mud_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "vtmon:withered_mud_brick_fence"
+  }
+}

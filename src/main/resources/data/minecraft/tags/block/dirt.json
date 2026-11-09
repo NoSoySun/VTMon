@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:distorted_sand",
+    "vtmon:blighted_grass_block",
+    "vtmon:withered_dirt",
+    "vtmon:withered_mud"
+  ]
+}

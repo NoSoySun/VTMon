@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "vtmon:block/distorted_netherrack_bricks"
+  }
+}

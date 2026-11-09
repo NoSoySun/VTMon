@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4136,
+  "name": "Koirayon",
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "maleRatio": 0.5,
+  "height": 12,
+  "weight": 75,
+  "pokedex": [
+    "cobblemon.species.koirayon.desc1",
+    "cobblemon.species.koirayon.desc2"
+  ],
+  "labels": ["custom"],
+  "aspects": [],
+  "abilities": [
+    "swiftswim",
+    "waterveil",
+    "h:cutecharm"
+  ],
+  "eggGroups": ["water_2", "fairy"],
+  "baseStats": {
+    "hp": 75,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 105,
+    "special_defence": 95,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "baseExperienceYield": 220,
+  "experienceGroup": "fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "preEvolution": "krayoi",
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.75,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "swim": {
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "swimSpeed": 0.7
+      }
+    }
+  },
+  "moves": [
+    "1:splash",
+    "1:tackle",
+    "1:charm",
+    "1:watergun",
+    "5:fairywind",
+    "9:waterpulse",
+    "13:disarmingvoice",
+    "17:aquaring",
+    "21:drainingkiss",
+    "25:aquatail",
+    "29:playrough",
+    "33:moonblast",
+    "37:hydropump",
+    "egg:aquajet",
+    "egg:mist",
+    "egg:mistyterrain",
+    "egg:refresh",
+    "tm:alluringvoice",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:icywind",
+    "tm:lightscreen",
+    "tm:liquidation",
+    "tm:magicalleaf",
+    "tm:mistyterrain",
+    "tm:moonblast",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:waterpulse",
+    "tm:whirlpool",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:liquidation",
+    "tutor:waterpulse"
+  ],
+  "evolutions": []
+}

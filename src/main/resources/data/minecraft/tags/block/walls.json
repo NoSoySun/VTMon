@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:distorted_netherrack_brick_wall",
+    "vtmon:distorted_sandstone_wall",
+    "vtmon:withered_mud_brick_wall",
+    "vtmon:corroded_stone_brick_wall",
+    "vtmon:polished_corroded_stone_wall",
+    "vtmon:polished_distorted_basalt_wall"
+  ]
+}

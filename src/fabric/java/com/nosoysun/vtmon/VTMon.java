@@ -2,11 +2,16 @@ package com.nosoysun.vtmon;
 
 import com.github.yajatkaul.mega_showdown.components.MegaShowdownDataComponents;
 import com.nosoysun.vtmon.item.ModItemGroups;
+import com.nosoysun.vtmon.item.ModBlocks;
 import com.nosoysun.vtmon.item.ModItems;
 import com.nosoysun.vtmon.loot.GemFossilOncePerWorldCondition;
+import com.nosoysun.vtmon.world.InterworldTravel;
+import com.nosoysun.vtmon.world.ModEntities;
+import com.nosoysun.vtmon.world.ModParticles;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.DefaultItemComponentEvents;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import net.minecraft.item.Items;                    // Cambia por el ítem que quieras modificar
@@ -33,8 +38,12 @@ public class VTMon implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModEntities.register();
+		ModParticles.register();
+		ServerTickEvents.END_SERVER_TICK.register(InterworldTravel::tick);
 
 		Registry.register(Registries.LOOT_CONDITION_TYPE, GemFossilOncePerWorldCondition.ID, GemFossilOncePerWorldCondition.TYPE);
 

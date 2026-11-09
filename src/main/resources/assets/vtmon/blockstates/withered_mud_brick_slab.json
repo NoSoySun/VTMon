@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtmon:block/withered_mud_brick_slab"
+    },
+    "type=double": {
+      "model": "vtmon:block/withered_mud_brick_slab_double"
+    },
+    "type=top": {
+      "model": "vtmon:block/withered_mud_brick_slab_top"
+    }
+  }
+}

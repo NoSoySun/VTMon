@@ -1,0 +1,74 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('pumpkaboo_novaeran', 'cry')",
+    "faint": "q.bedrock_primary('pumpkaboo', 'faint', q.curve('one'))",
+    "recoil": "q.bedrock_stateful('pumpkaboo_novaeran', 'recoil')"
+  },
+  "portraitScale": 3.1,
+  "portraitTranslation": [
+    0.0,
+    -1.5,
+    0.0
+  ],
+  "poses": {
+    "battle-standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pumpkaboo_novaeran', 'battle_idle')"
+      ],
+      "isBattle": true,
+      "poseTypes": [
+        "STAND"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pumpkaboo_novaeran', 'blink')"
+      ]
+    },
+    "sleep": {
+      "animations": [
+        "q.bedrock('pumpkaboo_novaeran', 'sleep')"
+      ],
+      "poseTypes": [
+        "SLEEP"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pumpkaboo_novaeran', 'blink')"
+      ]
+    },
+    "standing": {
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('pumpkaboo_novaeran', 'ground_idle')"
+      ],
+      "isBattle": false,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pumpkaboo_novaeran', 'blink')",
+        "q.bedrock_quirk('pumpkaboo_novaeran', 'quirk_idle')"
+      ]
+    },
+    "walking": {
+      "animations": [
+        "q.bedrock('pumpkaboo_novaeran', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('pumpkaboo_novaeran', 'blink')"
+      ]
+    }
+  },
+  "profileScale": 1.1,
+  "profileTranslation": [
+    0.0,
+    0.15,
+    0.0
+  ],
+  "rootBone": "pumpkaboo"
+}

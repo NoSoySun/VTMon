@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vtmon:corroded_stone_bricks"
+  },
+  "result": {
+    "count": 1,
+    "id": "vtmon:corroded_stone_brick_tiles"
+  }
+}

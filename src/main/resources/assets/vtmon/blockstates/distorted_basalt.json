@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "vtmon:block/distorted_basalt",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "vtmon:block/distorted_basalt"
+    },
+    "axis=z": {
+      "model": "vtmon:block/distorted_basalt",
+      "x": 90
+    }
+  }
+}

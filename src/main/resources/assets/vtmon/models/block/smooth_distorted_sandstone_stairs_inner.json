@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "vtmon:block/smooth_distorted_sandstone",
+    "side": "vtmon:block/smooth_distorted_sandstone",
+    "top": "vtmon:block/smooth_distorted_sandstone"
+  }
+}

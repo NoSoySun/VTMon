@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "vtmon:distorted_netherrack_bricks" },
+  "result": { "id": "vtmon:chiseled_distorted_netherrack_bricks", "count": 1 }
+}

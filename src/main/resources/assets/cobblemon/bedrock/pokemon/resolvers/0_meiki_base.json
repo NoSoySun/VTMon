@@ -1,0 +1,98 @@
+{
+  "species": "cobblemon:meiki",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:meiki",
+      "model": "cobblemon:meiki.geo",
+      "texture": "cobblemon:textures/pokemon/meiki/meiki.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-oak"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-oak"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-azalea"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-azalea"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-birch"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_birch.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-birch"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_birch.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-darkoak"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_dark_oak.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-darkoak"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_dark_oak.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-jungle"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_jungle.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-jungle"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_jungle.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-spruce"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_spruce.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-spruce"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_spruce.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-mangrove"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_mangrove.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-mangrove"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_mangrove.png",
+      "layers": []
+    },
+    {
+      "aspects": ["tree-cherry"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_cherry.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny", "tree-cherry"],
+      "texture": "cobblemon:textures/pokemon/meiki/meiki_shiny_cherry.png",
+      "layers": []
+    }
+  ]
+}

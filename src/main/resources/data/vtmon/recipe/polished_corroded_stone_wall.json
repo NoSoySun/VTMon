@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "vtmon:polished_corroded_stone"
+    }
+  },
+  "category": "building",
+  "result": {
+    "count": 6,
+    "id": "vtmon:polished_corroded_stone_wall"
+  },
+  "pattern": [
+    "XXX",
+    "XXX"
+  ]
+}

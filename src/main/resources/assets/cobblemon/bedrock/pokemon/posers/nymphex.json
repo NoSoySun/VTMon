@@ -1,0 +1,47 @@
+{
+  "portraitScale": 1.25,
+  "portraitTranslation": [0, 0.55, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.45, 0],
+  "rootBone": "braixen",
+  "animations": {
+    "cry": "q.bedrock_stateful('nymphex', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nymphex', 'ground_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('nymphex', 'cry', q.curve('one'))"
+      },
+      "quirks": [
+        "q.bedrock_quirk('nymphex', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nymphex', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nymphex', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('nymphex', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('nymphex', 'blink')"
+      ]
+    }
+  }
+}

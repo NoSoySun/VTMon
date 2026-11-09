@@ -31,6 +31,8 @@
 
   "cobblemon.move.emeraldslash": "Emerald Slash",
   "cobblemon.move.emeraldslash.desc": "The user delivers a blindingly fast slash that ignores the target's defenses, protection, and substitute, and always lands a critical hit.",
+  "cobblemon.move.emeraldwyrmslash": "Shining Emerald",
+  "cobblemon.move.emeraldwyrmslash.desc": "Shining Emerald has 150 base power, is Dragon-type, combines the type effectiveness of all 18 types, always lands a critical hit, ignores defensive boosts, Protect, and Substitute, and drains 75% of the damage dealt. It is Special if the target's Special Defense is lower than its Defense, and Physical if its Defense is lower; ties are Physical. It raises the user's Attack and Special Attack by one stage.",
 
   "cobblemon.move.eternalwill": "Eternal Will",
   "cobblemon.move.eternalwill.desc": "The user's indomitable willpower surges, sharply raising its Attack and Special Attack.",
@@ -280,5 +282,33 @@
 "cobblemon.species.chiboo.desc2": "Its ghostly body flickers like candle smoke, and it is said to guide lost travelers back to safety by following their scent.",
 "cobblemon.species.pookyuubi.name": "Pookyuubi",
 "cobblemon.species.pookyuubi.desc1": "As it grows, its ghostly body takes the shape of a nine-tailed fox, its wisps flickering like candle flames.",
-"cobblemon.species.pookyuubi.desc2": "It still follows the scent of lost travelers, but now its glowing tails light their way home and keep wandering spirits at bay."
+"cobblemon.species.pookyuubi.desc2": "It still follows the scent of lost travelers, but now its glowing tails light their way home and keep wandering spirits at bay.",
+  "cobblemon.species.meibloom.name": "Meibloom",
+  "cobblemon.species.meibloom.desc1": "It often appears in gardens as an ordinary sprout, though the green ribbon around its leaves gives it away.",
+  "cobblemon.species.meibloom.desc2": "Curious about the world beyond its garden, it practices aiming tiny seeds with a bow made from a curved stem.",
+  "cobblemon.species.meiki.name": "Meiki",
+  "cobblemon.species.meiki.desc1": "Once it has grown confident, it leaves its garden behind and travels in search of new sights and friends.",
+  "cobblemon.species.meiki.desc2": "It weaves a bow from sturdy vines and fires arrows tipped with glowing seeds. A star-shaped bloom shines when it takes aim.",
+  "cobblemon.move.fairyarrow": "Fairy Arrow",
+    "cobblemon.move.fairyarrow.desc": "The user fires a barrage of arrows infused with Fairy energy. They often land critical hits, and each arrow has a 30% chance to confuse the target.",
+    "cobblemon.move.aurealarrow": "Aureal Arrow",
+    "cobblemon.move.aurealarrow.desc": "Meiki transforms Fairy Arrow into Aureal Arrow, a powerful Z-Move.",
+  "cobblemon.species.krayoi.name": "Krayoi",
+  "cobblemon.species.krayoi.desc1": "Krayoi is a tiny koi rarely seen drifting through rivers and oceans. Its bright scales resemble strokes of colored crayon, and it is especially drawn to coral reefs.",
+  "cobblemon.species.krayoi.desc2": "When one appears near a reef, its playful loops through the coral are said to bring a little good luck to nearby fish.",
+  "cobblemon.species.koirayon.name": "Koirayon",
+  "cobblemon.species.koirayon.desc1": "After absorbing the power of a Water Stone, Krayoi grows into Koirayon, a long-bodied koi whose crayon-bright scales shimmer across the water.",
+  "cobblemon.species.koirayon.desc2": "Its sweeping fins stir gentle currents that guide lost fish back to their schools. The longer it swims, the more vividly its colors glow.",
+  "cobblemon.move.shiningemerald": "Shining Emerald",
+  "cobblemon.move.shiningemerald.desc": "Shining Emerald has 150 base power, is Dragon-type, combines the type effectiveness of all 18 types, always lands a critical hit, ignores defensive boosts, Protect, and Substitute, and restores HP equal to 75% of the damage dealt. It is Special if the target's Special Defense is lower than its Defense; otherwise it is Physical, including ties. It raises the user's Attack and Special Attack by one stage.",
+  "cobblemon.species.nympimp.name": "Nympimp",
+  "cobblemon.species.nympimp.desc1": "Nympimp is a fox Pokémon with a witch’s craft and a succubus’s night-born aura. It weaves playful illusions to lead curious travelers away from danger.",
+  "cobblemon.species.nympimp.desc2": "Its wings carry it silently between moonlit trees. A sparkle from its eyes can make even a brave Pokémon mistake a shadow for a spellbound spirit.",
+  "cobblemon.species.nymphex.name": "Nymphex",
+  "cobblemon.species.nymphex.desc1": "After evolving at night, Nympimp becomes Nymphex, a poised fox mage whose ghostly aura deepens every spell. It uses its wand to shape shadows into convincing illusions.",
+  "cobblemon.species.nymphex.desc2": "Nymphex’s wings let it drift above the forest without a sound. It guides lost travelers with floating lights, though no two witnesses agree on the path they followed.",
+  "cobblemon.species.pumpcigeist.name": "Pumpcigeist",
+  "cobblemon.species.pumpcigeist.desc1": "When a Moon Stone awakens the Gourgeist within its core, smoke gathers into a humanoid shape. It can disperse its arms and legs into drifting wisps.",
+  "cobblemon.species.pumpcigeist.desc2": "A glowing ember burns inside its pumpkin body. The sweet-smelling haze around it hides a poison that leaves even sturdy Pokémon dizzy."
 }
+

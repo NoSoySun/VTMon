@@ -1,0 +1,79 @@
+{
+    "animations": {
+        "cry": "q.bedrock_stateful('gourgeist_novaeran', 'cry')"
+    },
+    "portraitScale": 2.45,
+    "portraitTranslation": [
+        -0.1,
+        0.95,
+        0.0
+    ],
+    "poses": {
+        "fly": {
+            "animations": [
+                "q.bedrock('gourgeist_novaeran', 'air_fly')"
+            ],
+            "poseTypes": [
+                "FLY"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gourgeist_novaeran', 'blink')"
+            ]
+        },
+        "hovering": {
+            "animations": [
+                "q.bedrock('gourgeist_novaeran', 'air_idle')"
+            ],
+            "poseTypes": [
+                "HOVER"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gourgeist_novaeran', 'blink')"
+            ]
+        },
+        "sleep": {
+            "animations": [
+                "q.bedrock('gourgeist_novaeran', 'sleep')"
+            ],
+            "poseTypes": [
+                "SLEEP"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gourgeist_novaeran', 'blink')"
+            ]
+        },
+        "standing": {
+            "animations": [
+                "q.look('head')",
+                "q.bedrock('gourgeist_novaeran', 'ground_idle')"
+            ],
+            "poseTypes": [
+                "STAND",
+                "NONE",
+                "PORTRAIT",
+                "PROFILE"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gourgeist_novaeran', 'blink')"
+            ]
+        },
+        "walking": {
+            "animations": [
+                "q.bedrock('gourgeist_novaeran', 'ground_walk')"
+            ],
+            "poseTypes": [
+                "WALK"
+            ],
+            "quirks": [
+                "q.bedrock_quirk('gourgeist_novaeran', 'blink')"
+            ]
+        }
+    },
+    "profileScale": 0.7,
+    "profileTranslation": [
+        0.0,
+        0.7,
+        0.0
+    ],
+    "rootBone": "gourgeist"
+}

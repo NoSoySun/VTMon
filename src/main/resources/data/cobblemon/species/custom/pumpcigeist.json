@@ -1,0 +1,86 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4139,
+  "name": "Pumpcigeist",
+  "primaryType": "ghost",
+  "secondaryType": "poison",
+  "maleRatio": 0.5,
+  "height": 17,
+  "weight": 146,
+  "pokedex": [
+    "cobblemon.species.pumpcigeist.desc1",
+    "cobblemon.species.pumpcigeist.desc2"
+  ],
+  "labels": ["custom"],
+  "aspects": [],
+  "abilities": [
+    "levitate",
+    "cursedbody",
+    "h:poisonpoint"
+  ],
+  "eggGroups": ["amorphous"],
+  "baseStats": {
+    "hp": 75,
+    "attack": 80,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 100,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "preEvolution": "gourgeist novaeran",
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.9,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.38
+      }
+    }
+  },
+  "moves": [
+    "1:astonish",
+    "1:smog",
+    "1:confuseray",
+    "4:smokescreen",
+    "8:willowisp",
+    "12:hex",
+    "16:sludgebomb",
+    "22:poisonjab",
+    "28:shadowball",
+    "34:toxic",
+    "40:phantomforce",
+    "46:destinybond",
+    "tm:darkpulse",
+    "tm:hex",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sludgebomb",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:willowisp",
+    "tutor:knockoff",
+    "tutor:shadowball",
+    "tutor:willowisp"
+  ],
+  "evolutions": []
+}

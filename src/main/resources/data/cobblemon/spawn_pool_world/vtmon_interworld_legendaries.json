@@ -1,0 +1,1865 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "labels": [
+    "vtmon",
+    "interworld",
+    "legendary_encounters"
+  ],
+  "spawns": [
+    {
+      "id": "vtmon-interworld-legendary-aelubi",
+      "pokemon": "aelubi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-arceus",
+      "pokemon": "arceus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-articuno",
+      "pokemon": "articuno",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-azelf",
+      "pokemon": "azelf",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-blacephalon",
+      "pokemon": "blacephalon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-buzzwole",
+      "pokemon": "buzzwole",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-calyrex",
+      "pokemon": "calyrex",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-celebi",
+      "pokemon": "celebi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-celesteela",
+      "pokemon": "celesteela",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-chienpao",
+      "pokemon": "chienpao",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-chiyu",
+      "pokemon": "chiyu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-cobalion",
+      "pokemon": "cobalion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-cosmoem",
+      "pokemon": "cosmoem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-cosmog",
+      "pokemon": "cosmog",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-cresselia",
+      "pokemon": "cresselia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-darkrai",
+      "pokemon": "darkrai",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-deoxys",
+      "pokemon": "deoxys",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-dialga",
+      "pokemon": "dialga",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-diancie",
+      "pokemon": "diancie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-enamorus",
+      "pokemon": "enamorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-entei",
+      "pokemon": "entei",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-eternatus",
+      "pokemon": "eternatus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-fezandipiti",
+      "pokemon": "fezandipiti",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-genesect",
+      "pokemon": "genesect",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-ghissel",
+      "pokemon": "ghissel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-giratina",
+      "pokemon": "giratina",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-glastrier",
+      "pokemon": "glastrier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-groudon",
+      "pokemon": "groudon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-guzzlord",
+      "pokemon": "guzzlord",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-heatran",
+      "pokemon": "heatran",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-hooh",
+      "pokemon": "hooh",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-hoopa",
+      "pokemon": "hoopa",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-jirachi",
+      "pokemon": "jirachi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-kartana",
+      "pokemon": "kartana",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-keldeo",
+      "pokemon": "keldeo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-koraidon",
+      "pokemon": "koraidon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-kubfu",
+      "pokemon": "kubfu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-kyogre",
+      "pokemon": "kyogre",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-kyurem",
+      "pokemon": "kyurem",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-landorus",
+      "pokemon": "landorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-latias",
+      "pokemon": "latias",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-latios",
+      "pokemon": "latios",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-lugia",
+      "pokemon": "lugia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-lunala",
+      "pokemon": "lunala",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-magearna",
+      "pokemon": "magearna",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-manaphy",
+      "pokemon": "manaphy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-marshadow",
+      "pokemon": "marshadow",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-melmetal",
+      "pokemon": "melmetal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-meloetta",
+      "pokemon": "meloetta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-meltan",
+      "pokemon": "meltan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-mesprit",
+      "pokemon": "mesprit",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-mew",
+      "pokemon": "mew",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-mewtwo",
+      "pokemon": "mewtwo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-miraidon",
+      "pokemon": "miraidon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-moltres",
+      "pokemon": "moltres",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-munkidori",
+      "pokemon": "munkidori",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-naganadel",
+      "pokemon": "naganadel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-necrozma",
+      "pokemon": "necrozma",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-nihilego",
+      "pokemon": "nihilego",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-ogerpon",
+      "pokemon": "ogerpon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-okidogi",
+      "pokemon": "okidogi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-palkia",
+      "pokemon": "palkia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-pecharunt",
+      "pokemon": "pecharunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-pheromosa",
+      "pokemon": "pheromosa",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-phione",
+      "pokemon": "phione",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-poipole",
+      "pokemon": "poipole",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-raikou",
+      "pokemon": "raikou",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-rayquaza",
+      "pokemon": "rayquaza",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-regice",
+      "pokemon": "regice",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-regidrago",
+      "pokemon": "regidrago",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-regieleki",
+      "pokemon": "regieleki",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-regigigas",
+      "pokemon": "regigigas",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-regirock",
+      "pokemon": "regirock",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-registeel",
+      "pokemon": "registeel",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-reshiram",
+      "pokemon": "reshiram",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-schlanghoul",
+      "pokemon": "schlanghoul",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-shaymin",
+      "pokemon": "shaymin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-silvally",
+      "pokemon": "silvally",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-solgaleo",
+      "pokemon": "solgaleo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-spectrier",
+      "pokemon": "spectrier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-stakataka",
+      "pokemon": "stakataka",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-suicune",
+      "pokemon": "suicune",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-sunther",
+      "pokemon": "sunther",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tapubulu",
+      "pokemon": "tapubulu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tapufini",
+      "pokemon": "tapufini",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tapukoko",
+      "pokemon": "tapukoko",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tapulele",
+      "pokemon": "tapulele",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-terapagos",
+      "pokemon": "terapagos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-terrakion",
+      "pokemon": "terrakion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-thundurus",
+      "pokemon": "thundurus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tinglu",
+      "pokemon": "tinglu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-tornadus",
+      "pokemon": "tornadus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-typenull",
+      "pokemon": "typenull",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-urshifu",
+      "pokemon": "urshifu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-uxie",
+      "pokemon": "uxie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-victini",
+      "pokemon": "victini",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-virizion",
+      "pokemon": "virizion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-volcanion",
+      "pokemon": "volcanion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-wochien",
+      "pokemon": "wochien",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-xerneas",
+      "pokemon": "xerneas",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-xurkitree",
+      "pokemon": "xurkitree",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-yveltal",
+      "pokemon": "yveltal",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zacian",
+      "pokemon": "zacian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zamazenta",
+      "pokemon": "zamazenta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zapdos",
+      "pokemon": "zapdos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zarude",
+      "pokemon": "zarude",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zekrom",
+      "pokemon": "zekrom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zeraora",
+      "pokemon": "zeraora",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-legendary-zygarde",
+      "pokemon": "zygarde",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "presets": [
+        "natural"
+      ],
+      "bucket": "ultra-rare",
+      "level": "40-70",
+      "weight": 0.1,
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    }
+  ]
+}

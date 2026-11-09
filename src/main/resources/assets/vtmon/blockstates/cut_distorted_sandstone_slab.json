@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtmon:block/cut_distorted_sandstone_slab"
+    },
+    "type=double": {
+      "model": "vtmon:block/cut_distorted_sandstone_slab_double"
+    },
+    "type=top": {
+      "model": "vtmon:block/cut_distorted_sandstone_slab_top"
+    }
+  }
+}

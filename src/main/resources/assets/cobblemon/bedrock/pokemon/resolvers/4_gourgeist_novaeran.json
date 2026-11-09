@@ -1,0 +1,138 @@
+{
+  "species": "cobblemon:gourgeist",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-average"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-average"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-small"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-small"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-large"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-large"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-super"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-super"
+      ],
+      "poser": "cobblemon:gourgeist_novaeran",
+      "model": "cobblemon:gourgeist_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0711_gourgeist/gourgeist_novaeran_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}

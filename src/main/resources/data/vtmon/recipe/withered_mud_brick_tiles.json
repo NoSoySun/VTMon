@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "vtmon:withered_mud_bricks"
+    }
+  },
+  "category": "building",
+  "result": {
+    "count": 4,
+    "id": "vtmon:withered_mud_brick_tiles"
+  },
+  "pattern": [
+    "XX",
+    "XX"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+		"axis=x,segment=0": {"model": "vtmon:block/interworld_portal"},
+		"axis=x,segment=1": {"model": "vtmon:block/interworld_portal_segment_1"},
+		"axis=x,segment=2": {"model": "vtmon:block/interworld_portal_segment_2"},
+		"axis=x,segment=3": {"model": "vtmon:block/interworld_portal_segment_3"},
+		"axis=x,segment=4": {"model": "vtmon:block/interworld_portal_segment_4"},
+		"axis=x,segment=5": {"model": "vtmon:block/interworld_portal_segment_5"},
+		"axis=z,segment=0": {"model": "vtmon:block/interworld_portal_ew"},
+		"axis=z,segment=1": {"model": "vtmon:block/interworld_portal_ew_segment_1"},
+		"axis=z,segment=2": {"model": "vtmon:block/interworld_portal_ew_segment_2"},
+		"axis=z,segment=3": {"model": "vtmon:block/interworld_portal_ew_segment_3"},
+		"axis=z,segment=4": {"model": "vtmon:block/interworld_portal_ew_segment_4"},
+		"axis=z,segment=5": {"model": "vtmon:block/interworld_portal_ew_segment_5"}
+  }
+}

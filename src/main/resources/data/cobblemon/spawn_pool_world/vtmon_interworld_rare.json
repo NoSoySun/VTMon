@@ -1,0 +1,5222 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "labels": [
+    "vtmon",
+    "interworld",
+    "rare_pokemon"
+  ],
+  "spawns": [
+    {
+      "id": "vtmon-interworld-cobblemon-abra-grounded",
+      "pokemon": "abra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "6-31",
+      "weight": 75.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-absol-grounded",
+      "pokemon": "absol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 100.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-aerodactyl-grounded",
+      "pokemon": "aerodactyl",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "27-52",
+      "weight": 100.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-alakazam-grounded",
+      "pokemon": "alakazam",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-50",
+      "weight": 1.25,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-amaura-grounded",
+      "pokemon": "amaura",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-anorith-grounded",
+      "pokemon": "anorith",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-anorith-submerged",
+      "pokemon": "anorith",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-archaludon-grounded",
+      "pokemon": "archaludon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-60",
+      "weight": 12.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-archen-grounded",
+      "pokemon": "archen",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-archeops-grounded",
+      "pokemon": "archeops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "37-57",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-armaldo-grounded",
+      "pokemon": "armaldo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-armaldo-submerged",
+      "pokemon": "armaldo",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-audino-grounded",
+      "pokemon": "audino",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "10-45",
+      "weight": 100.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#minecraft:village"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-aurorus-grounded",
+      "pokemon": "aurorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "39-52",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-axew-grounded",
+      "pokemon": "axew",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "7-32",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-bagon-grounded",
+      "pokemon": "bagon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 96.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-bastiodon-grounded",
+      "pokemon": "bastiodon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-bayleef-grounded",
+      "pokemon": "bayleef",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 36.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-beldum-grounded",
+      "pokemon": "beldum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-blastoise-grounded",
+      "pokemon": "blastoise",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-blastoise-submerged",
+      "pokemon": "blastoise",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 3.2,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-blaziken-grounded",
+      "pokemon": "blaziken",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-blissey-grounded",
+      "pokemon": "blissey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "40-54",
+      "weight": 3.4,
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-braixen-grounded",
+      "pokemon": "braixen",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 36.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-brionne-grounded",
+      "pokemon": "brionne",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 36.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-brionne-submerged",
+      "pokemon": "brionne",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 28.8,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-bulbasaur-grounded",
+      "pokemon": "bulbasaur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-carracosta-grounded",
+      "pokemon": "carracosta",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "37-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-carracosta-submerged",
+      "pokemon": "carracosta",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "37-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-chansey-grounded",
+      "pokemon": "chansey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "17-45",
+      "weight": 62.6,
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-charizard-grounded",
+      "pokemon": "charizard",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-charmander-grounded",
+      "pokemon": "charmander",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-charmeleon-grounded",
+      "pokemon": "charmeleon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-chesnaught-grounded",
+      "pokemon": "chesnaught",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-chespin-grounded",
+      "pokemon": "chespin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-chikorita-grounded",
+      "pokemon": "chikorita",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cinderace-grounded",
+      "pokemon": "cinderace",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-clamperl-seafloor",
+      "pokemon": "clamperl",
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "rare",
+      "level": "10-35",
+      "weight": 87.5,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-combusken-grounded",
+      "pokemon": "combusken",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-comfey-grounded",
+      "pokemon": "comfey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 50.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "#cobblemon:flowers"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cradily-grounded",
+      "pokemon": "cradily",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cradily-seafloor",
+      "pokemon": "cradily",
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cranidos-grounded",
+      "pokemon": "cranidos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "10-35",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-crocalor-grounded",
+      "pokemon": "crocalor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-croconaw-grounded",
+      "pokemon": "croconaw",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "18-41",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-croconaw-submerged",
+      "pokemon": "croconaw",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "18-41",
+      "weight": 28.8,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cyclizar-grounded",
+      "pokemon": "cyclizar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cyndaquil-grounded",
+      "pokemon": "cyndaquil",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-cyndaquil-region-bias-hisui-grounded",
+      "pokemon": "cyndaquil region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dartrix-grounded",
+      "pokemon": "dartrix",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dartrix-region-bias-hisui-grounded",
+      "pokemon": "dartrix region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-decidueye-grounded",
+      "pokemon": "decidueye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "34-53",
+      "weight": 4.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-decidueye-hisuian-grounded",
+      "pokemon": "decidueye hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "34-53",
+      "weight": 4.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-deino-grounded",
+      "pokemon": "deino",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 48.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-delphox-grounded",
+      "pokemon": "delphox",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dewott-grounded",
+      "pokemon": "dewott",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dewott-surface",
+      "pokemon": "dewott",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dewott-region-bias-hisui-grounded",
+      "pokemon": "dewott region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dewott-region-bias-hisui-surface",
+      "pokemon": "dewott region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-ditto-grounded",
+      "pokemon": "ditto",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "4-29",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isSlimeChunk": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dondozo-submerged",
+      "pokemon": "dondozo",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "28-53",
+      "weight": 50.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "isPokeSnack": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dragapult-grounded",
+      "pokemon": "dragapult",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "60-65",
+      "weight": 1.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dragapult-surface",
+      "pokemon": "dragapult",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "60-65",
+      "weight": 1.2,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "dusk",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dragonair-submerged",
+      "pokemon": "dragonair",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "30-42",
+      "weight": 11.25,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dragonair-surface",
+      "pokemon": "dragonair",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "30-42",
+      "weight": 11.25,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dragonite-grounded",
+      "pokemon": "dragonite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-drakloak-grounded",
+      "pokemon": "drakloak",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 10.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-drakloak-surface",
+      "pokemon": "drakloak",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 10.8,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "dusk",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dratini-submerged",
+      "pokemon": "dratini",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 37.5,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dratini-surface",
+      "pokemon": "dratini",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 37.5,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 32,
+        "minSkyLight": 0,
+        "minY": -31,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dreepy-grounded",
+      "pokemon": "dreepy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "2-27",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "canSeeSky": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-dreepy-surface",
+      "pokemon": "dreepy",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "2-27",
+      "weight": 18.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "dusk",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-drizzile-grounded",
+      "pokemon": "drizzile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-drizzile-submerged",
+      "pokemon": "drizzile",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "weight": 28.8,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-druddigon-grounded",
+      "pokemon": "druddigon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-duosion-grounded",
+      "pokemon": "duosion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "32-37",
+      "weight": 3.6,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-duraludon-grounded",
+      "pokemon": "duraludon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "27-54",
+      "weight": 87.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-eevee-grounded",
+      "pokemon": "eevee",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-33",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-emboar-grounded",
+      "pokemon": "emboar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-espeon-grounded",
+      "pokemon": "espeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-farfetchd-galarian-grounded",
+      "pokemon": "farfetchd galarian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "13-38",
+      "weight": 70.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-fennekin-grounded",
+      "pokemon": "fennekin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-feraligatr-grounded",
+      "pokemon": "feraligatr",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-feraligatr-submerged",
+      "pokemon": "feraligatr",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "30-53",
+      "weight": 3.2,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-flareon-grounded",
+      "pokemon": "flareon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-floragato-grounded",
+      "pokemon": "floragato",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-flygon-grounded",
+      "pokemon": "flygon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-52",
+      "weight": 1.25,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-fraxure-grounded",
+      "pokemon": "fraxure",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "38-41",
+      "weight": 18.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-froakie-grounded",
+      "pokemon": "froakie",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-froakie-submerged",
+      "pokemon": "froakie",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-frogadier-grounded",
+      "pokemon": "frogadier",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-frogadier-submerged",
+      "pokemon": "frogadier",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-fuecoco-grounded",
+      "pokemon": "fuecoco",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 48.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gabite-grounded",
+      "pokemon": "gabite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "24-47",
+      "weight": 28.8,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gallade-grounded",
+      "pokemon": "gallade",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-52",
+      "weight": 0.833,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-garchomp-grounded",
+      "pokemon": "garchomp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "48-60",
+      "weight": 3.2,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gardevoir-grounded",
+      "pokemon": "gardevoir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "30-52",
+      "weight": 1.667,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gible-grounded",
+      "pokemon": "gible",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 48.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gimmighoul-roaming-false-grounded",
+      "pokemon": "gimmighoul roaming=false",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 100.0,
+      "condition": {
+        "maxY": 10,
+        "minY": -37,
+        "structures": [
+          "#cobblemon:ruins/arch"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-glaceon-grounded",
+      "pokemon": "glaceon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-golett-grounded",
+      "pokemon": "golett",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 150.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-golurk-grounded",
+      "pokemon": "golurk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "43-48",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-goodra-grounded",
+      "pokemon": "goodra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 4.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": false,
+        "isSlimeChunk": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-goodra-hisuian-grounded",
+      "pokemon": "goodra hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isSlimeChunk": false,
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-goomy-grounded",
+      "pokemon": "goomy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 60.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": false,
+        "isSlimeChunk": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-goomy-region-bias-hisui-grounded",
+      "pokemon": "goomy region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isSlimeChunk": false,
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-gorebyss-submerged",
+      "pokemon": "gorebyss",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "30-49",
+      "weight": 3.125,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-greninja-grounded",
+      "pokemon": "greninja",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-greninja-submerged",
+      "pokemon": "greninja",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-grookey-grounded",
+      "pokemon": "grookey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-grotle-grounded",
+      "pokemon": "grotle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "18-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-grovyle-grounded",
+      "pokemon": "grovyle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-hakamoo-grounded",
+      "pokemon": "hakamoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-42",
+      "weight": 18.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "minY": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-happiny-grounded",
+      "pokemon": "happiny",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-22",
+      "weight": 34.0,
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-haxorus-grounded",
+      "pokemon": "haxorus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "48-54",
+      "weight": 2.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-heracross-grounded",
+      "pokemon": "heracross",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 20.0,
+      "presets": [
+        "natural",
+        "treetop",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-huntail-submerged",
+      "pokemon": "huntail",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "30-49",
+      "weight": 3.125,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-hydreigon-grounded",
+      "pokemon": "hydreigon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "64-69",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-incineroar-grounded",
+      "pokemon": "incineroar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "34-53",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-inteleon-grounded",
+      "pokemon": "inteleon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-inteleon-submerged",
+      "pokemon": "inteleon",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "35-53",
+      "weight": 3.2,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-ivysaur-grounded",
+      "pokemon": "ivysaur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-jangmoo-grounded",
+      "pokemon": "jangmoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "minY": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-jolteon-grounded",
+      "pokemon": "jolteon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kabuto-grounded",
+      "pokemon": "kabuto",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kabuto-submerged",
+      "pokemon": "kabuto",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kabutops-grounded",
+      "pokemon": "kabutops",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kabutops-submerged",
+      "pokemon": "kabutops",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kadabra-grounded",
+      "pokemon": "kadabra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "16-40",
+      "weight": 23.75,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "night",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kangaskhan-grounded",
+      "pokemon": "kangaskhan",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 100.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kirlia-grounded",
+      "pokemon": "kirlia",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-29",
+      "weight": 22.5,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kleavor-grounded",
+      "pokemon": "kleavor",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "45-50",
+      "weight": 2.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-kommoo-grounded",
+      "pokemon": "kommoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-60",
+      "weight": 2.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "minY": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-lapras-surface",
+      "pokemon": "lapras",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "29-54",
+      "weight": 100.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-larvitar-grounded",
+      "pokemon": "larvitar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-30",
+      "weight": 60.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-leafeon-grounded",
+      "pokemon": "leafeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-lileep-grounded",
+      "pokemon": "lileep",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-lileep-seafloor",
+      "pokemon": "lileep",
+      "type": "pokemon",
+      "spawnablePositionType": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-litten-grounded",
+      "pokemon": "litten",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-marshtomp-grounded",
+      "pokemon": "marshtomp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-marshtomp-submerged",
+      "pokemon": "marshtomp",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-mawile-grounded",
+      "pokemon": "mawile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "13-38",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-meganium-grounded",
+      "pokemon": "meganium",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-53",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-meowscarada-grounded",
+      "pokemon": "meowscarada",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-metagross-grounded",
+      "pokemon": "metagross",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-60",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-metang-grounded",
+      "pokemon": "metang",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "20-44",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-mimikyu-grounded",
+      "pokemon": "mimikyu",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 100.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-mudkip-grounded",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-mudkip-submerged",
+      "pokemon": "mudkip",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-munchlax-grounded",
+      "pokemon": "munchlax",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-39",
+      "weight": 75.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-noibat-grounded",
+      "pokemon": "noibat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 37.5,
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-noivern-grounded",
+      "pokemon": "noivern",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "48-54",
+      "weight": 12.5,
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-omanyte-grounded",
+      "pokemon": "omanyte",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-omanyte-submerged",
+      "pokemon": "omanyte",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-omastar-grounded",
+      "pokemon": "omastar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-omastar-submerged",
+      "pokemon": "omastar",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "40-50",
+      "weight": 40.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-oshawott-grounded",
+      "pokemon": "oshawott",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-oshawott-surface",
+      "pokemon": "oshawott",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-oshawott-region-bias-hisui-grounded",
+      "pokemon": "oshawott region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-oshawott-region-bias-hisui-surface",
+      "pokemon": "oshawott region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-pignite-grounded",
+      "pokemon": "pignite",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-pinsir-grounded",
+      "pokemon": "pinsir",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 100.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-popplio-grounded",
+      "pokemon": "popplio",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-popplio-submerged",
+      "pokemon": "popplio",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-primarina-grounded",
+      "pokemon": "primarina",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "34-53",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-primarina-submerged",
+      "pokemon": "primarina",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "34-53",
+      "weight": 3.2,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-prinplup-grounded",
+      "pokemon": "prinplup",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 36.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-prinplup-submerged",
+      "pokemon": "prinplup",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 36.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-pupitar-grounded",
+      "pokemon": "pupitar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-54",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaquaval-grounded",
+      "pokemon": "quaquaval",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaquaval-submerged",
+      "pokemon": "quaquaval",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 4.0,
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaxly-grounded",
+      "pokemon": "quaxly",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaxly-submerged",
+      "pokemon": "quaxly",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaxwell-grounded",
+      "pokemon": "quaxwell",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quaxwell-submerged",
+      "pokemon": "quaxwell",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 36.0,
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quilava-grounded",
+      "pokemon": "quilava",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quilava-region-bias-hisui-grounded",
+      "pokemon": "quilava region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-quilladin-grounded",
+      "pokemon": "quilladin",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-raboot-grounded",
+      "pokemon": "raboot",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "weight": 18.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-ralts-grounded",
+      "pokemon": "ralts",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-20",
+      "weight": 75.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rampardos-grounded",
+      "pokemon": "rampardos",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-50",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-relicanth-submerged",
+      "pokemon": "relicanth",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 50.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 48,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-reuniclus-grounded",
+      "pokemon": "reuniclus",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "41-49",
+      "weight": 0.4,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rhydon-grounded",
+      "pokemon": "rhydon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "42-49",
+      "weight": 87.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rhyperior-grounded",
+      "pokemon": "rhyperior",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "44-54",
+      "weight": 12.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rillaboom-grounded",
+      "pokemon": "rillaboom",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-53",
+      "weight": 2.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rowlet-grounded",
+      "pokemon": "rowlet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-rowlet-region-bias-hisui-grounded",
+      "pokemon": "rowlet region_bias=hisui",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sableye-grounded",
+      "pokemon": "sableye",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "13-38",
+      "weight": 100.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-salamence-grounded",
+      "pokemon": "salamence",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-60",
+      "weight": 4.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-samurott-grounded",
+      "pokemon": "samurott",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-samurott-surface",
+      "pokemon": "samurott",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-samurott-hisuian-grounded",
+      "pokemon": "samurott hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 4.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-samurott-hisuian-surface",
+      "pokemon": "samurott hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 4.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sceptile-grounded",
+      "pokemon": "sceptile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-scorbunny-grounded",
+      "pokemon": "scorbunny",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-scyther-grounded",
+      "pokemon": "scyther",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 14.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-serperior-grounded",
+      "pokemon": "serperior",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 4.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-servine-grounded",
+      "pokemon": "servine",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-41",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-shelgon-grounded",
+      "pokemon": "shelgon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "30-42",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-shieldon-grounded",
+      "pokemon": "shieldon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "10-35",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sirfetchd-grounded",
+      "pokemon": "sirfetchd",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "33-51",
+      "weight": 10.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-skarmory-grounded",
+      "pokemon": "skarmory",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 80.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-skeledirge-grounded",
+      "pokemon": "skeledirge",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 3.2,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sliggoo-grounded",
+      "pokemon": "sliggoo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-45",
+      "weight": 36.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": false,
+        "isSlimeChunk": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sliggoo-hisuian-grounded",
+      "pokemon": "sliggoo hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-45",
+      "weight": 36.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isSlimeChunk": false,
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-smeargle-grounded",
+      "pokemon": "smeargle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 100.0,
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-snivy-grounded",
+      "pokemon": "snivy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-snorlax-grounded",
+      "pokemon": "snorlax",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "34-54",
+      "weight": 25.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sobble-grounded",
+      "pokemon": "sobble",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 48.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sobble-submerged",
+      "pokemon": "sobble",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 48.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-solosis-grounded",
+      "pokemon": "solosis",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "4-29",
+      "weight": 12.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-spiritomb-grounded",
+      "pokemon": "spiritomb",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "24-49",
+      "weight": 1000.0,
+      "condition": {
+        "minY": 48,
+        "structures": [
+          "#cobblemon:ruin"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sprigatito-grounded",
+      "pokemon": "sprigatito",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-squirtle-grounded",
+      "pokemon": "squirtle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-squirtle-submerged",
+      "pokemon": "squirtle",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-stonjourner-grounded",
+      "pokemon": "stonjourner",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "22-47",
+      "weight": 16.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-swampert-grounded",
+      "pokemon": "swampert",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-54",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-swampert-submerged",
+      "pokemon": "swampert",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "36-54",
+      "weight": 2.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-sylveon-grounded",
+      "pokemon": "sylveon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tatsugiri-grounded",
+      "pokemon": "tatsugiri",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 100.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tatsugiri-submerged",
+      "pokemon": "tatsugiri",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "23-48",
+      "weight": 50.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "isPokeSnack": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tepig-grounded",
+      "pokemon": "tepig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-thwackey-grounded",
+      "pokemon": "thwackey",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-42",
+      "weight": 18.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tirtouga-grounded",
+      "pokemon": "tirtouga",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tirtouga-submerged",
+      "pokemon": "tirtouga",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "15-40",
+      "weight": 60.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-togekiss-grounded",
+      "pokemon": "togekiss",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-55",
+      "weight": 0.85,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-togepi-grounded",
+      "pokemon": "togepi",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-25",
+      "weight": 34.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isPokeSnack": true,
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-togetic-grounded",
+      "pokemon": "togetic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "20-41",
+      "weight": 32.15,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "timeRange": "day",
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-torchic-grounded",
+      "pokemon": "torchic",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-torracat-grounded",
+      "pokemon": "torracat",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "17-42",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-torterra-grounded",
+      "pokemon": "torterra",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-totodile-grounded",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 48.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-totodile-submerged",
+      "pokemon": "totodile",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 48.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-trapinch-grounded",
+      "pokemon": "trapinch",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "4-29",
+      "weight": 75.0,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-treecko-grounded",
+      "pokemon": "treecko",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-31",
+      "weight": 30.0,
+      "presets": [
+        "natural",
+        "treetop"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-turtwig-grounded",
+      "pokemon": "turtwig",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-32",
+      "weight": 30.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-typhlosion-grounded",
+      "pokemon": "typhlosion",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-typhlosion-hisuian-grounded",
+      "pokemon": "typhlosion hisuian",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "isRaining": false,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tyranitar-grounded",
+      "pokemon": "tyranitar",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-60",
+      "weight": 3.2,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tyrantrum-grounded",
+      "pokemon": "tyrantrum",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "39-52",
+      "weight": 40.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-tyrunt-grounded",
+      "pokemon": "tyrunt",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 60.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-umbreon-grounded",
+      "pokemon": "umbreon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-vaporeon-grounded",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 24.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-vaporeon-submerged",
+      "pokemon": "vaporeon",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "28-53",
+      "weight": 30.0,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-venusaur-grounded",
+      "pokemon": "venusaur",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "32-53",
+      "weight": 2.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-vibrava-grounded",
+      "pokemon": "vibrava",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "35-40",
+      "weight": 11.5,
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "condition": {
+        "isRaining": true,
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-wartortle-grounded",
+      "pokemon": "wartortle",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 15,
+        "minSkyLight": 8,
+        "neededNearbyBlocks": [
+          "minecraft:water"
+        ],
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-wartortle-submerged",
+      "pokemon": "wartortle",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "16-41",
+      "weight": 28.8,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-wobbuffet-grounded",
+      "pokemon": "wobbuffet",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-41",
+      "weight": 52.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-wynaut-grounded",
+      "pokemon": "wynaut",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "1-26",
+      "weight": 17.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-cobblemon-zweilous-grounded",
+      "pokemon": "zweilous",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 28.8,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "maxSkyLight": 7,
+        "maxY": 0,
+        "minSkyLight": 0,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-aaiper-grounded",
+      "pokemon": "aaiper",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "25-45",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 7,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-arrkuro-submerged",
+      "pokemon": "arrkuro",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "rare",
+      "level": "1-20",
+      "weight": 9.9,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-arrkuro-surface",
+      "pokemon": "arrkuro",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "rare",
+      "level": "1-20",
+      "weight": 1.84,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-belldy-grounded",
+      "pokemon": "belldy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-buntari-grounded",
+      "pokemon": "buntari",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "15-50",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-byohm-grounded",
+      "pokemon": "byohm",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-goldy-grounded",
+      "pokemon": "goldy",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-ironimpulse-grounded",
+      "pokemon": "ironimpulse",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "5-45",
+      "weight": 1.0,
+      "presets": [
+        "natural"
+      ],
+      "condition": {
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-keiridol-grounded",
+      "pokemon": "keiridol",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-kretsune-grounded",
+      "pokemon": "kretsune",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 7,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-kurperor-submerged",
+      "pokemon": "kurperor",
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "ultra-rare",
+      "level": "1-20",
+      "weight": 9.9,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-kurperor-surface",
+      "pokemon": "kurperor",
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "ultra-rare",
+      "level": "1-20",
+      "weight": 1.84,
+      "presets": [
+        "water"
+      ],
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-lylaze-grounded",
+      "pokemon": "lylaze",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-nancuache-grounded",
+      "pokemon": "nancuache",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "7-20",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-nucraft-grounded",
+      "pokemon": "nucraft",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "35-50",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-strideer-grounded",
+      "pokemon": "strideer",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "3-10",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 7,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-uynuk-grounded",
+      "pokemon": "uynuk",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "7-35",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    },
+    {
+      "id": "vtmon-interworld-vtmon-zarinanjo-grounded",
+      "pokemon": "zarinanjo",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "36-54",
+      "weight": 5.0,
+      "condition": {
+        "minSkyLight": 10,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#vtmon:is_interworld"
+        ]
+      }
+    }
+  ]
+}

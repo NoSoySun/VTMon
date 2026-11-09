@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "vtmon:block/distorted_netherrack_bricks"
+  }
+}

@@ -1,93 +1,5 @@
 {
 	"animations": {
-		"animation.pookyuubi.angry": {
-			"bones": {
-				"eye_angry_left": {
-					"position": [0.1, 0, -0.1]
-				},
-				"eye_angry_right": {
-					"position": [-0.1, 0, -0.1]
-				}
-			},
-			"loop": true
-		},
-		"animation.pookyuubi.blink": {
-			"animation_length": 0.1667,
-			"bones": {
-				"eyelid_left": {
-					"position": {
-						"0.0": [0.1, 0, -0.1],
-						"0.125": [0.1, 0, -0.1],
-						"0.1667": [0, 0, 0]
-					}
-				},
-				"eyelid_right": {
-					"position": {
-						"0.0": [-0.1, 0, -0.1],
-						"0.125": [-0.1, 0, -0.1],
-						"0.1667": [0, 0, 0]
-					}
-				}
-			}
-		},
-		"animation.pookyuubi.cry": {
-			"animation_length": 1,
-			"bones": {
-				"head": {
-					"rotation": {
-						"0.0": {
-							"lerp_mode": "catmullrom",
-							"post": [0, 0, 0]
-						},
-						"0.25": {
-							"lerp_mode": "catmullrom",
-							"post": [-15, 0, 0]
-						},
-						"0.6667": {
-							"lerp_mode": "catmullrom",
-							"post": [-15, 0, 0]
-						},
-						"0.9167": {
-							"lerp_mode": "catmullrom",
-							"post": [0, 0, 0]
-						}
-					}
-				},
-				"jaw": {
-					"rotation": {
-						"0.0": {
-							"lerp_mode": "catmullrom",
-							"post": [0, 0, 0]
-						},
-						"0.25": {
-							"lerp_mode": "catmullrom",
-							"post": [65, 0, 0]
-						},
-						"0.75": {
-							"lerp_mode": "catmullrom",
-							"post": [65, 0, 0]
-						},
-						"1.0": {
-							"lerp_mode": "catmullrom",
-							"post": [0, 0, 0]
-						}
-					}
-				},
-				"mouth": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"0.25": [0, -0.0999, -0.00436],
-						"0.75": [0, -0.0999, -0.00436],
-						"1.0": [0, 0, 0]
-					}
-				}
-			},
-			"sound_effects": {
-				"0.0": {
-					"effect": "pokemon.pookyuubi.cry"
-				}
-			}
-		},
 		"animation.pookyuubi.ground_idle": {
 			"loop": true,
 			"bones": {
@@ -722,7 +634,95 @@
 			"particle_effects": {
 				"0.0": {
 					"effect": "ghostly_smoke",
-					"locator": "tail_tip"
+					"locator": "butt"
+				}
+			}
+		},
+		"animation.pookyuubi.angry": {
+			"bones": {
+				"eye_angry_left": {
+					"position": [0.1, 0, -0.1]
+				},
+				"eye_angry_right": {
+					"position": [-0.1, 0, -0.1]
+				}
+			},
+			"loop": true
+		},
+		"animation.pookyuubi.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"eyelid_left": {
+					"position": {
+						"0.0": [0.1, 0, -0.1],
+						"0.125": [0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				},
+				"eyelid_right": {
+					"position": {
+						"0.0": [-0.1, 0, -0.1],
+						"0.125": [-0.1, 0, -0.1],
+						"0.1667": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.pookyuubi.cry": {
+			"animation_length": 1,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"lerp_mode": "catmullrom",
+							"post": [0, 0, 0]
+						},
+						"0.25": {
+							"lerp_mode": "catmullrom",
+							"post": [-15, 0, 0]
+						},
+						"0.6667": {
+							"lerp_mode": "catmullrom",
+							"post": [-15, 0, 0]
+						},
+						"0.9167": {
+							"lerp_mode": "catmullrom",
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.0": {
+							"lerp_mode": "catmullrom",
+							"post": [0, 0, 0]
+						},
+						"0.25": {
+							"lerp_mode": "catmullrom",
+							"post": [65, 0, 0]
+						},
+						"0.75": {
+							"lerp_mode": "catmullrom",
+							"post": [65, 0, 0]
+						},
+						"1.0": {
+							"lerp_mode": "catmullrom",
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"mouth": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.25": [0, -0.0999, -0.00436],
+						"0.75": [0, -0.0999, -0.00436],
+						"1.0": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.0": {
+					"effect": "pokemon.pookyuubi.cry"
 				}
 			}
 		},

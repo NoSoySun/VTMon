@@ -1,8 +1,10 @@
 package com.nosoysun.vtmon.item;
 
 import com.nosoysun.vtmon.VTMon;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
@@ -21,6 +23,7 @@ public class ModItemGroups {
 					.displayItems((displayContext, entries) -> {
 						entries.accept(ModItems.BYOHMITE.get());
 						entries.accept(ModItems.BYOHMITE_Z.get());
+						entries.accept(ModItems.MEIKIUM_Z.get());
 						entries.accept(ModItems.KEIRIDOLITE.get());
 						entries.accept(ModItems.KRETSUNITE.get());
 						entries.accept(ModItems.SCHLANGHITE.get());
@@ -40,6 +43,16 @@ public class ModItemGroups {
 						entries.accept(ModItems.CROWN.get());
 						entries.accept(Items.CLOCK);
 					}).build());
+
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> VTMON_BLOCKS =
+			ITEM_GROUPS.register("vtmon_blocks", () -> CreativeModeTab.builder()
+					.icon(() -> new ItemStack(ModItems.DISTORTED_SAND.get()))
+					.title(Component.translatable("itemgroup.vtmon.vtmon_blocks"))
+					.displayItems((displayContext, entries) -> BuiltInRegistries.ITEM.stream()
+							.filter(item -> item instanceof BlockItem)
+							.filter(item -> VTMon.MOD_ID.equals(BuiltInRegistries.ITEM.getKey(item).getNamespace()))
+							.forEach(entries::accept))
+					.build());
 
 	public static void register(IEventBus modEventBus) {
 		ITEM_GROUPS.register(modEventBus);

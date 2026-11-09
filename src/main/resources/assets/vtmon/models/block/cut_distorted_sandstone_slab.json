@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "vtmon:block/cut_distorted_sandstone",
+    "side": "vtmon:block/cut_distorted_sandstone",
+    "top": "vtmon:block/cut_distorted_sandstone"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "carvers": {
+    "air": []
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 8949557,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 13153868,
+    "water_color": 6978343,
+    "water_fog_color": 4469270
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["vtmon:corroded_stone_vein","vtmon:corroded_coal_ore","vtmon:corroded_copper_ore","vtmon:corroded_iron_ore","vtmon:corroded_gold_ore","vtmon:corroded_redstone_ore","vtmon:corroded_lapis_ore","vtmon:corroded_diamond_ore","vtmon:corroded_emerald_ore","vtmon:corroded_nether_quartz_ore","vtmon:corroded_ancient_debris"],
+    [],
+    [],
+    ["vtmon:end_stone_ground_patch","vtmon:dead_tree","vtmon:patch_dead_bushes","vtmon:chorus_plants"],
+    [],
+    []
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      { "type": "minecraft:bat", "maxCount": 8, "minCount": 8, "weight": 10 }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      { "type": "minecraft:spider", "maxCount": 4, "minCount": 4, "weight": 100 },
+      { "type": "minecraft:zombie", "maxCount": 4, "minCount": 4, "weight": 95 },
+      { "type": "minecraft:skeleton", "maxCount": 4, "minCount": 4, "weight": 100 },
+      { "type": "minecraft:creeper", "maxCount": 4, "minCount": 4, "weight": 100 },
+      { "type": "minecraft:enderman", "maxCount": 4, "minCount": 1, "weight": 10 },
+      { "type": "minecraft:witch", "maxCount": 1, "minCount": 1, "weight": 5 }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 1.0
+}

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "vtmon:distorted_sandstone" },
+  "result": { "id": "vtmon:chiseled_distorted_sandstone", "count": 1 }
+}

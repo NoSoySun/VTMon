@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vtmon:cut_distorted_sandstone"
+  },
+  "result": {
+    "count": 2,
+    "id": "vtmon:cut_distorted_sandstone_slab"
+  }
+}

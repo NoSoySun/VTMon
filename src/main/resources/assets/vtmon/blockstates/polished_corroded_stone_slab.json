@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtmon:block/polished_corroded_stone_slab"
+    },
+    "type=double": {
+      "model": "vtmon:block/polished_corroded_stone_slab_double"
+    },
+    "type=top": {
+      "model": "vtmon:block/polished_corroded_stone_slab_top"
+    }
+  }
+}

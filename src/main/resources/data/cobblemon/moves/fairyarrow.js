@@ -18,13 +18,29 @@
     target: "normal",
     type: "Grass",
 
-    onModifySTAB(stab, source, target, move) {
+    onModifyMove(move, source) {
+        move.forceSTAB = source.hasType("Fairy");
+
         if (source.hasType("Fairy")) {
             move.willCrit = true;
+        }
+    },
+
+    onModifySTAB(stab, source, target, move) {
+        if (source.hasType("Grass") && source.hasType("Fairy")) {
             return stab * 1.5;
         }
     },
 
-    shortDesc: "Always hits. High critical-hit ratio. Gets STAB from Grass- and Fairy-types.",
-    desc: "Always hits and has a high critical-hit ratio. This move receives STAB from Grass- and Fairy-type Pokémon.",
+    onEffectiveness(typeMod, target, type, move) {
+        if (move.forceSTAB) {
+            return typeMod + this.dex.getEffectiveness("Fairy", type);
+        }
+
+        return typeMod;
+    },
+
+    shortDesc: "Always hits. High critical-hit ratio; Fairy users always crit. Grass and Fairy STAB stack.",
+
+    desc: "Always hits and has a high critical-hit ratio. Fairy-type users always land critical hits, gain Fairy-type effectiveness, and receive STAB. Grass and Fairy STAB bonuses stack when the user has both types.",
 }

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "vtmon:block/withered_farmland"
+    },
+    "moisture=1": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=2": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=3": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=4": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=5": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=6": {
+      "model": "vtmon:block/withered_farmland_moist"
+    },
+    "moisture=7": {
+      "model": "vtmon:block/withered_farmland_moist"
+    }
+  }
+}

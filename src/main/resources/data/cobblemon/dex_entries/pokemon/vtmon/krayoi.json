@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:krayoi",
+  "speciesId": "cobblemon:krayoi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

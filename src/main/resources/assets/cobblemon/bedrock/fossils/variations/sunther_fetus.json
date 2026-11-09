@@ -1,0 +1,13 @@
+{
+  "name": "cobblemon:sunther_fetus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sunther_fetus",
+      "model": "cobblemon:sunther_fetus.geo",
+      "texture": "cobblemon:textures/fossils/sunther.png",
+      "layers": []
+    }
+  ]
+}

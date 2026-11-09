@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "vtmon:block/corroded_stone_bricks"
+  }
+}

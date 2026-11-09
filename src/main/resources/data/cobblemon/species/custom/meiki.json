@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4134,
+  "name": "Meiki",
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "maleRatio": 0.001,
+  "height": 16,
+  "weight": 62,
+  "pokedex": [
+    "cobblemon.species.meiki.desc1",
+    "cobblemon.species.meiki.desc2"
+  ],
+  "labels": ["custom"],
+  "aspects": [],
+  "abilities": [
+    "superluck",
+    "naturalcure",
+    "h:pixilate"
+  ],
+  "features": [
+    "tree"
+  ],
+  "eggGroups": ["grass", "fairy"],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 85,
+    "special_attack": 115,
+    "special_defence": 105,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 250,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.7,
+    "height": 2.0,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.15
+      }
+    }
+  },
+  "preEvolution": "meibloom",
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:leafage",
+    "1:fairywind",
+    "5:growth",
+    "9:magicalleaf",
+    "13:drainingkiss",
+    "17:bulletseed",
+    "21:grassyterrain",
+    "25:pinmissile",
+    "29:aromatherapy",
+    "33:pollenpuff",
+    "37:playrough",
+    "41:spiritshackle",
+    "45:petalblizzard",
+    "49:energyball",
+    "53:moonblast",
+    "tm:alluringvoice",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainingkiss",
+    "tm:energyball",
+    "tm:facade",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:helpinghand",
+    "tm:lightscreen",
+    "tm:magicalleaf",
+    "tm:mistyterrain",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:protect",
+    "tm:rest",
+    "tm:seedbomb",
+    "tm:sleeptalk",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:synthesis",
+    "tm:terablast",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:worryseed"
+  ],
+  "evolutions": []
+}

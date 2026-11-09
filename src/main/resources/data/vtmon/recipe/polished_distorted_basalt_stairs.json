@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "vtmon:polished_distorted_basalt"
+    }
+  },
+  "category": "building",
+  "result": {
+    "count": 4,
+    "id": "vtmon:polished_distorted_basalt_stairs"
+  },
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ]
+}

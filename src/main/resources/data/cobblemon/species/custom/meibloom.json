@@ -117,5 +117,182 @@
   "tutor:sleeptalk",
   "tutor:synthesis",
   "tutor:worryseed"
-]
+],
+  "evolutions": [
+    {
+      "id": "meibloom_meiki",
+      "variant": "level_up",
+      "result": "meiki",
+      "consumeHeldItem": false,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_oak",
+      "variant": "level_up",
+      "result": "meiki tree=oak",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:oak_sapling"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_azalea",
+      "variant": "level_up",
+      "result": "meiki tree=azalea",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "#cobblemon:azalea_tree"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_birch",
+      "variant": "level_up",
+      "result": "meiki tree=birch",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:birch_sapling"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_darkoak",
+      "variant": "level_up",
+      "result": "meiki tree=darkoak",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:dark_oak_sapling"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_jungle",
+      "variant": "level_up",
+      "result": "meiki tree=jungle",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:jungle_sapling"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_spruce",
+      "variant": "level_up",
+      "result": "meiki tree=spruce",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:spruce_sapling"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_mangrove",
+      "variant": "level_up",
+      "result": "meiki tree=mangrove",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:mangrove_propagule"
+        }
+      ]
+    },
+    {
+      "id": "meibloom_meiki_cherry",
+      "variant": "level_up",
+      "result": "meiki tree=cherry",
+      "consumeHeldItem": true,
+      "permanent": true,
+      "learnableMoves": ["fairyarrow"],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "data": {
+            "amount": 160
+          }
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:cherry_sapling"
+        }
+      ]
+    }
+  ]
 }

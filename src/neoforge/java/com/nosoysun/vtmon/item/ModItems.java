@@ -11,6 +11,7 @@ import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.HoeItem;
@@ -35,6 +36,136 @@ import java.util.function.Supplier;
 
 public class ModItems {
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(VTMon.MOD_ID);
+
+	public static final DeferredItem<BlockItem> DISTORTED_SAND = ITEMS.register(
+			"distorted_sand",
+			() -> new BlockItem(ModBlocks.DISTORTED_SAND.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> BLIGHTED_GRASS_BLOCK = ITEMS.register(
+			"blighted_grass_block",
+			() -> new BlockItem(ModBlocks.BLIGHTED_GRASS_BLOCK.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> WITHERED_DIRT = ITEMS.register(
+			"withered_dirt",
+			() -> new BlockItem(ModBlocks.WITHERED_DIRT.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> WITHERED_FARMLAND = ITEMS.register(
+			"withered_farmland",
+			() -> new BlockItem(ModBlocks.WITHERED_FARMLAND.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> DISTORTED_NETHERRACK = ITEMS.register(
+			"distorted_netherrack",
+			() -> new BlockItem(ModBlocks.DISTORTED_NETHERRACK.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> DISTORTED_BASALT = ITEMS.register(
+			"distorted_basalt",
+			() -> new BlockItem(ModBlocks.DISTORTED_BASALT.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> DISTORTED_NETHERRACK_BRICKS = ITEMS.register(
+			"distorted_netherrack_bricks",
+			() -> new BlockItem(ModBlocks.DISTORTED_NETHERRACK_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CHISELED_DISTORTED_NETHERRACK_BRICKS = ITEMS.register(
+			"chiseled_distorted_netherrack_bricks",
+			() -> new BlockItem(ModBlocks.CHISELED_DISTORTED_NETHERRACK_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CRACKED_DISTORTED_NETHERRACK_BRICKS = ITEMS.register(
+			"cracked_distorted_netherrack_bricks",
+			() -> new BlockItem(ModBlocks.CRACKED_DISTORTED_NETHERRACK_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> DISTORTED_SANDSTONE = ITEMS.register(
+			"distorted_sandstone",
+			() -> new BlockItem(ModBlocks.DISTORTED_SANDSTONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CUT_DISTORTED_SANDSTONE = ITEMS.register(
+			"cut_distorted_sandstone",
+			() -> new BlockItem(ModBlocks.CUT_DISTORTED_SANDSTONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> SMOOTH_DISTORTED_SANDSTONE = ITEMS.register(
+			"smooth_distorted_sandstone",
+			() -> new BlockItem(ModBlocks.SMOOTH_DISTORTED_SANDSTONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CHISELED_DISTORTED_SANDSTONE = ITEMS.register(
+			"chiseled_distorted_sandstone",
+			() -> new BlockItem(ModBlocks.CHISELED_DISTORTED_SANDSTONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> WITHERED_MUD = ITEMS.register(
+			"withered_mud",
+			() -> new BlockItem(ModBlocks.WITHERED_MUD.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> WITHERED_MUD_BRICKS = ITEMS.register(
+			"withered_mud_bricks",
+			() -> new BlockItem(ModBlocks.WITHERED_MUD_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CRACKED_WITHERED_MUD_BRICKS = ITEMS.register(
+			"cracked_withered_mud_bricks",
+			() -> new BlockItem(ModBlocks.CRACKED_WITHERED_MUD_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CHISELED_WITHERED_MUD_BRICKS = ITEMS.register(
+			"chiseled_withered_mud_bricks",
+			() -> new BlockItem(ModBlocks.CHISELED_WITHERED_MUD_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> POLISHED_DISTORTED_BASALT = ITEMS.register(
+			"polished_distorted_basalt",
+			() -> new BlockItem(ModBlocks.POLISHED_DISTORTED_BASALT.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> SMOOTH_DISTORTED_BASALT = ITEMS.register(
+			"smooth_distorted_basalt",
+			() -> new BlockItem(ModBlocks.SMOOTH_DISTORTED_BASALT.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_STONE = ITEMS.register(
+			"corroded_stone",
+			() -> new BlockItem(ModBlocks.CORRODED_STONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> COBBLED_CORRODED_STONE = ITEMS.register(
+			"cobbled_corroded_stone",
+			() -> new BlockItem(ModBlocks.COBBLED_CORRODED_STONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> POLISHED_CORRODED_STONE = ITEMS.register(
+			"polished_corroded_stone",
+			() -> new BlockItem(ModBlocks.POLISHED_CORRODED_STONE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_STONE_BRICKS = ITEMS.register(
+			"corroded_stone_bricks",
+			() -> new BlockItem(ModBlocks.CORRODED_STONE_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CRACKED_CORRODED_STONE_BRICKS = ITEMS.register(
+			"cracked_corroded_stone_bricks",
+			() -> new BlockItem(ModBlocks.CRACKED_CORRODED_STONE_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CHISELED_CORRODED_STONE_BRICKS = ITEMS.register(
+			"chiseled_corroded_stone_bricks",
+			() -> new BlockItem(ModBlocks.CHISELED_CORRODED_STONE_BRICKS.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_COAL_ORE = ITEMS.register(
+			"corroded_coal_ore", () -> new BlockItem(ModBlocks.CORRODED_COAL_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_COPPER_ORE = ITEMS.register(
+			"corroded_copper_ore", () -> new BlockItem(ModBlocks.CORRODED_COPPER_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_IRON_ORE = ITEMS.register(
+			"corroded_iron_ore", () -> new BlockItem(ModBlocks.CORRODED_IRON_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_GOLD_ORE = ITEMS.register(
+			"corroded_gold_ore", () -> new BlockItem(ModBlocks.CORRODED_GOLD_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_REDSTONE_ORE = ITEMS.register(
+			"corroded_redstone_ore", () -> new BlockItem(ModBlocks.CORRODED_REDSTONE_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_LAPIS_ORE = ITEMS.register(
+			"corroded_lapis_ore", () -> new BlockItem(ModBlocks.CORRODED_LAPIS_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_DIAMOND_ORE = ITEMS.register(
+			"corroded_diamond_ore", () -> new BlockItem(ModBlocks.CORRODED_DIAMOND_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_EMERALD_ORE = ITEMS.register(
+			"corroded_emerald_ore", () -> new BlockItem(ModBlocks.CORRODED_EMERALD_ORE.get(), new Item.Properties())
+	);
+	public static final DeferredItem<BlockItem> CORRODED_NETHER_QUARTZ_ORE = ITEMS.register(
+			"corroded_nether_quartz_ore", () -> new BlockItem(ModBlocks.CORRODED_NETHER_QUARTZ_ORE.get(), new Item.Properties())
+	);
+
+	public static final List<DeferredItem<BlockItem>> ADDITIONAL_VARIANT_ITEMS = registerAdditionalVariantItems();
 
 	public static final DeferredItem<Item> BYOHMITE = registerItem(
 			"byohmite",
@@ -154,6 +285,22 @@ public class ModItems {
 				@Override
 				public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
 					tooltip.add(Component.translatable("tooltip.vtmon.suntherite.tooltip"));
+					super.appendHoverText(stack, context, tooltip, flag);
+				}
+			}
+	);
+
+	public static final DeferredItem<Item> MEIKIUM_Z = registerItem(
+			"meikium_z",
+			() -> new Item(new Item.Properties()
+					.rarity(Rarity.UNCOMMON)
+					.component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "z_crystal_item")
+					.component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(),
+							ResourceLocation.fromNamespaceAndPath("vtmon", "meikium_z"))
+			) {
+				@Override
+				public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
+					tooltip.add(Component.translatable("tooltip.vtmon.meikium_z.tooltip"));
 					super.appendHoverText(stack, context, tooltip, flag);
 				}
 			}
@@ -302,6 +449,12 @@ public class ModItems {
 		return ITEMS.register(name, item);
 	}
 
+	private static List<DeferredItem<BlockItem>> registerAdditionalVariantItems() {
+		return ModBlocks.ADDITIONAL_VARIANT_BLOCKS.stream()
+				.map(block -> ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties())))
+				.toList();
+	}
+
 	public static void register(IEventBus modEventBus) {
 		ITEMS.register(modEventBus);
 		modEventBus.addListener(ModItems::addCreativeTabItems);
@@ -309,6 +462,44 @@ public class ModItems {
 	}
 
 	private static void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
+		if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			event.accept(DISTORTED_SAND.get());
+			event.accept(BLIGHTED_GRASS_BLOCK.get());
+			event.accept(WITHERED_DIRT.get());
+			event.accept(WITHERED_FARMLAND.get());
+			event.accept(DISTORTED_NETHERRACK.get());
+			event.accept(DISTORTED_BASALT.get());
+			event.accept(DISTORTED_NETHERRACK_BRICKS.get());
+			event.accept(CHISELED_DISTORTED_NETHERRACK_BRICKS.get());
+			event.accept(CRACKED_DISTORTED_NETHERRACK_BRICKS.get());
+			event.accept(DISTORTED_SANDSTONE.get());
+			event.accept(CUT_DISTORTED_SANDSTONE.get());
+			event.accept(SMOOTH_DISTORTED_SANDSTONE.get());
+			event.accept(CHISELED_DISTORTED_SANDSTONE.get());
+			event.accept(WITHERED_MUD.get());
+			event.accept(WITHERED_MUD_BRICKS.get());
+			event.accept(CRACKED_WITHERED_MUD_BRICKS.get());
+			event.accept(CHISELED_WITHERED_MUD_BRICKS.get());
+			event.accept(POLISHED_DISTORTED_BASALT.get());
+			event.accept(SMOOTH_DISTORTED_BASALT.get());
+						event.accept(CORRODED_STONE.get());
+						event.accept(COBBLED_CORRODED_STONE.get());
+						event.accept(POLISHED_CORRODED_STONE.get());
+						event.accept(CORRODED_STONE_BRICKS.get());
+						event.accept(CRACKED_CORRODED_STONE_BRICKS.get());
+						event.accept(CHISELED_CORRODED_STONE_BRICKS.get());
+				event.accept(CORRODED_COAL_ORE.get());
+				event.accept(CORRODED_COPPER_ORE.get());
+				event.accept(CORRODED_IRON_ORE.get());
+				event.accept(CORRODED_GOLD_ORE.get());
+				event.accept(CORRODED_REDSTONE_ORE.get());
+				event.accept(CORRODED_LAPIS_ORE.get());
+				event.accept(CORRODED_DIAMOND_ORE.get());
+				event.accept(CORRODED_EMERALD_ORE.get());
+				event.accept(CORRODED_NETHER_QUARTZ_ORE.get());
+			ADDITIONAL_VARIANT_ITEMS.forEach(event::accept);
+		}
+
 		if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			event.accept(EMERALD_AXE.get());
 			event.accept(EMERALD_PICKAXE.get());

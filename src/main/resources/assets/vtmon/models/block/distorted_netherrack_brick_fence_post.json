@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "vtmon:block/distorted_netherrack_bricks"
+  }
+}

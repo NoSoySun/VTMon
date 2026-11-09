@@ -1,0 +1,56 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sunther_fetus.sleep": {
+			"loop": true,
+			"animation_length": 5.5833,
+			"bones": {
+				"body": {
+					"rotation": ["math.sin(q.anim_time*90*0.5)*4", 0, "math.sin(q.anim_time*90*0.35)*3"],
+					"position": [0, "math.sin(q.anim_time*90*0.5)*0.25", 0],
+					"scale": 0.4125
+				},
+				"torso2": {
+					"rotation": [15, 0, 0]
+				},
+				"arm_left": {
+					"rotation": [0, 0, 60]
+				},
+				"arm_left2": {
+					"rotation": [93.9195, 55.7848, -233.9321]
+				},
+				"arm_right": {
+					"rotation": [0, 0, -60]
+				},
+				"arm_right2": {
+					"rotation": [93.9195, -55.7848, 233.9321]
+				},
+				"eye_right": {
+					"scale": [1, 0, 1]
+				},
+				"eye_left": {
+					"scale": [1, 0, 1]
+				},
+				"tail": {
+					"rotation": ["-75-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0],
+					"position": [0, 0, -2]
+				},
+				"tail2": {
+					"rotation": ["67.5-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["67.5-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"legs": {
+					"rotation": [-125, 0, 0]
+				},
+				"leg_left3": {
+					"rotation": [90, 0, 0]
+				},
+				"leg_right3": {
+					"rotation": [90, 0, 0]
+				}
+			}
+		}
+	}
+}

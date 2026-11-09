@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nymphex-interworld-withered-forest",
+      "pokemon": "nymphex",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "24-50",
+      "weight": 4.0,
+      "presets": ["natural", "wild"],
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "vtmon:interworld_withered_forest",
+          "vtmon:interworld_ashen_wastes"
+        ]
+      }
+    }
+  ]
+}

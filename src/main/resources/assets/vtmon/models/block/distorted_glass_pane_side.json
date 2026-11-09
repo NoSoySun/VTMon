@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "vtmon:block/distorted_glass",
+    "pane": "vtmon:block/distorted_glass_mask_a"
+  }
+}

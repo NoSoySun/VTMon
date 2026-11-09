@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "vtmon:corroded_stone_bricks" },
+  "result": { "id": "vtmon:chiseled_corroded_stone_bricks", "count": 1 }
+}

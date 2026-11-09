@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "north=false,east=false,south=false,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_00"
+    },
+    "north=true,east=false,south=false,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_01"
+    },
+    "north=false,east=true,south=false,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_02"
+    },
+    "north=true,east=true,south=false,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_03"
+    },
+    "north=false,east=false,south=true,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_04"
+    },
+    "north=true,east=false,south=true,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_05"
+    },
+    "north=false,east=true,south=true,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_06"
+    },
+    "north=true,east=true,south=true,west=false,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_07"
+    },
+    "north=false,east=false,south=false,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_08"
+    },
+    "north=true,east=false,south=false,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_09"
+    },
+    "north=false,east=true,south=false,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0a"
+    },
+    "north=true,east=true,south=false,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0b"
+    },
+    "north=false,east=false,south=true,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0c"
+    },
+    "north=true,east=false,south=true,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0d"
+    },
+    "north=false,east=true,south=true,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0e"
+    },
+    "north=true,east=true,south=true,west=true,up=false,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_0f"
+    },
+    "north=false,east=false,south=false,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_10"
+    },
+    "north=true,east=false,south=false,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_11"
+    },
+    "north=false,east=true,south=false,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_12"
+    },
+    "north=true,east=true,south=false,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_13"
+    },
+    "north=false,east=false,south=true,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_14"
+    },
+    "north=true,east=false,south=true,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_15"
+    },
+    "north=false,east=true,south=true,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_16"
+    },
+    "north=true,east=true,south=true,west=false,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_17"
+    },
+    "north=false,east=false,south=false,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_18"
+    },
+    "north=true,east=false,south=false,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_19"
+    },
+    "north=false,east=true,south=false,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1a"
+    },
+    "north=true,east=true,south=false,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1b"
+    },
+    "north=false,east=false,south=true,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1c"
+    },
+    "north=true,east=false,south=true,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1d"
+    },
+    "north=false,east=true,south=true,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1e"
+    },
+    "north=true,east=true,south=true,west=true,up=true,down=false": {
+      "model": "vtmon:block/distorted_glass_connected_1f"
+    },
+    "north=false,east=false,south=false,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_20"
+    },
+    "north=true,east=false,south=false,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_21"
+    },
+    "north=false,east=true,south=false,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_22"
+    },
+    "north=true,east=true,south=false,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_23"
+    },
+    "north=false,east=false,south=true,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_24"
+    },
+    "north=true,east=false,south=true,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_25"
+    },
+    "north=false,east=true,south=true,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_26"
+    },
+    "north=true,east=true,south=true,west=false,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_27"
+    },
+    "north=false,east=false,south=false,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_28"
+    },
+    "north=true,east=false,south=false,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_29"
+    },
+    "north=false,east=true,south=false,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2a"
+    },
+    "north=true,east=true,south=false,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2b"
+    },
+    "north=false,east=false,south=true,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2c"
+    },
+    "north=true,east=false,south=true,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2d"
+    },
+    "north=false,east=true,south=true,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2e"
+    },
+    "north=true,east=true,south=true,west=true,up=false,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_2f"
+    },
+    "north=false,east=false,south=false,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_30"
+    },
+    "north=true,east=false,south=false,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_31"
+    },
+    "north=false,east=true,south=false,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_32"
+    },
+    "north=true,east=true,south=false,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_33"
+    },
+    "north=false,east=false,south=true,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_34"
+    },
+    "north=true,east=false,south=true,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_35"
+    },
+    "north=false,east=true,south=true,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_36"
+    },
+    "north=true,east=true,south=true,west=false,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_37"
+    },
+    "north=false,east=false,south=false,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_38"
+    },
+    "north=true,east=false,south=false,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_39"
+    },
+    "north=false,east=true,south=false,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3a"
+    },
+    "north=true,east=true,south=false,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3b"
+    },
+    "north=false,east=false,south=true,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3c"
+    },
+    "north=true,east=false,south=true,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3d"
+    },
+    "north=false,east=true,south=true,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3e"
+    },
+    "north=true,east=true,south=true,west=true,up=true,down=true": {
+      "model": "vtmon:block/distorted_glass_connected_3f"
+    }
+  }
+}

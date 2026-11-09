@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:nympimp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nympimp",
+      "model": "cobblemon:nympimp.geo",
+      "texture": "cobblemon:textures/pokemon/nympimp/nympimp.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/nympimp/nympimp_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/nympimp/nympimp_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/nympimp/nympimp_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

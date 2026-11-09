@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "vtmon:cut_distorted_sandstone"
+    }
+  },
+  "category": "building",
+  "result": {
+    "count": 6,
+    "id": "vtmon:cut_distorted_sandstone_slab"
+  },
+  "pattern": [
+    "XXX"
+  ]
+}

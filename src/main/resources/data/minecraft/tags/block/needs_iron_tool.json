@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:corroded_gold_ore",
+    "vtmon:corroded_redstone_ore",
+    "vtmon:corroded_diamond_ore",
+    "vtmon:corroded_emerald_ore"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "vtmon:distorted_netherrack"
+    }
+  },
+  "result": {
+    "id": "vtmon:distorted_netherrack_bricks",
+    "count": 4
+  }
+}

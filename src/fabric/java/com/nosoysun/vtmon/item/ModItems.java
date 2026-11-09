@@ -143,6 +143,21 @@ public class ModItems {
             }
     );
 
+    public static final Item MEIKIUM_Z = registerItem(
+            "meikium_z",
+            new Item(new Item.Settings()
+                    .rarity(Rarity.UNCOMMON)
+                    .component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), "z_crystal_item")
+                    .component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(), Identifier.of("vtmon","meikium_z"))
+            ) {
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.vtmon.meikium_z.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            }
+    );
+
 
 
     // =========================

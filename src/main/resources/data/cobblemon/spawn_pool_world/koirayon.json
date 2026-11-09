@@ -1,0 +1,69 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koirayon-coral-reef",
+      "pokemon": "koirayon",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 0.8,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["minecraft:warm_ocean"]
+      }
+    },
+    {
+      "id": "koirayon-wild-water",
+      "pokemon": "koirayon",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "20-40",
+      "weight": 0.2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_freshwater",
+          "#minecraft:is_river"
+        ]
+      }
+    },
+    {
+      "id": "koirayon-fishing",
+      "pokemon": "koirayon",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "ultra-rare",
+      "level": "20-40",
+      "weight": 0.15,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_freshwater",
+          "#minecraft:is_river"
+        ]
+      }
+    },
+    {
+      "id": "koirayon-coral-fishing",
+      "pokemon": "koirayon",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "20-40",
+      "weight": 0.6,
+      "condition": {
+        "biomes": ["minecraft:warm_ocean"]
+      }
+    }
+  ]
+}

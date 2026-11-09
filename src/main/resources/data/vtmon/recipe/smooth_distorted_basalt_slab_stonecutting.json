@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vtmon:smooth_distorted_basalt"
+  },
+  "result": {
+    "count": 2,
+    "id": "vtmon:smooth_distorted_basalt_slab"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cobblemon:nympimp",
+  "speciesId": "cobblemon:nympimp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": ["Normal"]
+    }
+  ],
+  "variations": []
+}

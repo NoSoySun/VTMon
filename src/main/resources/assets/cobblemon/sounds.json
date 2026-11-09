@@ -100,5 +100,20 @@
   },
   "pokemon.meibloom.cry": {
     "sounds": [{"name": "cobblemon:pokemon/meibloom/meibloom_cry", "volume": 0.875}]
+  },
+  "pokemon.meiki.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/meiki/meiki_cry", "volume": 1.0}]
+  },
+  "pokemon.krayoi.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/krayoi/krayoi_cry", "volume": 1.0}]
+  },
+  "pokemon.koirayon.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/krayoi/krayoi_cry", "volume": 1.0}]
+  },
+  "pokemon.nympimp.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/nympimp/nympimp_cry", "volume": 1.0}]
+  },
+  "pokemon.nymphex.cry": {
+    "sounds": [{"name": "cobblemon:pokemon/nympimp/nympimp_cry", "volume": 1.0}]
   }
 }

@@ -23,9 +23,9 @@
 				{
 					"name": "locator_seat_1",
 					"parent": "bone",
-					"pivot": [0, -19, 0],
+					"pivot": [0, 22, 2],
 					"locators": {
-						"seat_1": [0, 20, 0]
+						"seat_1": [0, 22, 2]
 					}
 				},
 				{

@@ -1,0 +1,5 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": { "item": "vtmon:withered_mud_bricks" },
+  "result": { "id": "vtmon:chiseled_withered_mud_bricks", "count": 1 }
+}

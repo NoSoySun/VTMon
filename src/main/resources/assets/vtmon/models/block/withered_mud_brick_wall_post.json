@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "vtmon:block/withered_mud_bricks"
+  }
+}

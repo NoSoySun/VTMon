@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:krayoi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:krayoi",
+      "model": "cobblemon:krayoi.geo",
+      "texture": "cobblemon:textures/pokemon/krayoi/krayoi.png",
+      "layers": []
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/krayoi/krayoi_shiny.png",
+      "layers": []
+    }
+  ]
+}

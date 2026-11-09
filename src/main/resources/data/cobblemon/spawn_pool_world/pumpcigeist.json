@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pumpcigeist-interworld-withered-forest",
+      "pokemon": "pumpcigeist",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "ultra-rare",
+      "level": "40-60",
+      "weight": 2.0,
+      "presets": ["natural", "wild"],
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "vtmon:interworld_withered_forest",
+          "vtmon:interworld_ashen_wastes"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "target": "cobblemon:pumpkaboo",
+  "labels": [
+    "custom"
+  ],
+  "features": [
+    "novaeran"
+  ],
+  "forms": [
+    {
+      "name": "Novaera",
+      "features": [
+        "novaeran"
+      ],
+      "primaryType": "ghost",
+      "secondaryType": "grass",
+      "pokedex": [
+        "cobblemon.species.pumpkaboo.desc"
+      ],
+      "labels": [
+        "custom",
+        "novaeran_form"
+      ],
+      "aspects": [
+        "novaeran"
+      ],
+      "evolutions": [
+        {
+          "id": "pumpkaboo_novaeran_gourgeist",
+          "variant": "trade",
+          "result": "gourgeist form=novaera",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": []
+        }
+      ]
+    }
+  ]
+}

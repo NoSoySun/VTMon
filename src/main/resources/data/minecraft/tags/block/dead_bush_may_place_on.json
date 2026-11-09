@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:distorted_netherrack",
+    "vtmon:distorted_basalt",
+    "vtmon:withered_dirt"
+  ]
+}

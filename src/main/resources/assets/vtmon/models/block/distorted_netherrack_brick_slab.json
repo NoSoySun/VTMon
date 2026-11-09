@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "vtmon:block/distorted_netherrack_bricks",
+    "side": "vtmon:block/distorted_netherrack_bricks",
+    "top": "vtmon:block/distorted_netherrack_bricks"
+  }
+}

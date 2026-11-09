@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:corroded_stone",
+    "vtmon:cobbled_corroded_stone",
+    "vtmon:polished_corroded_stone",
+    "vtmon:corroded_stone_bricks",
+    "vtmon:cracked_corroded_stone_bricks",
+    "vtmon:chiseled_corroded_stone_bricks",
+    "vtmon:corroded_copper_ore",
+    "vtmon:corroded_iron_ore",
+    "vtmon:corroded_lapis_ore",
+    "vtmon:distorted_basalt",
+    "vtmon:polished_distorted_basalt",
+    "vtmon:smooth_distorted_basalt",
+    "vtmon:corroded_stone_brick_stairs",
+    "vtmon:corroded_stone_brick_slab",
+    "vtmon:corroded_stone_brick_wall",
+    "vtmon:corroded_stone_brick_fence",
+    "vtmon:corroded_stone_brick_tiles",
+    "vtmon:polished_corroded_stone_stairs",
+    "vtmon:polished_corroded_stone_slab",
+    "vtmon:polished_corroded_stone_wall",
+    "vtmon:polished_distorted_basalt_stairs",
+    "vtmon:polished_distorted_basalt_slab",
+    "vtmon:polished_distorted_basalt_wall",
+    "vtmon:smooth_distorted_basalt_stairs",
+    "vtmon:smooth_distorted_basalt_slab"
+  ]
+}

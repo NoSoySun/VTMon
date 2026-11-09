@@ -24,7 +24,7 @@
     ]
   },
   "mixins": [
-    "vtmon.mixins.json"
+    "vtmon.fabric.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.18.3",

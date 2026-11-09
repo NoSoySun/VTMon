@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vtmon:interworld",
+    "vtmon:interworld_ashen_wastes",
+    "vtmon:interworld_basalt_deltas",
+    "vtmon:interworld_withered_forest"
+  ]
+}

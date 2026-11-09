@@ -8,6 +8,11 @@
     if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
     return true;
   },
+  megaSwap: {
+    'Sunther-Mega': [
+      ['emeraldslash', 'shiningemerald']
+    ]
+  },
   num: -5362022,
   gen: 5,
   isNonstandard: "Past",

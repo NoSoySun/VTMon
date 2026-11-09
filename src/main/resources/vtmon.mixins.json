@@ -2,7 +2,9 @@
 	"required": true,
 	"package": "com.nosoysun.vtmon.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [],
+	"mixins": [
+		"ItemEntityMixin"
+	],
 	"injectors": {
 		"defaultRequire": 1
 	},

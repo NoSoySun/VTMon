@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "item": "vtmon:smooth_distorted_basalt"
+    }
+  },
+  "category": "building",
+  "result": {
+    "count": 6,
+    "id": "vtmon:smooth_distorted_basalt_slab"
+  },
+  "pattern": [
+    "XXX"
+  ]
+}

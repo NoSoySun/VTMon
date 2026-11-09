@@ -1,0 +1,120 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.nympimp.ground_idle": {
+			"loop": true,
+			"bones": {
+				"wing_right": {
+					"rotation": [0, "2.5*(math.sin(4*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"wing_right2": {
+					"rotation": [0, "2.5*(math.sin(6*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"wing_left": {
+					"rotation": [0, "-2.5*(math.sin(4*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"wing_left2": {
+					"rotation": [0, "-2.5*(math.sin(6*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"tail": {
+					"rotation": ["2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail2": {
+					"rotation": ["2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail3": {
+					"rotation": ["2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail4": {
+					"rotation": ["2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				},
+				"tail5": {
+					"rotation": ["2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0, 0]
+				}
+			}
+		},
+		"animation.nympimp.cry": {
+			"animation_length": 0.875,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [17.5, 0, 0],
+						"0.125": [-12.5, 0, 0],
+						"0.875": [0, 0, 0]
+					}
+				},
+				"jaw": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.125": [50, 0, 0],
+						"0.875": [0, 0, 0]
+					}
+				},
+				"eye_left": {
+					"rotation": {
+						"0.0833": [0, 0, 0],
+						"0.125": [0, 0, -10],
+						"0.875": [0, 0, 0]
+					},
+					"scale": {
+						"0.0833": [1, 1, 1],
+						"0.125": [1, 0.5, 1],
+						"0.875": [1, 1, 1]
+					}
+				},
+				"eye_right": {
+					"rotation": {
+						"0.0833": [0, 0, 0],
+						"0.125": [0, 0, 10],
+						"0.875": [0, 0, 0]
+					},
+					"scale": {
+						"0.0833": [1, 1, 1],
+						"0.125": [1, 0.5, 1],
+						"0.875": [1, 1, 1]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.125": {
+					"effect": "pokemon.nympimp.cry"
+				}
+			}
+		},
+		"animation.nympimp.angry": {
+			"loop": true,
+			"bones": {
+				"eye_left": {
+					"rotation": [0, 0, -7.5],
+					"position": [0, 0.5, 0],
+					"scale": [1, 0.65, 1]
+				},
+				"eye_right": {
+					"rotation": [0, 0, 7.5],
+					"position": [0, 0.5, 0],
+					"scale": [1, 0.65, 1]
+				}
+			}
+		},
+		"animation.nympimp.blink": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.125,
+			"bones": {
+				"eye_left_pupil": {
+					"position": {
+						"0.0": [-0.125, 0, 1],
+						"0.0833": [-0.25, 0, 1],
+						"0.125": [0, 0, 0]
+					}
+				},
+				"eye_right_pupil": {
+					"position": {
+						"0.0": [0.125, 0, 1],
+						"0.0833": [0.25, 0, 1],
+						"0.125": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

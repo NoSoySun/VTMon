@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{ "type": "minecraft:item", "name": "vtmon:chiseled_corroded_stone_bricks" }],
+    "conditions": [{ "condition": "minecraft:survives_explosion" }]
+  }]
+}

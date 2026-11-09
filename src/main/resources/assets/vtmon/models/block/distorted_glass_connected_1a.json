@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "vtmon:block/distorted_glass",
+    "down": "vtmon:block/distorted_glass_mask_a",
+    "up": "vtmon:block/distorted_glass_mask_a",
+    "north": "vtmon:block/distorted_glass_mask_b",
+    "south": "vtmon:block/distorted_glass_mask_b",
+    "east": "vtmon:block/distorted_glass_mask_1",
+    "west": "vtmon:block/distorted_glass_mask_1"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "category": "building",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": { "item": "vtmon:distorted_netherrack_bricks" },
+  "result": { "id": "vtmon:cracked_distorted_netherrack_bricks" }
+}

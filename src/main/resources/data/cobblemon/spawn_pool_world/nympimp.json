@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nympimp-interworld-withered-forest",
+      "pokemon": "nympimp",
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "level": "18-38",
+      "weight": 12.0,
+      "presets": ["natural", "wild"],
+      "condition": {
+        "timeRange": "night",
+        "biomes": [
+          "vtmon:interworld_withered_forest",
+          "vtmon:interworld_ashen_wastes"
+        ]
+      }
+    }
+  ]
+}

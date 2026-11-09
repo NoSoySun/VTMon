@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "vtmon:block/polished_corroded_stone",
+    "side": "vtmon:block/polished_corroded_stone",
+    "top": "vtmon:block/polished_corroded_stone"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "target": "cobblemon:gourgeist",
+  "labels": [
+    "custom"
+  ],
+  "features": [
+    "novaeran"
+  ],
+  "forms": [
+    {
+      "name": "Novaera",
+      "features": [
+        "novaeran"
+      ],
+      "primaryType": "ghost",
+      "secondaryType": "grass",
+      "pokedex": [
+        "cobblemon.species.gourgeist.desc"
+      ],
+      "labels": [
+        "custom",
+        "novaeran_form"
+      ],
+      "aspects": [
+        "novaeran"
+      ],
+      "evolutions": [
+        {
+          "id": "gourgeist_novaeran_pumpcigeist",
+          "variant": "item_interact",
+          "result": "pumpcigeist",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "requirements": []
+        }
+      ]
+    }
+  ]
+}

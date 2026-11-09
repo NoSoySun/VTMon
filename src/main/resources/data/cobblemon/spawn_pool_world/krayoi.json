@@ -1,0 +1,69 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "krayoi-coral-reef",
+      "pokemon": "krayoi",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "5-18",
+      "weight": 2.5,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": ["minecraft:warm_ocean"]
+      }
+    },
+    {
+      "id": "krayoi-wild-water",
+      "pokemon": "krayoi",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "5-18",
+      "weight": 0.7,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_freshwater",
+          "#minecraft:is_river"
+        ]
+      }
+    },
+    {
+      "id": "krayoi-fishing",
+      "pokemon": "krayoi",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "rare",
+      "level": "5-18",
+      "weight": 0.65,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_freshwater",
+          "#minecraft:is_river"
+        ]
+      }
+    },
+    {
+      "id": "krayoi-coral-fishing",
+      "pokemon": "krayoi",
+      "presets": ["water"],
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "5-18",
+      "weight": 2.0,
+      "condition": {
+        "biomes": ["minecraft:warm_ocean"]
+      }
+    }
+  ]
+}

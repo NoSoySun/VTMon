@@ -1,0 +1,48 @@
+{
+  "portraitScale": 1.15,
+  "portraitTranslation": [0, 1.05, 0],
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.9, 0],
+  "rootBone": "meiki",
+  "animations": {
+    "cry": "q.bedrock_stateful('meiki', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meiki', 'battle_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('meiki', 'cry', q.curve('one'))"
+      },
+      "quirks": [
+        "q.bedrock_quirk('meiki', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meiki', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('meiki', 'blink')"
+      ]
+    },
+    "walking": {
+      "poseTypes": ["WALK", "SWIM"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('meiki', 'ground_walk')",
+        "q.biped_walk(0.66, 0.6, 'leg_left', 'leg_right')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('meiki', 'blink')"
+      ]
+    }
+  }
+}

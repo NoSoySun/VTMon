@@ -1,0 +1,20 @@
+{
+	"format_version": "26.3",
+	"credit": "VTMon - Editable in Blockbench as a Java Block model",
+	"parent": "vtmon:block/interworld_portal_ew",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "vtmon:block/interworld_wormhole_1",
+		"portal": "vtmon:block/interworld_wormhole_1"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [9, 16, 16],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#portal"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#portal"}
+			}
+		}
+	]
+}

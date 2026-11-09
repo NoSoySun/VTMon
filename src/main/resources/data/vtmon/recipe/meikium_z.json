@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#W#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "cobblemon:fairy_gem"
+        },
+        "W": {
+            "item": "mega_showdown:grassium_z"
+        }
+    },
+    "result": {
+        "id": "vtmon:meikium_z",
+        "count": 1
+    }
+}

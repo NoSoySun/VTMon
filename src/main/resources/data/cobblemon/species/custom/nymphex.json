@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4138,
+  "name": "Nymphex",
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "maleRatio": 0.125,
+  "height": 18,
+  "weight": 350,
+  "pokedex": [
+    "cobblemon.species.nymphex.desc1",
+    "cobblemon.species.nymphex.desc2"
+  ],
+  "labels": ["custom"],
+  "aspects": [],
+  "abilities": [
+    "frisk",
+    "cursedbody",
+    "h:prankster"
+  ],
+  "eggGroups": ["field", "fairy", "human_like"],
+  "baseStats": {
+    "hp": 75,
+    "attack": 65,
+    "defence": 75,
+    "special_attack": 120,
+    "special_defence": 100,
+    "speed": 115
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 230,
+  "experienceGroup": "medium_fast",
+  "catchRate": 45,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "preEvolution": "nympimp",
+  "baseScale": 0.95,
+  "hitbox": {
+    "width": 0.95,
+    "height": 2.2,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.43
+      }
+    }
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:scratch",
+    "1:charm",
+    "1:astonish",
+    "5:confuseray",
+    "9:swift",
+    "11:shadowsneak",
+    "13:hex",
+    "17:fairywind",
+    "21:nightshade",
+    "25:drainingkiss",
+    "29:darkpulse",
+    "31:shadowclaw",
+    "33:shadowball",
+    "37:playrough",
+    "39:bittermalice",
+    "41:moonblast",
+    "43:infernalparade",
+    "45:nastyplot",
+    "47:poltergeist",
+    "49:phantomforce",
+    "egg:faketears",
+    "egg:willowisp",
+    "egg:snarl",
+    "egg:howl",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:hex",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:willowisp",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:playrough",
+    "tutor:shadowball",
+    "tutor:snarl"
+  ],
+  "evolutions": []
+}

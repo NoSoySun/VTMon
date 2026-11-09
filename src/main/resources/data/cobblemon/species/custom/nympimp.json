@@ -1,0 +1,128 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 4137,
+  "name": "Nympimp",
+  "primaryType": "dark",
+  "secondaryType": "ghost",
+  "maleRatio": 0.125,
+  "height": 9,
+  "weight": 72,
+  "pokedex": [
+    "cobblemon.species.nympimp.desc1",
+    "cobblemon.species.nympimp.desc2"
+  ],
+  "labels": ["custom"],
+  "aspects": [],
+  "abilities": [
+    "frisk",
+    "cursedbody",
+    "h:prankster"
+  ],
+  "eggGroups": ["field", "fairy", "human_like"],
+  "baseStats": {
+    "hp": 38,
+    "attack": 48,
+    "defence": 51,
+    "special_attack": 71,
+    "special_defence": 46,
+    "speed": 66
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "catchRate": 90,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 0.72,
+  "hitbox": {
+    "width": 0.75,
+    "height": 1.1,
+    "fixed": false
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "walkSpeed": 0.42
+      }
+    }
+  },
+  "moves": [
+    "1:tailwhip",
+    "1:scratch",
+    "1:charm",
+    "1:astonish",
+    "5:confuseray",
+    "9:swift",
+    "11:shadowsneak",
+    "13:hex",
+    "17:fairywind",
+    "21:nightshade",
+    "25:drainingkiss",
+    "29:darkpulse",
+    "31:shadowclaw",
+    "33:shadowball",
+    "37:playrough",
+    "39:bittermalice",
+    "41:moonblast",
+    "43:infernalparade",
+    "45:nastyplot",
+    "47:poltergeist",
+    "49:phantomforce",
+    "egg:faketears",
+    "egg:willowisp",
+    "egg:snarl",
+    "egg:howl",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:drainingkiss",
+    "tm:hex",
+    "tm:moonblast",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:poltergeist",
+    "tm:protect",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:taunt",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:willowisp",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:playrough",
+    "tutor:shadowball",
+    "tutor:snarl"
+],
+  "evolutions": [
+    {
+      "id": "nympimp_nymphex",
+      "variant": "level_up",
+      "result": "nymphex",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        },
+        {
+          "variant": "time_range",
+          "range": "night"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "vtmon:block/smooth_distorted_basalt_slab"
+    },
+    "type=double": {
+      "model": "vtmon:block/smooth_distorted_basalt_slab_double"
+    },
+    "type=top": {
+      "model": "vtmon:block/smooth_distorted_basalt_slab_top"
+    }
+  }
+}

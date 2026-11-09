@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:pumpcigeist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:pumpcigeist",
+      "model": "cobblemon:pumpcigeist.geo",
+      "texture": "cobblemon:textures/pokemon/pumpcigeist/pumpcigeist.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/pumpcigeist/pumpcigeist_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "poser": "cobblemon:pumpcigeist",
+      "model": "cobblemon:pumpcigeist.geo",
+      "texture": "cobblemon:textures/pokemon/pumpcigeist/pumpcigeist_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/pumpcigeist/pumpcigeist_shiny_emissive.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}

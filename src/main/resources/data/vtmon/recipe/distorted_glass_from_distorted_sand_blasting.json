@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "result": {
+    "count": 1,
+    "id": "vtmon:distorted_glass"
+  },
+  "ingredient": {
+    "item": "vtmon:distorted_sand"
+  },
+  "category": "blocks",
+  "experience": 0.1,
+  "cookingtime": 100
+}

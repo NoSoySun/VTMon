@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_farmland",
+  "textures": {
+    "dirt": "vtmon:block/withered_dirt",
+    "top": "vtmon:block/withered_farmland_moist"
+  }
+}

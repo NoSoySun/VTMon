@@ -1,0 +1,111 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.krayoi.water_idle": {
+			"loop": true,
+			"bones": {
+				"headfin_left": {
+					"rotation": [0, "2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0]
+				},
+				"headfin_right": {
+					"rotation": [0, "-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0]
+				},
+				"tail": {
+					"rotation": [0, "-2.5*(5+math.sin(5*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"fin_left": {
+					"rotation": [0, 0, "2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)"]
+				},
+				"fin_right": {
+					"rotation": [0, 0, "-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)"]
+				}
+			}
+		},
+		"animation.krayoi.water_swim": {
+			"loop": true,
+			"bones": {
+				"headfin_left": {
+					"rotation": [0, "2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0]
+				},
+				"headfin_right": {
+					"rotation": [0, "-2.5*(5+math.sin(q.anim_time*90*0.5-40)*8)", 0]
+				},
+				"tail": {
+					"rotation": [0, "-2.5*(5+math.sin(12.5*(q.anim_time*90*0.5-40))*8)", 0]
+				},
+				"fin_left": {
+					"rotation": [0, 0, "2.5*(5+math.sin(6.25*(q.anim_time*90*0.5-40))*8)"]
+				},
+				"fin_right": {
+					"rotation": [0, 0, "-2.5*(5+math.sin(6.25*(q.anim_time*90*0.5-40))*8)"]
+				},
+				"torso": {
+					"rotation": [0, "-0.25*(2.5*(5+math.sin(12.5*(q.anim_time*90*0.5-40))*8))", 0]
+				}
+			}
+		},
+		"animation.krayoi.cry": {
+			"animation_length": 1.125,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [10, 0, 0],
+						"0.125": [-15, 0, 0],
+						"1.125": [0, 0, 0]
+					}
+				},
+				"eye_left": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.125": [1, 0.5, 1],
+						"1.125": [1, 1, 1]
+					}
+				},
+				"eye_right": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.125": [1, 0.5, 1],
+						"1.125": [1, 1, 1]
+					}
+				},
+				"mouth": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.125": [0, 0, -1],
+						"1.0417": [0, 0, -1],
+						"1.125": [0, 0, 0]
+					}
+				}
+			},
+			"sound_effects": {
+				"0.125": {
+					"effect": "pokemon.krayoi.cry"
+				}
+			}
+		},
+		"animation.krayoi.blink": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3333,
+			"bones": {
+				"eye_right_iris": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.25": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
+					}
+				},
+				"eye_left_iris": {
+					"position": {
+						"0.0": [0, 0, 1],
+						"0.25": {
+							"pre": [0, 0, 1],
+							"post": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	}
+}

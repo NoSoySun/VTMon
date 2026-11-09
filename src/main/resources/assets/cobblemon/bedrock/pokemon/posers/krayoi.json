@@ -1,0 +1,47 @@
+{
+  "portraitScale": 1.15,
+  "portraitTranslation": [0, 0.35, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.3, 0],
+  "rootBone": "body",
+  "animations": {
+    "cry": "q.bedrock_stateful('krayoi', 'cry')"
+  },
+  "poses": {
+    "battle-standing": {
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('krayoi', 'water_idle')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('krayoi', 'cry', q.curve('one'))"
+      },
+      "quirks": [
+        "q.bedrock_quirk('krayoi', 'blink')"
+      ]
+    },
+    "standing": {
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('krayoi', 'water_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('krayoi', 'blink')"
+      ]
+    },
+    "swimming": {
+      "poseTypes": ["SWIM", "WALK"],
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('krayoi', 'water_swim')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('krayoi', 'blink')"
+      ]
+    }
+  }
+}

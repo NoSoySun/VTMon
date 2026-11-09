@@ -1,0 +1,138 @@
+{
+  "species": "cobblemon:pumpkaboo",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-average"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-average"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-small"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_small",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-small"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_small",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-large"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_large",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-large"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_large",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "novaeran",
+        "pumpkin-size-super"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_super",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny",
+        "novaeran",
+        "pumpkin-size-super"
+      ],
+      "poser": "cobblemon:pumpkaboo_novaeran_super",
+      "model": "cobblemon:pumpkaboo_novaeran.geo",
+      "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0710_pumpkaboo/pumpkaboo_novaeran_shiny_emissive.png"
+        }
+      ]
+    }
+  ]
+}
